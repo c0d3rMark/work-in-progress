@@ -414,7 +414,7 @@ nav ul li:hover ul {
 
 #showcase_vid {
     min-height: 665px;
-    background: url('../images/white-black-red-wall.jpg') no-repeat;
+    background: url('../images/color-powder.jpg') no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center -150px;
@@ -806,13 +806,13 @@ nav ul li:hover ul {
     margin-bottom: 0px;
 }
 
-#boxes .overview {
+/*#boxes .overview {
     padding-top: 20px;
     padding-bottom: 10px;
     text-align: center;
     font-size: 20px;
     color: black;
-}
+}*/
 
 .sign_intro {
     text-align: center;
@@ -855,19 +855,27 @@ nav ul li:hover ul {
 }
 
 .mid_sign_text {
-display: flex;
-    align-items: center; /* Vertical center alignment */
-    justify-content: left;
+    display: inline-flexbox;
+ /* Vertical center alignment 
+    justify-content: left;*/
+    float: right;
     width: 50%;
     text-align: left;
     /*background-color: white;*/
     color: black;
-    height: 500px;
+    height: 550px;
 }
 
-.mid-sign_text i,
+.mid_sign_text h2 {
+    margin-top: 40px;
+    font-weight: bold;
+    text-shadow: 0px 2px 4px black;
+    -webkit-text-stroke: 0.3px white;
+}
+
 .mid_sign_text p {
-   vertical-align: middle;
+   margin-bottom: 0px;
+   font-size: 20px;
 }
 
 .sign_pic {
@@ -875,7 +883,7 @@ display: flex;
     float: left;
     text-align: center;
     margin:auto;
-    height: 500px;
+    height: 550px;
     display: flex;
 }
 
@@ -888,7 +896,7 @@ display: flex;
 
 .what_is {
     margin-top: 5px;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 }
 
 /*.box_list h2 {
@@ -901,7 +909,7 @@ display: flex;
 
 .box_list h2:after,
 .box_list h2::after, 
-.mid_sign h2::after {
+/*.mid_sign h2::after*/ {
     content: ""; /* This is necessary for the pseudo element to work. */ 
     display: block; /* This will put the pseudo element on its own line. */
     margin: 0 auto; /* This will center the border. */
@@ -919,8 +927,7 @@ display: flex;
     filter: drop-shadow(2px 1px 1px black);
 }
 
-.box_list p,
-.mid_sign_text p {
+.box_list p {
     /*font-style: italic;*/
     font-size: 20px;
 }
@@ -947,21 +954,34 @@ display: flex;
     filter: drop-shadow(2px 1px 1px black);
 }
 
-.what_is h2, 
-.mid_sign h2 {
+.what_is h2 {
     font-size: 30px;
     font-weight: bold;
+    text-shadow: 0px 2px 4px black;
+    -webkit-text-stroke: 0.3px white;
 }
 
+/*.mid_sign h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    text-shadow: 0px 2px 4px black;
+    -webkit-text-stroke: 0.3px white;
+}*/
+
 .what_is h2:after,
-.what_is h2::after,
-.sign_industry h3::after {
+.what_is h2::after {
     content: ""; /* This is necessary for the pseudo element to work. */ 
     display: block; /* This will put the pseudo element on its own line. */
     margin: 0 auto; /* This will center the border. */
     width: 200px; /* Change this to whatever width you want. */
     padding-top: 20px; /* This creates some space between the element and the border. */
     border-bottom: 3px solid #3FC1C1; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.what_is hr {
+    margin-top: 50px;
+    margin-bottom: 0px;
 }
 
 /*.box_sign h3 {
@@ -976,16 +996,25 @@ display: flex;
     margin-top: 25px;
     font-weight: bold;
     font-size: 30px;
-    text-shadow: 0px 2px 4px #13282D;
+    text-shadow: 0px 2px 4px black;
     -webkit-text-stroke: 0.3px white;
 }
 
 .sign_industry h3 {
-    margin-top: 0px;
+    margin-top: 20px;
     font-weight: bold;
     font-size: 30px;
-    /*text-shadow: 0px 2px 4px #13282D;
-    -webkit-text-stroke: 0.3px white;*/
+    text-shadow: 0px 2px 4px black;
+    -webkit-text-stroke: 0.3px white;
+}
+
+.sign_industry h3::after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 500px; /* Change this to whatever width you want. */
+    padding-top: 20px; /* This creates some space between the element and the border. */
+    border-bottom: 3px solid #3FC1C1; 
 }
 
 .sign_button {
@@ -996,13 +1025,31 @@ display: flex;
 .sign_industry h4 {
     font-weight: bold;
     font-size: 20px;
+    margin-top: 15px;
     margin-bottom: 0px;
     /*-webkit-text-decoration: underline dotted black;
     text-decoration: underline dotted black;*/
     /*margin-bottom: -10px;
     margin-top: -5px;*/
     color: black;
-    -webkit-text-stroke: 0.1px white;
+    /*-webkit-text-stroke: 0.1px white;*/
+}
+
+.sign_div {
+    background-color: #DBDBDB;
+    color: black;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.sign_div h4 {
+    color: black;
+    padding-top: 5px;
+}
+
+.sign_div p {
+    padding-bottom: 5px;
 }
 
 .sign_industry h4::after {
@@ -1011,21 +1058,21 @@ display: flex;
     margin: 0 auto;
     width: 55px; /* Change this to whatever width you want. */
     padding-top: 5px; /* This creates some space between the element and the border. */
-    border-bottom: 3px solid #3FC1C1;
+    border-bottom: 1px solid black;
 }
 
 .sign_industry {
-    padding-bottom: 35px;
+    padding-bottom: 40px;
     border: 1px solid black;
     border-radius: 5px;
-    padding-left: 50px;
-    padding-right: 50px;
+    /*padding-left: 50px;
+    padding-right: 50px;*/
     text-align: center;
 }
 
 #boxes_sign {
     /*padding-top: 20px;*/
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     text-align: left;
     font-size: 20px;
 }
@@ -1089,6 +1136,10 @@ display: flex;
 
 .sign_industry p {
     font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 /*bg images for parallax*/
@@ -1307,7 +1358,7 @@ display: flex;
 
 #main {
     text-align: center;
-    color: #13282D;
+    color: black;
 }
 
 #main .page-title {
@@ -1357,34 +1408,42 @@ display: flex;
 
 /*videowalls */
 
-.overview {
+/*.overview {
     font-size: 20px;
     padding-top: 25px;
     padding-bottom: 15px;
     text-align: center;
-}
+}*/
 
-.overview img {
+/*.overview img {
     float: left;
     width: 20%;
     margin-right: 20px;
-}
+}*/
 
-.features {
+/*.features {
     padding-bottom: 28px;
-}
+}*/
+
 
 .videowall h4 {
     font-size: 25px;
     font-weight: bold;
-    text-shadow: 0px 2px 4px #13282D;
-    -webkit-text-stroke: 0.3px white;
+    /*text-shadow: 0px 2px 4px #13282D;
+    -webkit-text-stroke: 0.3px white;*/
+    text-shadow: 1px 1px 2px black;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.videowall p {
+    margin-top: 5px;
 }
 
 #vid_img {
     font-size: 20px;
     padding-top: 20px;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -1395,12 +1454,12 @@ display: flex;
     -webkit-text-stroke: 0.3px white;
 }
 
-#vid_img i {
+/*#vid_img i {
     margin-right: 10px;
     color: #3FC1C1;
     -webkit-filter: drop-shadow(2px 1px 1px black);
     filter: drop-shadow(2px 1px 1px black);
-}
+}*/
 
 .vid_benefits {
     color: black;
@@ -1409,36 +1468,49 @@ display: flex;
     font-size: 20px;
 }
 
+.vid_color {
+    color: #f4f4f4;
+    background: #262626;
+}
+
+.vid_color p {
+    color: #f4f4f4;
+}
+
+.icon1 {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
 .icon1 i {
     float: left;
     margin-right: 30px;
     color: black;
-    margin-left: 30px;
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 1px #3FC1C1;
     -webkit-filter: drop-shadow(3px 3px 2px black);
     filter: drop-shadow(3px 3px 2px black);
-    padding: 5px;
+    /*padding: 5px;*/
     padding-bottom: 20px;
 }
 
-.icon1 p {
-    color: black;
-}
-
 .icon2 {
-    padding: 26px;
     text-align: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
 }
 
 .icon2 i {
     float: right;
     margin-left: 30px;
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 1px #3FC1C1;
     -webkit-filter: drop-shadow(3px 3px 2px black);
     filter: drop-shadow(3px 3px 2px black);
-    padding: 5px;
-    padding-top: 20px;
+    /*padding: 5px;
+    padding-top: 20px;*/
     padding-bottom: 20px;
+    height: 100%;
 }
 
 /*Interact*/
@@ -1463,7 +1535,6 @@ display: flex;
 
 .color {
     background: url('../images/white-paper-video-desktop.jpg') no-repeat;
-    background-color: #E7E7E7;
     border-top: #DBDBDB 1px solid;
     border-bottom: #DBDBDB 1px solid;
     padding: 30px;
