@@ -398,23 +398,23 @@ nav ul li:hover ul {
 
 #showcase h1 {
     opacity: 1;
-    margin-top: 250px;
-    margin-left: 30px;
-    font-size: 45px;
-    color:white;
-    /*text-shadow: 1px 2px 5px black;*/
-    -webkit-text-stroke: 1.6px black;
+    margin-top: 280px;
+    margin-left: 35px;
+    font-size: 35px;
+    color:black;
+    /*text-shadow: 1px 1px 2px black;*/
+    /*-webkit-text-stroke: 1.6px black;*/
     -webkit-filter: contrast(105%);
     filter: contrast(105%);
 }
 
 #showcase p {
     margin-left: 30px;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
-    color: white;
-    /*text-shadow: 1px 2px 5px black;*/
-    -webkit-text-stroke: 1.3px black;
+    color: black;
+    /*text-shadow: 1px 1px 2px black;*/
+    /*-webkit-text-stroke: 1.3px black;*/
     -webkit-filter: contrast(105%);
     filter: contrast(105%);
 }
@@ -423,10 +423,10 @@ nav ul li:hover ul {
 
 #showcase_vid {
     min-height: 665px;
-    background: url('../images/color-shapes.jpg') no-repeat;
+    background: url('../images/abstract-light-flipped.png') no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-position: center -100px;
+    background-position: center center;
     text-align: left;
     border-bottom: black 1.3px solid;
     position: relative;
@@ -449,7 +449,7 @@ nav ul li:hover ul {
     font-size: 45px;
     margin-bottom: 10px;
     color: white;
-    /*text-shadow: 1px 2px 5px black;*/
+    text-shadow: 1px 1px 3px black;
     /*-webkit-text-stroke: 1.6px black;*/
     -webkit-filter: contrast(105%);
     filter: contrast(105%);
@@ -460,7 +460,7 @@ nav ul li:hover ul {
     margin-right: 25px;
     font-weight: bold;
     color: white;
-    /*text-shadow: 1px 2px 5px black;*/
+    text-shadow: 1px 1px 3px black;
     /*-webkit-text-stroke: 1.6px black;*/
     -webkit-filter: contrast(105%);
     filter: contrast(105%);
@@ -515,7 +515,7 @@ nav ul li:hover ul {
     text-align: right;
     margin-bottom: 10px;
     color: white;
-    text-shadow: 1px 2px 5px black;
+    text-shadow: 1px 1px 3px black;
     /*-webkit-text-stroke: 1.6px black;*/
     -webkit-filter: contrast(105%);
     filter: contrast(105%);
@@ -527,7 +527,7 @@ nav ul li:hover ul {
     font-weight: bold;
     text-align: right;
     color: white;
-    text-shadow: 1px 2px 5px black;
+    text-shadow: 1px 1px 3px black;
     /*-webkit-text-stroke: 1.3px black;*/
     -webkit-filter: contrast(105%);
     filter: contrast(105%);
@@ -561,7 +561,7 @@ nav ul li:hover ul {
     font-size: 45px;
     margin-bottom: 10px;
     color: white;
-    /*text-shadow: 1px 2px 5px black;*/
+    text-shadow: 1px 1px 3px black;
     /*-webkit-text-stroke: 1.6px black;*/
     -webkit-filter: contrast(105%);
     filter: contrast(105%);
@@ -573,8 +573,8 @@ nav ul li:hover ul {
     margin-right: 80px;
     font-weight: bold;
     color: white;
-    /*text-shadow: 1px 2px 5px black;
-    -webkit-text-stroke: 1.6px black;*/
+    text-shadow: 1px 1px 3px black;
+    /*-webkit-text-stroke: 1.6px black;*/
     -webkit-filter: contrast(105%);
     filter: contrast(105%);
     text-align: left;
@@ -592,12 +592,12 @@ nav ul li:hover ul {
 }
 
 #showcase_software h1 {
-    margin-top: 255px;
+    margin-top: 290px;
     font-size: 45px;
     margin-bottom: 10px;
     color: white;
-    /*text-shadow: 1px 2px 5px black;
-    -webkit-text-stroke: 1.6px black;*/
+    text-shadow: 1px 1px 3px black;
+    /*-webkit-text-stroke: 1.6px black;*/
     -webkit-filter: contrast(105%);
     filter: contrast(105%);
 }
@@ -606,8 +606,8 @@ nav ul li:hover ul {
     font-size: 30px;
     font-weight: bold;
     color: white;
-    /*text-shadow: 1px 2px 5px black;
-    -webkit-text-stroke: 1.6px black;*/
+    text-shadow: 1px 1px 3px black;
+    /*-webkit-text-stroke: 1.6px black;*/
     -webkit-filter: contrast(105%);
     filter: contrast(105%);
 }
@@ -624,11 +624,11 @@ nav ul li:hover ul {
 }
 
 #showcase_about h1 {
-    margin-top: 275px;
+    margin-top: 320px;
     font-size: 45px;
     color: white;
-    /*text-shadow: 1px 2px 5px black;
-    -webkit-text-stroke: 1.6px black;*/
+    text-shadow: 1px 1px 3px black;
+    /*-webkit-text-stroke: 1.6px black;*/
     -webkit-filter: contrast(105%);
     filter: contrast(105%);
 }
@@ -637,8 +637,8 @@ nav ul li:hover ul {
     font-size: 30px;
     font-weight: bold;
     color: white;
-    /*text-shadow: 1px 2px 5px black;
-    -webkit-text-stroke: 1.6px black;*/
+    text-shadow: 1px 1px 3px black;
+    /*-webkit-text-stroke: 1.6px black;*/
     -webkit-filter: contrast(105%);
     filter: contrast(105%);
 }
@@ -688,6 +688,15 @@ nav ul li:hover ul {
 
 .products ul {
     list-style: none;
+}
+
+.products h3::after {
+    content: ""; 
+    display: block; 
+    margin: 0 auto; 
+    width: 100px; 
+    padding-top: 20px; 
+    border-bottom: 3px solid #3FC1C1;
 }
 
 /*Boxes*/
@@ -1297,7 +1306,7 @@ nav ul li:hover ul {
 }
 
 .bg_img8 {
-    background: url('../images/color-shapes-flipped.jpg') no-repeat;
+    background: url('../images/abstract-light.png') no-repeat;
     background-attachment: fixed;
 }
 
@@ -1634,6 +1643,21 @@ nav ul li:hover ul {
     font-size: 20px;
 }
 
+/*Installation*/
+
+#install h3 {
+    font-size: 45px;
+}
+
+#install h3::after {
+        content: ""; 
+    display: block; 
+    margin: 0 auto;
+    width: 200px;
+    padding-top: 20px;
+    border-bottom: 3px solid #3FC1C1;
+}
+
 /*Sidebar*/
 
 aside#sidebar {
@@ -1759,7 +1783,8 @@ aside#sidebar .quote textarea {
 }
 
 .selected {
-    background-color: black;
+    background-color: #262626;
+    border: 1px solid #3FC1C1;
 }
 
 .select a {
@@ -1823,6 +1848,13 @@ aside#sidebar .quote textarea {
 
 /*Contact*/
 
+.on_page_contact {
+    background-color: #262626;
+    border-top: 1px solid black;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
 .on_page_contact h4 {
     color: #f4f4f4;
     font-size: 25px;
@@ -1832,12 +1864,12 @@ aside#sidebar .quote textarea {
 
 .on_page_contact h4:after,
 .on_page_contact h4::after {
-    content: ""; /* This is necessary for the pseudo element to work. */ 
-    display: block; /* This will put the pseudo element on its own line. */
-    margin: 0 auto; /* This will center the border. */
-    width: 200px; /* Change this to whatever width you want. */
-    padding-top: 20px; /* This creates some space between the element and the border. */
-    border-bottom: 3px solid #3FC1C1; /* This creates the border. Replace black with whatever color you want. */
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    padding-top: 20px; 
+    border-bottom: 3px solid #3FC1C1; 
 }
 
 /*.contact_head {
@@ -1856,12 +1888,17 @@ aside#sidebar .quote textarea {
     font-size: 20px;
 }
 
-
-.on_page_contact {
+.color-border {
     background-color: #262626;
-    border-top: 1px solid black;
-    text-align: center;
-    padding-bottom: 80px;
+}
+
+.color-border::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    padding-bottom: 0px;
+    border-top: 3px solid #3FC1C1; 
 }
 
 .on_page_contact label {
@@ -1921,9 +1958,9 @@ textarea[name="message"] {
 }
 
 .bg_contact {
-    /*background: url('../images/white-wall.jpg') no-repeat;
-    background-color: #f4f4f4;*/
-    background:
+    /*background: url('../images/white-wall.jpg') no-repeat;*/
+    background-color: #f4f4f4;
+    /*background:
     radial-gradient(black 3px, transparent 4px),
     radial-gradient(black 3px, transparent 4px),
     linear-gradient(#fff 4px, transparent 0),
@@ -1931,7 +1968,7 @@ textarea[name="message"] {
     linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
     #fff;
     background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
-    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;*/
 }
 
 .contact_btn {
@@ -2016,9 +2053,9 @@ textarea[name="message"] {
 }
 
 footer {
-    padding-top: 18px;
+    padding-top: 20px;
     padding-bottom: 10px;
-    color: #ffffff;
+    color: #f4f4f4;
     background-color: #262626;
     text-align: center;
     /*font-weight: bold;*/
@@ -2028,14 +2065,61 @@ footer {
     /*background: url('../images/rough-green-footer.jpg') no-repeat;*/
 }
 
-footer::before {
-    content: ""; /* This is necessary for the pseudo element to work. */ 
-    display: block; /* This will put the pseudo element on its own line. */
-    margin: 0 auto; /* This will center the border. */
-    width: 200px; /* Change this to whatever width you want. */
-    padding-top: 20px; /* This creates some space between the element and the border. */
-    border-top: 3px solid #3FC1C1; /* This creates the border. Replace black with whatever color you want. */
+/*footer::before {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    padding-top: 20px;
+    border-top: 3px solid #3FC1C1; 
+}*/
+
+/*.footer p::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    padding-top: 20px;
+    border-bottom: 3px solid #3FC1C1; 
+}*/
+
+.footer-links {
+    width: 100%;
+    display: flex;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    justify-content: space-evenly;
 }
+
+.footer-links a {
+    color: #f4f4f4;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+.footer-links a:hover {
+    color: #3FC1C1;
+    text-shadow: 1px 1px 1px black;
+}
+
+.border-footer {
+    background-color: #262626;
+}
+
+.border-footer::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    padding-bottom: 0px;
+    border-top: 3px solid #3FC1C1; 
+}
+
+
+/*.mid-link {
+    padding-right: 19px;
+}*/
+
 
 /*Media Queries default 768px*/
 
@@ -2643,6 +2727,13 @@ footer::before {
     .submit {
         width: 95%;
         padding: 0px;
+    }
+
+    /*footer*/
+
+    .footer-links,
+    .border-footer  {
+        display: none;
     }
 
     /*Error*/
