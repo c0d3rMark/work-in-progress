@@ -186,7 +186,7 @@ header {
 header a {
     color: black;
     /*text-transform: uppercase;*/
-    font-size: 20px;
+    font-size: 19px;
     /*font-weight: bold;
     text-shadow: 1px 1px 1px black;*/
     display: block;
@@ -274,7 +274,7 @@ nav ul li ul li a {
     color: black;
     /*font-weight: bold;*/
     text-shadow: none;
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .drop li a {
@@ -282,7 +282,7 @@ nav ul li ul li a {
     color: black;
     /*font-weight: bold;*/
     text-shadow: none;
-    font-size: 20px;
+    font-size: 19px;
     -webkit-text-stroke: unset;
 }
 
@@ -356,7 +356,7 @@ nav ul li:hover ul {
 .topbar p {
     color: #f4f4f4;
     display: inline;
-    font-size: 20px;
+    font-size: 19px;
     padding-right: 12px;
 }
 
@@ -368,7 +368,7 @@ nav ul li:hover ul {
     background: url('../images/modern-pattern-color.jpg') no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-position: center -35px;
+    background-position: center -50px;
     opacity: 1;
     /*text-align: center;*/
     text-align: left;
@@ -381,13 +381,13 @@ nav ul li:hover ul {
     margin-top: 220px;
     margin-left: 30px;
     background: rgba(0, 0, 0, 0.8);
-    padding: 0px;
+    padding-top: 0px;
     border: 1px solid white;
 }*/
 
 #showcase img {
     float:right;
-    margin-top: 210px;
+    margin-top: 200px;
     margin-right: 30px;
     margin-left: 100px;
     width: 600px;
@@ -396,25 +396,45 @@ nav ul li:hover ul {
     padding-bottom: 40px;
 }
 
+/*.show_center {
+    position: relative;
+    display: inline-block;
+}
+
+.show_center img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 210px;
+    -webkit-filter: drop-shadow(5px 8px 10px black);
+    filter: drop-shadow(5px 8px 10px black);
+}
+
+.show_center h1 {
+    position: absolute;
+}*/
+
 #showcase h1 {
     opacity: 1;
-    margin-top: 280px;
-    margin-left: 35px;
+    text-align: center;
+    margin-top: 300px;
+    margin-left: 20px;
     font-size: 35px;
-    color:black;
-    /*text-shadow: 1px 1px 2px black;*/
-    /*-webkit-text-stroke: 1.6px black;*/
+    color:#262626;
+    /*text-shadow: 1px 1px 2px black;
+    -webkit-text-stroke: 1.6px black;*/
     -webkit-filter: contrast(105%);
     filter: contrast(105%);
 }
 
 #showcase p {
-    margin-left: 30px;
+    margin-left: 20px;
+    text-align: center;
     font-size: 25px;
-    font-weight: bold;
-    color: black;
-    /*text-shadow: 1px 1px 2px black;*/
-    /*-webkit-text-stroke: 1.3px black;*/
+    color: #262626;
+    /*text-shadow: 1px 1px 2px black;
+    -webkit-text-stroke: 1.3px black;*/
     -webkit-filter: contrast(105%);
     filter: contrast(105%);
 }
@@ -444,26 +464,27 @@ nav ul li:hover ul {
 
 
 #showcase_vid h1 {
-    margin-top: 300px;
-    margin-right: 25px;
-    font-size: 45px;
+    margin-top: 330px;
+    margin-right: 0px;
+    font-size: 35px;
     margin-bottom: 10px;
     color: white;
     text-shadow: 1px 1px 3px black;
     /*-webkit-text-stroke: 1.6px black;*/
     -webkit-filter: contrast(105%);
     filter: contrast(105%);
+    text-align: left;
 }
 
 #showcase_vid p {
-    font-size: 30px;
-    margin-right: 25px;
-    font-weight: bold;
+    font-size: 25px;
+    margin-right: 0px;
     color: white;
     text-shadow: 1px 1px 3px black;
     /*-webkit-text-stroke: 1.6px black;*/
     -webkit-filter: contrast(105%);
     filter: contrast(105%);
+    text-align: left;
 }
 
 /*Signage showcase*/
@@ -479,15 +500,15 @@ nav ul li:hover ul {
     position: relative;
 }
 
-.head_style2 {
+/*.head_style2 {
     position: relative;
     width: 54%;
     margin-top: 265px;
     /*for most modern browsers*/
     /*background: rgba(38, 38, 38, 0.8);
     padding: 5px;
-    border: 1px solid white;*/
-}
+    border: 1px solid white;
+}*/
 
 .showSign_screen {
     min-height: 665px;
@@ -498,21 +519,21 @@ nav ul li:hover ul {
 }
 
 .showSign_screen img {
-    margin-top: 20px;
+    margin-top: 10px;
     padding-top: 125px;
-    width: 480px;
-    margin-right: 30px;
-    margin-left: 100px;
+    width: 500px;
+    margin-right: 60px;
+    margin-left: 0px;
     -webkit-filter: drop-shadow(5px 8px 10px black);
     filter: drop-shadow(5px 8px 10px black);
-    padding-bottom: 30px;
+    padding-bottom: 25px;
 }
 
 #showcase_sign h1 {
-    margin-top: 0px;
+    margin-top: 320px;
     margin-left: 0px;
-    font-size: 45px;
-    text-align: right;
+    font-size: 35px;
+    text-align:center;
     margin-bottom: 10px;
     color: white;
     text-shadow: 1px 1px 3px black;
@@ -523,9 +544,8 @@ nav ul li:hover ul {
 
 #showcase_sign p {
     margin-left: 0px;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: right;
+    font-size: 25px;
+    text-align: center;
     color: white;
     text-shadow: 1px 1px 3px black;
     /*-webkit-text-stroke: 1.3px black;*/
@@ -538,6 +558,7 @@ nav ul li:hover ul {
 #showcase_interact {
     min-height: 665px;
     background: url('../images/confetti.jpg') no-repeat 0 -230px;
+    background-size: cover;
     background-attachment: fixed;
     text-align: right;
     border-bottom: black 1.3px solid;
@@ -547,7 +568,7 @@ nav ul li:hover ul {
 #showcase_interact img {
     float:left;
     margin-top: 140px;
-    margin-right: 80px;
+    margin-right: 0px;
     margin-left: 80px;
     width: 540px;
     -webkit-filter: drop-shadow(5px 8px 10px black);
@@ -556,28 +577,27 @@ nav ul li:hover ul {
 }
 
 #showcase_interact h1 {
-    margin-top: 270px;
+    margin-top: 310px;
     margin-right: 80px;
-    font-size: 45px;
+    font-size: 35px;
     margin-bottom: 10px;
     color: white;
     text-shadow: 1px 1px 3px black;
     /*-webkit-text-stroke: 1.6px black;*/
     -webkit-filter: contrast(105%);
     filter: contrast(105%);
-    text-align: left;
+    text-align: center;
 }
 
 #showcase_interact p {
-    font-size: 30px;
+    font-size: 25px;
     margin-right: 80px;
-    font-weight: bold;
     color: white;
     text-shadow: 1px 1px 3px black;
     /*-webkit-text-stroke: 1.6px black;*/
     -webkit-filter: contrast(105%);
     filter: contrast(105%);
-    text-align: left;
+    text-align: center;
 }
 
 /*Showcase_software*/
@@ -585,6 +605,7 @@ nav ul li:hover ul {
 #showcase_software {
     min-height: 665px;
     background: url('../images/laptop2.jpg') no-repeat 0 -350px;
+    background-size: cover;
     background-attachment: fixed;
     text-align: center;
     border-bottom: black 1.3px solid;
@@ -592,8 +613,8 @@ nav ul li:hover ul {
 }
 
 #showcase_software h1 {
-    margin-top: 290px;
-    font-size: 45px;
+    margin-top: 320px;
+    font-size: 35px;
     margin-bottom: 10px;
     color: white;
     text-shadow: 1px 1px 3px black;
@@ -603,8 +624,7 @@ nav ul li:hover ul {
 }
 
 #showcase_software p {
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 25px;
     color: white;
     text-shadow: 1px 1px 3px black;
     /*-webkit-text-stroke: 1.6px black;*/
@@ -617,6 +637,7 @@ nav ul li:hover ul {
 #showcase_about {
     min-height: 665px;
     background: url('../images/city-bokeh.jpg') no-repeat 0 -260px;
+    background-size: cover;
     background-attachment: fixed;
     text-align: center;
     border-bottom: black 1.3px solid;
@@ -624,8 +645,8 @@ nav ul li:hover ul {
 }
 
 #showcase_about h1 {
-    margin-top: 320px;
-    font-size: 45px;
+    margin-top: 330px;
+    font-size: 35px;
     color: white;
     text-shadow: 1px 1px 3px black;
     /*-webkit-text-stroke: 1.6px black;*/
@@ -633,21 +654,22 @@ nav ul li:hover ul {
     filter: contrast(105%);
 }
 
-#showcase_about p {
+/*#showcase_about p {
     font-size: 30px;
     font-weight: bold;
     color: white;
     text-shadow: 1px 1px 3px black;
-    /*-webkit-text-stroke: 1.6px black;*/
+    /*-webkit-text-stroke: 1.6px black;
     -webkit-filter: contrast(105%);
     filter: contrast(105%);
-}
+}*/
 
 /*Logos*/
 
 #logos {
-    padding-top: 10px;
-    height: 35px;
+    padding-top: 8px;
+    padding-bottom: 0px;
+    height: 30px;
     background-color: #f4f4f4;
     -webkit-box-shadow: 0px -5px 5px -5px black;
     box-shadow: 0 -5px 5px -5px black;
@@ -667,7 +689,7 @@ nav ul li:hover ul {
 }
 
 #logos .philips {
-    max-width: 148px;
+    max-width: 126.5px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -676,7 +698,7 @@ nav ul li:hover ul {
 }
 
 #logos .samsung {
-    max-width: 160px;
+    max-width: 138px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -869,18 +891,18 @@ nav ul li:hover ul {
 /*Interact*/
 
 .interact_intro {
-    font-size: 20px;
+    font-size: 19px;
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
 }
 
-.interact_h2 {
-    font-size: 45px;
+/*.interact_h2 {
+    font-size: 5px;
     font-weight: bold;
     /*text-shadow: 0px 3px 6px #13282D;*/
-    /*-webkit-text-stroke: 0.3px white;*/
-}
+    /*-webkit-text-stroke: 0.3px white;
+}*/
 
 .interact p {
     margin-bottom: 40px;
@@ -911,7 +933,7 @@ nav ul li:hover ul {
 
 .sign_intro {
     text-align: center;
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .box_sign {
@@ -969,8 +991,8 @@ nav ul li:hover ul {
 }
 
 .mid_sign_text p {
-   margin-bottom: 0px;
-   font-size: 20px;
+   margin-top: 40px;
+   font-size: 19px;
 }
 
 .sign_pic {
@@ -979,6 +1001,8 @@ nav ul li:hover ul {
     text-align: center;
     margin:auto;
     height: 550px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -1023,11 +1047,11 @@ nav ul li:hover ul {
 
 .box_list p {
     /*font-style: italic;*/
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .box_sign p {
-    font-size: 20px;
+    font-size: 19px;
 }
 
 #boxes_sign i {
@@ -1113,7 +1137,7 @@ nav ul li:hover ul {
 
 .sign_button {
     margin-top: 40px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 .sign_industry h4 {
@@ -1168,7 +1192,7 @@ nav ul li:hover ul {
     /*padding-top: 20px;*/
     padding-bottom: 30px;
     text-align: left;
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .box_contact {
@@ -1200,7 +1224,7 @@ nav ul li:hover ul {
     margin-top: 5px;
     margin-bottom: -0px;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 30px;
     /*text-shadow: 1px 2px 5px black;
     -webkit-text-stroke: 1.6px black;*/
 }
@@ -1229,7 +1253,7 @@ nav ul li:hover ul {
 }
 
 .sign_industry p {
-    font-size: 20px;
+    font-size: 19px;
     padding-left: 50px;
     padding-right: 50px;
     margin-top: 10px;
@@ -1247,29 +1271,30 @@ nav ul li:hover ul {
     position: relative;
     text-align: center;
     width: 100%;
-    height: 350px;
+    height: 300px;
     border-top: #DBDBDB 1px solid;
     border-bottom: #DBDBDB 1px solid;
     opacity: 1;
 }
 
 .bg_img1 {
-    background: url('../images/modern-pattern-color-flipped.jpg') no-repeat 0 -110px;
+    background: url('../images/modern-pattern-color-flipped.jpg') no-repeat 0;
     background-attachment: fixed;
 }
 
 
 .bg_img2 {
-    background: url('../images/modern-pattern-color.jpg') no-repeat 0 -110px;
+    background: url('../images/modern-pattern-color-flipped.jpg') no-repeat;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 .bg_img3 {
-    background: url('../images/modern-pattern-color-flipped.jpg') no-repeat 0 -105px;
+    background: url('../images/modern-pattern-color-flipped.jpg') no-repeat;
     background-attachment: fixed;
 }
 
-.bg_img4 {
+/*.bg_img4 {
     position: relative;
     text-align: center;
     width: 100%;
@@ -1279,7 +1304,7 @@ nav ul li:hover ul {
     background: url('../images/pixel-city.jpg') no-repeat bottom;
     opacity: 1;
     background-attachment: fixed;
-}
+}*/
 
 .bg_img6 {
     background: url('../images/tri-color.jpg') no-repeat 0 -300px;
@@ -1287,12 +1312,12 @@ nav ul li:hover ul {
     position: relative;
     text-align: center;
     width: 100%;
-    height: 350px;
+    height: 300px;
     border-top: #DBDBDB 1px solid;
     opacity: 1;
 }
 
-.bg_img7 {
+/*.bg_img7 {
     margin-top: 20px;
     position: relative;
     text-align: center;
@@ -1303,14 +1328,14 @@ nav ul li:hover ul {
     background: url('../images/light-blur.jpg') no-repeat bottom;
     opacity: 1;
     background-attachment: fixed;
-}
+}*/
 
 .bg_img8 {
     background: url('../images/abstract-light.png') no-repeat;
     background-attachment: fixed;
 }
 
-.bg_img9 {
+/*.bg_img9 {
     margin-top: 20px;
     position: relative;
     text-align: center;
@@ -1321,15 +1346,15 @@ nav ul li:hover ul {
     background: url('../images/highway-lights.jpg') no-repeat 0 -110px;
     opacity: 1;
     background-attachment: fixed;
-}
+}*/
 
 .bg_imgInteract {
-    background: url('../images/confetti.jpg') no-repeat 0 -0px;
+    background: url('../images/confetti.jpg') no-repeat;
     background-attachment: fixed;
     opacity: 1;
 }
 
-.bg_imgInteractBottom {
+/*.bg_imgInteractBottom {
     margin-top: 20px;
     position: relative;
     text-align: center;
@@ -1353,14 +1378,14 @@ nav ul li:hover ul {
     background: url('../images/earth.jpg') no-repeat 0 100px;
     opacity: 1;
     background-attachment: fixed;
-}
+}*/
 
 .ptext {
     display: inline-block;
     text-align: center;
     font-weight: bold;
-    margin-top: 130px;
-    font-size: 52px;
+    margin-top: 118px;
+    font-size: 35px;
     letter-spacing: 3px;
     color: white;
     opacity: 1;
@@ -1379,7 +1404,7 @@ nav ul li:hover ul {
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
-    font-size: 20px;
+    font-size: 19px;
 }
 
 /*initial width 1200px*/
@@ -1409,7 +1434,7 @@ nav ul li:hover ul {
 }
 
 .wrapper h2 {
-    font-size: 45px;
+    font-size: 30px;
     font-weight: bold;
     /*text-shadow: 0px 3px 6px #13282D;
     -webkit-text-stroke: 0.3px white;*/
@@ -1425,7 +1450,7 @@ nav ul li:hover ul {
 .wrapper p {
     word-wrap: break-word;
     margin-right: 15px;
-    font-size: 20px;
+    font-size: 19px;
 }
 
 #telechamp {
@@ -1454,7 +1479,7 @@ nav ul li:hover ul {
 }
 
 .page-title {
-    font-size: 45px;
+    font-size: 30px;
     margin-top: 150px;
     margin-bottom: 20px;
     /*text-shadow: 0px 3px 6px #13282D;
@@ -1471,7 +1496,7 @@ nav ul li:hover ul {
 }
 
 #main h2 {
-    font-size: 45px;
+    font-size: 35px;
     font-weight: bold;
     display: inline;
 }
@@ -1542,7 +1567,7 @@ nav ul li:hover ul {
 }
 
 #vid_img {
-    font-size: 20px;
+    font-size: 19px;
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
@@ -1566,7 +1591,7 @@ nav ul li:hover ul {
     color: black;
     text-align: center;
     padding-top: 15px;
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .vid_color {
@@ -1617,12 +1642,12 @@ nav ul li:hover ul {
 /*software*/
 
 .software_intro {
-    font-size: 20px;
+    font-size: 19px;
     padding-bottom: 40px;
 }
 
 #main .software_intro h2 {
-    font-size: 45px;
+    font-size: 30px;
     font-weight: bold;
     display: inline;
     /*text-shadow: 0px 3px 6px #13282D;
@@ -1632,7 +1657,7 @@ nav ul li:hover ul {
 /*Warranty*/
 
 #warranty h4 {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     /*text-shadow: 0px 3px 6px #13282D;
     -webkit-text-stroke: 0.3px #f4f4f4;*/
@@ -1640,13 +1665,13 @@ nav ul li:hover ul {
 
 #warranty p {
     text-align: center;
-    font-size: 20px;
+    font-size: 19px;
 }
 
 /*Installation*/
 
 #install h3 {
-    font-size: 45px;
+    font-size: 30px;
 }
 
 #install h3::after {
@@ -1695,9 +1720,9 @@ aside#sidebar .quote textarea {
     margin-top: 150px;
     text-align: center;
     color: #13282D;
-    font-size: 45px;
+    font-size: 30px;
     margin-top: 150px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     /*text-shadow: 0px 3px 6px #13282D;
     -webkit-text-stroke: 0.5px white;*/
 }
@@ -1707,7 +1732,7 @@ aside#sidebar .quote textarea {
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
     background-color: #262626;
-    border: 1px black solid;
+    border: 2px #3FC1C1 solid;
 }
 
 .block {
@@ -1723,7 +1748,7 @@ aside#sidebar .quote textarea {
 }
 
 .block h2 {
-    font-size: 20px;
+    font-size: 19px;
     padding: 10px;
     margin-top: -5px;
 }
@@ -1774,9 +1799,15 @@ aside#sidebar .quote textarea {
 }
 
 .select {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     background-color: #DBDBDB;
     margin: 1%;
     border: 0.5px solid black;
@@ -1805,6 +1836,8 @@ aside#sidebar .quote textarea {
 /*Hardware product pages*/
 
 .pic-text {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     width: 100%;
 }
@@ -1841,7 +1874,7 @@ aside#sidebar .quote textarea {
 }
 
 .about_us p {
-    font-size: 20px;
+    font-size: 19px;
     text-align: center;
     padding-bottom: 40px;
 }
@@ -1885,7 +1918,7 @@ aside#sidebar .quote textarea {
 .contact_head p {
     color: #f4f4f4;
     display: inline;
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .color-border {
@@ -1910,6 +1943,24 @@ aside#sidebar .quote textarea {
     height: 30px;
     width: 50vw;
     border: 1px solid #3FC1C1;
+}
+
+::-webkit-input-placeholder {
+    font-family: helvetica;
+    font-size: 18px;
+    padding: 5px;
+}
+
+:-ms-input-placeholder {
+    font-family: helvetica;
+    font-size: 18px;
+    padding: 5px;
+}
+
+::-ms-input-placeholder {
+    font-family: helvetica;
+    font-size: 18px;
+    padding: 5px;
 }
 
 ::placeholder {
@@ -2085,10 +2136,14 @@ footer {
 
 .footer-links {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-bottom: 20px;
     margin: 0 auto;
-    justify-content: space-evenly;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
 }
 
 .footer-links a {
@@ -2123,6 +2178,63 @@ footer {
 
 /*Media Queries default 768px*/
 
+/*showcase Heading*/
+
+@media(max-width: 1690px) {
+    #showcase h1 {
+        margin-top: 260px;
+    }
+}
+
+@media(max-width: 1323px) {
+    #showcase h1 {
+        margin-top: 230px;
+    }
+}
+
+@media(max-width: 1300px) {
+    #showcase {
+        position: relative;
+        text-align: center;
+    }
+
+    #showcase img,
+    #showcase h1,
+    #showcase p {
+        float: none;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #showcase img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 700px;
+        margin-top: 175px;
+    }
+
+    #showcase h1 {
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    #showcase p { 
+        margin-top: 100px;
+    }
+
+    #showcase h1,
+    #showcase p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 1px 1px 3px black;
+    }
+}
+
 @media(max-width: 1115px) {
     .models {
         margin-bottom: 40px;
@@ -2134,6 +2246,41 @@ footer {
 
     .block {
         min-height: 460px;
+    }
+}
+
+@media(max-width: 1000px) {
+    #showcase img {
+        width: 90%;
+    }
+}
+
+@media(max-width: 950px) {
+    #showcase {
+        min-height: 550px;
+    } 
+
+    #showcase img {
+        margin-top: 150px;
+    }
+}
+
+@media(max-width: 900px) {
+    #showcase h1 {
+        margin-top: 0px;
+        width: 65%;
+    }
+
+    #showcase p {
+        margin-top: 90px;
+        width: 60%;
+    }
+}
+
+@media(max-width: 550px) {
+    .on_page_contact input,
+    .on_page_contact textarea {
+        width: 280px;
     }
 }
 
@@ -2262,9 +2409,9 @@ footer {
         padding: 0;
     }
 
-    #boxes {
+    /*#boxes {
         background: url('../images/rough-green-boxes-mobile.jpg') no-repeat;
-    }
+    }*/
 
     .bg_img1,
     .bg_img2,
@@ -2277,7 +2424,7 @@ footer {
         background-attachment: scroll;
     }
 
-    .bg_img4,
+    /*.bg_img4,
     .bg_img7,
     .bg_img9,
     .bg_imgInteractBottom,
@@ -2285,7 +2432,7 @@ footer {
     .bg_imgAbout {
         height: 300px;
         background-attachment: scroll;
-    }
+    }*/
 
     .ptext {
         margin-top: 70px;
@@ -2379,18 +2526,25 @@ footer {
 
     /*Showcase headings and text*/
 
-    #showcase h1,
     #showcase_sign h1,
     #showcase_vid h1,
     #showcase_interact h1,
     #showcase_software h1 {
         margin-top: 50px;
-        font-size: 45px;
+        font-size: 35px;
     }
+
+     #showcase h1 {
+         margin-top: -60px;
+     }
+
+     #showcase p {
+         margin-top: 40px;
+     }
 
     #showcase_about h1 {
         margin-top: 150px;
-        font-size: 45px;
+        font-size: 35px;
     }
 
     #showcase p,
@@ -2398,21 +2552,27 @@ footer {
     #showcase_vid p,
     #showcase_interact p,
     #showcase_software p {
-        font-size: 28px;
+        font-size: 25px;
     }
 
     /*Home page top and bottom images*/
 
     #showcase {
-        background: url('../images/pixel-city-mobile.jpg') no-repeat -69px -95px;
+        background: url('../images/modern-pattern-color-flipped.jpg') no-repeat;
         min-height: 400px;
         background-attachment: scroll;
+    }
+
+    #showcase img {
+        width: 80%;
+        margin-top: 40px;
+        padding-top: 0px;
     }
 
     .bg_img1,
     .bg_img2,
     .bg_img3 {
-        background: url('../images/black-green-bokeh-mobile.jpg') no-repeat -35px -35px;
+        background: url('../images/black-green-bokeh-mobile.jpg') no-repeat;
     }
 
     .bg_img4 {
@@ -2512,12 +2672,12 @@ footer {
         margin-bottom: 20px;
     }
 
-    #telechamp {
+    /*#telechamp {
         background: url('../images/white-paper-mobile.jpg') no-repeat;
-    }
+    }*/
 
     #telechamp h2 {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     /*digital signage*/
@@ -2549,9 +2709,9 @@ footer {
         font-size: 17px;
     }
 
-    .box_contact {
+    /*.box_contact {
         background: url('../images/white-paper-mobile.jpg') no-repeat;
-    }
+    }*/
 
     .contact_icons i {
         display: none;
@@ -2609,9 +2769,9 @@ footer {
         font-weight: bold;
     }
 
-    .texture {
+    /*.texture {
         background: url('../images/white-paper-mobile.jpg') no-repeat;
-    }
+    }*/
 
     .feature_underline {
         -webkit-text-decoration: underline dotted black;
@@ -2652,9 +2812,9 @@ footer {
         font-size: 20px;
     }
 
-    .color {
+    /*.color {
         background: url('../images/white-paper-mobile.jpg') no-repeat;
-    }
+    }*/
 
     .icon1 i {
         margin-right: 0px;
@@ -2681,7 +2841,7 @@ footer {
     /*software*/
 
     #main .software_intro h2 {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .software_intro {
@@ -2691,7 +2851,7 @@ footer {
     /*Hardware*/
 
     .hardware h1 {
-        font-size: 45px;
+        font-size: 30px;
         margin-top: 20px;
         margin-bottom: 0px;
         padding-bottom: 10px;
@@ -2705,12 +2865,12 @@ footer {
 
     /*Contact form and Privacy Policy*/
 
-    #main .bg_contact {
+    /*#main .bg_contact {
         background: url('../images/white-wall-mobile.jpg') no-repeat -30px -25px;
-    }
+    }*/
 
    .page-title {
-        font-size: 45px;
+        font-size: 30px;
         margin-top: 20px;
         margin-bottom: 0px;
         padding-bottom: 0px;
@@ -2721,7 +2881,7 @@ footer {
         padding-left: 0px;
         padding-right: 0px;
         padding-top: 2px;
-        background: url('../images/paper-grey.jpg') no-repeat;
+        /*background: url('../images/paper-grey.jpg') no-repeat;*/
     }
 
     .submit {
@@ -2736,6 +2896,10 @@ footer {
         display: none;
     }
 
+    .color-border {
+        display: none;
+    }
+
     /*Error*/
 
     #main .error {
@@ -2747,4 +2911,78 @@ footer {
         margin-top: 15vh;
     }
 
+}
+
+@media (max-width: 650px) {
+    .container {
+        width: 100%;
+    }
+
+    #showcase img {
+        width: 90%;
+        margin-top: 10%; 
+    }
+}
+
+@media(max-width: 610px) {
+    #showcase img {
+        margin-top: 10%;
+    }
+
+    #showcase p {
+        margin-top: 45px;
+    }
+}
+
+@media(max-width: 520px) {
+    #showcase img {
+        margin-top: 15%;
+    }
+
+    #showcase h1,
+    #showcase p {
+        width: 85%;
+    }
+
+    #showcase h1 {
+        margin-top: -45px;
+    }
+
+    #showcase p {
+        margin-top: 40px;
+    }
+}
+
+@media(max-width: 450px) {
+    #showcase {
+        min-height: 340px;
+    }
+
+    #showcase img {
+        margin-top: 15%;
+    }
+
+    #showcase h1 {
+        font-size: 30px;
+    }
+
+    #showcase p {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 370px) {
+    #showcase img {
+        margin-top: 18%;
+        width: 95%;
+    }
+    #showcase h1 {
+        width: 90%;
+        margin-top: -50px;
+    }
+
+    #showcase p {
+        width: 90%;
+        margin-top: 25px;
+    }
 }
