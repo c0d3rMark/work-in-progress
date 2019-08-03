@@ -443,7 +443,7 @@ nav ul li:hover ul {
 
 #showcase_vid {
     min-height: 665px;
-    background: url('../images/abstract-light-flipped.png') no-repeat;
+    background: url('../images/abstract-light-flipped-showcase-min.png') no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
@@ -491,10 +491,10 @@ nav ul li:hover ul {
 
 #showcase_sign {
     min-height: 665px;
-    background: url('../images/tri-color.jpg') no-repeat;
+    background: url('../images/tri-color-showcase-min.jpg') no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-position: center -300px;
+    background-position: center;
     text-align: left;
     border-bottom: black 1.3px solid;
     position: relative;
@@ -531,7 +531,6 @@ nav ul li:hover ul {
 
 #showcase_sign h1 {
     margin-top: 320px;
-    margin-left: 0px;
     font-size: 35px;
     text-align:center;
     margin-bottom: 10px;
@@ -543,7 +542,6 @@ nav ul li:hover ul {
 }
 
 #showcase_sign p {
-    margin-left: 0px;
     font-size: 25px;
     text-align: center;
     color: white;
@@ -568,7 +566,7 @@ nav ul li:hover ul {
 #showcase_interact img {
     float:left;
     margin-top: 140px;
-    margin-right: 0px;
+    margin-right: 20px;
     margin-left: 80px;
     width: 540px;
     -webkit-filter: drop-shadow(5px 8px 10px black);
@@ -578,7 +576,6 @@ nav ul li:hover ul {
 
 #showcase_interact h1 {
     margin-top: 310px;
-    margin-right: 80px;
     font-size: 35px;
     margin-bottom: 10px;
     color: white;
@@ -591,7 +588,6 @@ nav ul li:hover ul {
 
 #showcase_interact p {
     font-size: 25px;
-    margin-right: 80px;
     color: white;
     text-shadow: 1px 1px 3px black;
     /*-webkit-text-stroke: 1.6px black;*/
@@ -824,7 +820,7 @@ nav ul li:hover ul {
     text-align: left;
     padding-left: 1%;
     padding-top: 40px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     color: black;
 }
 
@@ -1198,7 +1194,7 @@ nav ul li:hover ul {
 .box_contact {
     border-top: black 1px solid;
     border-bottom: black 1px solid;
-    background: url('../images/tri-color.jpg') no-repeat 0 -301px;
+    background: url('../images/tri-color.jpg') no-repeat;
     background-attachment: fixed;
     margin-top: 0px;
     -webkit-box-shadow: 0px 0px 4px black;
@@ -1307,7 +1303,7 @@ nav ul li:hover ul {
 }*/
 
 .bg_img6 {
-    background: url('../images/tri-color.jpg') no-repeat 0 -300px;
+    background: url('../images/tri-color.jpg') no-repeat;
     background-attachment: fixed;
     position: relative;
     text-align: center;
@@ -2178,11 +2174,89 @@ footer {
 
 /*Media Queries default 768px*/
 
-/*showcase Heading*/
+/*Ipad pro height settings*/
+
+@media(min-height: 1350px) {
+    .bg_contact {
+        height: 100vh;
+    }
+
+    #showcase {
+        background: url('../images/modern-pattern-color-ipro.jpg') no-repeat;
+        background-attachment: scroll;
+    }
+
+    .bg_img1,
+    .bg_img2,
+    .bg_img3 {
+        background: url('../images/modern-pattern-color-flipped-ipro.jpg') no-repeat;
+        background-attachment: scroll;
+    }
+
+    #showcase_sign {
+        background: url('../images/tri-color-ipro.jpg') no-repeat;
+        background-attachment: scroll;
+    }
+
+    .bg_img6 {
+        background: url('../images/tri-color-ipro.jpg') no-repeat;
+        background-attachment: scroll;
+    }
+
+    .box_contact {
+        background: url('../images/tri-color-ipro.jpg') no-repeat 0 -305px;
+        background-attachment: scroll;
+    }
+
+    #showcase_vid {
+        background: url('../images/abstract-light-flipped-ipro.png') no-repeat;
+        background-attachment: scroll; 
+    }
+
+    .bg_img8 {
+        background: url('../images/abstract-light-ipro.png') no-repeat 0 -100px;
+        background-attachment: scroll; 
+    }
+
+    #showcase_interact {
+        background: url('../images/confetti-ipro.jpg') no-repeat;
+        background-attachment: scroll; 
+    }
+
+    .bg_imgInteract {
+        background: url('../images/confetti-ipro.jpg') no-repeat 0 -100px;
+        background-attachment: scroll; 
+    }
+
+    #showcase_software {
+        background: url('../images/laptop2-ipro.jpg') no-repeat -120px -85px;
+        background-attachment: scroll; 
+    }
+
+    #showcase_about {
+        background: url('../images/city-bokeh-ipro.jpg') no-repeat;
+        background-attachment: scroll; 
+    }
+}
+
+/*Various showcase settings*/
 
 @media(max-width: 1690px) {
     #showcase h1 {
         margin-top: 260px;
+    }
+}
+
+@media(max-width: 1515px) {
+    #showcase_vid h1 {
+        margin-top: 310px;
+        margin-bottom: 0px;
+    }
+}
+
+@media(max-width: 1455px) {
+    #showcase_sign h1 {
+    margin-top: 300px;
     }
 }
 
@@ -2235,15 +2309,207 @@ footer {
     }
 }
 
-@media(max-width: 1115px) {
-    .models {
-        margin-bottom: 40px;
-        display: grid;
-        grid-template-columns: 50% 50%;
-        background-color: #DBDBDB;
-        border: 1px black solid;
+@media(max-width: 1250px) {
+    #showcase_vid h1,
+    #showcase_interact h1 {
+        margin-top: 260px;
+    }
+}
+
+@media(max-width: 1216px) {
+    .sign_pic {
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin:auto;
+        margin-top: 0px;
+        height: 550px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
     }
 
+    .sign_pic img {
+        margin: auto;
+        width: 500px;
+        -webkit-filter: drop-shadow(5px 8px 10px black);
+        filter: drop-shadow(5px 8px 10px black);
+    }
+
+    .mid_sign_text {
+        text-align: center;
+        width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .mid_sign_text h2 {
+        margin-top: 0px;
+    }
+
+    .mid_sign_text h2::after {
+        content: "";
+        display: block;
+        margin: 0 auto;
+        width: 200px;
+        padding-top: 20px;
+        border-bottom: 3px solid #3FC1C1;
+    }
+
+    .mid_sign_text i {
+        display: none;
+    }
+}
+
+@media(max-width: 1180px) {
+    #showcase_vid img,
+    #showcase_vid h1,
+    #showcase_vid p,
+    #showcase_interact img,
+    #showcase_interact h1,
+    #showcase_interact p {
+        float: none;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #showcase_vid img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 0px;
+        width: 480px;
+        margin-top: 170px;
+    }
+
+    #showcase_interact img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 0px;
+        width: 450px;
+        margin-top: 180px; 
+    }
+
+    .box_interact {
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding-left: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .box_interact img {
+        width: 50%;
+        padding-top: 20px;
+    }
+
+    .box_interact h3, 
+    .box_interact p {
+        margin-top: 0px;
+        margin-bottom: 10px;
+        text-align: center;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .box_interact h3::after {
+        content: "";
+        display: block;
+        margin: 0 auto;
+        width: 80px;
+        padding-top: 20px;
+        border-bottom: 2px solid black;
+    }
+
+    .interact_features ul {
+        list-style-type: none;
+        text-align: center;
+        padding-left: 0px;
+        padding-bottom: 10px;
+    }
+
+    #showcase_vid h1,
+    #showcase_vid p,
+    #showcase_interact h1,
+    #showcase_interact p {
+        /* float: right;
+        position: absolute;
+        top: 20%;
+        right: 10%; */
+        width: 100%;
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 1px 1px 3px black;
+    }
+
+    #showcase_vid h1,
+    #showcase_interact h1 {
+        margin-top: 75px;
+    }
+
+    #showcase_vid p,
+    #showcase_interact p {
+        margin-top: 560px;
+    }
+}
+
+@media(max-width: 1160px) {
+#showcase_sign {
+        position: relative;
+        text-align: center;
+}
+
+    #showcase_sign img,
+    #showcase_sign h1,
+    #showcas_sign p,
+    .showSign_screen {
+        float: none;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #showcase_sign img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+        margin-top: 0px;
+    }
+
+    #showcase_sign h1,
+    #showcase_sign p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 1px 1px 3px black;
+    }
+
+    #showcase_sign h1 {
+        margin-top: 0px;
+    }
+
+    #showcase_sign p {
+        margin-top: 100px;
+    }
+}
+
+@media(max-width: 1115px) {
+    .models {
+        grid-template-columns: 50% 50%;
+        background-color: #262626;
+        border: 2px #3FC1C1 solid;
+        }
+    }
+    
     .block {
         min-height: 460px;
     }
@@ -2262,6 +2528,7 @@ footer {
 
     #showcase img {
         margin-top: 150px;
+        width: 90%;
     }
 }
 
@@ -2274,45 +2541,6 @@ footer {
     #showcase p {
         margin-top: 90px;
         width: 60%;
-    }
-}
-
-@media(max-width: 550px) {
-    .on_page_contact input,
-    .on_page_contact textarea {
-        width: 280px;
-    }
-}
-
-@media(max-width: 500px) {
-    /*Hardware*/
-
-    .block {
-        min-height: 360px;
-    }
-
-    .block img {
-        width: 130px;
-    }
-
-    .block h2 {
-        font-size: 17px;
-        margin-top: 0px;
-    }
-
-    .block p {
-        display: none;
-    }
-
-    .link {
-        width: 100%;
-    }
-
-    .link a {
-        padding: 10px;
-        padding-left: 20px;
-        padding-right: 20px;
-        font-size: 18px;
     }
 }
 
@@ -2347,12 +2575,12 @@ footer {
     .icon1 i,
     .icon2 i,
     .icon1 p,
-    .icon2 p,
-    .box_interact,
+    .icon2 p
+    /* .box_interact,
     .box_interact p,
     .box_interact h3,
     .box_interact li,
-    .box_interact img {
+    .box_interact img*/ { 
         float: none;
         text-align: center;
         width: 100%;
@@ -2403,6 +2631,10 @@ footer {
         padding-bottom: 20px;
         text-align: center;
         font-size: 17px;
+    }
+
+    #main h3 {
+        font-size: 25px;
     }
 
     #boxes .box {
@@ -2488,6 +2720,7 @@ footer {
 
     .topbar p {
         padding-right: 0px;
+        font-size: 17px;
     }
 
     /*buttons*/
@@ -2526,12 +2759,14 @@ footer {
 
     /*Showcase headings and text*/
 
-    #showcase_sign h1,
     #showcase_vid h1,
-    #showcase_interact h1,
-    #showcase_software h1 {
+    #showcase_interact h1 {
         margin-top: 50px;
         font-size: 35px;
+    }
+
+    #showcase_software h1 {
+        margin-top: 130px;
     }
 
      #showcase h1 {
@@ -2547,8 +2782,6 @@ footer {
         font-size: 35px;
     }
 
-    #showcase p,
-    #showcase_sign p,
     #showcase_vid p,
     #showcase_interact p,
     #showcase_software p {
@@ -2558,7 +2791,7 @@ footer {
     /*Home page top and bottom images*/
 
     #showcase {
-        background: url('../images/modern-pattern-color-flipped.jpg') no-repeat;
+        background: url('../images/modern-pattern-color-flipped-ipad.jpg') no-repeat;
         min-height: 400px;
         background-attachment: scroll;
     }
@@ -2572,7 +2805,7 @@ footer {
     .bg_img1,
     .bg_img2,
     .bg_img3 {
-        background: url('../images/black-green-bokeh-mobile.jpg') no-repeat;
+        background: url('../images/modern-pattern-color-ipad.jpg') no-repeat 0 -10px;
     }
 
     .bg_img4 {
@@ -2582,22 +2815,90 @@ footer {
     /*Signage page top and bottom images*/
 
     #showcase_sign {
-        background: url('../images/light-blur-mobile.jpg') no-repeat -45px -137px;
+        background: url('../images/tri-color-ipad.jpg') no-repeat;
         background-attachment: scroll;
         min-height: 400px;
     }
 
-    .bg_img6 {
-        background: url('../images/night-light-mobile.jpg') no-repeat -35px -80px;
+    .showSign_screen {
+        float: none;
+        min-height: 0px;
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
-    .bg_img7 {
-        background: url('../images/light-blur-mobile.jpg') no-repeat -45px -210px;
+    #showcase_sign {
+        position: relative;
+        text-align: center;
+}
+
+    #showcase_sign img,
+    #showcase_sign h1,
+    #showcas_sign p {
+        float: none;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
     }
+
+    #showcase_sign img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 55%;
+        padding: 0;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    #showcase_sign h1,
+    #showcase_sign p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 1px 1px 3px black;
+    }
+
+    #showcase_sign h1 {
+        margin-top: -50px;
+    }
+
+    #showcase_sign p {
+        margin-top: 60px;
+    }
+
+    .sign_industry p {
+        font-size: 17px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .mid_sign_text,
+    .mid_sign_text p {
+        font-size: 17px;
+    }
+
+    .bg_img6 {
+        background: url('../images/tri-color-ipad.jpg') no-repeat;
+        background-attachment: scroll;
+    }
+
+    .box_contact {
+        background: url('../images/tri-color-ipad.jpg') no-repeat 0 -64px;
+        background-attachment: scroll;
+    }
+
+    /*.bg_img7 {
+        background: url('../images/light-blur-mobile.jpg') no-repeat -45px -210px;
+    }*/
 
     #boxes_sign .features h3 {
         display: inline;
-        font-size: 30px;
+        font-size: 25px;
     }
 
     #boxes_sign .span_logo {
@@ -2607,52 +2908,84 @@ footer {
     /*Video Wall top and bottom images*/
 
     #showcase_vid {
-        background: url('../images/highway-lights-mobile.jpg') no-repeat -30px -75px;
+        background: url('../images/abstract-light-flipped-ipad.png') no-repeat;
         background-attachment: scroll;
         min-height: 400px;
     }
 
     .bg_img8 {
-        background: url('../images/glass-light-mobile.jpg') no-repeat 0 -83px;
+        background: url('../images/abstract-light-ipad.png') no-repeat 0 -100px;
+        background-attachment: scroll;
     }
 
-    .bg_img9 {
-        background: url('../images/highway-lights-mobile.jpg') no-repeat -20px -60px;
+    #showcase_vid h1 {
+        margin-top: 0px;
     }
+
+    #showcase_vid p {
+        margin-top: 320px;
+    }
+
+    #showcase_vid img {
+        width: 300px;
+        margin-top: 70px;
+        /* -webkit-filter: none;
+        filter: drop-shadow(none); */
+    }
+
+    /*.bg_img9 {
+        background: url('../images/highway-lights-mobile.jpg') no-repeat -20px -60px;
+    }*/
 
     /*Interactive page top and bottom images*/
 
     #showcase_interact {
-        background: url('../images/traffic-timelapse-mobile.jpg') no-repeat -20px -75px;
+        background: url('../images/confetti-ipad.jpg') no-repeat;
         background-attachment: scroll;
         min-height: 400px;
     }
 
-    .bg_imgInteract {
-        background: url('../images/square-bokeh-mobile.jpg') no-repeat -40px -18px;
+    #showcase_interact h1 {
+        margin-top: 0px;
     }
 
-    .bg_imgInteractBottom {
-        background: url('../images/traffic-timelapse-mobile.jpg') no-repeat -20px -200px;
+    #showcase_interact p {
+        margin-top: 320px;
     }
+
+    #showcase_interact img {
+        width: 290px;
+        margin-top: 70px;
+        /* -webkit-filter: none;
+        filter: drop-shadow(none); */
+    }
+
+    .bg_imgInteract {
+        background: url('../images/confetti-ipad.jpg') no-repeat -40px -18px;
+        background-attachment: scroll;
+    }
+
+    /* .bg_imgInteractBottom {
+        background: url('../images/traffic-timelapse-mobile.jpg') no-repeat -20px -200px;
+    } */
 
     /*Software page top and bottom images*/
 
     #showcase_software {
         min-height: 400px;
-        background: url('../images/earth-mobile.jpg') no-repeat -20px -94px;
+        background: url('../images/laptop2-ipad.jpg') no-repeat 0 -110px;
         background-attachment: scroll;
     }
 
-    .bg_imgSoftwareBottom {
+    /* .bg_imgSoftwareBottom {
         background: url('../images/earth-mobile.jpg') no-repeat -25px -210px;
-    }
+    } */
 
     /*About Us page top and bottom images*/
 
     #showcase_about {
         min-height: 400px;
-        background: url('../images/dark-wall-mobile.jpg') no-repeat -55px -28px;
+        background: url('../images/city-bokeh-ipad.jpg') no-repeat 0 -80px;
         background-attachment: scroll
     }
 
@@ -2662,7 +2995,7 @@ footer {
 
     .wrapper p {
         word-wrap: break-word;
-        margin-right: 15px;
+        margin-right: 0px;
         font-size: 17px;
     }
 
@@ -2677,7 +3010,7 @@ footer {
     }*/
 
     #telechamp h2 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     /*digital signage*/
@@ -2695,6 +3028,10 @@ footer {
         margin: 5px;
     }
 
+    .what_is h2 {
+        font-size: 25px;
+    }
+
     .box_sign p {
         font-size: 17px;
     }
@@ -2709,10 +3046,6 @@ footer {
         font-size: 17px;
     }
 
-    /*.box_contact {
-        background: url('../images/white-paper-mobile.jpg') no-repeat;
-    }*/
-
     .contact_icons i {
         display: none;
     }
@@ -2723,7 +3056,12 @@ footer {
 
     .sign_industry h4 {
         padding: 0px;
+        padding-top: 5px;
         margin: 0px;
+    }
+
+    .sign_industry h3 {
+        font-size: 25px;
     }
 
     .sign_industry p {
@@ -2744,7 +3082,7 @@ footer {
         font-size: 17px;
     }
 
-    .box_interact {
+    /* .box_interact {
         padding-left: 0px;
         padding-top: 0px;
         padding-bottom: 20px;
@@ -2767,13 +3105,13 @@ footer {
 
     .box_interact li {
         font-weight: bold;
-    }
+    } */
 
     /*.texture {
         background: url('../images/white-paper-mobile.jpg') no-repeat;
     }*/
 
-    .feature_underline {
+    /* .feature_underline {
         -webkit-text-decoration: underline dotted black;
         text-decoration: underline dotted black;
     }
@@ -2782,15 +3120,15 @@ footer {
         width: 90%;
         padding-bottom: 0px;
         margin-bottom: 0px;
-    }
+    } */
 
-    .interact_features ul {
+    /* .interact_features ul {
         padding-left: 0px;
     }
 
     .interact_features h3 {
         padding-bottom: 0px;
-    }
+    } */
 
     /*video walls*/
 
@@ -2820,7 +3158,8 @@ footer {
         margin-right: 0px;
         margin-left: 0px;
         padding: 0px;
-        padding-top: 2px;
+        padding-top: 20px;
+        font-size: 70px;
     }
 
     .icon1 p {
@@ -2829,19 +3168,20 @@ footer {
 
     .icon2 {
         padding: 0px;
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-top: 20px;
+        /* padding-bottom: 30px; */
     }
 
     .icon2 i {
         margin-left: 0px;
         padding: 0px;
+        font-size: 70px;
     }
 
     /*software*/
 
     #main .software_intro h2 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .software_intro {
@@ -2870,7 +3210,7 @@ footer {
     }*/
 
    .page-title {
-        font-size: 30px;
+        font-size: 25px;
         margin-top: 20px;
         margin-bottom: 0px;
         padding-bottom: 0px;
@@ -2880,8 +3220,12 @@ footer {
     .dark {
         padding-left: 0px;
         padding-right: 0px;
-        padding-top: 2px;
+        padding-top: 0px;
         /*background: url('../images/paper-grey.jpg') no-repeat;*/
+    }
+
+    .dark h3 {
+        font-size: 25px;
     }
 
     .submit {
@@ -2913,17 +3257,138 @@ footer {
 
 }
 
+@media(max-width: 726px) {
+    #showcase_sign h1 {
+        margin-top: -50px;
+    }
+
+    #showcase_sign p {
+        margin-top: 80px;
+    }
+}
+
+@media(max-width: 700px) {
+    .sign_pic {
+        height: auto;
+    }
+
+    .sign_pic img {
+        margin: auto;
+        margin-top: 20px;
+        width: 80%;
+        -webkit-filter: drop-shadow(5px 8px 10px black);
+        filter: drop-shadow(5px 8px 10px black);
+    }
+    
+    .mid_sign_text {
+        display: none;
+    }
+
+    .what_is hr {
+        display: none;
+    }
+
+    .sign_industry {
+        border: none;
+    }
+
+    .sign_industry h3::after {
+        content: ""; 
+        display: block;
+        margin: 0 auto;
+        width: 250px;
+        padding-top: 20px;
+        border-bottom: 3px solid #3FC1C1; 
+    }
+}
+
+@media(max-width: 660px) {
+    #showcase_vid h1,
+    #showcase_interact h1 {
+        margin-top: 5px;
+    }
+
+    #showcase_vid p,
+    #showcase_interact p {
+        margin-top: 320px;
+    }
+
+    #showcase_vid img,
+    #showcase_interact img {
+        width: 260px;
+        margin-top: 80px;
+        -webkit-filter: none;
+        filter: drop-shadow(none);
+    }
+}
+
 @media (max-width: 650px) {
     .container {
-        width: 100%;
+        width: 98%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    nav {
+        margin-top: 0px;
+        height: 70px;
+    }
+
+    nav a {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    #mobile-menu ul li ul {
+        margin-top: 17px;
     }
 
     #showcase img {
         width: 90%;
         margin-top: 10%; 
     }
+
+    #showcase_sign h1 {
+        margin-top: -50px;
+    }
+
+    #showcase_sign p {
+        margin-top: 90px;
+    }
+
+    #showcase_sign img {
+        width: 60%;
+        padding-top: 10px;
+    }
+
+    .models {
+        border: none;
+        }
+    }
+    .dark {
+        border: 1px solid #3FC1C1;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
 }
 
+@media(max-width: 600px) {
+
+    #showcase_sign img {
+        width: 67%;
+        padding-top: 10px;
+    }
+
+    #showcase_sign h1, 
+    #showcase_sign p {
+        width: 100%;
+    }
+
+    #showcase_sign p {
+        margin-top: 50px;
+    }
+}
+ 
 @media(max-width: 610px) {
     #showcase img {
         margin-top: 10%;
@@ -2931,6 +3396,22 @@ footer {
 
     #showcase p {
         margin-top: 45px;
+    }
+}
+
+@media(max-width: 550px) {
+    #showcase_sign img {
+        padding-top: 30px;
+    }
+
+    #showcase_sign h1, 
+    #showcase_sign p {
+        width: 80%;
+    }
+
+    .on_page_contact input,
+    .on_page_contact textarea {
+        width: 280px;
     }
 }
 
@@ -2953,8 +3434,45 @@ footer {
     }
 }
 
+@media(max-width: 500px) {
+    /*Hardware*/
+
+    .block {
+        min-height: 360px;
+    }
+
+    .block img {
+        width: 130px;
+    }
+
+    .block h2 {
+        font-size: 17px;
+        margin-top: 0px;
+    }
+
+    .block p {
+        display: none;
+    }
+
+    .link {
+        width: 100%;
+    }
+
+    .link a {
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 18px;
+    }
+}
+
 @media(max-width: 450px) {
-    #showcase {
+    #showcase,
+    #showcase_sign,
+    #showcase_vid,
+    #showcase_interact,
+    #showcase_software,
+    #showcase_about {
         min-height: 340px;
     }
 
@@ -2962,27 +3480,167 @@ footer {
         margin-top: 15%;
     }
 
-    #showcase h1 {
+    #showcase_sign img {
+        margin-top: 2%;
+        width: 85%;
+    }
+
+    #showcase_sign h1 {
+        margin-top: -35px;
+    }
+
+    #showcase_sign p {
+        margin-top: 70px;
+    }
+
+    #showcase h1,
+    #showcase_sign h1,
+    #showcase_vid h1,
+    #showcase_interact h1,
+    #showcase_software h1,
+    #showcase_about h1 {
         font-size: 30px;
     }
 
-    #showcase p {
+    #showcase p,
+    #showcase_sign p,
+    #showcase_vid p,
+    #showcase_interact p,
+    #showcase_software p {
         font-size: 20px;
+    }
+
+    #showcase_software h1 {
+        margin-top: 80px;
+    }
+
+    .sign_pic {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: auto;
+    }
+
+    #showcase_vid img {
+        width: 220px;
+    }
+
+    #showcase_interact img {
+        width: 200px;
+        margin-top: 90px;
+    }
+
+    #showcase_vid h1,
+    #showcase_interact h1 {
+        margin-top: 10px;
+    }
+
+    #showcase_vid p,
+    #showcase_interact p {
+        margin-top: 275px;
+    }
+
+    #showcase {
+        background: url('../images/modern-pattern-color-flipped-mobile.jpg') no-repeat 0 -11px;
+        background-attachment: scroll;
+    }
+
+    .bg_img1,
+    .bg_img2,
+    .bg_img3 {
+        background: url('../images/modern-pattern-color-flipped-mobile.jpg') no-repeat 0 -25px;
+        background-attachment: scroll;
+    }
+
+    #showcase_sign {
+        background: url('../images/tri-color-mobile.jpg') no-repeat;
+        background-attachment: scroll;
+    }
+
+    .bg_img6 {
+        background: url('../images/tri-color-mobile.jpg') no-repeat;
+        background-attachment: scroll;
+    }
+
+    .box_contact {
+        background: url('../images/tri-color-mobile.jpg') no-repeat 0 -41px;
+        background-attachment: scroll;
+    }
+
+    #showcase_vid {
+        background: url('../images/abstract-light-flipped-mobile.png') no-repeat;
+        background-attachment: scroll;
+    }
+
+    .bg_img8 {
+        background: url('../images/abstract-light-mobile.png') no-repeat 0 -50px;
+        background-attachment: scroll;
+    }
+
+    #showcase_interact {
+        background: url('../images/confetti-mobile.jpg') no-repeat;
+        background-attachment: scroll; 
+    }
+
+    .bg_imgInteract {
+        background: url('../images/confetti-mobile.jpg') no-repeat 0 -140px;
+        background-attachment: scroll; 
+    }
+
+    #showcase_software {
+        background: url('../images/laptop2-mobile.jpg') no-repeat -120px -45px;
+        background-attachment: scroll; 
+    }
+
+    #showcase_about {
+        background: url('../images/city-bokeh-mobile.jpg') no-repeat 0 -5px;
+        background-attachment: scroll; 
     }
 }
 
-@media(max-width: 370px) {
+@media(max-width: 380px) {
     #showcase img {
-        margin-top: 18%;
+        margin-top: 19%;
         width: 95%;
     }
     #showcase h1 {
         width: 90%;
-        margin-top: -50px;
+        margin-top: -40px;
     }
 
     #showcase p {
         width: 90%;
-        margin-top: 25px;
+        margin-top: 52px;
+    }
+}
+
+@media(max-width: 365px) {
+    #showcase img {
+        margin-top: 20%;
+        width: 95%;
+    }
+    #showcase h1 {
+        width: 90%;
+        margin-top: -35px;
+    }
+
+    #showcase p {
+        width: 90%;
+        margin-top: 48px;
+    }
+}
+
+@media(max-width: 330px) {
+    #showcase img {
+        margin-top: 25%;
+        width: 95%;
+    }
+    #showcase h1 {
+        width: 90%;
+        margin-top: -36px;
+    }
+
+    #showcase p {
+        width: 90%;
+        margin-top: 42px;
     }
 }
