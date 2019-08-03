@@ -367,7 +367,7 @@ nav ul li:hover ul {
     min-height: 665px;
     background: url('../images/modern-pattern-color.jpg') no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    /*background-size: cover;*/
     background-position: center -50px;
     opacity: 1;
     /*text-align: center;*/
@@ -443,9 +443,9 @@ nav ul li:hover ul {
 
 #showcase_vid {
     min-height: 665px;
-    background: url('../images/abstract-light-flipped-showcase-min.png') no-repeat;
+    background: url('../images/abstract-light-flipped-min.png') no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    /*background-size: cover;*/
     background-position: center center;
     text-align: left;
     border-bottom: black 1.3px solid;
@@ -491,9 +491,9 @@ nav ul li:hover ul {
 
 #showcase_sign {
     min-height: 665px;
-    background: url('../images/tri-color-showcase-min.jpg') no-repeat;
+    background: url('../images/tri-color.jpg') no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    /*background-size: cover;*/
     background-position: center;
     text-align: left;
     border-bottom: black 1.3px solid;
@@ -556,7 +556,7 @@ nav ul li:hover ul {
 #showcase_interact {
     min-height: 665px;
     background: url('../images/confetti.jpg') no-repeat 0 -230px;
-    background-size: cover;
+    /*background-size: cover;*/
     background-attachment: fixed;
     text-align: right;
     border-bottom: black 1.3px solid;
@@ -601,7 +601,7 @@ nav ul li:hover ul {
 #showcase_software {
     min-height: 665px;
     background: url('../images/laptop2.jpg') no-repeat 0 -350px;
-    background-size: cover;
+    /* /*background-size: cover;*/ */
     background-attachment: fixed;
     text-align: center;
     border-bottom: black 1.3px solid;
@@ -633,7 +633,7 @@ nav ul li:hover ul {
 #showcase_about {
     min-height: 665px;
     background: url('../images/city-bokeh.jpg') no-repeat 0 -260px;
-    background-size: cover;
+    /* /*background-size: cover;*/ */
     background-attachment: fixed;
     text-align: center;
     border-bottom: black 1.3px solid;
@@ -1282,7 +1282,7 @@ nav ul li:hover ul {
 .bg_img2 {
     background: url('../images/modern-pattern-color-flipped.jpg') no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    /*background-size: cover;*/
 }
 
 .bg_img3 {
@@ -1327,7 +1327,7 @@ nav ul li:hover ul {
 }*/
 
 .bg_img8 {
-    background: url('../images/abstract-light.png') no-repeat;
+    background: url('../images/abstract-light-min.png') no-repeat;
     background-attachment: fixed;
 }
 
@@ -2241,9 +2241,21 @@ footer {
 
 /*Various showcase settings*/
 
+/* @media(max-width: 1750px) {
+    #showcase_software {
+        background: url('../images/laptop2.jpg') no-repeat 0 -340px;
+    }
+} */
+
 @media(max-width: 1690px) {
     #showcase h1 {
         margin-top: 260px;
+    }
+}
+
+@media(max-width: 1600px) {
+    #showcase_software {
+        background: url('../images/laptop2.jpg') no-repeat -50px -350px;
     }
 }
 
@@ -2257,6 +2269,16 @@ footer {
 @media(max-width: 1455px) {
     #showcase_sign h1 {
     margin-top: 300px;
+    }
+
+    #showcase_software {
+        background: url('../images/laptop2.jpg') no-repeat -100px -350px;
+    }
+}
+
+@media(max-width: 1400px) {
+    #showcase_software {
+        background: url('../images/laptop2.jpg') no-repeat -150px -350px;
     }
 }
 
@@ -2307,6 +2329,10 @@ footer {
         color: white;
         text-shadow: 1px 1px 3px black;
     }
+
+    #showcase_software {
+        background: url('../images/laptop2-1600px.jpg') no-repeat -190px -260px;
+        }
 }
 
 @media(max-width: 1250px) {
@@ -2508,16 +2534,28 @@ footer {
         background-color: #262626;
         border: 2px #3FC1C1 solid;
         }
+
+        .block {
+            min-height: 460px;
+        }
     }
     
-    .block {
-        min-height: 460px;
+@media(max-width: 1065px) {
+    #showcase_software{
+    background: url('../images/laptop2-1600px.jpg') no-repeat -220px -260px;
     }
 }
+
 
 @media(max-width: 1000px) {
     #showcase img {
         width: 90%;
+    }
+}
+
+@media(max-width: 990px) {
+    #showcase_software{
+    background: url('../images/laptop2-1600px.jpg') no-repeat -280px -260px;
     }
 }
 
@@ -3363,12 +3401,16 @@ footer {
 
     .models {
         border: none;
-        }
     }
+
     .dark {
         border: 1px solid #3FC1C1;
         -webkit-box-shadow: none;
         box-shadow: none;
+    }
+
+    #showcase_software {
+        background: url('../images/laptop2-ipad.jpg') no-repeat -90px -110px;
     }
 }
 
