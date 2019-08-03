@@ -601,7 +601,7 @@ nav ul li:hover ul {
 #showcase_software {
     min-height: 665px;
     background: url('../images/laptop2.jpg') no-repeat 0 -350px;
-    /* /*background-size: cover;*/ */
+    /*background-size: cover;*/
     background-attachment: fixed;
     text-align: center;
     border-bottom: black 1.3px solid;
@@ -633,7 +633,7 @@ nav ul li:hover ul {
 #showcase_about {
     min-height: 665px;
     background: url('../images/city-bokeh.jpg') no-repeat 0 -260px;
-    /* /*background-size: cover;*/ */
+    /*background-size: cover;*/ 
     background-attachment: fixed;
     text-align: center;
     border-bottom: black 1.3px solid;
