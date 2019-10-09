@@ -4,7 +4,7 @@ body {
     line-height: 1.5;
     padding: 0;
     margin: 0;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
@@ -327,17 +327,18 @@ nav ul li:hover ul {
 
 #showcase {
     position: relative;
-    min-height: 750px;
-    background: url('../images/enplug.jpg') no-repeat;
+    /* min-height: 700px; */
+    height: 80vh;
+    background: url('../images/showcase-new.jpg') no-repeat;
     /* background-attachment: fixed; */
     /* background-position: center -50px; */
     background-position: 90% 50%; 
     background-color: #FFFFFF;
-    background-size: 700px;
+    background-size: 1400px;
     opacity: 1;
     text-align: left;
     border-bottom: black 1px solid;
-    padding-top: 170px;
+    padding-top: 120px;
 }
 
 #showcase img {
@@ -355,7 +356,7 @@ nav ul li:hover ul {
 #showcase h1 {
     opacity: 1;
     text-align: left;
-    margin-top: 200px;
+    margin-top: 240px;
     /* margin-left: 20px; */
     font-size: 35px;
     color: #262626;
