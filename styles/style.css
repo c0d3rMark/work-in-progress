@@ -1,6 +1,6 @@
 body {
-    font-family: helvetica,'work sans', sans-serif;
-    font-size: 19px;
+    font-family: helvetica, 'work sans', sans-serif;
+    font-size: 18px;
     line-height: 1.5;
     padding: 0;
     margin: 0;
@@ -44,7 +44,7 @@ ul {
 .btn a {
     text-decoration: none;
     color: white;
-    font-family: helvetica,'work sans', sans-serif;
+    font-family: helvetica, 'work sans', sans-serif;
     font-size: 20px;
     font-weight: bold;
     background-color: black;
@@ -64,7 +64,7 @@ ul {
     text-decoration: none;
     letter-spacing: normal;
     color: white;
-    font-family: helvetica,'work sans', sans-serif;
+    font-family: helvetica, 'work sans', sans-serif;
     font-size: 20px;
     font-weight: bold;
     background-color: black;
@@ -95,7 +95,7 @@ button:hover,
     padding: 15px 166px;
     margin-top: 20px;
     margin-bottom: 40px;
-    font-family: helvetica,'work sans', sans-serif;
+    font-family: helvetica, 'work sans', sans-serif;
     font-size: 20px;
     font-weight: bold;
     color: #262626;
@@ -110,7 +110,7 @@ button:hover,
         -webkit-box-shadow: 0 0 3px #262626;
     }
 
-/*controls the alternate color for glowing effect*/
+    /*controls the alternate color for glowing effect*/
     50% {
         background-color: #262626;
         -webkit-box-shadow: 0 0 30px #262626;
@@ -131,7 +131,7 @@ button:hover,
         box-shadow: 0 0 3px #262626;
     }
 
-/*controls the alternate color for glowing effect*/
+    /*controls the alternate color for glowing effect*/
     50% {
         background-color: #262626;
         -webkit-box-shadow: 0 0 30px #262626;
@@ -170,7 +170,7 @@ header {
 
 header a {
     color: black;
-    font-size: 19px;
+    font-size: 18px;
     display: block;
     text-decoration: none;
     padding: 20px 12px;
@@ -218,6 +218,11 @@ header img {
     filter: drop-shadow(2px 2px 2px black);
 }
 
+header img:hover {
+    -webkit-filter: drop-shadow(3px 3px 2px black);
+    filter: drop-shadow(3px 3px 2px black);
+}
+
 /*Drop down*/
 
 #drop {
@@ -240,21 +245,21 @@ nav ul li ul {
 }
 
 nav ul li ul li {
-    min-width: 220px;
+    min-width: 200px;
 }
 
 nav ul li ul li a {
     padding: 10px 10px;
     color: black;
     text-shadow: none;
-    font-size: 19px;
+    font-size: 18px;
 }
 
 .drop li a {
     padding: 10px 10px;
     color: black;
     text-shadow: none;
-    font-size: 19px;
+    font-size: 18px;
     -webkit-text-stroke: unset;
 }
 
@@ -314,7 +319,7 @@ nav ul li:hover ul {
 .topbar p {
     color: #f4f4f4;
     display: inline;
-    font-size: 19px;
+    font-size: 18px;
     padding-right: 12px;
 }
 
@@ -332,7 +337,7 @@ nav ul li:hover ul {
 }
 
 #showcase img {
-    float:right;
+    float: right;
     margin-top: 200px;
     margin-right: 30px;
     margin-left: 100px;
@@ -348,7 +353,7 @@ nav ul li:hover ul {
     margin-top: 300px;
     margin-left: 20px;
     font-size: 35px;
-    color:#262626;
+    color: #262626;
     -webkit-filter: contrast(105%);
     filter: contrast(105%);
 }
@@ -421,7 +426,7 @@ nav ul li:hover ul {
 
 .showSign_screen {
     min-height: 665px;
-    float:right;
+    float: right;
 }
 
 .showSign_screen img {
@@ -438,7 +443,7 @@ nav ul li:hover ul {
 #showcase_sign h1 {
     margin-top: 320px;
     font-size: 35px;
-    text-align:center;
+    text-align: center;
     margin-bottom: 10px;
     color: white;
     text-shadow: 1px 1px 3px black;
@@ -467,7 +472,7 @@ nav ul li:hover ul {
 }
 
 #showcase_interact img {
-    float:left;
+    float: left;
     margin-top: 140px;
     margin-right: 20px;
     margin-left: 80px;
@@ -554,7 +559,7 @@ nav ul li:hover ul {
     height: 30px;
     background-color: #f4f4f4;
     -webkit-box-shadow: 0px -5px 5px -5px black;
-    box-shadow: 0 -5px 5px -5px black;
+    box-shadow: 0 -5px 5px -5px black; 
 }
 
 .row {
@@ -571,22 +576,33 @@ nav ul li:hover ul {
 }
 
 #logos .philips {
-    max-width: 126.5px;
-    height: auto;
+    width: auto;
+    max-height: 17.5px;
+    /* max-width: 123px;
+    height: auto; */
     margin-left: auto;
     margin-right: auto;
-    -webkit-filter: drop-shadow(1.5px 2px 1.5px black);
-    filter: drop-shadow(1.5px 2px 1.5px black);
+    /* -webkit-filter: drop-shadow(1.5px 2px 1.5px black);
+    filter: drop-shadow(1.5px 2px 1.5px black); */
+    -webkit-filter: drop-shadow(1px 1px 1px black);
+    filter: drop-shadow(1px 1px 1px black);
 }
 
-#logos .samsung {
-    max-width: 138px;
-    height: auto;
+#logos .infocus {
+    /* max-width: 138px; */
+    /* max-width: 110px; */
+    width: auto;
+    max-height: 21px;
     margin-left: auto;
     margin-right: auto;
-    -webkit-filter: drop-shadow(1.5px 2px 1.5px black);
-    filter: drop-shadow(1.5px 2px 1.5px black);
+    -webkit-filter: drop-shadow(1px 1px 1px black);
+    filter: drop-shadow(1px 1px 1px black);
 }
+
+/* #logos .column img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+} */
 
 /*index list*/
 
@@ -595,11 +611,11 @@ nav ul li:hover ul {
 }
 
 .products h3::after {
-    content: ""; 
-    display: block; 
-    margin: 0 auto; 
-    width: 100px; 
-    padding-top: 20px; 
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    padding-top: 20px;
     border-bottom: 3px solid #3FC1C1;
 }
 
@@ -630,6 +646,11 @@ nav ul li:hover ul {
     -webkit-filter: contrast(105%);
     filter: contrast(105%);
 }
+
+ #boxes i:hover {
+    -webkit-filter: drop-shadow(0px 0px 3px #3FC1C1);
+    filter: drop-shadow(0px 0px 3px #3FC1C1);
+} 
 
 #boxes h3 {
     margin-top: -0px;
@@ -699,7 +720,7 @@ nav ul li:hover ul {
 /*Interact*/
 
 .interact_intro {
-    font-size: 19px;
+    font-size: 18px;
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
@@ -726,7 +747,7 @@ nav ul li:hover ul {
 
 .sign_intro {
     text-align: center;
-    font-size: 19px;
+    font-size: 18px;
 }
 
 .box_sign {
@@ -766,15 +787,15 @@ nav ul li:hover ul {
 }
 
 .mid_sign_text p {
-   margin-top: 40px;
-   font-size: 19px;
+    margin-top: 40px;
+    font-size: 18px;
 }
 
 .sign_pic {
     width: 50%;
     float: left;
     text-align: center;
-    margin:auto;
+    margin: auto;
     height: 550px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -795,11 +816,11 @@ nav ul li:hover ul {
 
 .box_list h2:after,
 .box_list h2::after {
-    content: ""; 
-    display: block; 
-    margin: 0 auto; 
-    width: 200px; 
-    padding-top: 20px; 
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    padding-top: 20px;
     border-bottom: 3px solid #3FC1C1;
 }
 
@@ -813,11 +834,11 @@ nav ul li:hover ul {
 }
 
 .box_list p {
-    font-size: 19px;
+    font-size: 18px;
 }
 
 .box_sign p {
-    font-size: 19px;
+    font-size: 18px;
 }
 
 #boxes_sign i {
@@ -848,7 +869,7 @@ nav ul li:hover ul {
     content: "";
     display: block;
     margin: 0 auto;
-    width: 200px; 
+    width: 200px;
     padding-top: 20px;
     border-bottom: 3px solid #3FC1C1;
 }
@@ -876,7 +897,7 @@ nav ul li:hover ul {
     margin: 0 auto;
     width: 500px;
     padding-top: 20px;
-    border-bottom: 3px solid #3FC1C1; 
+    border-bottom: 3px solid #3FC1C1;
 }
 
 .sign_button {
@@ -893,11 +914,13 @@ nav ul li:hover ul {
 }
 
 .sign_div {
-    background-color: #DBDBDB;
+    background-color: #f4f4f4;
     color: black;
     width: 100%;
     padding: 0px;
+    padding-bottom: 5px;
     margin: 0px;
+    box-shadow: inset 0px 0px 5px black;
 }
 
 .sign_div h4 {
@@ -920,15 +943,19 @@ nav ul li:hover ul {
 
 .sign_industry {
     padding-bottom: 40px;
-    border: 1px solid black;
-    border-radius: 5px;
+    /* border: 1px solid black; */
+    /* border-radius: 5px; */
+    background-color: white;
     text-align: center;
+    box-shadow: inset 0px 0px 5px black;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #boxes_sign {
     padding-bottom: 30px;
     text-align: left;
-    font-size: 19px;
+    font-size: 18px;
 }
 
 .box_contact {
@@ -943,7 +970,7 @@ nav ul li:hover ul {
 
 .overlay {
     width: 100%;
-    background: rgba(38,38,38,0.9);
+    background: rgba(38, 38, 38, 0.9);
     padding-bottom: 20px;
     color: white;
 }
@@ -987,7 +1014,7 @@ nav ul li:hover ul {
 }
 
 .sign_industry p {
-    font-size: 19px;
+    font-size: 18px;
     padding-left: 50px;
     padding-right: 50px;
     margin-top: 10px;
@@ -1069,11 +1096,16 @@ nav ul li:hover ul {
 
 }
 
+.border-hover:hover {
+    -webkit-box-shadow: 0px 0px 15px black;
+    box-shadow: 0px 0px 15px black;
+}
+
 #main .products {
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
-    font-size: 19px;
+    font-size: 18px;
 }
 
 /*initial width 1200px*/
@@ -1110,7 +1142,7 @@ nav ul li:hover ul {
 .wrapper p {
     word-wrap: break-word;
     margin-right: 15px;
-    font-size: 19px;
+    font-size: 18px;
 }
 
 #telechamp {
@@ -1130,9 +1162,9 @@ nav ul li:hover ul {
     color: black;
 }
 
-#telechamp p {
+/* #telechamp p {
     padding-bottom: 40px;
-}
+} */
 
 /*Main id both in index and store*/
 
@@ -1148,10 +1180,10 @@ nav ul li:hover ul {
 }
 
 .page-title::after {
-    content: ""; 
-    display: block; 
+    content: "";
+    display: block;
     margin: 0 auto;
-    width: 200px;
+    width: 140px;
     padding-top: 20px;
     border-bottom: 3px solid #3FC1C1;
 }
@@ -1193,10 +1225,45 @@ nav ul li:hover ul {
     list-style: none;
 }
 
+/* ARc app info */
+
+.arc-app {
+    background-color: #262626;
+    color: #f4f4f4;
+    display: flex;
+    flex: 0 0 25em;
+}
+
+.app-img img {
+    display: block;
+    max-width: 700px;
+}
+
+.app-text {
+    position: relative;
+}
+
+.app-text-container {
+    text-align: left;
+    padding: 20px;
+}
+
+.app-download {
+    background-color: white;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.app-download img {
+    max-height: 60px;
+}
+
 /*videowalls */
 
 .videowall h4 {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     margin-bottom: 0px;
     margin-top: 20px;
@@ -1207,22 +1274,22 @@ nav ul li:hover ul {
 }
 
 #vid_img {
-    font-size: 19px;
+    font-size: 18px;
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
 }
 
-#vid_img h4 {
+/* #vid_img h4 {
     font-weight: bold;
     font-size: 25px;
-}
+} */
 
 .vid_benefits {
     color: black;
     text-align: center;
     padding-top: 15px;
-    font-size: 19px;
+    font-size: 18px;
 }
 
 .vid_color {
@@ -1270,7 +1337,7 @@ nav ul li:hover ul {
 /*software*/
 
 .software_intro {
-    font-size: 19px;
+    font-size: 18px;
     padding-bottom: 40px;
 }
 
@@ -1289,7 +1356,7 @@ nav ul li:hover ul {
 
 #warranty p {
     text-align: center;
-    font-size: 19px;
+    font-size: 18px;
 }
 
 /*Installation*/
@@ -1299,10 +1366,10 @@ nav ul li:hover ul {
 }
 
 #install h3::after {
-        content: ""; 
-    display: block; 
+    content: "";
+    display: block;
     margin: 0 auto;
-    width: 200px;
+    width: 140px;
     padding-top: 20px;
     border-bottom: 3px solid #3FC1C1;
 }
@@ -1353,39 +1420,107 @@ aside#sidebar .quote textarea {
     margin-bottom: 40px;
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
-    background-color: #262626;
-    border: 2px #3FC1C1 solid;
+    background-color: #DBDBDB;
+    border: 2px #262626 solid;
+    box-shadow: inset 0px 0px 7px black;
 }
 
 .block {
     margin: 1%;
-    background-color: #fefefe;
-    text-align: center;
+    background-color: white;
     min-height: 430px;
-    position: relative;
+    /* position: relative; */
+    box-shadow: 0px 0px 7px black;
+    border: 1px solid #262626;
+}
+
+.hardware_img {
+    height: 250px;
+    max-height: 250px;
+    text-align: center;
+}
+
+.hardware_img a {
+    text-decoration: none;
+}
+
+.hardware_text {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.hardware_text p {
+    font-weight: bold;
+}
+
+.hardware_text ul {
+    list-style-position: inside;
 }
 
 .block img {
-    padding-bottom: 0px;
+    margin-top: 10px;
+    height: 85%;
+    padding: 20px;
+    -webkit-filter: drop-shadow(1px 3px 4px black);
+    filter: drop-shadow(1px 3px 4px black);
+}
+
+.forward-facing img,
+.forward-facing2 img,
+.forward-facing3 img {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 150px;
 }
 
 .block h2 {
-    font-size: 19px;
-    padding: 10px;
-    margin-top: -5px;
+    font-size: 18px;
 }
 
-.block p {
+.block h2::after {
+    content: "";
+    display: block;
+    margin: 0;
+    width: 100px;
+    padding-top: 10px;
+    border-bottom: 3px solid #3FC1C1;
+}
+
+.product_heading {
+    min-height: 70px;
+}
+
+/* .block p {
     position: absolute;
     bottom: 48px;
     width: 100%;
+} */
+
+.list_sizes {
+    display: inline;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+    background-color: #262626;
+    padding: 7px;
+    color: white;
+    -webkit-filter: drop-shadow(0px 0px 2px black);
+    filter: drop-shadow(0px 0px 2px black);
 }
 
 .link {
-    position: absolute;
-    padding-bottom: 15px;
+    /* position: absolute; */
+    margin-top: 30px;
+    margin-bottom: 20px;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+    border-top: 1px solid #262626;
+    border-bottom: 1px solid #262626;
     bottom: 2px;
     width: 100%;
+    text-align: center;
+    background-color: #f4f4f4;
+    box-shadow: inset 0px 0px 5px black;
 }
 
 .get-in-touch {
@@ -1397,14 +1532,18 @@ aside#sidebar .quote textarea {
 
 .link a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 20px;
-    background-color: #262626;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* background-color: #262626;
     padding: 10px;
     padding-left: 70px;
     padding-right: 70px;
-    border-radius: 5px;
-    border: 1px solid #3FC1C1;
+    border-radius: 5px;*/
 }
 
 .get-in-touch a {
@@ -1419,12 +1558,24 @@ aside#sidebar .quote textarea {
     border: 1px solid #3FC1C1;
 }
 
+.link:hover {
+    border-top: 1px solid #3FC1C1;
+    border-bottom: 1px solid #3FC1C1;
+}
+
 .link a:hover {
-    letter-spacing: 1px;
-    color: white;
-    -webkit-box-shadow: 0px 5px 40px -10px black;
-    box-shadow: 0px 5px 40px -10px black;
-    text-shadow: 0px 0px 7px whitesmoke;
+    letter-spacing: 3px;
+    color: #3FC1C1;
+    /* -webkit-box-shadow: 0px 5px 40px -10px black;
+    box-shadow: 0px 5px 40px -10px black; */
+    text-shadow: 0px 0px 7px #3FC1C1;
+    /*originally whitesmoke*/
+    background-color: #262626;
+    /* -webkit-box-shadow: 0px 0px 3px black;
+    box-shadow: 0px 0px 3px black;
+    color: #3FC1C1; */
+    /* text-decoration: underline;
+    text-underline-position: under; */
 }
 
 .get-in-touch a:hover {
@@ -1437,8 +1588,8 @@ aside#sidebar .quote textarea {
 
 .pages {
     display: grid;
-    grid-template-columns: 33.33% 33.33% 33.33%;
-    width: 200px;
+    grid-template-columns: 50% 50%;
+    width: 120px;
     grid-template-rows: 50px;
     background-color: #f4f4f4;
     margin-bottom: 40px;
@@ -1452,11 +1603,11 @@ aside#sidebar .quote textarea {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     background-color: #DBDBDB;
     margin: 1%;
     border: 0.5px solid black;
@@ -1464,7 +1615,8 @@ aside#sidebar .quote textarea {
 
 .selected {
     background-color: #262626;
-    border: 1px solid #3FC1C1;
+    border: 0.5px solid black;
+    /* border: 1px solid #ccc; */
 }
 
 .select a {
@@ -1484,41 +1636,288 @@ aside#sidebar .quote textarea {
 
 /*Hardware product pages*/
 
+.product-desc h1 {
+    margin-top: 150px;
+    text-align: left;
+    color: #13282D;
+    font-size: 30px;
+    margin-top: 150px;
+    margin-bottom: 40px;
+}
+
+.product-desc h1::after {
+    content: "";
+    display: block;
+    margin: 0;
+    width: 100px;
+    padding-top: 10px;
+    border-bottom: 3px solid #3FC1C1;
+}
+
 .pic-text {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    width: 100%;
+    /* width: 100%; */
+    background-color: white;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-height: 500px;
+    align-items: center;
+    box-shadow: inset 0px 0px 5px black;
 }
 
 .product-img {
     width: 60%;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: red;
+    /* background-color: white; */
     min-height: 500px;
+    height: 500px;
+    display: flex;
+}
+
+.product-img-forward {
+    width: 60%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* background-color: white; */
+    min-height: 500px;
+    height: 500px;
     display: flex;
 }
 
 .product-img img {
-    max-width: 70%;
+    height: 90%;
     margin: auto;
+    -webkit-filter: drop-shadow(5px 8px 10px black);
+    filter: drop-shadow(5px 8px 10px black);
+}
+
+.product-img-forward img {
+    height: 70%;
+    /* width: 70%; */
+    margin: auto;
+    -webkit-filter: drop-shadow(5px 8px 10px black);
+    filter: drop-shadow(5px 8px 10px black);
 }
 
 .enquire-box {
     width: 40%;
-    background-color: blue;
+    padding: 20px;
+    /* background-color: white; */
+}
+
+.enquire-box h2 {
+    font-size: 20px;
+}
+
+.enquire-box h2::after {
+    content: "";
+    display: block;
+    margin: 0;
+    width: 60px;
+    padding-top: 10px;
+    border-bottom: 2px solid #3FC1C1;
+}
+
+.intro-p {
+    margin-top: 0px;
 }
 
 .sizes {
     display: inline;
-    border: 1px solid black;
+    border: 1px solid #ccc;
     margin-right: 10px;
+    background-color: #262626;
+    padding: 7px;
+    color: white;
+    -webkit-filter: drop-shadow(0px 0px 2px black);
+    filter: drop-shadow(0px 0px 2px black);
 }
 
 .specs {
     width: 100%;
     height: auto;
+}
+
+.product-btn {
+    margin-top: 60px;
+}
+
+.product-btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: #262626;
+    padding: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    -webkit-filter: drop-shadow(0px 0px 2px black);
+    filter: drop-shadow(0px 0px 2px black);
+}
+
+.product-btn a:hover {
+    letter-spacing: 1px;
+    color: white;
+    -webkit-box-shadow: 0px 5px 40px -10px black;
+    box-shadow: 0px 5px 40px -10px black;
+    text-shadow: 0px 0px 7px whitesmoke;
+}
+
+/*hardware tabs*/
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    /* border: 1px solid #ccc; */
+    background-color: #f4f4f4;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-family: helvetica, 'work sans', sans-serif;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 20px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    /* min-height: 400px; */
+    background-color: white;
+    margin-bottom: 40px;
+    animation: fadeEffect 1s;
+    /* Fading effect takes 1 second */
+    box-shadow: inset 0px 0px 5px black;
+}
+
+.tabcontent h3 {
+    font-size: 20px;
+}
+
+.tabcontent h3,
+.tabcontent p {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.tabcontent h3::after {
+    content: "";
+    display: block;
+    margin: 0;
+    width: 140px;
+    padding-top: 5px;
+    border-bottom: 2px solid #3FC1C1;
+}
+
+.tabcontent a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.tabcontent a:hover {
+    color: #3FC1C1;
+    letter-spacing: 1px;
+}
+
+.tab-text {
+    padding-bottom: 10px;
+}
+
+.tab-text h3 {
+    padding-top: 5px;
+}
+
+.tab-text p {
+    padding-bottom: 5px;
+}
+
+.feat-img {
+    width: 100%;
+    text-align: center;
+}
+
+.feat-img img {
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tab-color {
+    background-color: #f4f4f4;
+    color: black;
+    box-shadow: inset 0px 0px 5px black;
+}
+
+.tab-color h3::after {
+    content: "";
+    display: block;
+    margin: 0;
+    width: 140px;
+    padding-top: 5px;
+    border-bottom: 2px solid #262626;
+}
+
+.support-docs {
+    padding-bottom: 30px;
+}
+
+.support-docs i {
+    padding-left: 10px;
+    padding-top: 10px;
+    -webkit-text-stroke: 0.3px #3FC1C1;
+}
+
+.support-docs h3 {
+    margin-top: 30px;
+}
+
+.support-docs h3::after {
+    content: "";
+    display: block;
+    margin: 0;
+    width: 100px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #3FC1C1;
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 /*About Us*/
@@ -1530,7 +1929,7 @@ aside#sidebar .quote textarea {
 }
 
 .about_us p {
-    font-size: 19px;
+    font-size: 18px;
     text-align: center;
     padding-bottom: 40px;
 }
@@ -1555,8 +1954,8 @@ aside#sidebar .quote textarea {
     display: block;
     margin: 0 auto;
     width: 200px;
-    padding-top: 20px; 
-    border-bottom: 3px solid #3FC1C1; 
+    padding-top: 20px;
+    border-bottom: 3px solid #3FC1C1;
 }
 
 .contact_head i {
@@ -1567,7 +1966,7 @@ aside#sidebar .quote textarea {
 .contact_head p {
     color: #f4f4f4;
     display: inline;
-    font-size: 19px;
+    font-size: 18px;
 }
 
 .color-border {
@@ -1580,7 +1979,7 @@ aside#sidebar .quote textarea {
     margin: 0 auto;
     width: 200px;
     padding-bottom: 0px;
-    border-top: 3px solid #3FC1C1; 
+    border-top: 3px solid #3FC1C1;
 }
 
 .on_page_contact label {
@@ -1595,25 +1994,25 @@ aside#sidebar .quote textarea {
 }
 
 ::-webkit-input-placeholder {
-    font-family: helvetica;
+    font-family: helvetica, 'work sans', sans-serif;
     font-size: 18px;
     padding: 5px;
 }
 
 :-ms-input-placeholder {
-    font-family: helvetica;
+    font-family: helvetica, 'work sans', sans-serif;
     font-size: 18px;
     padding: 5px;
 }
 
 ::-ms-input-placeholder {
-    font-family: helvetica;
+    font-family: helvetica, 'work sans', sans-serif;
     font-size: 18px;
     padding: 5px;
 }
 
 ::placeholder {
-    font-family: helvetica;
+    font-family: helvetica, 'work sans', sans-serif;
     font-size: 18px;
     padding: 5px;
 }
@@ -1623,7 +2022,7 @@ aside#sidebar .quote textarea {
 }
 
 .on_page_submit_btn {
-    font-family: helvetica,'work sans', sans-serif;
+    font-family: helvetica, 'work sans', sans-serif;
     width: 300px;
     padding: 15px;
     margin-top: 50px;
@@ -1646,7 +2045,7 @@ input[type=text],
 input[type="email"],
 textarea[name="message"] {
     color: black;
-    font-family: helvetica,'work sans', sans-serif;
+    font-family: helvetica, 'work sans', sans-serif;
     font-size: 18px;
     padding: 5px 10px;
 }
@@ -1668,13 +2067,17 @@ textarea[name="message"] {
     padding-bottom: 20px;
 }
 
+.hide-robot {
+    display: none;
+}
+
 /*Privacy Policy link*/
 
 .quote a {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 19px;
+    font-size: 18px;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -1704,7 +2107,7 @@ textarea[name="message"] {
     color: black;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 19px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -1723,13 +2126,145 @@ textarea[name="message"] {
 
 /*404 error*/
 
-#main .error {
+#main .error,
+#main .form {
     height: 90vh;
     margin: auto;
 }
 
-.errorFormat {
+.errorFormat,
+.formSubmission {
     margin-top: 30vh;
+}
+
+/*Insights*/
+
+.insights {
+    padding-top: 130px;
+}
+
+.insights h1 {
+    font-size: 30px;
+}
+
+.insights h1::after {
+    content: "";
+    display: block;
+    margin: 0;
+    width: 100px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #3FC1C1; 
+}
+
+.insights a {
+    text-decoration: none;
+}
+
+.post-page-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: max-content;
+    grid-gap: 20px;
+    padding: 10px;
+    padding-bottom: 40px;
+}
+
+.posts {
+    width: 100%;
+    height: 100%;
+    background-color: #DBDBDB;
+}
+
+.posts:hover {
+    -webkit-box-shadow: 0px 0px 10px black;
+    box-shadow: 0px 0px 10px black;
+}
+
+.post-img {
+    min-width: 35%;
+}
+
+.post-img img {
+    display: block;
+    width: 100%;
+}
+
+.post-excerpt {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    color: black;
+}
+
+.post-excerpt h2 {
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.article-container {
+    width: 45%;
+    margin: auto;
+}
+
+.articles {
+    padding-top:130px;
+    padding-bottom: 10px;
+}
+
+/* .articles a {
+    color: #3FC1C1;
+} */
+
+.articles h1 {
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.articles h1::after {
+    content: "";
+    display: block;
+    margin: 0;
+    width: 200px;
+    padding-top: 5px;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #3FC1C1; 
+}
+
+.articles iframe {
+    margin-bottom: 5px;
+}
+
+.articles h2 {
+    font-size: 25px;
+}
+
+.articles h3 {
+    font-size: 20px;
+}
+
+.customers h3::after {
+    content: "";
+    display: block;
+    margin: 0;
+    width: 175px;
+    padding-top: 5px;
+    border-bottom: 2px solid #3FC1C1; 
+}
+
+.articles img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.infographic img {
+    margin-left: 0px;
+    width: 60%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /*Empty Space*/
@@ -1755,8 +2290,8 @@ footer {
     padding-bottom: 20px;
     margin: 0 auto;
     -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
 }
 
 .footer-links a {
@@ -1780,7 +2315,7 @@ footer {
     margin: 0 auto;
     width: 200px;
     padding-bottom: 0px;
-    border-top: 3px solid #3FC1C1; 
+    border-top: 3px solid #3FC1C1;
 }
 
 /*Media Queries default 768px*/
@@ -1821,32 +2356,32 @@ footer {
 
     #showcase_vid {
         background: url('../images/abstract-light-flipped-ipro.png') no-repeat;
-        background-attachment: scroll; 
+        background-attachment: scroll;
     }
 
     .bg_img8 {
         background: url('../images/abstract-light-ipro.png') no-repeat 0 -100px;
-        background-attachment: scroll; 
+        background-attachment: scroll;
     }
 
     #showcase_interact {
         background: url('../images/confetti-ipro.jpg') no-repeat;
-        background-attachment: scroll; 
+        background-attachment: scroll;
     }
 
     .bg_imgInteract {
         background: url('../images/confetti-ipro.jpg') no-repeat 0 -100px;
-        background-attachment: scroll; 
+        background-attachment: scroll;
     }
 
     #showcase_software {
         background: url('../images/laptop2-ipro.jpg') no-repeat -120px -85px;
-        background-attachment: scroll; 
+        background-attachment: scroll;
     }
 
     #showcase_about {
         background: url('../images/city-bokeh-ipro.jpg') no-repeat;
-        background-attachment: scroll; 
+        background-attachment: scroll;
     }
 }
 
@@ -1873,7 +2408,7 @@ footer {
 
 @media(max-width: 1455px) {
     #showcase_sign h1 {
-    margin-top: 300px;
+        margin-top: 300px;
     }
 
     #showcase_software {
@@ -1885,6 +2420,47 @@ footer {
     #showcase_software {
         background: url('../images/laptop2.jpg') no-repeat -150px -350px;
     }
+
+    .pic-text {
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        min-height: initial;
+    }
+
+    .product-img {
+        width: 90%;
+        min-height: initial;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .product-img img {
+        height: auto;
+        width: 45%;
+    }
+
+    .product-img-forward {
+        min-height: initial;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .product-img-forward img {
+        height: auto;
+        width: 70%;
+        padding: 0px;
+    }
+
+    .front-face-img {
+        width: 50%;
+    }
+
+    .enquire-box {
+        width: 90%;
+    }
+
 }
 
 @media(max-width: 1323px) {
@@ -1921,7 +2497,7 @@ footer {
         padding-top: 0px;
     }
 
-    #showcase p { 
+    #showcase p {
         margin-top: 100px;
     }
 
@@ -1937,10 +2513,16 @@ footer {
 
     #showcase_software {
         background: url('../images/laptop2-1600px.jpg') no-repeat -190px -260px;
-        }
+    }
+
+    .infographic img {
+        width: 80%;
+    }
 }
 
+
 @media(max-width: 1250px) {
+
     #showcase_vid h1,
     #showcase_interact h1 {
         margin-top: 260px;
@@ -1952,7 +2534,7 @@ footer {
         width: 100%;
         float: none;
         text-align: center;
-        margin:auto;
+        margin: auto;
         margin-top: 0px;
         height: 550px;
         display: -webkit-box;
@@ -1992,7 +2574,19 @@ footer {
     }
 }
 
+@media(max-width: 1200px) {
+    .models {
+        grid-template-columns: 50% 50%;
+        background-color: #ccc;
+    }
+
+    .block {
+        min-height: 460px;
+    }
+}
+
 @media(max-width: 1180px) {
+
     #showcase_vid img,
     #showcase_vid h1,
     #showcase_vid p,
@@ -2020,7 +2614,7 @@ footer {
         margin-right: auto;
         padding-right: 0px;
         width: 450px;
-        margin-top: 180px; 
+        margin-top: 180px;
     }
 
     .box_interact {
@@ -2037,7 +2631,7 @@ footer {
         padding-top: 20px;
     }
 
-    .box_interact h3, 
+    .box_interact h3,
     .box_interact p {
         margin-top: 0px;
         margin-bottom: 10px;
@@ -2087,10 +2681,10 @@ footer {
 }
 
 @media(max-width: 1160px) {
-#showcase_sign {
+    #showcase_sign {
         position: relative;
         text-align: center;
-}
+    }
 
     #showcase_sign img,
     #showcase_sign h1,
@@ -2129,21 +2723,14 @@ footer {
     }
 }
 
-@media(max-width: 1115px) {
-    .models {
-        grid-template-columns: 50% 50%;
-        background-color: #262626;
-        border: 2px #3FC1C1 solid;
-        }
-
-        .block {
-            min-height: 460px;
-        }
-    }
-    
 @media(max-width: 1065px) {
-    #showcase_software{
-    background: url('../images/laptop2-1600px.jpg') no-repeat -220px -260px;
+    #showcase_software {
+        background: url('../images/laptop2-1600px.jpg') no-repeat -220px -260px;
+    }
+
+    .article-container {
+        width: 60%;
+        margin: auto;
     }
 }
 
@@ -2155,15 +2742,15 @@ footer {
 }
 
 @media(max-width: 990px) {
-    #showcase_software{
-    background: url('../images/laptop2-1600px.jpg') no-repeat -280px -260px;
+    #showcase_software {
+        background: url('../images/laptop2-1600px.jpg') no-repeat -280px -260px;
     }
 }
 
 @media(max-width: 950px) {
     #showcase {
         min-height: 550px;
-    } 
+    }
 
     #showcase img {
         margin-top: 150px;
@@ -2214,7 +2801,7 @@ footer {
     .icon1 i,
     .icon2 i,
     .icon1 p,
-    .icon2 p { 
+    .icon2 p {
         float: none;
         text-align: center;
         width: 100%;
@@ -2371,8 +2958,8 @@ footer {
         margin-left: auto;
     }
 
-    #logos .samsung {
-        width: 110px;
+    #logos .infocus {
+        width: 96px;
         height: auto;
         margin-left: auto;
     }
@@ -2389,13 +2976,13 @@ footer {
         margin-top: 130px;
     }
 
-     #showcase h1 {
-         margin-top: -60px;
-     }
+    #showcase h1 {
+        margin-top: -60px;
+    }
 
-     #showcase p {
-         margin-top: 40px;
-     }
+    #showcase p {
+        margin-top: 40px;
+    }
 
     #showcase_about h1 {
         margin-top: 150px;
@@ -2452,7 +3039,7 @@ footer {
     #showcase_sign {
         position: relative;
         text-align: center;
-}
+    }
 
     #showcase_sign img,
     #showcase_sign h1,
@@ -2495,6 +3082,10 @@ footer {
         font-size: 17px;
         padding-left: 0px;
         padding-right: 0px;
+    }
+
+    .sign_div {
+        box-shadow: none;
     }
 
     .mid_sign_text,
@@ -2648,12 +3239,16 @@ footer {
 
     .sign_industry {
         padding: 0px;
+        padding-bottom: 20px;
+        box-shadow: none;
+        border: none;
     }
 
     .sign_industry h4 {
         padding: 0px;
         padding-top: 5px;
         margin: 0px;
+        margin-top: 10px;
     }
 
     .sign_industry h3 {
@@ -2734,10 +3329,16 @@ footer {
     /*Hardware*/
 
     .hardware h1 {
-        font-size: 30px;
+        font-size: 25px;
         margin-top: 20px;
         margin-bottom: 0px;
-        padding-bottom: 10px;
+        padding-bottom: 20px;
+    }
+
+    .product-desc h1 {
+        margin-top: 20px;
+        margin-bottom: 15px;
+        font-size: 25px;
     }
 
     /*about us*/
@@ -2748,7 +3349,7 @@ footer {
 
     /*Contact form and Privacy Policy*/
 
-   .page-title {
+    .page-title {
         font-size: 25px;
         margin-top: 20px;
         margin-bottom: 0px;
@@ -2770,10 +3371,33 @@ footer {
         padding: 0px;
     }
 
+    /*Articles*/
+
+    .insights {
+        padding-top: 0px;
+    }
+
+    .insights h1 {
+        font-size: 25px;
+    }
+
+    .articles h1 {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+    .articles {
+        padding-top: 0px;
+    }
+
+    .articles h1::after {
+        width: 100px;
+    }
+
     /*footer*/
 
     .footer-links,
-    .border-footer  {
+    .border-footer {
         display: none;
     }
 
@@ -2792,6 +3416,17 @@ footer {
         margin-top: 15vh;
     }
 
+    /*Form submission*/
+
+    #main .form {
+        height: 100vh;
+        padding-bottom: 20px;
+    }
+
+    .formSubmission {
+        margin-top: 15vh;
+    }
+
 }
 
 @media(max-width: 726px) {
@@ -2801,6 +3436,10 @@ footer {
 
     #showcase_sign p {
         margin-top: 80px;
+    }
+
+    .post-page-container {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -2816,7 +3455,7 @@ footer {
         -webkit-filter: drop-shadow(5px 8px 10px black);
         filter: drop-shadow(5px 8px 10px black);
     }
-    
+
     .mid_sign_text {
         display: none;
     }
@@ -2830,16 +3469,44 @@ footer {
     }
 
     .sign_industry h3::after {
-        content: ""; 
+        content: "";
         display: block;
         margin: 0 auto;
         width: 250px;
         padding-top: 20px;
-        border-bottom: 3px solid #3FC1C1; 
+        border-bottom: 3px solid #3FC1C1;
+    }
+
+    .article-container {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media(max-width: 690px) {
+    .hardware_img {
+        height: 220px;
+        max-height: 220px;
+    }
+
+    .block img {
+        margin-top: 20px;
+        padding: 0px;
+        height: 75%;
+    }
+
+    .forward-facing img,
+    .forward-facing2 img,
+    .forward-facing3 img {
+        margin-top: 0px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        height: 60%;
     }
 }
 
 @media(max-width: 660px) {
+
     #showcase_vid h1,
     #showcase_interact h1 {
         margin-top: 5px;
@@ -2856,6 +3523,17 @@ footer {
         margin-top: 80px;
         -webkit-filter: none;
         filter: drop-shadow(none);
+    }
+
+    .list_sizes {
+        margin-right: 1px;
+        padding: 3px;
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+
+    .link {
+        margin-top: 15px;
     }
 }
 
@@ -2882,7 +3560,7 @@ footer {
 
     #showcase img {
         width: 90%;
-        margin-top: 10%; 
+        margin-top: 10%;
     }
 
     #showcase_sign h1 {
@@ -2908,16 +3586,26 @@ footer {
         box-shadow: none;
     }
 
-    video {
+    /* video {
         width: 95%;
     }
 
     #telechamp p {
         padding-bottom: 20px;
-    }
+    } */
 
     #showcase_software {
         background: url('../images/laptop2-ipad.jpg') no-repeat -90px -110px;
+    }
+}
+
+@media(max-width: 610px) {
+    .hardware_text ul {
+        list-style: none;
+    }
+
+    .hardware_text p {
+        margin-top: 0px;
     }
 }
 
@@ -2928,7 +3616,7 @@ footer {
         padding-top: 10px;
     }
 
-    #showcase_sign h1, 
+    #showcase_sign h1,
     #showcase_sign p {
         width: 100%;
     }
@@ -2936,8 +3624,20 @@ footer {
     #showcase_sign p {
         margin-top: 50px;
     }
+
+    .product-img img {
+        width: 55%;
+    }
+
+    .product-img-forward img {
+        width: 80%;
+    }
+
+    .front-face-img {
+        width: 60%;
+    }
 }
- 
+
 @media(max-width: 610px) {
     #showcase img {
         margin-top: 10%;
@@ -2948,12 +3648,24 @@ footer {
     }
 }
 
+@media(max-width: 590px) {
+    .forward-facing2 img {
+        height: 50%;
+    }
+}
+
+@media(max-width: 560px) {
+    .hardware_text ul {
+        min-height: 150px;
+    }
+}
+
 @media(max-width: 550px) {
     #showcase_sign img {
         padding-top: 30px;
     }
 
-    #showcase_sign h1, 
+    #showcase_sign h1,
     #showcase_sign p {
         width: 80%;
     }
@@ -2961,6 +3673,21 @@ footer {
     .on_page_contact input,
     .on_page_contact textarea {
         width: 280px;
+    }
+
+    .infographic img {
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .post-page-container {
+        grid-template-columns: 1fr;
+        padding-bottom: 10px;
+    }
+
+    .post-excerpt {
+        padding-bottom: 10px;
     }
 }
 
@@ -2983,6 +3710,12 @@ footer {
     }
 }
 
+@media(max-width: 506px) {
+    .product_heading {
+        min-height: 120px;
+    }
+}
+
 @media(max-width: 500px) {
     /*Hardware*/
 
@@ -2990,36 +3723,60 @@ footer {
         min-height: 360px;
     }
 
-    .block img {
+    /* .block img {
         width: 130px;
+    } */
+
+    .forward-facing img,
+    .forward-facing2 img {
+        padding-top: 35px;
+        padding-bottom: 30px;
     }
 
     .block h2 {
         font-size: 17px;
-        margin-top: 0px;
+        margin: 0px;
     }
 
-    .block p {
-        display: none;
+    .hardware_img {
+        height: 170px;
+        margin-bottom: 10px;
     }
+
+    /* .block p {
+        display: none;
+    } */
 
     .link {
         width: 100%;
     }
 
     .link a {
-        padding: 10px;
+        /* padding: 10px;
         padding-left: 20px;
-        padding-right: 20px;
+        padding-right: 20px; */
         font-size: 18px;
     }
 
     .mid_sign_text {
         display: none;
     }
+
+    .product-img img {
+        width: 65%;
+    }
+
+    .product-img-forward img {
+        width: 100%;
+    }
+
+    .front-face-img {
+        width: 65%;
+    }
 }
 
 @media(max-width: 450px) {
+
     #showcase,
     #showcase_sign,
     #showcase_vid,
@@ -3131,22 +3888,51 @@ footer {
 
     #showcase_interact {
         background: url('../images/confetti-mobile.jpg') no-repeat;
-        background-attachment: scroll; 
+        background-attachment: scroll;
     }
 
     .bg_imgInteract {
         background: url('../images/confetti-mobile.jpg') no-repeat 0 -140px;
-        background-attachment: scroll; 
+        background-attachment: scroll;
     }
 
     #showcase_software {
         background: url('../images/laptop2-mobile.jpg') no-repeat -120px -45px;
-        background-attachment: scroll; 
+        background-attachment: scroll;
     }
 
     #showcase_about {
         background: url('../images/city-bokeh-mobile.jpg') no-repeat 0 -5px;
-        background-attachment: scroll; 
+        background-attachment: scroll;
+    }
+
+    .hardware_text {
+        min-height: 410px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .link {
+        margin-top: 5px;
+    }
+}
+
+@media(max-width: 400px) {
+    .hardware_img {
+        height: 150px;
+    }
+
+    .forward-facing img {
+        padding-top: 30px;
+    }
+
+    .hardware_text {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .link a:hover {
+        letter-spacing: 2px;
     }
 }
 
@@ -3155,6 +3941,7 @@ footer {
         margin-top: 19%;
         width: 95%;
     }
+
     #showcase h1 {
         width: 90%;
         margin-top: -40px;
@@ -3176,6 +3963,7 @@ footer {
         margin-top: 20%;
         width: 95%;
     }
+
     #showcase h1 {
         width: 90%;
         margin-top: -35px;
@@ -3187,11 +3975,18 @@ footer {
     }
 }
 
+@media(max-width: 355px) {
+    .hardware_img {
+        height: 130px;
+    }
+}
+
 @media(max-width: 330px) {
     #showcase img {
         margin-top: 25%;
         width: 95%;
     }
+
     #showcase h1 {
         width: 90%;
         margin-top: -36px;
