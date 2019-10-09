@@ -327,13 +327,17 @@ nav ul li:hover ul {
 
 #showcase {
     position: relative;
-    min-height: 665px;
-    background: url('../images/modern-pattern-color.jpg') no-repeat;
-    background-attachment: fixed;
-    background-position: center -50px;
+    min-height: 750px;
+    /* background: url('../images/screen-portrait.jpg') no-repeat;*/
+    /* background-attachment: fixed; */
+    /* background-position: center -50px; */
+    /* background-position: 90% 50%; */ 
+    background-color: #FFFFFF;
+    background-size: 400px;
     opacity: 1;
     text-align: left;
     border-bottom: black 1px solid;
+    padding-top: 170px;
 }
 
 #showcase img {
@@ -349,9 +353,9 @@ nav ul li:hover ul {
 
 #showcase h1 {
     opacity: 1;
-    text-align: center;
-    margin-top: 300px;
-    margin-left: 20px;
+    text-align: left;
+    margin-top: 200px;
+    /* margin-left: 20px; */
     font-size: 35px;
     color: #262626;
     -webkit-filter: contrast(105%);
@@ -359,13 +363,41 @@ nav ul li:hover ul {
 }
 
 #showcase p {
-    margin-left: 20px;
-    text-align: center;
+    /* margin-left: 20px; */
+    text-align: left;
     font-size: 25px;
     color: #262626;
     -webkit-filter: contrast(105%);
     filter: contrast(105%);
 }
+
+/* #showcase hr {
+    width: 30%;
+    margin: 0;
+} */
+
+/* #showcase .partner_style p {
+    font-size: 17px;
+} */
+
+.partner_style span {
+    letter-spacing: -2px;
+}
+
+.partner_style img {
+    max-width: 100px;
+    display: inline-block;
+    margin: 0;
+}
+
+/* #showcase .partner_style p::after {
+    content: "";
+    display: block;
+    margin: 0;
+    width: 100px;
+    padding-top: 20px;
+    border-bottom: 3px solid #3FC1C1;
+} */
 
 /*Video showcase & other product showcases*/
 
