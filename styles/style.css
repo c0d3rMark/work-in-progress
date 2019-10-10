@@ -171,7 +171,8 @@ header {
     padding-top: 5px;
     min-height: 70px;
     padding-bottom: 0px;
-    border-bottom: black 1px solid;
+    /* border-bottom: black 1px solid; */
+    border-bottom: #d6d6d6 1px solid;
     position: fixed;
     width: 100%;
     z-index: 1;
@@ -226,11 +227,11 @@ header nav {
 
 header img {
     width: 10%;
-    padding-top: 5px;
-    min-width: 140px;
+    padding-top: 8px;
+    min-width: 130px;
     height: auto;
-    -webkit-filter: drop-shadow(2px 2px 2px black);
-    filter: drop-shadow(2px 2px 2px black);
+    -webkit-filter: drop-shadow(1px 2px 2px black);
+    filter: drop-shadow(1px 2px 2px black);
 }
 
 header img:hover {
@@ -310,9 +311,10 @@ nav ul li:hover ul {
 /*Top Bar*/
 
 .topbar {
-    background-color: #262626;
+    /* background-color: #262626; */
+    background-color: #d6d6d6;
     height: 30px;
-    border-bottom: black 1px solid;
+    border-bottom: #ffffff 1px solid;
     text-align: right;
     position: fixed;
     width: 100%;
@@ -326,13 +328,17 @@ nav ul li:hover ul {
 }
 
 .topbar i {
-    color: #3FC1C1;
+    /* color: #3FC1C1; */
+    color: #262626;
     padding-right: 10px;
     padding-left: 10px;
+    /* -webkit-text-stroke: 1px #262626; */
+    /* color: rgba(63, 193, 193, 0.8);
+    text-shadow: 1px 4px 6px #fff, 0 0 0 #000, 1px 4px 0px transparent; */
 }
 
 .topbar p {
-    color: #f4f4f4;
+    color: #262626;
     display: inline;
     font-size: 18px;
     padding-right: 12px;
@@ -343,7 +349,7 @@ nav ul li:hover ul {
 #showcase {
     position: relative;
     /* min-height: 700px; */
-    height: 80vh;
+    height: 88vh;
     background: url('../images/showcase-new.jpg') no-repeat;
     /* background-attachment: fixed; */
     /* background-position: center -50px; */
@@ -611,12 +617,12 @@ nav ul li:hover ul {
 /*Logos*/
 
 #logos {
-    padding-top: 8px;
+    padding-top: 80px;
     padding-bottom: 0px;
     height: 30px;
     background-color: #fafafa;
-    -webkit-box-shadow: 0px -5px 5px -5px black;
-    box-shadow: 0 -5px 5px -5px black; 
+    /* -webkit-box-shadow: 0px -5px 5px -5px black;
+    box-shadow: 0 -5px 5px -5px black;  */
 }
 
 .row {
@@ -679,10 +685,13 @@ nav ul li:hover ul {
 /*Boxes*/
 
 #boxes {
+    /* background-color: #262626; */
     background-color: #fafafa;
-    padding-top: 15px;
-    border-top: black 1px solid;
-    border-bottom: black 1px solid;
+    /* padding-top: 15px; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: #d6d6d6 1px solid;
+    border-bottom: #d6d6d6 1px solid;
 }
 
 #boxes .box {
@@ -694,14 +703,19 @@ nav ul li:hover ul {
 }
 
 #boxes i {
-    color: #ffffff;
+    /* color: black; */
+    color: #3FC1C1;
     padding-top: 5px;
     padding-bottom: 25px;
+    /* -webkit-text-stroke: 1px #3FC1C1; */
     -webkit-text-stroke: 1px #262626;
-    -webkit-filter: brightness(120%);
+    /* -webkit-filter: brightness(120%);
     filter: brightness(120%);
     -webkit-filter: contrast(105%);
-    filter: contrast(105%);
+    filter: contrast(105%); */
+    color: rgba(63, 193, 193, 0.8);
+    text-shadow: 1px 4px 6px #fff, 0 0 0 #000, 1px 4px 6px transparent;
+    /* filter: drop-shadow(inset 0px 0px 5px black); */
 }
 
  #boxes i:hover {
@@ -709,14 +723,31 @@ nav ul li:hover ul {
     filter: drop-shadow(0px 0px 3px #3FC1C1);
 } 
 
+#boxes h2 {
+    /* color: #FFFFFF; */
+    color: #262626;
+    text-align: center;
+    margin-top: 0;
+}
+
+#boxes hr {
+    width: 100px;
+    margin-bottom: 50px;
+    height: 5px;
+    background-color: #d6d6d6;
+    box-shadow: inset 0px 0px 3px black;
+}
+
 #boxes h3 {
     margin-top: -0px;
     font-size: 25px;
+    /* color: #ffffff; */
     color: #262626;
     font-weight: bold;
 }
 
 #boxes p {
+    /* color: #ffffff; */
     color: #262626;
     margin-top: -15px;
     padding: 1px;
@@ -1995,13 +2026,15 @@ aside#sidebar .quote textarea {
 
 .on_page_contact {
     background-color: #262626;
+    /* background-color: #DBDBDB; */
     border-top: 1px solid black;
     text-align: center;
     padding-bottom: 60px;
 }
 
 .on_page_contact h4 {
-    color: #f4f4f4;
+    /* color: #f4f4f4; */
+    color: #ffffff;
     font-size: 25px;
 }
 
@@ -2021,7 +2054,8 @@ aside#sidebar .quote textarea {
 }
 
 .contact_head p {
-    color: #f4f4f4;
+    /* color: #f4f4f4; */
+    color: #ffffff;
     display: inline;
     font-size: 18px;
 }
