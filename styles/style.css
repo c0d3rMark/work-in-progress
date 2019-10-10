@@ -85,8 +85,14 @@ ul {
     background-color: #c13f3f;
     padding: 10px 50px;
     border-radius: 3px;
-    border: #fafafa 1px solid;
+    /* border: #fafafa 1px solid; */
     margin: 0;
+    box-shadow: inset 0px 0px 4px black;
+}
+
+.hero-button a:hover {
+    box-shadow: 0px 0px 3px black;
+    text-shadow: 0px 0px 7px whitesmoke;
 }
 
 .show_btn {
@@ -95,8 +101,7 @@ ul {
 
 button:hover,
 .btn a:hover,
-.show_btn a:hover,
-.hero-button a:hover {
+.show_btn a:hover {
     font-weight: bold;
     text-shadow: 0px 0px 7px whitesmoke;
     letter-spacing: 1px;
@@ -193,7 +198,7 @@ header a {
 }
 
 header .current a {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #262626;
     padding-bottom: 0px;
     color: black;
 }
@@ -314,11 +319,12 @@ nav ul li:hover ul {
     /* background-color: #262626; */
     background-color: #d6d6d6;
     height: 30px;
-    border-bottom: #ffffff 1px solid;
+    /* border-bottom: #ffffff 1px solid; */
     text-align: right;
     position: fixed;
     width: 100%;
     z-index: 2;
+    /* box-shadow: 0px 0px 4px #d6d6d6; */
 }
 
 .top-content {
@@ -358,7 +364,7 @@ nav ul li:hover ul {
     background-size: 1400px;
     opacity: 1;
     text-align: left;
-    border-bottom: #d6d6d6 1px solid;
+    /* border-bottom: #d6d6d6 1px solid; */
     padding-top: 120px;
 }
 
@@ -617,10 +623,12 @@ nav ul li:hover ul {
 /*Logos*/
 
 #logos {
-    padding-top: 80px;
+    padding-top: 30px;
     padding-bottom: 0px;
     height: 30px;
     background-color: #fafafa;
+    width: 80%;
+    margin: auto;
     /* -webkit-box-shadow: 0px -5px 5px -5px black;
     box-shadow: 0 -5px 5px -5px black;  */
 }
@@ -688,10 +696,11 @@ nav ul li:hover ul {
     /* background-color: #262626; */
     background-color: #fafafa;
     /* padding-top: 15px; */
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     border-top: #d6d6d6 1px solid;
     border-bottom: #d6d6d6 1px solid;
+    box-shadow: inset 0px 0px 5px black;
 }
 
 #boxes .box {
@@ -751,6 +760,11 @@ nav ul li:hover ul {
     color: #262626;
     margin-top: -15px;
     padding: 1px;
+}
+
+.partner-h2 {
+    margin-top: 40px;
+    margin-bottom: 0px;
 }
 
 /*Boxes Interactive*/
@@ -1111,7 +1125,7 @@ nav ul li:hover ul {
 
 /*bg images for parallax*/
 
-.bg_img1,
+/* .bg_img1, */
 .bg_img2,
 .bg_img3,
 .bg_img5,
@@ -1126,10 +1140,10 @@ nav ul li:hover ul {
     opacity: 1;
 }
 
-.bg_img1 {
+/* .bg_img1 {
     background: url('../images/modern-pattern-color-flipped.jpg') no-repeat 0;
     background-attachment: fixed;
-}
+} */
 
 
 .bg_img2 {
