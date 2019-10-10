@@ -1,5 +1,5 @@
 body {
-    font-family: helvetica, 'work sans', sans-serif;
+    font-family: Helvetica, sans-serif;
     font-size: 18px;
     line-height: 1.5;
     padding: 0;
@@ -55,7 +55,8 @@ ul {
     animation: glowing 3100ms infinite;
 }
 
-.btn {
+.btn,
+.hero-button {
     margin-top: 50px;
     margin-bottom: 40px;
 }
@@ -75,13 +76,27 @@ ul {
     animation: glowing 3100ms infinite;
 }
 
+.hero-button a {
+    text-decoration: none;
+    color: #fafafa;
+    font-family: helvetica, 'work sans', sans-serif;
+    font-size: 20px;
+    /* font-weight: 10; */
+    background-color: #c13f3f;
+    padding: 10px 50px;
+    border-radius: 3px;
+    border: #fafafa 1px solid;
+    margin: 0;
+}
+
 .show_btn {
     margin-top: 225px;
 }
 
 button:hover,
 .btn a:hover,
-.show_btn a:hover {
+.show_btn a:hover,
+.hero-button a:hover {
     font-weight: bold;
     text-shadow: 0px 0px 7px whitesmoke;
     letter-spacing: 1px;
@@ -150,7 +165,7 @@ button:hover,
 /*Header*/
 
 header {
-    background-color: #f4f4f4;
+    background-color: #fafafa;
     -webkit-box-shadow: 0 5px 3px -5px black;
     box-shadow: 0 5px 3px -5px black;
     padding-top: 5px;
@@ -332,12 +347,12 @@ nav ul li:hover ul {
     background: url('../images/showcase-new.jpg') no-repeat;
     /* background-attachment: fixed; */
     /* background-position: center -50px; */
-    background-position: 90% 50%; 
+    background-position: 70% 50%; 
     background-color: #FFFFFF;
     background-size: 1400px;
     opacity: 1;
     text-align: left;
-    border-bottom: black 1px solid;
+    border-bottom: #d6d6d6 1px solid;
     padding-top: 120px;
 }
 
@@ -353,12 +368,18 @@ nav ul li:hover ul {
     padding-bottom: 40px;
 }
 
+.show-text {
+    width: 40%;
+    float: left;
+}
+
 #showcase h1 {
-    opacity: 1;
+    /* opacity: 1; */
     text-align: left;
     margin-top: 240px;
     /* margin-left: 20px; */
-    font-size: 35px;
+    font-size: 45px;
+    font-weight: 100;
     color: #262626;
     -webkit-filter: contrast(105%);
     filter: contrast(105%);
@@ -367,16 +388,17 @@ nav ul li:hover ul {
 #showcase p {
     /* margin-left: 20px; */
     text-align: left;
-    font-size: 25px;
+    font-size: 20px;
     color: #262626;
     -webkit-filter: contrast(105%);
     filter: contrast(105%);
 }
 
-/* #showcase hr {
-    width: 30%;
+#showcase hr {
+    width: 60%;
     margin: 0;
-} */
+    margin-top: 30px;
+}
 
 /* #showcase .partner_style p {
     font-size: 17px;
@@ -384,6 +406,7 @@ nav ul li:hover ul {
 
 .partner_style span {
     letter-spacing: -2px;
+    opacity: 0.7;
 }
 
 .partner_style img {
@@ -591,7 +614,7 @@ nav ul li:hover ul {
     padding-top: 8px;
     padding-bottom: 0px;
     height: 30px;
-    background-color: #f4f4f4;
+    background-color: #fafafa;
     -webkit-box-shadow: 0px -5px 5px -5px black;
     box-shadow: 0 -5px 5px -5px black; 
 }
@@ -656,7 +679,7 @@ nav ul li:hover ul {
 /*Boxes*/
 
 #boxes {
-    background-color: #262626;
+    background-color: #fafafa;
     padding-top: 15px;
     border-top: black 1px solid;
     border-bottom: black 1px solid;
@@ -671,10 +694,10 @@ nav ul li:hover ul {
 }
 
 #boxes i {
-    color: #262626;
+    color: #ffffff;
     padding-top: 5px;
     padding-bottom: 25px;
-    -webkit-text-stroke: 1px #3FC1C1;
+    -webkit-text-stroke: 1px #262626;
     -webkit-filter: brightness(120%);
     filter: brightness(120%);
     -webkit-filter: contrast(105%);
@@ -689,12 +712,12 @@ nav ul li:hover ul {
 #boxes h3 {
     margin-top: -0px;
     font-size: 25px;
-    color: #f4f4f4;
+    color: #262626;
     font-weight: bold;
 }
 
 #boxes p {
-    color: #f4f4f4;
+    color: #262626;
     margin-top: -15px;
     padding: 1px;
 }
