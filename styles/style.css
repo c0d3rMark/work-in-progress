@@ -1,5 +1,5 @@
 body {
-    font-family: Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     line-height: 1.5;
     padding: 0;
@@ -1399,19 +1399,30 @@ nav ul li:hover ul {
 
 /* ARc app info */
 
+.app-wrapper {
+    background-color: #fafafa;
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 .arc-app {
     background-color: #fafafa;
     color: #262626;
-    border-top: 1px solid #d6d6d6;
-    border-bottom: 1px solid #d6d6d6;
-    display: flex;
+    /* display: flex; */
     flex: 0 0 25em;
     margin-bottom: 20px;
 }
 
 .app-img img {
     display: block;
-    max-width: 700px;
+    max-width: 550px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    -webkit-filter: drop-shadow(3px 5px 3px #AEAEAE);
+    filter: drop-shadow(3px 5px 3px #AEAEAE);
 }
 
 .app-text {
@@ -1419,18 +1430,18 @@ nav ul li:hover ul {
 }
 
 .app-text-container {
-    text-align: left;
+    /* text-align: left; */
     padding: 20px;
 }
 
-.app-download {
+/* .app-download {
     background-color: white;
     color: black;
     position: absolute;
     bottom: 0;
     width: 100%;
     border-top: 1px solid #d6d6d6;
-}
+} */
 
 .app-download img {
     max-height: 60px;
