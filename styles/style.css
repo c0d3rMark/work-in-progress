@@ -391,20 +391,10 @@ nav ul li:hover ul {
     /* min-height: 700px; */
     height: 100vh;
     background-color: #ffffff;
-background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+background-image: url("https://www.transparenttextures.com/patterns/subtle-white-feathers.png");
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-    /* background:
-    radial-gradient(black 3px, transparent 4px),
-    radial-gradient(black 3px, transparent 4px),
-    linear-gradient(#fff 4px, transparent 0),
-    linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
-    linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
-    #fff;
-    background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
-    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px; */
+/* background-color: #ffffff; */
+/* background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png"); */
 
     /* background: url('../images/showcase-new.png') no-repeat; */
     /* background-attachment: fixed; */
@@ -1336,13 +1326,22 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 #telechamp {
     position: relative;
     padding-top: 20px;
-    background-color: #DBDBDB;
+    background-color: #ffffff;
     min-height: 120px;
-    border-top: #DBDBDB 1px solid;
-    border-bottom: #DBDBDB 1px solid;
+    /* border-top: #DBDBDB 1px solid;
+    border-bottom: #DBDBDB 1px solid; */
     text-align: center;
-    -webkit-box-shadow: 0px 0px 4px black;
-    box-shadow: 0px 0px 4px black;
+    padding-bottom: 30px;
+    /* -webkit-box-shadow: 0px 0px 4px black;
+    box-shadow: 0px 0px 4px black; */
+}
+
+#telechamp img {
+    width: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* -webkit-filter: drop-shadow(3px 5px 3px #ADADAD);
+    filter: drop-shadow(3px 5px 3px #ADADAD); */
 }
 
 #telechamp p,
@@ -1419,7 +1418,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     background-color: #fafafa;
     border-top: 1px solid #d6d6d6;
     border-bottom: 1px solid #d6d6d6;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     text-align: center;
 }
 
@@ -1435,14 +1434,15 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     display: block;
     max-width: 550px;
     margin: auto;
-    margin-top: 40px;
-    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 50px;
     -webkit-filter: drop-shadow(3px 5px 3px #AEAEAE);
     filter: drop-shadow(3px 5px 3px #AEAEAE);
 }
 
 .app-text {
-    position: relative;
+    /* position: relative; */
+    margin-top: 30px;
 }
 
 .app-text-container {
@@ -1460,11 +1460,21 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 } */
 
 .app-download img {
-    max-height: 60px;
+    height: 40px;
+    padding:20px;
 }
 
-.app-download a {
+.app-download hr {
+    color: #262626;
+    width: 100px;
+}
+
+/* .app-download a {
     display: inline-block;
+} */
+
+.app-download a:hover {
+
 }
 
 /*videowalls */
@@ -2507,6 +2517,7 @@ textarea[name="message"] {
 }
 
 footer {
+    font-size: 16px;
     padding-top: 20px;
     padding-bottom: 10px;
     /* color: #f4f4f4; */
@@ -2552,7 +2563,7 @@ footer {
     margin: 0 auto;
     width: 200px;
     padding-bottom: 0px;
-    border-top: 1px solid #262626;
+    border-top: 1px solid #19363E;
 }
 
 /*Media Queries default 768px*/
