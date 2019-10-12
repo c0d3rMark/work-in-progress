@@ -197,8 +197,8 @@ ul {
 
 header {
     background-color: #fafafa;
-    -webkit-box-shadow: 0 5px 3px -5px #ADADAD;
-    box-shadow: 0 5px 3px -5px black;
+    -webkit-box-shadow: 0 5px 4px -5px #ADADAD;
+    box-shadow: 0 5px 4px -5px black;
     padding-top: 5px;
     min-height: 70px;
     padding-bottom: 0px;
@@ -386,7 +386,7 @@ nav ul li:hover ul {
 #showcase {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     /* position: relative; */
     /* min-height: 700px; */
     height: 100vh;
@@ -408,14 +408,15 @@ background-image: url("https://www.transparenttextures.com/patterns/subtle-white
 }
 
 #showcase img {
-    /* float: right; */
+    float: right;
     margin-top: 120px;
     /* margin-right: 0px; */
-    margin-left: 100px;
+    margin-left: 0px;
     width: 50%;
     -webkit-filter: drop-shadow(3px 5px 3px #ADADAD);
     filter: drop-shadow(3px 5px 3px #ADADAD);
     padding-bottom: 40px;
+    padding-right:10px;
 }
 
 .show-text {
@@ -452,7 +453,7 @@ background-image: url("https://www.transparenttextures.com/patterns/subtle-white
 }
 
 #showcase .scroll {
-    margin-top: 30px;
+    /* margin-top: 30px; */
     width: 100%;
     text-align: center;
 }
@@ -1450,6 +1451,10 @@ background-image: url("https://www.transparenttextures.com/patterns/subtle-white
     padding: 20px;
 }
 
+.app-text p {
+    margin-top: 30px;
+}
+
 /* .app-download {
     background-color: white;
     color: black;
@@ -1462,6 +1467,12 @@ background-image: url("https://www.transparenttextures.com/patterns/subtle-white
 .app-download img {
     height: 40px;
     padding:20px;
+    -o-transition:.2s;
+    -ms-transition:.2s;
+    -moz-transition:.2s;
+    -webkit-transition:.2s;
+    /* ...and now for the proper property */
+    transition:.2s;
 }
 
 .app-download hr {
@@ -1474,7 +1485,8 @@ background-image: url("https://www.transparenttextures.com/patterns/subtle-white
 } */
 
 .app-download a:hover {
-
+    -webkit-filter: drop-shadow(1px 2px 5px #AEAEAE);
+    filter: drop-shadow(1px 2px 5px #AEAEAE);
 }
 
 /*videowalls */
