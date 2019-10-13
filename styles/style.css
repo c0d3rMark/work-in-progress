@@ -1,3 +1,5 @@
+/*start global ------------------------------------*/
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -13,13 +15,13 @@ html {
     scroll-behavior: smooth;
   }
 
-/*Global*/
-
 .container {
     width: 80%;
     margin: auto;
     overflow: hidden;
 }
+
+/* -------------------------------------- end global */
 
 ul {
     margin: 0;
@@ -733,7 +735,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     filter: grayscale(100%);
 } */
 
-/*index list*/
+/*start led video (home) -----------------------------*/
 
 .products ul {
     list-style: none;
@@ -748,7 +750,27 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     border-bottom: 3px solid #3FC1C1;
 }
 
-/*Boxes*/
+.led-container {
+    background-color: yellow; 
+}
+
+.led-video {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: max-content;
+    grid-gap: 20px;
+    padding: 10px;
+    padding-bottom: 40px;
+}
+
+.led-video-text {
+    height: 100%;
+    vertical-align: middle;
+}
+
+/* ----------------------------- end led video (home) */
+
+/*start boxes ----------------------------------------*/
 
 #boxes {
     /* background-color: #262626; */
@@ -831,6 +853,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     margin-top: 40px;
     margin-bottom: 0px;
 }
+
+/* --------------------------------------------- end boxes */
 
 /* Digital signage on home page */
 .signage {
