@@ -1204,7 +1204,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 /*bg images for parallax*/
 
 /* .bg_img1, */
-.bg_img2,
+/* .bg_img2, */
 .bg_img3,
 .bg_img5,
 .bg_img8,
@@ -1224,10 +1224,10 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 } */
 
 
-.bg_img2 {
+/* .bg_img2 {
     background: url('../images/modern-pattern-color-flipped.jpg') no-repeat;
     background-attachment: fixed;
-}
+} */
 
 .bg_img3 {
     background: url('../images/modern-pattern-color-flipped.jpg') no-repeat;
@@ -1338,10 +1338,10 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     box-shadow: 0px 0px 4px black; */
 }
 
-#telechamp img {
+#telechamp .fusion-showcase img {
     width: 600px;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     /* -webkit-filter: drop-shadow(3px 5px 3px #ADADAD);
     filter: drop-shadow(3px 5px 3px #ADADAD); */
 }
@@ -1349,6 +1349,46 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 #telechamp p,
 #telechamp h2 {
     color: black;
+}
+
+#telechamp h3 {
+    font-size: 18px;
+    /* font-weight: normal; */
+    margin-bottom: 30px;
+}
+
+#telechamp hr {
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 8px;
+    background-color: #FFAC26;
+    box-shadow: inset 1px 1px 3px #B36000;
+}
+
+.client-logos {
+    width: 80%;
+    margin:auto;
+    line-height: 50px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.software-clients img {
+    max-width: 110px;
+    max-height: 60px;
+    /* vertical-align: middle; */
+    -webkit-filter: drop-shadow(0px 1px 1px #ADADAD);
+    filter: drop-shadow(0px 1px 1px #ADADAD);
+}
+
+.fusion-color-logo img {
+    width: 200px;
+    margin-bottom: 20px;
+    /* -webkit-filter: drop-shadow(0px 1px 0px #ADADAD);
+    filter: drop-shadow(0px 1px 0px #ADADAD); */
 }
 
 /* #telechamp p {
