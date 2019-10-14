@@ -753,13 +753,13 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     margin-top: 20px;
 }
 
-.led-border {
+/* .led-border {
     border-bottom: 1px solid #d6d6d6;
-}
+} */
 
 .led-container,
 .interact-container {
-    min-height: 87vh;
+    min-height: 80vh;
     padding-top: 50px;
 }
 
@@ -875,6 +875,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     height: 15px;
     width: 15px;
     margin: 0 2px;
+    margin-bottom: 30px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
@@ -882,7 +883,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
   }
 
   .active, .dot:hover {
-    background-color: #717171;
+    /* background-color: #717171; */
+    background-color: #4C6971;
   }
 
   /* Fading animation */
@@ -1473,11 +1475,6 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     color: #13282D;
 } */
 
-.wrapper h2 {
-    font-size: 30px;
-    font-weight: bold;
-}
-
 .wrapper p {
     word-wrap: break-word;
     margin-right: 15px;
@@ -1488,18 +1485,18 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     /* position: relative; */
     padding-top: 20px;
     background-color: #ffffff;
-    min-height: 87vh;
+    min-height: 80vh;
     /* border-top: #DBDBDB 1px solid;
     border-bottom: #DBDBDB 1px solid; */
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 8px;
     /* -webkit-box-shadow: 0px 0px 4px black;
     box-shadow: 0px 0px 4px black; */
 }
 
 #telechamp .fusion-showcase img {
-    width: 520px;
-    margin-top: 50px;
+    width: 500px;
+    margin-top: 30px;
     margin-bottom: 30px;
     /* -webkit-filter: drop-shadow(3px 5px 3px #ADADAD);
     filter: drop-shadow(3px 5px 3px #ADADAD); */
@@ -1532,12 +1529,12 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     display: flex;
     justify-content:space-around;
     align-items: center;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 .software-clients img {
     max-width: 110px;
-    max-height: 60px;
+    max-height: 50px;
     /* vertical-align: middle; */
     -webkit-filter: drop-shadow(0px 1px 1px #ADADAD);
     filter: drop-shadow(0px 1px 1px #ADADAD);
@@ -2386,6 +2383,7 @@ aside#sidebar .quote textarea {
     content: "";
     display: block;
     margin: 0 auto;
+    margin-top: 10px;
     width: 120px;
     height: 5px;
     background-color: #4C6971;
