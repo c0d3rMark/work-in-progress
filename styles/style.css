@@ -72,7 +72,7 @@ ul {
 .btn,
 .hero-button {
     margin-top: 50px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .show_btn a {
@@ -391,7 +391,7 @@ nav ul li:hover ul {
     /* flex-wrap: wrap; */
     /* position: relative; */
     /* min-height: 700px; */
-    height: 100vh;
+    min-height: 100vh;
     /* background-color: #ffffff; */
     background-color: #ffffff;
 background-image: url("https://www.transparenttextures.com/patterns/subtle-white-feathers.png");
@@ -750,8 +750,19 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     border-bottom: 3px solid #3FC1C1;
 }
 
+.led-border {
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+}
+
 .led-container {
-    background-color: yellow; 
+    min-height: 87vh;
+    padding-top: 50px;
+}
+
+.led-container hr {
+    margin-top: 40px;
+    width: 250px;
 }
 
 .led-video {
@@ -761,11 +772,21 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     grid-gap: 20px;
     padding: 10px;
     padding-bottom: 40px;
+    margin-top: 30px;
+}
+
+.led-video-img img {
+    -webkit-filter: drop-shadow(3px 5px 3px #ADADAD);
+    filter: drop-shadow(3px 5px 3px #ADADAD);
 }
 
 .led-video-text {
-    height: 100%;
-    vertical-align: middle;
+    display: grid;
+    grid-template-columns: 1fr;
+    /* align-content: center; */
+    align-items: center;
+    /* justify-content: center; */
+    padding: 10px;
 }
 
 /* ----------------------------- end led video (home) */
@@ -1353,17 +1374,17 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     position: relative;
     padding-top: 20px;
     background-color: #ffffff;
-    min-height: 120px;
+    min-height: 87vh;
     /* border-top: #DBDBDB 1px solid;
     border-bottom: #DBDBDB 1px solid; */
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     /* -webkit-box-shadow: 0px 0px 4px black;
     box-shadow: 0px 0px 4px black; */
 }
 
 #telechamp .fusion-showcase img {
-    width: 600px;
+    width: 520px;
     margin-top: 50px;
     margin-bottom: 30px;
     /* -webkit-filter: drop-shadow(3px 5px 3px #ADADAD);
