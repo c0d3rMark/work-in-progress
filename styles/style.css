@@ -294,7 +294,7 @@ nav ul li ul {
 }
 
 nav ul li ul li {
-    min-width: 200px;
+    min-width: 180px;
 }
 
 nav ul li ul li a {
@@ -315,11 +315,11 @@ nav ul li ul li a {
 nav ul li ul li a:hover {
     letter-spacing: 0.5px;
     padding: 9px 10px;
-    background-color: #d6d6d6;
+    background-color: #fafafa;
     margin: 1px 1px;
     /* border: #4C6971 1px solid; */
-    -webkit-box-shadow: 0px 0px 3px #AEAEAE;
-    box-shadow: 0px 0px 3px #AEAEAE;
+    -webkit-box-shadow: inset 0px 0px 4px #AEAEAE;
+    box-shadow: inset 0px 0px 4px #AEAEAE;
     color: #4C6971;
 }
 
@@ -413,7 +413,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     /* padding-top: 120px; */
 }
 
-#showcase img {
+#showcase .hero-img img {
     float: right;
     margin-top: 120px;
     /* margin-right: 0px; */
@@ -463,6 +463,37 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     width: 100%;
     text-align: center;
 }
+
+#showcase .scroll img {
+    width: 40px;
+    margin: auto;
+}
+
+/* start BOUNCE EFFECT ----------------------------------------*/
+
+@-moz-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% { -moz-transform: translateY(0); transform: translateY(0); }
+	40% { -moz-transform: translateY(-7px); transform: translateY(-7px); }
+	60% { -moz-transform: translateY(-4px); transform: translateY(-4px); }
+}
+@-webkit-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% { -webkit-transform: translateY(0); transform: translateY(0); }
+	40% { -webkit-transform: translateY(-7px); transform: translateY(-7px); }
+	60% { -webkit-transform: translateY(-4px); transform: translateY(-4px); }
+}
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% { -moz-transform: translateY(0); -ms-transform: translateY(0); -webkit-transform: translateY(0); transform: translateY(0); }
+	40% { -moz-transform: translateY(-7px); -ms-transform: translateY(-7px); -webkit-transform: translateY(-7px); transform: translateY(-7px); }
+	60% { -moz-transform: translateY(-4px); -ms-transform: translateY(-4px); -webkit-transform: translateY(-4px); transform: translateY(-4px); }
+}
+
+.bounce {
+	-moz-animation: bounce 3s infinite;
+	-webkit-animation: bounce 3s infinite;
+	animation: bounce 3s infinite;
+}
+
+/* --------------------------------------------------- end bounce effect */
 
 /* #showcase .partner_style p {
     font-size: 17px;
