@@ -219,7 +219,7 @@ header {
 
 header a {
     color: black;
-    font-size: 16px;
+    font-size: 17px;
     display: block;
     text-decoration: none;
     padding: 20px 12px;
@@ -239,8 +239,8 @@ header .current a {
 }
 
 header a:hover {
-    color: #3FC1C1;
-    text-shadow: 1px 1px 1px black;
+    color: #4C6971;
+    text-shadow: 0px 1px 0px black;
 }
 
 header #branding {
@@ -272,7 +272,7 @@ header img:hover {
     filter: drop-shadow(3px 3px 2px black);
 }
 
-/*Drop down*/
+/*start drop menu ---------------------------------------*/
 
 #drop {
     width: 80%;
@@ -301,45 +301,48 @@ nav ul li ul li a {
     padding: 10px 10px;
     color: black;
     text-shadow: none;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .drop li a {
     padding: 10px 10px;
     color: black;
     text-shadow: none;
-    font-size: 18px;
+    /* font-size: 16px; */
     -webkit-text-stroke: unset;
 }
 
 nav ul li ul li a:hover {
     letter-spacing: 0.5px;
     padding: 9px 10px;
-    background-color: #262626;
-    border: white 1px solid;
-    -webkit-box-shadow: 0px 0px 3px black;
-    box-shadow: 0px 0px 3px black;
-    color: #3FC1C1;
+    background-color: #d6d6d6;
+    margin: 1px 1px;
+    /* border: #4C6971 1px solid; */
+    -webkit-box-shadow: 0px 0px 3px #AEAEAE;
+    box-shadow: 0px 0px 3px #AEAEAE;
+    color: #4C6971;
 }
 
-.drop li a:hover {
+/* .drop li a:hover {
     letter-spacing: 0.5px;
     padding: 9px 10px;
     border: white 1px solid;
-    -webkit-box-shadow: 0px 0px 3px black;
-    box-shadow: 0px 0px 3px black;
-}
+    -webkit-box-shadow: 0px 0px 3px #AEAEAE;
+    box-shadow: 0px 0px 3px #AEAEAE;
+} */
 
 nav ul li:hover ul {
     display: block;
     overflow: auto;
-    -webkit-filter: drop-shadow(0px 2px 6px black);
-    filter: drop-shadow(0px 2px 6px black);
-    background-color: #f4f4f4;
-    border: black 1.5px solid;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    -webkit-filter: drop-shadow(0px 3px 2px #ADADAD);
+    filter: drop-shadow(0px 3px 2px #ADADAD);
+    background-color: #fafafa;
+    border: #d6d6d6 1px solid;
+    /* border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px; */
 }
+
+/* ------------------------------------------- end drop menu */
 
 /*Top Bar*/
 
