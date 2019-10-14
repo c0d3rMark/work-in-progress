@@ -235,12 +235,14 @@
 
         <!--Software-->
 
-        <div class="led-border">
+        <div class="slideshow-container">
+
+        <div class="led-border mySlides fade">
         <div id="telechamp">
             <div class="container">
-                <div class="wrapper">
+                <!-- <div class="wrapper">
                     <div class="circle">
-                    </div>
+                    </div> -->
                     <div class="fusion-showcase">
                         <img src="images/fusion-signage-computer.png">
                     </div>
@@ -267,7 +269,7 @@
                         <img src="images/ramsayhealth-logo.png">
                         <img src="images/noodlebox-logo.png">
                         </div>
-                        </div>
+                        <!-- </div> -->
                     <div class="btn">
                         <a href="content-management-software.html">Learn more</a>
                     </div>
@@ -286,7 +288,7 @@
             </div></a>
         </div> -->
 
-        <div class="led-border">
+        <div class="led-border mySlides fade">
         <div class="container led-container">
             <h2>LED Video Walls</h2><hr>
             <div class="products led-video">
@@ -319,7 +321,7 @@
             </div></a>
         </div> -->
 
-        <div class="led-border">
+        <div class="led-border mySlides fade">
         <div class="container interact-container">
             <h2>Interactive displays</h2><hr>
             <div class="products interact-displays">
@@ -341,6 +343,17 @@
             </div>
         </div>
     </div>
+      <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<!-- The dots/circles -->
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
     </section>
 
     <!--Empty Space-->
@@ -388,7 +401,7 @@
         <div class="border-footer"></div>
         <p>Avido, Copyright &copy; 2019</p>
     </footer>
-
+    <script src="scripts/carousel.js"></script>
 </body>
 
 </html>
