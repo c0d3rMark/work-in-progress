@@ -1,0 +1,45 @@
+.container {
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    margin-top: 0;
+    background-color: green;
+}
+
+.box-red {
+    height: 400px;
+    width: 100%;
+    background-color: red;
+    display: block;
+}
+
+.box-blue {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 200px;
+}
+
+/* .box1::before {
+    position: absolute;
+    box-shadow: inset 0 0 8px 0 rgba(0,0,0,.25);
+    top: -9px;
+    right: -7px;
+    bottom: -8px;
+    left: -9px;
+    content: "";
+} */
+
+.box1 {
+    background-color: blue;
+    margin-top: -50px;
+}
+
+.box1 img {
+    display: block;
+    width: 100%;
+    position: relative;
+}
+
+.box {
+
+}
