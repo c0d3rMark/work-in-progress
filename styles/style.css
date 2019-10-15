@@ -578,7 +578,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 /*Signage showcase*/
 
 #showcase_sign {
-    min-height: 540px;
+    min-height: 520px;
     background: url('../images/banner-template.png') no-repeat;
     /* background-attachment: fixed; */
     background-position: bottom right;
@@ -1212,7 +1212,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 .signage-explainer {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-gap: 20px;
+    grid-gap: 40px;
+    align-items: center;
 }
 
 .signage-hero {
@@ -1227,9 +1228,16 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     /* position: absolute; */
     width: 100%;
     margin: auto;
+    -webkit-filter: drop-shadow(3px 5px 3px #ADADAD);
+    filter: drop-shadow(3px 5px 3px #ADADAD);
     /* margin-top: -35px; */
     /* z-index: 1;
     border-image-slice: 25 25; */
+}
+
+.section-border {
+    border-bottom: 1px solid #d6d6d6;
+    margin-bottom: 50px;
 }
 
 .sign_intro {
@@ -1237,11 +1245,11 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     font-size: 18px;
 }
 
-.box_sign {
+/* .box_sign {
     width: 100%;
     text-align: left;
     color: black;
-}
+} */
 
 .box_list {
     background: rgba(38, 38, 38, 0.9);
@@ -1296,10 +1304,10 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     filter: drop-shadow(5px 8px 10px black);
 }
 
-.what_is {
+/* .what_is {
     margin-top: 5px;
     margin-bottom: 0px;
-}
+} */
 
 .box_list h2:after,
 .box_list h2::after {
@@ -1346,11 +1354,11 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     filter: drop-shadow(2px 1px 1px black);
 }
 
-.what_is h2 {
+/* .what_is h2 {
     font-size: 30px;
     font-weight: bold;
     margin-top: 0;
-}
+} */
 
 .what_is h2:after,
 .what_is h2::after {
@@ -1542,7 +1550,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     background-attachment: fixed;
 } */
 
-.bg_img6 {
+/* .bg_img6 {
     background: url('../images/tri-color.jpg') no-repeat;
     background-attachment: fixed;
     position: relative;
@@ -1551,7 +1559,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     height: 300px;
     border-top: #DBDBDB 1px solid;
     opacity: 1;
-}
+} */
 
 .bg_img8 {
     background: url('../images/abstract-light-min.png') no-repeat;
@@ -2949,10 +2957,10 @@ footer {
         background-attachment: scroll;
     }
 
-    .bg_img6 {
+    /* .bg_img6 {
         background: url('../images/tri-color-ipro.jpg') no-repeat;
         background-attachment: scroll;
-    }
+    } */
 
     .box_contact {
         background: url('../images/tri-color-ipro.jpg') no-repeat 0 -305px;
@@ -3471,7 +3479,7 @@ footer {
     .bg_img2,
     .bg_img3,
     .bg_img5,
-    .bg_img6,
+    /* .bg_img6, */
     .bg_img8,
     .bg_imgInteract {
         height: 220px;
@@ -3698,10 +3706,10 @@ footer {
         font-size: 17px;
     }
 
-    .bg_img6 {
+    /* .bg_img6 {
         background: url('../images/tri-color-ipad.jpg') no-repeat;
         background-attachment: scroll;
-    }
+    } */
 
     .box_contact {
         background: url('../images/tri-color-ipad.jpg') no-repeat 0 -64px;
@@ -4471,10 +4479,10 @@ footer {
         background-attachment: scroll;
     }
 
-    .bg_img6 {
+    /* .bg_img6 {
         background: url('../images/tri-color-mobile.jpg') no-repeat;
         background-attachment: scroll;
-    }
+    } */
 
     .box_contact {
         background: url('../images/tri-color-mobile.jpg') no-repeat 0 -41px;
