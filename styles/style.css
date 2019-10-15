@@ -240,7 +240,7 @@ header .current a {
 
 header a:hover {
     color: #4C6971;
-    text-shadow: 0px 1px 0px black;
+    /* text-shadow: 0px 1px 0px black; */
 }
 
 header #branding {
