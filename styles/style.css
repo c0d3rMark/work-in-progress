@@ -584,7 +584,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     background-position: bottom right;
     padding-top: 90px;
     text-align: left;
-    border-bottom: 1px solid #d6d6d6;
+    /* border-bottom: 1px solid #d6d6d6; */
     position: relative;
 }
 
@@ -1209,6 +1209,28 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     margin-bottom: 0px;
 }
 
+.signage-explainer {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.signage-hero {
+    /* display: flex; */
+    width: 100%;
+    /* z-index: 1;
+    margin-top: -35px;
+    position: absolute; */
+}
+
+.signage-hero img {
+    /* position: absolute; */
+    width: 90%;
+    margin: auto;
+    /* margin-top: -35px; */
+    /* z-index: 1;
+    border-image-slice: 25 25; */
+}
+
 .sign_intro {
     text-align: center;
     font-size: 18px;
@@ -1326,6 +1348,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 .what_is h2 {
     font-size: 30px;
     font-weight: bold;
+    margin-top: 0;
 }
 
 .what_is h2:after,
