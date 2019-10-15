@@ -515,11 +515,11 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     opacity: 0.7;
 }
 
-.partner_style img {
+/* .partner_style img {
     max-width: 100px;
     display: inline-block;
     margin: 0;
-}
+} */
 
 /* #showcase .partner_style p::after {
     content: "";
@@ -578,21 +578,22 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 /*Signage showcase*/
 
 #showcase_sign {
-    min-height: 665px;
-    background: url('../images/tri-color.jpg') no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+    min-height: 540px;
+    background: url('../images/banner-template.png') no-repeat;
+    /* background-attachment: fixed; */
+    background-position: bottom right;
+    padding-top: 90px;
     text-align: left;
-    border-bottom: black 1.3px solid;
+    border-bottom: 1px solid #d6d6d6;
     position: relative;
 }
 
-.showSign_screen {
+/* .showSign_screen {
     min-height: 665px;
     float: right;
-}
+} */
 
-.showSign_screen img {
+/* .showSign_screen img {
     margin-top: 10px;
     padding-top: 125px;
     width: 500px;
@@ -601,26 +602,46 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     -webkit-filter: drop-shadow(5px 8px 10px black);
     filter: drop-shadow(5px 8px 10px black);
     padding-bottom: 25px;
-}
+} */
 
 #showcase_sign h1 {
-    margin-top: 320px;
+    /* margin-top: 320px;
     font-size: 35px;
-    text-align: center;
+    text-align: left;
     margin-bottom: 10px;
     color: white;
     text-shadow: 1px 1px 3px black;
+    -webkit-filter: contrast(105%);
+    filter: contrast(105%); */
+    /* opacity: 1; */
+    text-align: left;
+    margin-top: 120px;
+    /* margin-left: 20px; */
+    font-size: 45px;
+    font-weight: 100;
+    color: #262626;
     -webkit-filter: contrast(105%);
     filter: contrast(105%);
 }
 
 #showcase_sign p {
-    font-size: 25px;
+    /* font-size: 25px;
     text-align: center;
     color: white;
     text-shadow: 1px 1px 3px black;
     -webkit-filter: contrast(105%);
+    filter: contrast(105%); */
+    text-align: left;
+    font-size: 20px;
+    color: #262626;
+    -webkit-filter: contrast(105%);
     filter: contrast(105%);
+}
+
+#showcase_sign hr {
+    width:25%;
+    margin: 0;
+    margin-top: 30px;
 }
 
 /*Showcase_interact*/
