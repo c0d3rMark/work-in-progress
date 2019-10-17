@@ -1392,12 +1392,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     /* height: 550px; */
     /* display: -webkit-box;
     display: -ms-flexbox; */
-    display: flex; 
+    /* display: flex;  */
     padding: 10px;
-    /* border: 25px solid;
-    -o-border-image: url(/img/cont-frame-tv.png) round;
-    border-image: url(/images/tv-border.png);
-    border-image-slice: 25 25; */
 }
 
 .sign_pic img {
