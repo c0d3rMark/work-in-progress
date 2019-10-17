@@ -1,0 +1,18 @@
+New styles from Enplug
+
+- Fonts - Raleway, "Helvetica Neue"
+- hero color (#FFFFFF)
+- darker shade (#fafafa)
+- border 1px solid (#d6d6d6) - used to break up each section
+- hero uses bg img 
+- shadow under tv (#8E8F93 - line & #D8D8D8)
+
+- new sahdow (#ADADAD for #FFFFFF) approx 30% darker
+- FAFAFA && Shadow #AEAEAE
+- dark grey (#d6d6d6) lines and dark areas
+- dark green #4C6971 && shadow = #19363E
+
+- avido green (#3FC1C1) shadow = #007575
+- fusion orange (#FFAC26) & shadow #B36000
+
+- tv border color: #1D242C
