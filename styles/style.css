@@ -1253,7 +1253,29 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     /* z-index: 1;
     margin-top: -35px;
     position: absolute; */
+    /* border */
+    border: 25px solid;
+    /* -o-border-image: url(/img/cont-frame-tv.png) round; */
+    border-image: url(/images/tv-border.png) round;
+    border-image-slice: 25 25;
+    margin: 0 auto;
+    /* border-image-outset: 0px;
+    border-image-slice: fill; */
+    /* max-width: 911px; */
+    /* position: relative; */
+    -webkit-filter: drop-shadow(3px 5px 3px #ADADAD);
+    filter: drop-shadow(3px 5px 3px #ADADAD);
 }
+
+/* .signage-hero:before {
+    position: absolute;
+    box-shadow: inset 0 0 8px 0 rgba(0,0,0,.25);
+    top: -9px;
+    right: -7px;
+    bottom: -8px;
+    left: -9px;
+    content: "";
+} */
 
 .signage-hero img {
     /* position: absolute; */
