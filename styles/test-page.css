@@ -3,7 +3,7 @@
     height: 100vh;
     margin: auto;
     margin-top: 0;
-    background-color: green;
+    /* background-color: green; */
 }
 
 .box-red {
@@ -19,9 +19,9 @@
     height: 200px;
 }
 
-/* .box-border {
-    border: 5px solid black;
-} */
+.box1 {
+    /* border: 5px solid black; */
+}
 
 /* .box1::before {
     position: absolute;
@@ -33,33 +33,30 @@
     content: "";
 } */
 
+.box-border {
+
+}
+
+/* start working border frame code --------------------- */
+
+/* applied directly to img container */
+
 .box1 {
+    display: inline-flex;
     border: 25px solid;
-    /* -o-border-image: url(/img/cont-frame-tv.png) round; */
-    border-image: url(/images/tv-border-cropped.png) round;
-    border-image-slice: 25 25;
-    width: 100%;
-    height: 100%;
-    box-shadow: inset 5px 5px 10px black;
+    border-width: 11px;
+    border-image: url(/images/tv-border.png);
+    border-image-slice: 25;
+    border-image-outset: 0;
+    border-image-width: 18px;
+    flex-wrap: wrap;
+    position: relative;
 }
 
 .box1 img {
-    /* display: block;
+    z-index: -1;
+    padding: 0;
     width: 100%;
-    position: relative;
-    z-index: 0; */
-    background-image: url(/images/screen-content.png);
-    width: 100%;
-    height: 100%;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-color: #1d242c;
-    background-size: contain;
-    margin: -10px -9px -10px -9px;
-    position: relative;
-    /* z-index: -1;  */
 }
 
-.box {
-
-}
+/* --------------------- end working border frame code */

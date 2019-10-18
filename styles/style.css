@@ -1258,32 +1258,30 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 } */
 
 .hero-content {
-    /* background-image: url(/images/screen-content.png); */
-    width: 100%;
-    height: 100%;
-    /* background-position: 50% 50%; */
-    background-position: center;
-    background-repeat: no-repeat;
-    /* background-color: #1d242c; */
-    background-size: cover;
-    margin: -10px -9px -15px -9px;
+    display: inline-flex;
+    border: 25px solid;
+    border-width: 12px;
+    border-image: url(/images/tv-border.png);
+    border-image-slice: 25;
+    border-image-outset: 0;
+    border-image-width: 18px;
+    flex-wrap: wrap;
     position: relative;
-    z-index: -1; 
 }
 
 .signage-hero {
     /* display: flex; */
     /* width: 100%; */
-    display: block;
+    /* display: block; */
     /* height: 100%; */
     /* z-index: 1; */
     /*margin-top: -35px;
     position: absolute; */
     /* border */
-    border: 25px solid;
+    /* border: 25px solid; */
     /* -o-border-image: url(/img/cont-frame-tv.png) round; */
-    border-image: url(/images/tv-border.png);
-    border-image-slice: 25 25;
+    /* border-image: url(/images/tv-border.png);
+    border-image-slice: 25 25; */
     /* margin: 0 auto; */
     /* border-image-outset: 0px; */
     /* border-image-slice: fill;  */
@@ -1297,17 +1295,9 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 }
 
 .signage-hero img {
-    /* position: absolute; */
-    /* display: block; */
-    /* width: 100%; */
-    /* margin: -9px -29px -5px -9px; */
-    /* margin: 0 auto; */
-    /* -webkit-filter: drop-shadow(3px 5px 3px #ADADAD);
-    filter: drop-shadow(3px 5px 3px #ADADAD); */
-    /* margin-top: -35px; */
-    /* z-index: -1; */
-    /* border-image-slice: 25 25; */
-    /* box-sizing: border-box; */
+    z-index: -1;
+    padding: 0;
+    width: 100%;
 }
 
 .section-border {
@@ -1393,7 +1383,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     /* display: -webkit-box;
     display: -ms-flexbox; */
     /* display: flex;  */
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 .sign_pic img {
