@@ -60,3 +60,23 @@
 }
 
 /* --------------------- end working border frame code */
+
+.sign_pic {
+    display: flex;
+    border: 25px solid;
+    border-width: 8px;
+    border-image: url(/images/tv-border.png);
+    border-image-slice: 25 fill;
+    border-image-outset: 0;
+    border-image-width: 18px;
+    flex-wrap: wrap;
+    position: relative;
+    width: min-content; /*used with flex*/
+}
+
+.sign_pic img {
+    z-index: -1;
+    padding: 0;
+    width: 370px;
+
+}

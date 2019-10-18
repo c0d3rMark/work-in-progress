@@ -1247,54 +1247,19 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     align-items: center;
 }
 
-/* .signage-hero:before {
-    position: absolute;
-    box-shadow: inset 0 0 8px 0 rgba(0,0,0,.25);
-    top: -9px;
-    right: -7px;
-    bottom: -8px;
-    left: -9px;
-    content: "";
-} */
-
 .hero-content {
     display: inline-flex;
     border: 25px solid;
     border-width: 12px;
     border-image: url(/images/tv-border.png);
-    border-image-slice: 25;
+    border-image-slice: 25 fill;
     border-image-outset: 0;
     border-image-width: 18px;
     flex-wrap: wrap;
     position: relative;
 }
 
-.signage-hero {
-    /* display: flex; */
-    /* width: 100%; */
-    /* display: block; */
-    /* height: 100%; */
-    /* z-index: 1; */
-    /*margin-top: -35px;
-    position: absolute; */
-    /* border */
-    /* border: 25px solid; */
-    /* -o-border-image: url(/img/cont-frame-tv.png) round; */
-    /* border-image: url(/images/tv-border.png);
-    border-image-slice: 25 25; */
-    /* margin: 0 auto; */
-    /* border-image-outset: 0px; */
-    /* border-image-slice: fill;  */
-    /* max-width: 911px; */
-    /* position: relative; */
-    /* -webkit-filter: drop-shadow(3px 5px 3px #ADADAD);
-    filter: drop-shadow(3px 5px 3px #ADADAD); */
-    /* background-image: url(/images/shop.jpg);
-    height: 100%; */
-    /* box-shadow: inset 5px 5px 10px black; */
-}
-
-.signage-hero img {
+.hero-content img {
     z-index: -1;
     padding: 0;
     width: 100%;
@@ -1333,7 +1298,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     /* text-align: center; */
     /* height: auto; */
     /* width: 100%; */
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     /* border-bottom: 1px solid #d6d6d6; */
 }
 
@@ -1375,25 +1340,37 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 }
 
 .sign_pic {
-    /* width: 100%; */
-    /* float: left; */
-    /* text-align: center; */
-    /* margin: auto; */
-    /* height: 550px; */
-    /* display: -webkit-box;
-    display: -ms-flexbox; */
-    /* display: flex;  */
-    /* padding: 10px; */
+    display: inline-flex;
+    border: 25px solid;
+    border-width: 10px;
+    border-image: url(/images/tv-border.png);
+    border-image-slice: 25 fill;
+    border-image-outset: 0;
+    border-image-width: 18px;
+    flex-wrap: wrap;
+    position: relative;
+    width: min-content;
+    /* height: max-content; */
+    margin: 0 auto;
 }
 
 .sign_pic img {
+    z-index: -1;
+    max-width: 350px;
+    /* padding: 0; */
+    /* width: 50%;
+    height: 100%; */
+
+}
+
+/* .sign_pic img {
     display: flex;
     margin: auto;
-    /* margin-left: auto; */
+    margin-left: auto;
     width: 370px;
     -webkit-filter: drop-shadow(3px 5px 3px #ADADAD);
     filter: drop-shadow(3px 5px 3px #ADADAD);
-}
+} */
 
 /* .what_is {
     margin-top: 5px;
@@ -1442,7 +1419,6 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 }
 
 .mid_sign_text i {
-    /* display: none; */
     margin-right: 10px;
     margin-bottom: 10px;
     /* color: #4C6971;
@@ -3270,7 +3246,7 @@ footer {
 }
 
 @media(max-width: 1216px) {
-    .sign_pic {
+    /* .sign_pic {
         width: 100%;
         float: none;
         text-align: center;
@@ -3280,14 +3256,14 @@ footer {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-    }
+    } */
 
-    .sign_pic img {
+    /* .sign_pic img {
         margin: auto;
         width: 500px;
         -webkit-filter: drop-shadow(5px 8px 10px black);
         filter: drop-shadow(5px 8px 10px black);
-    }
+    } */
 
     .mid_sign_text {
         text-align: center;
