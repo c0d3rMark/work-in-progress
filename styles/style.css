@@ -1474,9 +1474,13 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     content: "";
     display: block;
     margin: 0 auto;
-    width: 500px;
-    padding-top: 20px;
-    border-bottom: 3px solid #3FC1C1;
+    margin-top: 30px;
+    width: 450px;
+    height: 5px;
+    background-color: #4C6971;
+    /* padding-top: 20px; */
+    /* border-bottom: 3px solid #3FC1C1; */
+    box-shadow: inset 1px 1px 3px #19363E;
 }
 
 .sign_button {
