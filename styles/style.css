@@ -1251,7 +1251,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     display: inline-flex;
     border: 25px solid;
     border-width: 12px;
-    border-image: url(images/tv-border.png);
+    border-image: url(../images/tv-border.png);
     border-image-slice: 25 fill;
     border-image-outset: 0;
     border-image-width: 18px;
@@ -1343,7 +1343,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     display: inline-flex;
     border: 25px solid;
     border-width: 10px;
-    border-image: url(images/tv-border.png);
+    border-image: url(../images/tv-border.png);
     border-image-slice: 25 fill;
     border-image-outset: 0;
     border-image-width: 18px;
