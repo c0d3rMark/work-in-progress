@@ -606,17 +606,30 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     text-align: left;
 }
 
-/*Signage showcase*/
+/* start hero banner------------------------------------------------ */
 
-#showcase_sign {
+.hero-banner {
     min-height: 520px;
-    background: url('../images/banner-template.png') no-repeat;
-    /* background-attachment: fixed; */
     background-position: bottom right;
     padding-top: 90px;
     text-align: left;
     /* border-bottom: 1px solid #d6d6d6; */
     position: relative;
+}
+
+/* ------------------------------------------------- end hero banner */
+
+/*Signage showcase*/
+
+#showcase_sign {
+    /* min-height: 520px; */
+    background: url('../images/banner-template.png') no-repeat;
+    /* background-attachment: fixed; */
+    /* background-position: bottom right;
+    padding-top: 90px;
+    text-align: left; */
+    /* border-bottom: 1px solid #d6d6d6; */
+    /* position: relative; */
 }
 
 /* .showSign_screen {

@@ -35,7 +35,8 @@
 <body>
     <div class="topbar">
         <div class="top-content">
-            <p>Australia</p><i class="fas fa-phone-square fa-1x"></i><p>(+61) 1300 019 987</p>
+            <p>Australia</p><i class="fas fa-phone-square fa-1x"></i>
+            <p>(+61) 1300 019 987</p>
         </div>
     </div>
 
@@ -55,6 +56,7 @@
                                     <li><a href="digital-displays-hardware.html">Display Hardware</a></li>
                                 </ul>
                             </li>
+                            <li><a href="insights.html">Insights</a></li>
                             <li><a href="about-us.html">About</a></li>
                             <li><a href="contact-form.html">Contact</a></li>
                         </ul>
@@ -71,6 +73,7 @@
                                     <li><a href="interactive-displays.html">Interactive Displays</a></li>
                                     <li><a href="content-management-software.html">Content Software</a></li>
                                     <li><a href="digital-displays-hardware.html">Display Hardware</a></li>
+                                    <li><a href="insights.html">Insights</a></li>
                                     <li><a href="about-us.html">About</a></li>
                                     <li><a href="contact-form.html">Contact</a></li>
                                 </ul>
@@ -100,10 +103,10 @@
         <div class="container">
             <div class="row">
                 <div class="column">
-                    <img src="images/philips-resize.png" class="philips" alt="philips-logo">
+                    <img src="images/philips-logo-green.png" class="philips" alt="philips-logo">
                 </div>
                 <div class="column">
-                    <img src="images/samsung-cropped.png" class="samsung" alt="samsung-logo">
+                    <img src="images/InFocus-Logo-transp-green.png" class="infocus" alt="infocus-logo">
                 </div>
             </div>
         </div>
@@ -116,21 +119,25 @@
             <div class="box">
                 <a href="digital-displays-hardware.html" aria-label="hardware icon"><i class="fas fa-tv fa-3x"></i></a>
                 <h3>Hardware</h3>
-                <p>As proud Partners of Philips and Samsung we deliver the latest technology and a range of custom
+                <p>As proud Partners of Philips and InFocus we deliver the latest technology and a range of custom
                     display solutions. </p>
             </div>
             <div class="box middle">
-                <a href="content-management-software.html" aria-label="software icon"><i class="far fa-file-video fa-3x"></i></a>
+                <a href="content-management-software.html" aria-label="software icon"><i
+                        class="far fa-file-video fa-3x"></i></a>
                 <h3>Software</h3>
-                <p>Easily create, access, manage and deliver content for all your digital signage from a central point of control.</p>
+                <p>Easily create, access, manage and deliver content for all your digital signage from a central point
+                    of control.</p>
             </div>
             <div class="box middle">
-                <a href="warranty-and-installation.html#installation" aria-label="installation icon"><i class="fas fa-tools fa-3x"></i></a>
+                <a href="warranty-and-installation.html#installation" aria-label="installation icon"><i
+                        class="fas fa-tools fa-3x"></i></a>
                 <h3>Installation</h3>
                 <p>End-to-end solutions to ensure your displays are ready to go and create an impact from day one.</p>
             </div>
             <div class="box">
-                <a href="warranty-and-installation.html" aria-label="warranty icon"><i class="far fa-check-circle fa-3x"></i></a>
+                <a href="warranty-and-installation.html" aria-label="warranty icon"><i
+                        class="far fa-check-circle fa-3x"></i></a>
                 <h3>Warranty</h3>
                 <p>Avido provides a no fuss, pick up and replace 3 year warranty. We stand by the quality of our
                     product..!</p>
@@ -311,30 +318,23 @@
         </div>
     </section>
 
-    <!--<div id="alt_btn" class="btn sign_button">
-        <a href="contact-form.html">Contact Us</a>
-    </div>-->
-
-    <!--<div class="bg_img9">
-        <div class="show_btn">
-            <span>
-                <a href="index.html">Back to Home</a>
-            </span>
-        </div>
-    </div>-->
-
     <div id="alt_btn" class="btn sign_button">
         <a href="digital-displays-hardware.html">Browse Hardware</a>
     </div>
 
-    <form class="on_page_contact" method="POST" action="https://formcarry.com/s/24m4DT_fKb2">
+    <form class="on_page_contact" method="POST" action="scripts/contactform.php">
         <div class="contact_head">
             <h4>Contact Us</h4>
             <i class="fas fa-phone-square fa-1x"></i>
             <p>(+61) 1300 019 987</p><br>
             <i class="fas fa-envelope-square fa-1x"></i>
             <p>contact@avido.com.au</p>
+            <br><br>
+            <p>* All fields required *</p>
         </div>
+        <div> <!--Honeypot-->
+            <input aria-label="firstname" type="text" name="firstname" class="hide-robot">
+       </div>
         <div>
             <label>Name</label><br>
             <input aria-label="name-entry" type="text" name="name" placeholder="Name" required>
@@ -348,7 +348,7 @@
             <textarea aria-label="message-entry" id="message" placeholder="Message" name="message" required></textarea>
             <input type="hidden" name="_gotcha">
         </div>
-        <button class="on_page_submit_btn" type="submit" value="SEND">Submit
+        <button class="on_page_submit_btn" type="submit" name="submit" value="SEND">Submit
         </button>
     </form>
 
@@ -356,14 +356,14 @@
     <div class="color-border"></div>
 
     <footer>
-            <div class="footer-links">
-                    <div><a href="warranty-and-installation.html">Warranty</a></div>
-                    <div><a href="privacy-policy.html">Privacy policy</a></div>
-                    <div class="mid-link"><a href ="digital-displays-hardware.html">Display hardware</a></div>
-                    <div><a href="warranty-and-installation.html#installation">Installation</a></div>
-                    <div><a href="about-us.html">About Us</a></div>
-             </div>
-             <div class="border-footer"></div>
+        <div class="footer-links">
+            <div><a href="warranty-and-installation.html">Warranty</a></div>
+            <div><a href="privacy-policy.html">Privacy policy</a></div>
+            <div class="mid-link"><a href="digital-displays-hardware.html">Display hardware</a></div>
+            <div><a href="warranty-and-installation.html#installation">Installation</a></div>
+            <div><a href="about-us.html">About Us</a></div>
+        </div>
+        <div class="border-footer"></div>
         <p>Avido, Copyright &copy; 2019</p>
     </footer>
 
