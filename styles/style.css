@@ -564,16 +564,16 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 /*Video showcase & other product showcases*/
 
 #showcase_vid {
-    min-height: 665px;
-    background: url('../images/abstract-light-flipped-min.png') no-repeat;
-    background-attachment: fixed;
+    /* min-height: 665px; */
+    background: url('../images/banner-template.png') no-repeat bottom right;
+    /* background-attachment: fixed;
     background-position: center center;
     text-align: left;
     border-bottom: black 1.3px solid;
-    position: relative;
+    position: relative; */
 }
 
-#showcase_vid img {
+/* #showcase_vid img {
     float: left;
     margin-top: 140px;
     margin-left: 80px;
@@ -604,6 +604,26 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     -webkit-filter: contrast(105%);
     filter: contrast(105%);
     text-align: left;
+} */
+
+.vid-top {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.vid-top img {
+    display: flex;
+    width: 380px;
+    margin: auto;
+}
+
+.vid-border {
+    border-top: 1px solid #d6d6d6;
+}
+
+.vid-border h3 {
+    font-size: 30px;
+    text-align: center;
 }
 
 /* start hero banner------------------------------------------------ */
@@ -626,7 +646,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
 .hero-banner h1 {
     text-align: left;
-    margin-top: 120px;
+    margin-top: 115px;
     /* margin-left: 20px; */
     font-size: 45px;
     font-weight: 100;
@@ -1275,7 +1295,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 /*Signage content*/
 
 .topSection {
-    margin-top: 22px;
+    margin-top: 30px;
     margin-bottom: 0px;
 }
 
@@ -1669,7 +1689,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 /* .bg_img2, */
 /* .bg_img3, */
 .bg_img5,
-.bg_img8,
+/* .bg_img8, */
 .bg_imgInteract {
     position: relative;
     text-align: center;
@@ -1708,8 +1728,9 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 } */
 
 .bg_img8 {
-    background: url('../images/abstract-light-min.png') no-repeat;
-    background-attachment: fixed;
+    background: url('../images/subtle-white-feathers.png');
+
+    /* background-attachment: fixed; */
 }
 
 .bg_imgInteract {
@@ -1991,7 +2012,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
 .videowall h4 {
     font-size: 20px;
-    font-weight: bold;
+    /* font-weight: bold; */
     margin-bottom: 0px;
     margin-top: 20px;
 }
@@ -2015,7 +2036,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 .vid_benefits {
     color: black;
     text-align: center;
-    padding-top: 15px;
+    /* padding-top: 30px; */
     font-size: 18px;
 }
 
@@ -3113,15 +3134,15 @@ footer {
         background-attachment: scroll;
     } */
 
-    #showcase_vid {
+    /* #showcase_vid {
         background: url('../images/abstract-light-flipped-ipro.png') no-repeat;
         background-attachment: scroll;
-    }
+    } */
 
-    .bg_img8 {
+    /* .bg_img8 {
         background: url('../images/abstract-light-ipro.png') no-repeat 0 -100px;
         background-attachment: scroll;
-    }
+    } */
 
     #showcase_interact {
         background: url('../images/confetti-ipro.jpg') no-repeat;
@@ -3159,16 +3180,16 @@ footer {
 }
 
 @media(max-width: 1515px) {
-    #showcase_vid h1 {
+    /* #showcase_vid h1 {
         margin-top: 310px;
         margin-bottom: 0px;
-    }
+    } */
 }
 
 @media(max-width: 1455px) {
-    #showcase_sign h1 {
+    /* #showcase_sign h1 {
         margin-top: 300px;
-    }
+    } */
 
     #showcase_software {
         background: url('../images/laptop2.jpg') no-repeat -100px -350px;
@@ -3282,7 +3303,7 @@ footer {
 
 @media(max-width: 1250px) {
 
-    #showcase_vid h1,
+    /* #showcase_vid h1, */
     #showcase_interact h1 {
         margin-top: 260px;
     }
@@ -3346,9 +3367,9 @@ footer {
 
 @media(max-width: 1180px) {
 
-    #showcase_vid img,
+    /* #showcase_vid img,
     #showcase_vid h1,
-    #showcase_vid p,
+    #showcase_vid p, */
     #showcase_interact img,
     #showcase_interact h1,
     #showcase_interact p {
@@ -3358,14 +3379,14 @@ footer {
         margin-right: 0px;
     }
 
-    #showcase_vid img {
+    /* #showcase_vid img {
         display: block;
         margin-left: auto;
         margin-right: auto;
         padding-right: 0px;
         width: 480px;
         margin-top: 170px;
-    }
+    } */
 
     #showcase_interact img {
         display: block;
@@ -3415,8 +3436,8 @@ footer {
         padding-bottom: 10px;
     }
 
-    #showcase_vid h1,
-    #showcase_vid p,
+    /* #showcase_vid h1,
+    #showcase_vid p, */
     #showcase_interact h1,
     #showcase_interact p {
         width: 100%;
@@ -3428,12 +3449,12 @@ footer {
         text-shadow: 1px 1px 3px black;
     }
 
-    #showcase_vid h1,
+    /* #showcase_vid h1, */
     #showcase_interact h1 {
         margin-top: 75px;
     }
 
-    #showcase_vid p,
+    /* #showcase_vid p, */
     #showcase_interact p {
         margin-top: 560px;
     }
@@ -3626,7 +3647,7 @@ footer {
     .bg_img3,
     .bg_img5,
     /* .bg_img6, */
-    .bg_img8,
+    /* .bg_img8, */
     .bg_imgInteract {
         height: 220px;
         background-attachment: scroll;
@@ -3725,7 +3746,7 @@ footer {
 
     /*Showcase headings and text*/
 
-    #showcase_vid h1,
+    /* #showcase_vid h1, */
     #showcase_interact h1 {
         margin-top: 50px;
         font-size: 35px;
@@ -3748,7 +3769,7 @@ footer {
         font-size: 35px;
     }
 
-    #showcase_vid p,
+    /* #showcase_vid p, */
     #showcase_interact p,
     #showcase_software p {
         font-size: 25px;
@@ -3786,14 +3807,14 @@ footer {
         min-height: 400px;
     }
 
-    .showSign_screen {
+    /* .showSign_screen {
         float: none;
         min-height: 0px;
         width: 100%;
         text-align: center;
         margin-left: 0px;
         margin-right: 0px;
-    }
+    } */
 
     /* #showcase_sign {
         position: relative;
@@ -3873,29 +3894,29 @@ footer {
 
     /*Video Wall top and bottom images*/
 
-    #showcase_vid {
+    /* #showcase_vid {
         background: url('../images/abstract-light-flipped-ipad.png') no-repeat;
         background-attachment: scroll;
         min-height: 400px;
-    }
+    } */
 
-    .bg_img8 {
+    /* .bg_img8 {
         background: url('../images/abstract-light-ipad.png') no-repeat 0 -100px;
         background-attachment: scroll;
-    }
+    } */
 
-    #showcase_vid h1 {
+    /* #showcase_vid h1 {
         margin-top: 0px;
-    }
+    } */
 
-    #showcase_vid p {
+    /* #showcase_vid p {
         margin-top: 320px;
-    }
+    } */
 
-    #showcase_vid img {
+    /* #showcase_vid img {
         width: 300px;
         margin-top: 70px;
-    }
+    } */
 
     /*Interactive page top and bottom images*/
 
@@ -4266,17 +4287,17 @@ footer {
 
 @media(max-width: 660px) {
 
-    #showcase_vid h1,
+    /* #showcase_vid h1, */
     #showcase_interact h1 {
         margin-top: 5px;
     }
 
-    #showcase_vid p,
+    /* #showcase_vid p, */
     #showcase_interact p {
         margin-top: 320px;
     }
 
-    #showcase_vid img,
+    /* #showcase_vid img, */
     #showcase_interact img {
         width: 260px;
         margin-top: 80px;
@@ -4538,7 +4559,7 @@ footer {
 
     #showcase,
     /* #showcase_sign, */
-    #showcase_vid,
+    /* #showcase_vid, */
     #showcase_interact,
     #showcase_software,
     #showcase_about {
@@ -4564,7 +4585,7 @@ footer {
 
     #showcase h1,
     /* #showcase_sign h1, */
-    #showcase_vid h1,
+    /* #showcase_vid h1, */
     #showcase_interact h1,
     #showcase_software h1,
     #showcase_about h1 {
@@ -4573,7 +4594,7 @@ footer {
 
     #showcase p,
     /* #showcase_sign p, */
-    #showcase_vid p,
+    /* #showcase_vid p, */
     #showcase_interact p,
     #showcase_software p {
         font-size: 20px;
@@ -4589,21 +4610,21 @@ footer {
         height: auto;
     }
 
-    #showcase_vid img {
+    /* #showcase_vid img {
         width: 220px;
-    }
+    } */
 
     #showcase_interact img {
         width: 200px;
         margin-top: 90px;
     }
 
-    #showcase_vid h1,
+    /* #showcase_vid h1, */
     #showcase_interact h1 {
         margin-top: 10px;
     }
 
-    #showcase_vid p,
+    /* #showcase_vid p, */
     #showcase_interact p {
         margin-top: 275px;
     }
@@ -4635,15 +4656,15 @@ footer {
         background-attachment: scroll;
     } */
 
-    #showcase_vid {
+    /* #showcase_vid {
         background: url('../images/abstract-light-flipped-mobile.png') no-repeat;
         background-attachment: scroll;
-    }
+    } */
 
-    .bg_img8 {
+    /* .bg_img8 {
         background: url('../images/abstract-light-mobile.png') no-repeat 0 -50px;
         background-attachment: scroll;
-    }
+    } */
 
     #showcase_interact {
         background: url('../images/confetti-mobile.jpg') no-repeat;
