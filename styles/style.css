@@ -610,11 +610,37 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
 .hero-banner {
     min-height: 520px;
-    background-position: bottom right;
-    padding-top: 90px;
+    /* background-position: bottom; */
+    padding-top: 80px;
+    padding-bottom: 0px;
     text-align: left;
     /* border-bottom: 1px solid #d6d6d6; */
-    position: relative;
+    /* position: relative; */
+}
+
+.hero-banner hr {
+    width:25%;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.hero-banner h1 {
+    text-align: left;
+    margin-top: 120px;
+    /* margin-left: 20px; */
+    font-size: 45px;
+    font-weight: 100;
+    color: #262626;
+    /* -webkit-filter: contrast(105%);
+    filter: contrast(105%); */
+}
+
+.hero-banner p {
+    text-align: left;
+    font-size: 20px;
+    color: #262626;
+    /* -webkit-filter: contrast(105%);
+    filter: contrast(105%); */
 }
 
 /* ------------------------------------------------- end hero banner */
@@ -623,7 +649,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
 #showcase_sign {
     /* min-height: 520px; */
-    background: url('../images/banner-template.png') no-repeat;
+    background: url('../images/banner-template.png') no-repeat bottom right;
     /* background-attachment: fixed; */
     /* background-position: bottom right;
     padding-top: 90px;
@@ -658,14 +684,14 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     -webkit-filter: contrast(105%);
     filter: contrast(105%); */
     /* opacity: 1; */
-    text-align: left;
-    margin-top: 120px;
+    /* text-align: left;
+    margin-top: 120px; */
     /* margin-left: 20px; */
-    font-size: 45px;
+    /* font-size: 45px;
     font-weight: 100;
     color: #262626;
     -webkit-filter: contrast(105%);
-    filter: contrast(105%);
+    filter: contrast(105%); */
 }
 
 #showcase_sign p {
@@ -675,18 +701,18 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     text-shadow: 1px 1px 3px black;
     -webkit-filter: contrast(105%);
     filter: contrast(105%); */
-    text-align: left;
+    /* text-align: left;
     font-size: 20px;
     color: #262626;
     -webkit-filter: contrast(105%);
-    filter: contrast(105%);
+    filter: contrast(105%); */
 }
 
-#showcase_sign hr {
+/* #showcase_sign hr {
     width:25%;
     margin: 0;
     margin-top: 30px;
-}
+} */
 
 /*Showcase_interact*/
 
@@ -3072,10 +3098,10 @@ footer {
         background-attachment: scroll;
     }
 
-    #showcase_sign {
+    /* #showcase_sign {
         background: url('../images/tri-color-ipro.jpg') no-repeat;
         background-attachment: scroll;
-    }
+    } */
 
     /* .bg_img6 {
         background: url('../images/tri-color-ipro.jpg') no-repeat;
@@ -3419,7 +3445,7 @@ footer {
         text-align: center;
     }
 
-    #showcase_sign img,
+    /* #showcase_sign img,
     #showcase_sign h1,
     #showcas_sign p,
     .showSign_screen {
@@ -3427,16 +3453,16 @@ footer {
         text-align: center;
         margin-left: 0px;
         margin-right: 0px;
-    }
+    } */
 
-    #showcase_sign img {
+    /* #showcase_sign img {
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 500px;
         margin-top: 0px;
-    }
-
+    } */
+/* 
     #showcase_sign h1,
     #showcase_sign p {
         position: absolute;
@@ -3445,15 +3471,15 @@ footer {
         transform: translate(-50%, -50%);
         color: white;
         text-shadow: 1px 1px 3px black;
-    }
+    } */
 
-    #showcase_sign h1 {
+    /* #showcase_sign h1 {
         margin-top: 0px;
-    }
+    } */
 
-    #showcase_sign p {
+    /* #showcase_sign p {
         margin-top: 100px;
-    }
+    } */
 }
 
 @media(max-width: 1065px) {
@@ -3755,8 +3781,8 @@ footer {
     /*Signage page top and bottom images*/
 
     #showcase_sign {
-        background: url('../images/tri-color-ipad.jpg') no-repeat;
-        background-attachment: scroll;
+        /* background: url('../images/tri-color-ipad.jpg') no-repeat;
+        background-attachment: scroll; */
         min-height: 400px;
     }
 
@@ -3769,7 +3795,7 @@ footer {
         margin-right: 0px;
     }
 
-    #showcase_sign {
+    /* #showcase_sign {
         position: relative;
         text-align: center;
     }
@@ -3781,9 +3807,9 @@ footer {
         text-align: center;
         margin-left: 0px;
         margin-right: 0px;
-    }
+    } */
 
-    #showcase_sign img {
+    /* #showcase_sign img {
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -3791,9 +3817,9 @@ footer {
         padding: 0;
         padding-bottom: 20px;
         padding-top: 20px;
-    }
+    } */
 
-    #showcase_sign h1,
+    /* #showcase_sign h1,
     #showcase_sign p {
         position: absolute;
         top: 50%;
@@ -3801,15 +3827,15 @@ footer {
         transform: translate(-50%, -50%);
         color: white;
         text-shadow: 1px 1px 3px black;
-    }
-
+    } */
+/* 
     #showcase_sign h1 {
         margin-top: -50px;
     }
 
     #showcase_sign p {
         margin-top: 60px;
-    }
+    } */
 
     .sign_industry p {
         font-size: 17px;
@@ -4163,13 +4189,13 @@ footer {
 }
 
 @media(max-width: 726px) {
-    #showcase_sign h1 {
+    /* #showcase_sign h1 {
         margin-top: -50px;
-    }
+    } */
 
-    #showcase_sign p {
+    /* #showcase_sign p {
         margin-top: 80px;
-    }
+    } */
 
     .post-page-container {
         grid-template-columns: 1fr 1fr;
@@ -4296,18 +4322,18 @@ footer {
         margin-top: 10%;
     }
 
-    #showcase_sign h1 {
+    /* #showcase_sign h1 {
         margin-top: -50px;
-    }
+    } */
 
-    #showcase_sign p {
+    /* #showcase_sign p {
         margin-top: 90px;
-    }
+    } */
 
-    #showcase_sign img {
+    /* #showcase_sign img {
         width: 60%;
         padding-top: 10px;
-    }
+    } */
 
     .models {
         border: none;
@@ -4344,19 +4370,19 @@ footer {
 
 @media(max-width: 600px) {
 
-    #showcase_sign img {
+    /* #showcase_sign img {
         width: 67%;
         padding-top: 10px;
-    }
+    } */
 
-    #showcase_sign h1,
+    /* #showcase_sign h1,
     #showcase_sign p {
         width: 100%;
-    }
+    } */
 
-    #showcase_sign p {
+    /* #showcase_sign p {
         margin-top: 50px;
-    }
+    } */
 
     .product-img img {
         width: 55%;
@@ -4394,14 +4420,14 @@ footer {
 }
 
 @media(max-width: 550px) {
-    #showcase_sign img {
+    /* #showcase_sign img {
         padding-top: 30px;
-    }
+    } */
 
-    #showcase_sign h1,
+    /* #showcase_sign h1,
     #showcase_sign p {
         width: 80%;
-    }
+    } */
 
     .on_page_contact input,
     .on_page_contact textarea {
@@ -4511,7 +4537,7 @@ footer {
 @media(max-width: 450px) {
 
     #showcase,
-    #showcase_sign,
+    /* #showcase_sign, */
     #showcase_vid,
     #showcase_interact,
     #showcase_software,
@@ -4523,21 +4549,21 @@ footer {
         margin-top: 15%;
     }
 
-    #showcase_sign img {
+    /* #showcase_sign img {
         margin-top: 2%;
         width: 85%;
-    }
+    } */
 
-    #showcase_sign h1 {
+    /* #showcase_sign h1 {
         margin-top: -35px;
     }
 
     #showcase_sign p {
         margin-top: 70px;
-    }
+    } */
 
     #showcase h1,
-    #showcase_sign h1,
+    /* #showcase_sign h1, */
     #showcase_vid h1,
     #showcase_interact h1,
     #showcase_software h1,
@@ -4546,7 +4572,7 @@ footer {
     }
 
     #showcase p,
-    #showcase_sign p,
+    /* #showcase_sign p, */
     #showcase_vid p,
     #showcase_interact p,
     #showcase_software p {
@@ -4594,10 +4620,10 @@ footer {
         background-attachment: scroll;
     }
 
-    #showcase_sign {
+    /* #showcase_sign {
         background: url('../images/tri-color-mobile.jpg') no-repeat;
         background-attachment: scroll;
-    }
+    } */
 
     /* .bg_img6 {
         background: url('../images/tri-color-mobile.jpg') no-repeat;
