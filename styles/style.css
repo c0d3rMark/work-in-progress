@@ -608,7 +608,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
 .vid-top {
     padding-top: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 .vid-top img {
@@ -619,6 +619,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
 .vid-border {
     border-top: 1px solid #d6d6d6;
+    background-color: #fafafa;
 }
 
 .vid-border h3 {
@@ -626,10 +627,24 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     text-align: center;
 }
 
+.vid-border h3:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 150px;
+    height: 5px;
+    background-color: #4C6971;
+    /* padding-top: 20px; */
+    /* border-bottom: 3px solid #3FC1C1; */
+    box-shadow: inset 1px 1px 3px #19363E;
+}
+
 /* start hero banner------------------------------------------------ */
 
 .hero-banner {
-    min-height: 520px;
+    min-height: 510px;
     /* background-position: bottom; */
     padding-top: 80px;
     padding-bottom: 0px;
@@ -646,7 +661,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
 .hero-banner h1 {
     text-align: left;
-    margin-top: 115px;
+    margin-top: 110px;
     /* margin-left: 20px; */
     font-size: 45px;
     font-weight: 100;
@@ -1520,7 +1535,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 .sign_background {
     background-color: #ffffff;
     /* padding-top: 40px; */
-    padding-bottom: 90px;
+    padding-bottom: 50px;
 }
 
 .sign_industry h3 {
@@ -2010,8 +2025,15 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
 /*videowalls */
 
+/* .videowall {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 40px;
+    align-items: center;
+} */
+
 .videowall h4 {
-    font-size: 20px;
+    font-size: 18px;
     /* font-weight: bold; */
     margin-bottom: 0px;
     margin-top: 20px;
@@ -2023,8 +2045,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
 #vid_img {
     font-size: 18px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -2041,44 +2062,57 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 }
 
 .vid_color {
-    color: #f4f4f4;
-    background-color: #262626;
+    color: #262626;
+    background-color: #fafafa;
 }
 
 .vid_color p {
-    color: #f4f4f4;
+    color: #262626;
+}
+
+.icon-box {
+    display: flex;
+    margin: auto;
 }
 
 .icon1 {
-    padding-left: 10px;
+    /* padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 20px; */
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 9fr;
 }
 
 .icon1 i {
     float: left;
     margin-right: 30px;
-    color: black;
+    color: #262626;
     -webkit-text-stroke: 1px #3FC1C1;
     -webkit-filter: drop-shadow(3px 3px 2px black);
     filter: drop-shadow(3px 3px 2px black);
-    padding-bottom: 20px;
+    padding: 20px;
+    height: 100%;
 }
 
 .icon2 {
-    text-align: right;
+    /* text-align: left;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 20px; */
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 9fr;
 }
 
 .icon2 i {
-    float: right;
-    margin-left: 30px;
+    float: left;
+    margin-right: 30px;
+    color: #262626;
     -webkit-text-stroke: 1px #3FC1C1;
     -webkit-filter: drop-shadow(3px 3px 2px black);
     filter: drop-shadow(3px 3px 2px black);
-    padding-bottom: 20px;
+    padding: 20px;
     height: 100%;
 }
 
@@ -2690,6 +2724,7 @@ aside#sidebar .quote textarea {
     /* background-color: #DBDBDB; */
     /* border-top: 1px solid black; */
     padding-top: 20px;
+    margin-top: 40px;
     text-align: center;
     padding-bottom: 60px;
 }
@@ -3045,7 +3080,7 @@ textarea[name="message"] {
 /*Empty Space*/
 
 .empty {
-    height: 40px;
+    height: 20px;
 }
 
 footer {
