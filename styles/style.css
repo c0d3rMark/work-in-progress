@@ -608,7 +608,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
 .vid-top {
     padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 .vid-top img {
@@ -620,36 +620,46 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 }
 
 .vid-border {
+    background-color: #ffffff;
+    /* padding-top: 30px; */
+}
+
+.vid-feature-color {
     border-top: 1px solid #d6d6d6;
-    background-color: #fafafa;
-    padding-top: 30px;
+    border-bottom: 1px solid #d6d6d6;
+    background-color: #ffffff;
+    padding-top: 40px;
+    background-image: url("https://www.transparenttextures.com/patterns/mirrored-squares.png");
 }
 
 .vid-border img {
     display: flex;
-    width: 450px;
+    width: 550px;
     margin: auto;
-    padding-top: 30px;
-    padding-bottom: 40px;
+    /* padding-top: 10px; */
+    padding-bottom: 80px;
+    -webkit-filter: drop-shadow(3px 5px 3px #ADADAD);
+    filter: drop-shadow(3px 5px 3px #ADADAD);
 }
 
 .vid-border h3 {
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
+    margin-top: 0px;
 }
 
 .vid-border h3:after {
     content: "";
     display: block;
     margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 40px;
-    width: 120px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 140px;
     height: 5px;
-    background-color: #4C6971;
-    /* padding-top: 20px; */
-    /* border-bottom: 3px solid #3FC1C1; */
-    box-shadow: inset 1px 1px 3px #19363E;
+    /* background-color: #4C6971;
+    box-shadow: inset 1px 1px 3px #19363E; */
+    background-color: #d6d6d6;
+    box-shadow: inset 1px 1px 3px #8A8A8A;
 }
 
 /* start hero banner------------------------------------------------ */
@@ -2089,7 +2099,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 .videowall hr {
     width: 250px;
     margin: 0;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .icon1 {
