@@ -606,14 +606,14 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     text-align: left;
 } */
 
-.vid-top {
+/* .vid-top {
     padding-top: 20px;
     padding-bottom: 50px;
-}
+} */
 
 .vid-top img {
     display: flex;
-    width: 100%;
+    width: 90%;
     margin: auto;
     -webkit-filter: drop-shadow(3px 5px 3px #ADADAD);
     filter: drop-shadow(3px 5px 3px #ADADAD);
@@ -774,15 +774,15 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 /*Showcase_interact*/
 
 #showcase_interact {
-    min-height: 665px;
-    background: url('../images/confetti.jpg') no-repeat 0 -230px;
-    background-attachment: fixed;
+    /* min-height: 665px; */
+    background: url('../images/banner-template.png') no-repeat bottom right;
+    /* background-attachment: fixed;
     text-align: right;
     border-bottom: black 1.3px solid;
-    position: relative;
+    position: relative; */
 }
 
-#showcase_interact img {
+/* #showcase_interact img {
     float: left;
     margin-top: 140px;
     margin-right: 20px;
@@ -791,9 +791,9 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     -webkit-filter: drop-shadow(5px 8px 10px black);
     filter: drop-shadow(5px 8px 10px black);
     padding-bottom: 30px;
-}
+} */
 
-#showcase_interact h1 {
+/* #showcase_interact h1 {
     margin-top: 310px;
     font-size: 35px;
     margin-bottom: 10px;
@@ -802,16 +802,16 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     -webkit-filter: contrast(105%);
     filter: contrast(105%);
     text-align: center;
-}
+} */
 
-#showcase_interact p {
+/* #showcase_interact p {
     font-size: 25px;
     color: white;
     text-shadow: 1px 1px 3px black;
     -webkit-filter: contrast(105%);
     filter: contrast(105%);
     text-align: center;
-}
+} */
 
 /*Showcase_software*/
 
@@ -1244,6 +1244,10 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 /* --------------------------------------------- end boxes */
 
 /* Digital signage on home page */
+.main-signage {
+    padding-top: 40px;
+}
+
 .signage {
     padding-bottom: 20px;
 }
@@ -1312,10 +1316,21 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
 .interact_intro {
     font-size: 18px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+    text-align: left;
 }
+
+/* .interact_intro h2:after {
+    content: "";
+    display: block;
+    margin: 0;
+    width: 150px;
+    height: 5px;
+    background-color: #4C6971;
+    box-shadow: inset 1px 1px 3px #19363E;
+    margin-top: 20px;
+} */
 
 .interact p {
     margin-bottom: 40px;
@@ -1332,8 +1347,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 /*Signage content*/
 
 .topSection {
-    margin-top: 30px;
-    margin-bottom: 0px;
+    padding-top: 40px;
+    padding-bottom: 50px;
 }
 
 .signage-explainer {
@@ -1361,10 +1376,9 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     width: 100%;
 }
 
-.section-border {
-    /* border-bottom: 1px solid #d6d6d6; */
+/* .section-border {
     padding-bottom: 40px;
-}
+} */
 
 .sign_intro {
     text-align: center;
@@ -1531,7 +1545,9 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 } */
 
 .what_is h2:after,
-.what_is h2::after {
+.what_is h2::after,
+.interact_intro h2:after,
+.vid_benefits h2:after {
     content: "";
     display: block;
     margin: 0;
@@ -1540,7 +1556,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     height: 5px;
     background-color: #4C6971;
     box-shadow: inset 1px 1px 3px #19363E;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .what_is hr {
@@ -2069,7 +2086,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 #vid_img {
     font-size: 18px;
     padding: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 /* #vid_img h4 {
@@ -2079,7 +2096,6 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
 .vid_benefits {
     color: black;
-    text-align: center;
     /* padding-top: 30px; */
     font-size: 18px;
 }
