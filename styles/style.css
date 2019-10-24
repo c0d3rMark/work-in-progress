@@ -663,6 +663,26 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     box-shadow: inset 1px 1px 3px #8A8A8A;
 }
 
+.vid-contact {
+    height: 320px;
+    background-color: #4C6971;
+    border-top: 1px solid #d6d6d6;
+}
+
+.vid-contact-text {
+    color: #ffffff;
+    text-align: center;
+}
+
+.vid-contact-text h3 {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.vid-contact-text p {
+    font-weight: 100;
+}
+
 /* start hero banner------------------------------------------------ */
 
 .hero-banner {
