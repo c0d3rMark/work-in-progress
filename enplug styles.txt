@@ -9,8 +9,9 @@ New styles from Enplug
 
 - new sahdow (#ADADAD for #FFFFFF) approx 30% darker
 - FAFAFA && Shadow #AEAEAE
-- dark grey (#d6d6d6) lines and dark areas
-- dark green #4C6971 && shadow = #19363E
+- dark grey (#d6d6d6) && shadow #8A8A8A
+- dark green #4C6971 && shadow = #19363E (hover: #59767E 5%)
+- hero button red #c13f3f && shadow #750000 (hover: #CE4C4C 5%)
 
 - avido green (#3FC1C1) shadow = #007575
 - fusion orange (#FFAC26) & shadow #B36000

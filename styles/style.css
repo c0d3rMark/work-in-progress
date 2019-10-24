@@ -158,6 +158,36 @@ ul {
     margin-top: 225px;
 }
 
+.vid-contact-btn a {
+    text-decoration: none;
+    color: #fafafa;
+    font-family: helvetica, 'work sans', sans-serif;
+    font-size: 20px;
+    /* font-weight: bold; */
+    /* background-color: black; */
+    background-color: #4C6971;
+    padding: 10px 50px;
+    border-radius: 3px;
+    border: black 1px solid;
+    box-shadow: 0px 0px 4px #19363E inset;
+    /* -webkit-animation: glowing 3100ms infinite;
+    animation: glowing 3100ms infinite; */
+    -o-transition:.2s;
+    -ms-transition:.2s;
+    -moz-transition:.2s;
+    -webkit-transition:.2s;
+    /* ...and now for the proper property */
+    transition:.2s;
+}
+
+.vid-contact-btn a:hover {
+    background-color: #59767E;
+    color: #ffffff;
+    box-shadow: 0px 0px 6px #AEAEAE;
+    text-shadow: 0px 0px 7px whitesmoke;
+    box-shadow: none;
+}
+
 /* button:hover, */
 /* .btn a:hover, */
 /* .show_btn a:hover {
@@ -626,10 +656,10 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
 .vid-feature-color {
     border-top: 1px solid #d6d6d6;
-    border-bottom: 1px solid #d6d6d6;
+    /* border-bottom: 1px solid #d6d6d6; */
     background-color: #ffffff;
     padding-top: 40px;
-    background-image: url("../images/mirrored-squares.png");
+    /* background-image: url("../images/transparent-square-tiles.png"); */
 }
 
 .vid-border img {
@@ -659,28 +689,44 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     height: 5px;
     /* background-color: #4C6971;
     box-shadow: inset 1px 1px 3px #19363E; */
-    background-color: #d6d6d6;
-    box-shadow: inset 1px 1px 3px #8A8A8A;
+    background-color: #4C6971;
+    box-shadow: inset 1px 1px 3px #19363E;
 }
 
 .vid-contact {
     height: 320px;
-    background-color: #4C6971;
+    background-color: #fafafa;
     border-top: 1px solid #d6d6d6;
+    background-image: url("../images/transparent-square-tiles.png"); 
+    padding: 30px 0 40px 0;
 }
 
 .vid-contact-text {
-    color: #ffffff;
+    color: #262626;
     text-align: center;
 }
 
 .vid-contact-text h3 {
     font-weight: 400;
     font-size: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.vid-contact-text hr {
+    width: 350px;
+    margin-bottom: 30px;
 }
 
 .vid-contact-text p {
     font-weight: 100;
+}
+
+.vid-h3 {
+    background-color: #fafafa;
+    padding: 30px 0 10px 0;
+    font-weight: 100;
+    letter-spacing: 2px;
 }
 
 /* start hero banner------------------------------------------------ */
@@ -1574,8 +1620,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     width: 150px;
     /* padding-top: 20px; */
     height: 5px;
-    background-color: #4C6971;
-    box-shadow: inset 1px 1px 3px #19363E;
+    background-color: #d6d6d6;
+    box-shadow: inset 1px 1px 3px #8A8A8A;
     margin-top: 10px;
     margin-bottom: 10px;
 }
