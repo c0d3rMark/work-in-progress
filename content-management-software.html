@@ -36,7 +36,8 @@
 
     <div class="topbar ">
         <div class="top-content">
-            <p>Australia</p><i class="fas fa-phone-square fa-1x"></i><p>(+61) 1300 019 987</p>
+            <p>Australia</p><i class="fas fa-phone-square fa-1x"></i>
+            <p>(+61) 1300 019 987</p>
         </div>
     </div>
 
@@ -56,6 +57,7 @@
                                     <li><a href="digital-displays-hardware.html">Display Hardware</a></li>
                                 </ul>
                             </li>
+                            <li><a href="insights.html">Insights</a></li>
                             <li><a href="about-us.html">About</a></li>
                             <li><a href="contact-form.html">Contact</a></li>
                         </ul>
@@ -72,6 +74,7 @@
                                     <li><a href="led-video-walls.html">LED Video Walls</a></li>
                                     <li><a href="interactive-displays.html">Interactive Displays</a></li>
                                     <li><a href="digital-displays-hardware.html">Display Hardware</a></li>
+                                    <li><a href="insights.html">Insights</a></li>
                                     <li><a href="about-us.html">About</a></li>
                                     <li><a href="contact-form.html">Contact</a></li>
                                 </ul>
@@ -85,31 +88,34 @@
 
     <!--Showcase-->
 
-    <section id="showcase_software">
+    <section id="showcase_software" class="hero-banner">
         <div class="container">
             <h1>Content Management Software</h1>
-            <p>Take control of your displays and deliver content how you want, when you want.</p>
+            <p>Take control of your displays<br> & deliver content how you want, when you want.</p>
+            <div class="hero-button">
+                <a href="digital-displays-hardware.html">Browse Hardware</a>
+            </div>
         </div>
     </section>
 
     <!--Logos-->
 
-    <div id="logos">
+    <!-- <div id="logos">
         <div class="container">
             <div class="row">
                 <div class="column">
-                    <img src="images/philips-resize.png" class="philips" alt="philips-logo">
+                    <img src="images/philips-logo-green.png" class="philips" alt="philips-logo">
                 </div>
                 <div class="column">
-                    <img src="images/samsung-cropped.png" class="samsung" alt="samsung-logo">
+                    <img src="images/InFocus-Logo-transp-green.png" class="infocus" alt="infocus-logo">
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!--Boxes-->
 
-    <section id="boxes">
+    <!-- <section id="boxes">
         <div class="container">
             <div class="box">
                 <i class="fas fa-tv fa-3x"></i>
@@ -136,13 +142,13 @@
                     content.</p>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!--Empty Space-->
 
-    <div class="container">
+    <!-- <div class="container">
         <div class="empty"></div>
-    </div>
+    </div> -->
 
     <!--Products-->
 
@@ -161,29 +167,23 @@
                     never before. You'll have full control of your digital signage to display what you want, when you
                     want!
                 </p>
-                <!--<div class="btn sign_button">
-                    <a href="contact-form.html">Contact Us</a>
-                </div>-->
             </div>
         </div>
     </section>
 
-    <!--<div class="bg_imgSoftwareBottom">
-        <div class="show_btn">
-            <span>
-                <a href="index.html">Back to Home</a>
-            </span>
-        </div>
-    </div>-->
-
-    <form class="on_page_contact" method="POST" action="https://formcarry.com/s/24m4DT_fKb2">
+    <form class="on_page_contact" method="POST" action="scripts/contactform.php">
         <div class="contact_head">
             <h4>Contact Us</h4>
             <i class="fas fa-phone-square fa-1x"></i>
             <p>(+61) 1300 019 987</p><br>
             <i class="fas fa-envelope-square fa-1x"></i>
             <p>contact@avido.com.au</p>
+            <br><br>
+            <p>* All fields required *</p>
         </div>
+        <div> <!--Honeypot-->
+            <input aria-label="firstname" type="text" name="firstname" class="hide-robot">
+       </div>
         <div>
             <label>Name</label><br>
             <input aria-label="name-entry" type="text" name="name" placeholder="Name" required>
@@ -197,22 +197,23 @@
             <textarea aria-label="message-entry" id="message" placeholder="Message" name="message" required></textarea>
             <input type="hidden" name="_gotcha">
         </div>
-        <button class="on_page_submit_btn" type="submit" value="SEND">Submit
+        <button class="on_page_submit_btn" type="submit" name="submit" value="SEND">Submit
         </button>
     </form>
 
-     <!--color border in footer-->
-     <div class="color-border"></div>
+    <!--color border in footer-->
 
-     <footer>
-            <div class="footer-links">
-                    <div><a href="warranty-and-installation.html">Warranty</a></div>
-                    <div><a href="privacy-policy.html">Privacy policy</a></div>
-                    <div class="mid-link"><a href ="digital-displays-hardware.html">Display hardware</a></div>
-                    <div><a href="warranty-and-installation.html#installation">Installation</a></div>
-                    <div><a href="about-us.html">About Us</a></div>
-             </div>
-             <div class="border-footer"></div>
+    <div class="color-border"></div>
+
+    <footer>
+        <div class="footer-links">
+            <div><a href="warranty-and-installation.html">Warranty</a></div>
+            <div><a href="privacy-policy.html">Privacy policy</a></div>
+            <div class="mid-link"><a href="digital-displays-hardware.html">Display hardware</a></div>
+            <div><a href="warranty-and-installation.html#installation">Installation</a></div>
+            <div><a href="about-us.html">About Us</a></div>
+        </div>
+        <div class="border-footer"></div>
         <p>Avido, Copyright &copy; 2019</p>
     </footer>
 

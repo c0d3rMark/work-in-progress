@@ -882,15 +882,15 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 /*Showcase_software*/
 
 #showcase_software {
-    min-height: 665px;
-    background: url('../images/laptop2.jpg') no-repeat 0 -350px;
-    background-attachment: fixed;
+    /* min-height: 665px; */
+    background: url('../images/banner-template.png') no-repeat bottom right;
+    /* background-attachment: fixed;
     text-align: center;
     border-bottom: black 1.3px solid;
-    position: relative;
+    position: relative; */
 }
 
-#showcase_software h1 {
+/* #showcase_software h1 {
     margin-top: 320px;
     font-size: 35px;
     margin-bottom: 10px;
@@ -898,15 +898,15 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     text-shadow: 1px 1px 3px black;
     -webkit-filter: contrast(105%);
     filter: contrast(105%);
-}
+} */
 
-#showcase_software p {
+/* #showcase_software p {
     font-size: 25px;
     color: white;
     text-shadow: 1px 1px 3px black;
     -webkit-filter: contrast(105%);
     filter: contrast(105%);
-}
+} */
 
 /*Showcase_about*/
 
