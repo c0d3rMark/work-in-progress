@@ -1007,8 +1007,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     width: 100px;
     /* padding-top: 20px; */
     height: 5px;
-    background-color: #3FC1C1;
-    box-shadow: inset 1px 1px 3px #007575;
+    background-color: #4C6971;
+    box-shadow: inset 1px 1px 3px #19363E;
     margin-top: 20px;
 }
 
@@ -1027,8 +1027,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     margin-top: 30px;
     width: 220px;
     height: 5px;
-    background-color: #3FC1C1;
-    box-shadow: inset 1px 1px 3px #007575;
+    background-color: #4C6971;
+    box-shadow: inset 1px 1px 3px #19363E;
 }
 
 .led-video {
@@ -1377,13 +1377,18 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     padding-left: 30px;
 }
 
-.box_interact_text h3::after {
+/* .box_interact_text h3::after {
     content: "";
     display: block;
     margin: left auto;
     width: 150px;
     padding-top: 20px;
     border-bottom: 2px solid black;
+} */
+
+.box_interact_text hr {
+    width: 40%;
+    margin-left: 30px;
 }
 
 .box_interact_text p {
@@ -1407,6 +1412,11 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     list-style-type: square;
     text-align: left;
     padding-left: 30px;
+    margin-top: 18px;
+}
+
+.box_interact_text li {
+    
 }
 
 .texture {
