@@ -2292,7 +2292,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
 .software_intro {
     font-size: 18px;
-    padding-bottom: 40px;
+    /* padding-bottom: 40px; */
     text-align: left;
 }
 
