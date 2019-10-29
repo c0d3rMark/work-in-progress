@@ -1660,7 +1660,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 .what_is h2:after,
 .what_is h2::after,
 .interact_intro h2:after,
-.vid_benefits h2:after {
+.vid_benefits h2:after,
+.software_intro h2:after {
     content: "";
     display: block;
     margin: 0;
@@ -2292,6 +2293,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 .software_intro {
     font-size: 18px;
     padding-bottom: 40px;
+    text-align: left;
 }
 
 #main .software_intro h2 {
@@ -3350,20 +3352,20 @@ footer {
         background-attachment: scroll;
     } */
 
-    #showcase_interact {
+    /* #showcase_interact {
         background: url('../images/confetti-ipro.jpg') no-repeat;
         background-attachment: scroll;
-    }
+    } */
 
-    .bg_imgInteract {
+    /* .bg_imgInteract {
         background: url('../images/confetti-ipro.jpg') no-repeat 0 -100px;
         background-attachment: scroll;
-    }
+    } */
 
-    #showcase_software {
+    /* #showcase_software {
         background: url('../images/laptop2-ipro.jpg') no-repeat -120px -85px;
         background-attachment: scroll;
-    }
+    } */
 
     #showcase_about {
         background: url('../images/city-bokeh-ipro.jpg') no-repeat;
@@ -3379,11 +3381,11 @@ footer {
     }
 }
 
-@media(max-width: 1600px) {
+/* @media(max-width: 1600px) {
     #showcase_software {
         background: url('../images/laptop2.jpg') no-repeat -50px -350px;
     }
-}
+} */
 
 @media(max-width: 1515px) {
     /* #showcase_vid h1 {
@@ -3397,15 +3399,15 @@ footer {
         margin-top: 300px;
     } */
 
-    #showcase_software {
+    /* #showcase_software {
         background: url('../images/laptop2.jpg') no-repeat -100px -350px;
-    }
+    } */
 }
 
 @media(max-width: 1400px) {
-    #showcase_software {
+    /* #showcase_software {
         background: url('../images/laptop2.jpg') no-repeat -150px -350px;
-    }
+    } */
 
     .pic-text {
         flex-direction: column;
@@ -3497,9 +3499,9 @@ footer {
         text-shadow: 1px 1px 3px black;
     }
 
-    #showcase_software {
+    /* #showcase_software {
         background: url('../images/laptop2-1600px.jpg') no-repeat -190px -260px;
-    }
+    } */
 
     .infographic img {
         width: 80%;
@@ -3710,9 +3712,9 @@ footer {
 }
 
 @media(max-width: 1065px) {
-    #showcase_software {
+    /* #showcase_software {
         background: url('../images/laptop2-1600px.jpg') no-repeat -220px -260px;
-    }
+    } */
 
     .article-container {
         width: 60%;
@@ -3728,9 +3730,9 @@ footer {
 }
 
 @media(max-width: 990px) {
-    #showcase_software {
+    /* #showcase_software {
         background: url('../images/laptop2-1600px.jpg') no-repeat -280px -260px;
-    }
+    } */
 }
 
 @media(max-width: 950px) {
@@ -4152,11 +4154,11 @@ footer {
 
     /*Software page top and bottom images*/
 
-    #showcase_software {
+    /* #showcase_software {
         min-height: 400px;
         background: url('../images/laptop2-ipad.jpg') no-repeat 0 -110px;
         background-attachment: scroll;
-    }
+    } */
 
     /*About Us page top and bottom images*/
 
@@ -4580,9 +4582,9 @@ footer {
         padding-bottom: 20px;
     } */
 
-    #showcase_software {
+    /* #showcase_software {
         background: url('../images/laptop2-ipad.jpg') no-repeat -90px -110px;
-    }
+    } */
 }
 
 @media(max-width: 610px) {
@@ -4882,10 +4884,10 @@ footer {
         background-attachment: scroll;
     }
 
-    #showcase_software {
+    /* #showcase_software {
         background: url('../images/laptop2-mobile.jpg') no-repeat -120px -45px;
         background-attachment: scroll;
-    }
+    } */
 
     #showcase_about {
         background: url('../images/city-bokeh-mobile.jpg') no-repeat 0 -5px;
