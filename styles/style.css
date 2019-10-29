@@ -883,7 +883,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
 #showcase_software {
     /* min-height: 665px; */
-    background: url('../images/banner-template.png') no-repeat bottom right;
+    background: url('../images/software-banner.png') no-repeat bottom right;
     /* background-attachment: fixed;
     text-align: center;
     border-bottom: black 1.3px solid;
@@ -1474,7 +1474,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 .hero-content {
     display: inline-flex;
     border: 25px solid;
-    border-width: 12px;
+    border-width: 10px;
     border-image: url(../images/tv-border.png);
     border-image-slice: 25 fill;
     border-image-outset: 0;
