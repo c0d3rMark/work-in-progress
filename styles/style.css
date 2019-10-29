@@ -2304,6 +2304,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
 .software-overview {
     background-color: #fafafa;
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
 }
 
 .software-explainer {
@@ -2317,6 +2319,21 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 .software-explainer hr {
     width: 100px;
     margin-bottom: 30px;
+}
+
+.software-text img {
+    -webkit-filter: drop-shadow(3px 5px 3px #AEAEAE);
+    filter: drop-shadow(3px 5px 3px #AEAEAE);
+}
+
+.brand-showcase {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.brand-showcase img {
+    margin-top: 40px;
+    max-width: 70%;
 }
 
 /*Warranty*/
