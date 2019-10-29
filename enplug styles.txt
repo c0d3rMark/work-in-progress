@@ -17,3 +17,12 @@ New styles from Enplug
 - fusion orange (#FFAC26) & shadow #B36000
 
 - tv border color: #1D242C
+
+
+Content additions
+-----------------
+
+- change digital signage to digital signs on signage page
+- check all img alt tags
+- optimize all images
+- 
