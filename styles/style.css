@@ -2313,17 +2313,59 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 }
 
 .software-explainer h3 {
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 
 .software-explainer hr {
-    width: 100px;
-    margin-bottom: 30px;
+    width: 80px;
+    margin-bottom: 40px;
 }
 
 .software-text img {
     -webkit-filter: drop-shadow(3px 5px 3px #AEAEAE);
     filter: drop-shadow(3px 5px 3px #AEAEAE);
+    margin-bottom: 20px;
+}
+
+.software-bottom {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.software-bottom hr {
+    width: 200px;
+}
+
+#software-features {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color: #fafafa;
+    /* box-shadow: inset 0px 0px 5px #AEAEAE; */
+    border: 1px solid #d6d6d6;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+#software-features i {
+    -webkit-text-stroke: 1px #262626;
+    color: rgba(76, 105, 113, 0.8);
+    /* color: rgba(255, 172, 38, 0.8); */
+    text-shadow: 1px 4px 3px #fafafa, 0 0 0px #000, 1px 4px 3px transparent;
+}
+
+#software-features h3 {
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.software-brands {
+    padding-bottom: 50px;
 }
 
 .brand-showcase {
@@ -2332,8 +2374,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 }
 
 .brand-showcase img {
-    margin-top: 40px;
-    max-width: 65%;
+    margin-top: 60px;
+    max-width: 750px;
     /* -webkit-filter: drop-shadow(0px 1px 1px #ADADAD);
     filter: drop-shadow(0px 1px 1px #ADADAD); */
 }
