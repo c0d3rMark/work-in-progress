@@ -912,7 +912,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
 #showcase_about {
     /* min-height: 665px; */
-    background: url('../images/banner-template.png') no-repeat bottom right;
+    background: url('../images/melbourne-banner.jpg') no-repeat bottom right;
     /* background-attachment: fixed;
     text-align: center;
     border-bottom: black 1.3px solid;
@@ -2961,10 +2961,53 @@ aside#sidebar .quote textarea {
     padding-top: 25px;
 } */
 
-.about_us p {
+/* .about_us p {
     font-size: 18px;
     text-align: left;
-    /* padding-bottom: 40px; */
+    padding-bottom: 40px;
+} */
+
+.about-bottom {
+    text-align: center;
+    padding-top: 30px;
+    padding: 30px 5px 0px 5px;
+}
+
+.about-bottom hr {
+    width: 140px;
+}
+
+#specialize {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color: #fafafa;
+    /* box-shadow: inset 0px 0px 5px #AEAEAE; */
+    border: 1px solid #d6d6d6;
+    margin-top: 40px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+#specialize i {
+    -webkit-text-stroke: 1px #262626;
+    color: rgba(76, 105, 113, 0.8);
+    /* color: rgba(255, 172, 38, 0.8); */
+    text-shadow: 1px 4px 3px #fafafa, 0 0 0px #000, 1px 4px 3px transparent;
+    font-size: 60px;
+}
+
+#specialize h3 {
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+#specialize .box img {
+    height: 180px;
 }
 
 /*Contact*/
