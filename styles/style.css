@@ -911,22 +911,22 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 /*Showcase_about*/
 
 #showcase_about {
-    min-height: 665px;
-    background: url('../images/city-bokeh.jpg') no-repeat 0 -260px;
-    background-attachment: fixed;
+    /* min-height: 665px; */
+    background: url('../images/banner-template.png') no-repeat bottom right;
+    /* background-attachment: fixed;
     text-align: center;
     border-bottom: black 1.3px solid;
-    position: relative;
+    position: relative; */
 }
 
-#showcase_about h1 {
+/* #showcase_about h1 {
     margin-top: 330px;
     font-size: 35px;
     color: white;
     text-shadow: 1px 1px 3px black;
     -webkit-filter: contrast(105%);
     filter: contrast(105%);
-}
+} */
 
 /*Logos*/
 
@@ -2955,16 +2955,16 @@ aside#sidebar .quote textarea {
 
 /*About Us*/
 
-.about_main {
+/* .about_main {
     -webkit-box-shadow: 0 -5px 5px -5px black;
     box-shadow: 0 -5px 5px -5px black;
     padding-top: 25px;
-}
+} */
 
 .about_us p {
     font-size: 18px;
-    text-align: center;
-    padding-bottom: 40px;
+    text-align: left;
+    /* padding-bottom: 40px; */
 }
 
 /*Contact*/
@@ -3445,11 +3445,11 @@ footer {
         background-attachment: scroll;
     } */
 
-    #showcase_about {
+    /* #showcase_about {
         background: url('../images/city-bokeh-ipro.jpg') no-repeat;
         background-attachment: scroll;
     }
-}
+} */
 
 /*Various showcase settings*/
 
@@ -4240,11 +4240,11 @@ footer {
 
     /*About Us page top and bottom images*/
 
-    #showcase_about {
+    /* #showcase_about {
         min-height: 400px;
         background: url('../images/city-bokeh-ipad.jpg') no-repeat 0 -80px;
         background-attachment: scroll
-    }
+    } */
 
     /*Misc. individual page changes*/
 
@@ -4967,10 +4967,10 @@ footer {
         background-attachment: scroll;
     } */
 
-    #showcase_about {
+    /* #showcase_about {
         background: url('../images/city-bokeh-mobile.jpg') no-repeat 0 -5px;
         background-attachment: scroll;
-    }
+    } */
 
     .hardware_text {
         min-height: 410px;
