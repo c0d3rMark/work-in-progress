@@ -3006,7 +3006,12 @@ aside#sidebar .quote textarea {
     letter-spacing: 2px;
 }
 
-.about-logos {
+.specialize-h4 h4 {
+    margin-bottom: 0;
+}
+
+.about-logos,
+.specialize-h4 {
     grid-column-start: 1; 
     grid-column-end: 5; 
 }
