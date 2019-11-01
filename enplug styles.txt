@@ -18,6 +18,10 @@ New styles from Enplug
 
 - tv border color: #1D242C
 
+- image sahdow 
+    -webkit-filter: drop-shadow(3px 5px 3px #AEAEAE);
+    filter: drop-shadow(3px 5px 3px #AEAEAE);
+
 
 Content additions
 -----------------
