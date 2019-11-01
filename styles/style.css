@@ -2452,7 +2452,7 @@ aside#sidebar .quote textarea {
 .models {
     margin-bottom: 40px;
     display: grid;
-    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-columns: 1fr 1fr 1fr;
     background-color: #DBDBDB;
     border: 2px #262626 solid;
     box-shadow: inset 0px 0px 7px black;
@@ -2514,6 +2514,7 @@ aside#sidebar .quote textarea {
 .block h2::after {
     content: "";
     display: block;
+    margin: 0;
     margin-top: 10px;
     width: 100px;
     height: 5px;
@@ -3696,7 +3697,7 @@ footer {
 
 @media(max-width: 1200px) {
     .models {
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 1fr 1fr;
         background-color: #ccc;
     }
 
