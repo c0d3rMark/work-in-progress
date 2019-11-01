@@ -2514,10 +2514,11 @@ aside#sidebar .quote textarea {
 .block h2::after {
     content: "";
     display: block;
-    margin: 0;
+    margin-top: 10px;
     width: 100px;
-    padding-top: 10px;
-    border-bottom: 3px solid #3FC1C1;
+    height: 5px;
+    background-color: #4C6971;
+    box-shadow: inset 1px 1px 3px #19363E;
 }
 
 .product_heading {
