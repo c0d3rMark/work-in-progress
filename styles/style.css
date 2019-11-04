@@ -29,18 +29,23 @@ ul {
 }
 
 .dark {
-    background-color: #262626;
-    border: 2px solid #3FC1C1;
-    color: white;
+    background-color: #d6d6d6;
+    /* border: 2px solid #4C6971; */
+    color: #262626;
     padding-top: 10px;
-    -webkit-box-shadow: 0px 0px 8px black;
-    box-shadow: 0px 0px 8px black;
+    -webkit-box-shadow: inset 0px 0px 8px #8A8A8A;
+    box-shadow: inset 0px 0px 8px #8A8A8A;
 }
 
 .dark h3 {
     margin-top: 25px;
-    font-weight: bold;
+    font-weight: 100;
     font-size: 30px;
+}
+
+.dark hr {
+    width: 300px;
+    margin-bottom: 0px;
 }
 
 #alt_btn {
@@ -200,7 +205,7 @@ ul {
 } */
 
 .submit {
-    width: 95%;
+    /* width: 95%;
     padding: 15px 166px;
     margin-top: 20px;
     margin-bottom: 40px;
@@ -210,7 +215,26 @@ ul {
     color: #262626;
     background-color: #3FC1C1;
     border-radius: 3px;
-    border: white 1px solid;
+    border: white 1px solid; */
+    font-family: helvetica, 'work sans', sans-serif;
+    width: 95%;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    /* font-weight: bold; */
+    color: #ffffff;
+    background-color: #4C6971;
+    /* box-shadow: 0px 0px 4px #007575 inset; */
+    padding: 10px 50px;
+    border-radius: 5px;
+    /* border: black 1px solid; */
+    -o-transition:.2s;
+    -ms-transition:.2s;
+    -moz-transition:.2s;
+    -webkit-transition:.2s;
+    /* ...and now for the proper property */
+    transition:.2s;
 }
 
 @-webkit-keyframes glowing {
@@ -2055,12 +2079,23 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 }
 
 .page-title::after {
-    content: "";
+    /* content: "";
     display: block;
     margin: 0 auto;
     width: 140px;
     padding-top: 20px;
-    border-bottom: 3px solid #3FC1C1;
+    border-bottom: 3px solid #3FC1C1; */
+    content: "";
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    width: 120px;
+    height: 5px;
+    /* background-color: #4C6971;
+    box-shadow: inset 1px 1px 3px #19363E; */
+    background-color: #4C6971;
+    box-shadow: inset 1px 1px 3px #19363E;
 }
 
 #main h2 {
@@ -2418,10 +2453,11 @@ aside#sidebar {
 
 aside#sidebar .quote input,
 aside#sidebar .quote textarea {
-    border-style: solid;
-    border-width: thin;
+    /* border-style: solid;
+    border-width: thin; */
     width: 90%;
     padding: 10px;
+    margin: 10px 0;
 }
 
 #message {
@@ -3156,26 +3192,30 @@ aside#sidebar .quote textarea {
 
 /* .on_page_submit_btn:hover, */
 .submit:hover {
-    -webkit-box-shadow: 0px 5px 40px -10px white;
-    box-shadow: 0px 5px 40px -10px white;
+    background-color: #335058;
+    color: #fafafa;
+    box-shadow: 1px 2px 5px #8A8A8A;
+    text-shadow: 0px 0px 7px whitesmoke;
+    /* -webkit-box-shadow: 0px 5px 40px -10px white;
+    box-shadow: 0px 5px 40px -10px white; */
 }
 
-input[type=text],
+/* input[type=text],
 input[type="email"],
 textarea[name="message"] {
     color: black;
     font-family: helvetica, 'work sans', sans-serif;
     font-size: 18px;
     padding: 5px 10px;
-}
+} */
 
 .contact {
     text-align: center;
 }
 
-.bg_contact {
+/* .bg_contact {
     background-color: #f4f4f4;
-}
+} */
 
 .contact_btn {
     margin-top: 80px;
@@ -3183,7 +3223,11 @@ textarea[name="message"] {
 }
 
 .quote {
-    padding-bottom: 20px;
+    padding: 30px 10px;
+}
+
+.quote p {
+    margin-top: 0px;
 }
 
 .hide-robot {
@@ -3193,19 +3237,19 @@ textarea[name="message"] {
 /*Privacy Policy link*/
 
 .quote a {
-    color: white;
+    color: #262626;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 16px;
+    /* font-weight: bold; */
     margin-bottom: 20px;
 }
 
 .quote a:hover {
-    color: white;
+    color: #262626;
     font-weight: bold;
-    text-shadow: 0px 0px 10px white;
-    -webkit-text-stroke: 0.6px black;
+    /* text-shadow: 0px 0px 10px white;
+    -webkit-text-stroke: 0.6px black; */
     letter-spacing: 1px;
 }
 
@@ -3520,8 +3564,8 @@ footer {
 /* @media(max-width: 1600px) {
     #showcase_software {
         background: url('../images/laptop2.jpg') no-repeat -50px -350px;
-    }*/
-} 
+    }
+} */
 
 @media(max-width: 1515px) {
     /* #showcase_vid h1 {
