@@ -475,6 +475,7 @@ nav ul li:hover ul {
 
 #showcase {
     display: flex;
+    z-index: -2;
     flex-direction: row;
     /* flex-wrap: wrap; */
     /* position: relative; */
@@ -499,7 +500,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     /* padding-top: 120px; */
 }
 
-#showcase .hero-img img {
+/* #showcase .hero-img img {
     float: right;
     margin-top: 140px;
     margin-left: 0px;
@@ -508,7 +509,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     filter: drop-shadow(3px 5px 3px #ADADAD);
     padding-bottom: 40px;
     padding-right:10px;
-}
+} */
 
 /* grid layout for home page --------------------------- */
 
@@ -517,10 +518,10 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     grid-template-columns: 1fr 1fr;
 } */
 
-/* .hero-grid {
+.hero-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 5px;
     margin-top: 130px;
     width: 50%;
     float: right;
@@ -528,7 +529,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
 .hero-block img {
     width: 100%;
-    z-index: 0;
+    z-index: -1;
     position: relative;
 }
 
@@ -542,6 +543,13 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     border-image-width: 18px;
     flex-wrap: wrap;
     position: relative;
+}
+
+/* .hero-block-content {
+    grid-column: 1 / -1;
+    background-color: yellow;
+    grid-row: inherit;
+    margin: auto;
 } */
 
 /* -------------------------------end grid layout for home page */
