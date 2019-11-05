@@ -2782,12 +2782,20 @@ aside#sidebar .quote input,
 }
 
 .product-desc h1::after {
-    content: "";
+    /* content: "";
     display: block;
     margin: 0;
     width: 100px;
     padding-top: 10px;
-    border-bottom: 3px solid #3FC1C1;
+    border-bottom: 3px solid #3FC1C1; */
+    content: "";
+    display: block;
+    margin: 0;
+    margin-top: 10px;
+    width: 100px;
+    height: 3px;
+    background-color: #4C6971;
+    box-shadow: inset 1px 1px 3px #19363E;
 }
 
 .pic-text {
@@ -2795,15 +2803,15 @@ aside#sidebar .quote input,
     display: -ms-inline-flexbox;
     display: inline-flex;
     /* width: 100%; */
-    background-color: white;
-    border-top: 1px solid #ccc;
+    /* background-color: #fafafa; */
+    /* border-top: 1px solid #ccc;
     border-left: 1px solid #ccc;
-    border-right: 1px solid #ccc;
+    border-right: 1px solid #ccc; */
     padding-top: 20px;
     padding-bottom: 20px;
     min-height: 500px;
     align-items: center;
-    box-shadow: inset 0px 0px 5px black;
+    box-shadow: inset 0px 0px 5px #adadad;
 }
 
 .product-img {
@@ -2829,8 +2837,10 @@ aside#sidebar .quote input,
 .product-img img {
     height: 90%;
     margin: auto;
-    -webkit-filter: drop-shadow(5px 8px 10px black);
-    filter: drop-shadow(5px 8px 10px black);
+    /* -webkit-filter: drop-shadow(5px 8px 10px black);
+    filter: drop-shadow(5px 8px 10px black); */
+    -webkit-filter: drop-shadow(3px 5px 3px #adadad);
+    filter: drop-shadow(3px 5px 3px #adadad);
 }
 
 .product-img-forward img {
@@ -2852,12 +2862,20 @@ aside#sidebar .quote input,
 }
 
 .enquire-box h2::after {
-    content: "";
+    /* content: "";
     display: block;
     margin: 0;
     width: 60px;
     padding-top: 10px;
-    border-bottom: 2px solid #3FC1C1;
+    border-bottom: 2px solid #3FC1C1; */
+    content: "";
+    display: block;
+    margin: 0;
+    margin-top: 10px;
+    width: 60px;
+    height: 3px;
+    background-color: #4C6971;
+    box-shadow: inset 1px 1px 3px #19363E;
 }
 
 .intro-p {
@@ -2912,7 +2930,7 @@ aside#sidebar .quote input,
 .tab {
     overflow: hidden;
     /* border: 1px solid #ccc; */
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4; */
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -2944,11 +2962,11 @@ aside#sidebar .quote input,
     border: 1px solid #ccc;
     border-top: none;
     /* min-height: 400px; */
-    background-color: white;
+    /* background-color: white; */
     margin-bottom: 40px;
     animation: fadeEffect 1s;
     /* Fading effect takes 1 second */
-    box-shadow: inset 0px 0px 5px black;
+    box-shadow: inset 0px 0px 5px #adadad;
 }
 
 .tabcontent h3 {
@@ -2964,12 +2982,19 @@ aside#sidebar .quote input,
 }
 
 .tabcontent h3::after {
-    content: "";
+    /* content: "";
     display: block;
     margin: 0;
     width: 140px;
     padding-top: 5px;
-    border-bottom: 2px solid #3FC1C1;
+    border-bottom: 2px solid #3FC1C1; */
+    content: "";
+    display: block;
+    margin: 0;
+    margin-top: 5px;
+    width: 140px;
+    height: 1px;
+    background-color: #262626;
 }
 
 .tabcontent a {
@@ -3007,18 +3032,18 @@ aside#sidebar .quote input,
 }
 
 .tab-color {
-    background-color: #f4f4f4;
+    background-color: #fafafa;
     color: black;
-    box-shadow: inset 0px 0px 5px black;
+    box-shadow: inset 0px 0px 5px #aeaeae;
 }
 
 .tab-color h3::after {
-    content: "";
+    /* content: "";
     display: block;
     margin: 0;
     width: 140px;
     padding-top: 5px;
-    border-bottom: 2px solid #262626;
+    border-bottom: 2px solid #262626; */
 }
 
 .support-docs {
@@ -3040,9 +3065,11 @@ aside#sidebar .quote input,
     display: block;
     margin: 0;
     width: 100px;
-    padding-top: 5px;
     margin-bottom: 20px;
-    border-bottom: 2px solid #3FC1C1;
+    margin-top: 15px;
+    height: 3px;
+    background-color: #4C6971;
+    box-shadow: inset 1px 1px 3px #19363E;
 }
 
 /* Go from zero to full opacity */
