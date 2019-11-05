@@ -163,7 +163,8 @@ ul {
     margin-top: 225px;
 }
 
-.vid-contact-btn a {
+.vid-contact-btn a,
+.product-btn a {
     text-decoration: none;
     color: #fafafa;
     font-family: helvetica, 'work sans', sans-serif;
@@ -173,7 +174,7 @@ ul {
     background-color: #4C6971;
     padding: 10px 50px;
     border-radius: 3px;
-    border: black 1px solid;
+    border: #262626 1px solid;
     box-shadow: 0px 0px 4px #19363E inset;
     /* -webkit-animation: glowing 3100ms infinite;
     animation: glowing 3100ms infinite; */
@@ -181,16 +182,17 @@ ul {
     -ms-transition:.2s;
     -moz-transition:.2s;
     -webkit-transition:.2s;
-    /* ...and now for the proper property */
     transition:.2s;
 }
 
-.vid-contact-btn a:hover {
+.vid-contact-btn a:hover,
+.product-btn a:hover {
     background-color: #59767E;
     color: #ffffff;
     box-shadow: 0px 0px 6px #AEAEAE;
     text-shadow: 0px 0px 7px whitesmoke;
-    box-shadow: none;
+    border: #19363E 1px solid;
+    /* box-shadow: none; */
 }
 
 /* button:hover, */
@@ -1213,7 +1215,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
   .active, .dot:hover {
     /* background-color: #717171; */
-    background-color: #4C6971;
+    background-color: #d6d6d6;
   }
 
   /* Fading animation */
@@ -2552,8 +2554,8 @@ aside#sidebar .quote input,
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #d6d6d6;
-    border: 2px #d6d6d6 solid;
-    box-shadow: inset 0px 0px 7px black;
+    /* border: 2px #d6d6d6 solid; */
+    box-shadow: inset 0px 0px 7px #8A8A8A;
 }
 
 .block {
@@ -2561,7 +2563,7 @@ aside#sidebar .quote input,
     background-color: white;
     min-height: 430px;
     /* position: relative; */
-    box-shadow: 0px 0px 7px black;
+    box-shadow: 0px 0px 7px #8A8A8A;
     border: 1px solid #d6d6d6;
 }
 
@@ -2607,17 +2609,17 @@ aside#sidebar .quote input,
 
 .block h2 {
     font-size: 18px;
+    font-weight: 100;
 }
 
 .block h2::after {
     content: "";
     display: block;
     margin: 0;
-    margin-top: 10px;
+    margin-top: 8px;
     width: 100px;
-    height: 5px;
+    height: 2px;
     background-color: #4C6971;
-    box-shadow: inset 1px 1px 3px #19363E;
 }
 
 .product_heading {
@@ -2632,13 +2634,13 @@ aside#sidebar .quote input,
 
 .list_sizes {
     display: inline;
-    /* border: 1px solid #262626; */
+    /* border: 1px solid #d6d6d6; */
     margin-right: 5px;
-    background-color: #d6d6d6;
+    background-color: #fafafa;
     padding: 7px;
     color: #262626;
-    box-shadow: inset 0 0 5px #8A8A8A;
-    font-weight: bold;
+    box-shadow: inset 0 0 5px #aeaeae;
+    /* font-weight: bold; */
     /* -webkit-filter: drop-shadow(0px 0px 2px #adadad);
     filter: drop-shadow(0px 0px 2px #adadad); */
 }
@@ -2712,6 +2714,11 @@ aside#sidebar .quote input,
     color: #3FC1C1; */
     /* text-decoration: underline;
     text-underline-position: under; */
+    -o-transition:.2s;
+    -ms-transition:.2s;
+    -moz-transition:.2s;
+    -webkit-transition:.2s;
+    transition:.2s;
 }
 
 .get-in-touch a:hover {
@@ -2884,13 +2891,14 @@ aside#sidebar .quote input,
 
 .sizes {
     display: inline;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     margin-right: 10px;
-    background-color: #262626;
+    background-color: #fafafa;
     padding: 7px;
-    color: white;
-    -webkit-filter: drop-shadow(0px 0px 2px black);
-    filter: drop-shadow(0px 0px 2px black);
+    color: #262626;
+    box-shadow: inset 0 0 5px #aeaeae;
+    /* -webkit-filter: drop-shadow(0px 0px 2px black);
+    filter: drop-shadow(0px 0px 2px black); */
 }
 
 .specs {
@@ -2902,7 +2910,7 @@ aside#sidebar .quote input,
     margin-top: 60px;
 }
 
-.product-btn a {
+/* .product-btn a {
     text-decoration: none;
     color: white;
     font-size: 20px;
@@ -2914,15 +2922,15 @@ aside#sidebar .quote input,
     border: 1px solid #ccc;
     -webkit-filter: drop-shadow(0px 0px 2px black);
     filter: drop-shadow(0px 0px 2px black);
-}
+} */
 
-.product-btn a:hover {
+/* .product-btn a:hover {
     letter-spacing: 1px;
     color: white;
     -webkit-box-shadow: 0px 5px 40px -10px black;
     box-shadow: 0px 5px 40px -10px black;
     text-shadow: 0px 0px 7px whitesmoke;
-}
+} */
 
 /*hardware tabs*/
 
@@ -2952,7 +2960,7 @@ aside#sidebar .quote input,
 
 /* Create an active/current tablink class */
 .tab button.active {
-    background-color: #ccc;
+    background-color: #d6d6d6;
 }
 
 /* Style the tab content */
@@ -2971,6 +2979,7 @@ aside#sidebar .quote input,
 
 .tabcontent h3 {
     font-size: 20px;
+    font-weight: 100;
 }
 
 .tabcontent h3,
@@ -3053,7 +3062,8 @@ aside#sidebar .quote input,
 .support-docs i {
     padding-left: 10px;
     padding-top: 10px;
-    -webkit-text-stroke: 0.3px #3FC1C1;
+    -webkit-text-stroke: 0.3px #d6d6d6;
+    color: #4C6971;
 }
 
 .support-docs h3 {
