@@ -303,7 +303,7 @@ header {
 }
 
 header a {
-    color: black;
+    color: #262626;
     font-size: 17px;
     display: block;
     text-decoration: none;
@@ -384,7 +384,7 @@ nav ul li ul li {
 
 nav ul li ul li a {
     padding: 10px 10px;
-    color: black;
+    color: #262626;
     text-shadow: none;
     font-size: 17px;
 }
@@ -405,7 +405,7 @@ nav ul li ul li a:hover {
     /* border: #4C6971 1px solid; */
     -webkit-box-shadow: inset 0px 0px 4px #AEAEAE;
     box-shadow: inset 0px 0px 4px #AEAEAE;
-    color: #4C6971;
+    color: #262626;
 }
 
 /* .drop li a:hover {
@@ -3417,13 +3417,24 @@ textarea[name="message"] {
 }
 
 .articles h1::after {
-    content: "";
+    /* content: "";
     display: block;
     margin: 0;
     width: 200px;
     padding-top: 5px;
     margin-bottom: 15px;
-    border-bottom: 3px solid #3FC1C1; 
+    border-bottom: 3px solid #3FC1C1;  */
+    content: "";
+    display: block;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 200px;
+    height: 5px;
+    /* background-color: #4C6971;
+    box-shadow: inset 1px 1px 3px #19363E; */
+    background-color: #4C6971;
+    box-shadow: inset 1px 1px 3px #19363E;
 }
 
 .articles iframe {
@@ -3438,13 +3449,18 @@ textarea[name="message"] {
     font-size: 20px;
 }
 
-.customers h3::after {
+/* .customers h3::after {
     content: "";
     display: block;
     margin: 0;
     width: 175px;
     padding-top: 5px;
     border-bottom: 2px solid #3FC1C1; 
+} */
+
+.customers hr {
+    width: 175px;
+    margin: 0;
 }
 
 .articles img {
