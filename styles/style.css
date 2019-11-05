@@ -483,6 +483,7 @@ nav ul li:hover ul {
     /* background-color: #ffffff; */
     background-color: #ffffff;
 background-image: url("https://www.transparenttextures.com/patterns/subtle-white-feathers.png");
+position: relative;
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 /* background-color: #ffffff;
 background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png"); */
@@ -500,8 +501,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
 #showcase .hero-img img {
     float: right;
-    margin-top: 120px;
-    /* margin-right: 0px; */
+    margin-top: 140px;
     margin-left: 0px;
     width: 50%;
     -webkit-filter: drop-shadow(3px 5px 3px #ADADAD);
@@ -509,6 +509,42 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     padding-bottom: 40px;
     padding-right:10px;
 }
+
+/* grid layout for home page --------------------------- */
+
+/* .hero-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} */
+
+/* .hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin-top: 130px;
+    width: 50%;
+    float: right;
+}
+
+.hero-block img {
+    width: 100%;
+    z-index: 0;
+    position: relative;
+}
+
+.hero-block {
+    display: inline-flex;
+    border: 25px solid;
+    border-width: 10px;
+    border-image: url(../images/tv-border.png);
+    border-image-slice: 25 fill;
+    border-image-outset: 0;
+    border-image-width: 18px;
+    flex-wrap: wrap;
+    position: relative;
+} */
+
+/* -------------------------------end grid layout for home page */
 
 .show-text {
     width: 38%;
@@ -519,7 +555,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 #showcase h1 {
     /* opacity: 1; */
     text-align: left;
-    margin-top: 280px;
+    margin-top: 290px;
     /* margin-left: 20px; */
     font-size: 45px;
     font-weight: 100;
@@ -3543,17 +3579,17 @@ footer {
         height: 100vh;
     }
 
-    #showcase {
+    /* #showcase {
         background: url('../images/modern-pattern-color-ipro.jpg') no-repeat;
         background-attachment: scroll;
-    }
+    } */
 
-    .bg_img1,
+    /* .bg_img1,
     .bg_img2,
     .bg_img3 {
         background: url('../images/modern-pattern-color-flipped-ipro.jpg') no-repeat;
         background-attachment: scroll;
-    }
+    } */
 
     /* #showcase_sign {
         background: url('../images/tri-color-ipro.jpg') no-repeat;
@@ -3700,13 +3736,13 @@ footer {
         margin-right: 0px;
     }
 
-    #showcase img {
+    /* #showcase img {
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 700px;
         margin-top: 175px;
-    }
+    } */
 
     #showcase h1 {
         margin-top: 0px;
@@ -3951,11 +3987,11 @@ footer {
 }
 
 
-@media(max-width: 1000px) {
+/* @media(max-width: 1000px) {
     #showcase img {
         width: 90%;
     }
-}
+} */
 
 @media(max-width: 990px) {
     /* #showcase_software {
@@ -3968,10 +4004,10 @@ footer {
         min-height: 550px;
     }
 
-    #showcase img {
+    /* #showcase img {
         margin-top: 150px;
         width: 90%;
-    }
+    } */
 }
 
 @media(max-width: 900px) {
@@ -4213,27 +4249,27 @@ footer {
 
     /*Home page top and bottom images*/
 
-    #showcase {
+    /* #showcase {
         background: url('../images/modern-pattern-color-flipped-ipad.jpg') no-repeat;
         min-height: 400px;
         background-attachment: scroll;
-    }
+    } */
 
-    #showcase img {
+    /* #showcase img {
         width: 80%;
         margin-top: 40px;
         padding-top: 0px;
-    }
+    } */
 
-    .bg_img1,
+    /* .bg_img1,
     .bg_img2,
     .bg_img3 {
         background: url('../images/modern-pattern-color-ipad.jpg') no-repeat 0 -10px;
-    }
+    } */
 
-    .bg_img4 {
+    /* .bg_img4 {
         background: url('../images/pixel-city-mobile.jpg') no-repeat -69px -105px;
-    }
+    } */
 
     /*Signage page top and bottom images*/
 
@@ -4375,10 +4411,10 @@ footer {
         margin-top: 70px;
     }
 
-    .bg_imgInteract {
+    /* .bg_imgInteract {
         background: url('../images/confetti-ipad.jpg') no-repeat -40px -18px;
         background-attachment: scroll;
-    }
+    } */
 
     /*Software page top and bottom images*/
 
@@ -4774,10 +4810,10 @@ footer {
         margin-top: 17px;
     }
 
-    #showcase img {
+    /* #showcase img {
         width: 90%;
         margin-top: 10%;
-    }
+    } */
 
     /* #showcase_sign h1 {
         margin-top: -50px;
@@ -4855,9 +4891,9 @@ footer {
 }
 
 @media(max-width: 610px) {
-    #showcase img {
+    /* #showcase img {
         margin-top: 10%;
-    }
+    } */
 
     #showcase p {
         margin-top: 45px;
@@ -4908,9 +4944,9 @@ footer {
 }
 
 @media(max-width: 520px) {
-    #showcase img {
+    /* #showcase img {
         margin-top: 15%;
-    }
+    } */
 
     #showcase h1,
     #showcase p {
@@ -5065,17 +5101,17 @@ footer {
         margin-top: 275px;
     }
 
-    #showcase {
+    /* #showcase {
         background: url('../images/modern-pattern-color-flipped-mobile.jpg') no-repeat 0 -11px;
         background-attachment: scroll;
-    }
+    } */
 
-    .bg_img1,
+    /* .bg_img1,
     .bg_img2,
     .bg_img3 {
         background: url('../images/modern-pattern-color-flipped-mobile.jpg') no-repeat 0 -25px;
         background-attachment: scroll;
-    }
+    } */
 
     /* #showcase_sign {
         background: url('../images/tri-color-mobile.jpg') no-repeat;
@@ -5102,7 +5138,7 @@ footer {
         background-attachment: scroll;
     } */
 
-    #showcase_interact {
+    /* #showcase_interact {
         background: url('../images/confetti-mobile.jpg') no-repeat;
         background-attachment: scroll;
     }
@@ -5110,7 +5146,7 @@ footer {
     .bg_imgInteract {
         background: url('../images/confetti-mobile.jpg') no-repeat 0 -140px;
         background-attachment: scroll;
-    }
+    } */
 
     /* #showcase_software {
         background: url('../images/laptop2-mobile.jpg') no-repeat -120px -45px;
@@ -5153,10 +5189,10 @@ footer {
 }
 
 @media(max-width: 380px) {
-    #showcase img {
+    /* #showcase img {
         margin-top: 19%;
         width: 95%;
-    }
+    } */
 
     #showcase h1 {
         width: 90%;
@@ -5175,10 +5211,10 @@ footer {
 }
 
 @media(max-width: 365px) {
-    #showcase img {
+    /* #showcase img {
         margin-top: 20%;
         width: 95%;
-    }
+    } */
 
     #showcase h1 {
         width: 90%;
@@ -5198,10 +5234,10 @@ footer {
 }
 
 @media(max-width: 330px) {
-    #showcase img {
+    /* #showcase img {
         margin-top: 25%;
         width: 95%;
-    }
+    } */
 
     #showcase h1 {
         width: 90%;
