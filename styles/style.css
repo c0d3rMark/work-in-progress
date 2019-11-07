@@ -477,7 +477,7 @@ nav ul li:hover ul {
 
 #showcase {
     display: flex;
-    z-index: -2;
+    /* z-index: -2; */
     flex-direction: row;
     /* flex-wrap: wrap; */
     /* position: relative; */
@@ -502,7 +502,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     /* padding-top: 120px; */
 }
 
-/* #showcase .hero-img img {
+#showcase .hero-img img {
     float: right;
     margin-top: 140px;
     margin-left: 0px;
@@ -511,7 +511,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     filter: drop-shadow(3px 5px 3px #ADADAD);
     padding-bottom: 40px;
     padding-right:10px;
-} */
+}
 
 /* grid layout for home page --------------------------- */
 
@@ -520,7 +520,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     grid-template-columns: 1fr 1fr;
 } */
 
-.hero-grid {
+/* .hero-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 5px;
@@ -545,7 +545,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     border-image-width: 18px;
     flex-wrap: wrap;
     position: relative;
-}
+} */
 
 /* .hero-block-content {
     grid-column: 1 / -1;
@@ -2184,19 +2184,24 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 /* ARc app info */
 
 .app-wrapper {
-    background-color: #fafafa;
-    border-top: 1px solid #d6d6d6;
-    border-bottom: 1px solid #d6d6d6;
+    /* background-color: #fafafa; */
+    /* border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6; */
     /* margin-bottom: 20px; */
     text-align: center;
+    background-color: #d6d6d6;
+    background-image: url(../images/mirrored-squares.png);
 }
 
 .arc-app {
     background-color: #fafafa;
+    /* border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6; */
+    box-shadow: inset 0 0 2px #aeaeae;
     color: #262626;
     /* display: flex; */
     flex: 0 0 25em;
-    margin-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .app-img img {
@@ -2204,9 +2209,9 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     max-width: 550px;
     margin: auto;
     margin-top: 10px;
-    margin-bottom: 50px;
-    -webkit-filter: drop-shadow(3px 5px 3px #AEAEAE);
-    filter: drop-shadow(3px 5px 3px #AEAEAE);
+    margin-bottom: 40px;
+    -webkit-filter: drop-shadow(3px 5px 3px #aeaeae);
+    filter: drop-shadow(3px 5px 3px #aeaeae);
 }
 
 .app-text {
@@ -2216,11 +2221,14 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
 .app-text-container {
     /* text-align: left; */
-    padding: 20px;
+    padding: 20px 0;
+    width: 60%;
+    margin: auto;
 }
 
 .app-text p {
     margin-top: 30px;
+    font-weight: 100;
 }
 
 /* .app-download {
@@ -2231,6 +2239,10 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     width: 100%;
     border-top: 1px solid #d6d6d6;
 } */
+
+.app-download p {
+    margin-top: 0px;
+}
 
 .app-download img {
     height: 40px;
@@ -2253,8 +2265,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 } */
 
 .app-download a:hover {
-    -webkit-filter: drop-shadow(1px 2px 5px #AEAEAE);
-    filter: drop-shadow(1px 2px 5px #AEAEAE);
+    -webkit-filter: drop-shadow(0px 0px 5px #AEAEAE);
+    filter: drop-shadow(0px 0px 5px #AEAEAE);
 }
 
 /*videowalls */
