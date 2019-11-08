@@ -477,7 +477,7 @@ nav ul li:hover ul {
 
 #showcase {
     display: flex;
-    /* z-index: -2; */
+    z-index: -2;
     flex-direction: row;
     /* flex-wrap: wrap; */
     /* position: relative; */
@@ -502,7 +502,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     /* padding-top: 120px; */
 }
 
-#showcase .hero-img img {
+/* #showcase .hero-img img {
     float: right;
     margin-top: 140px;
     margin-left: 0px;
@@ -511,7 +511,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     filter: drop-shadow(3px 5px 3px #ADADAD);
     padding-bottom: 40px;
     padding-right:10px;
-}
+} */
 
 /* grid layout for home page --------------------------- */
 
@@ -520,11 +520,13 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     grid-template-columns: 1fr 1fr;
 } */
 
-/* .hero-grid {
+.hero-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    /* grid-auto-rows: minmax(auto, 22vh); */
     grid-gap: 5px;
-    margin-top: 130px;
+    /* margin-top: 130px; */
+    margin-top: 15vh;
     width: 50%;
     float: right;
 }
@@ -540,19 +542,22 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     border: 25px solid;
     border-width: 10px;
     border-image: url(../images/tv-border.png);
-    border-image-slice: 25 fill;
+    border-image-slice: 28 fill;
     border-image-outset: 0;
     border-image-width: 18px;
     flex-wrap: wrap;
     position: relative;
-} */
+}
 
-/* .hero-block-content {
-    grid-column: 1 / -1;
-    background-color: yellow;
-    grid-row: inherit;
+.hero-block-bottom {
+    grid-column-start: span 2;
+    width: 50%;
     margin: auto;
-} */
+}
+
+.hero-responsive {
+    display: none;
+}
 
 /* -------------------------------end grid layout for home page */
 
@@ -1384,17 +1389,89 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     padding-top: 40px;
 }
 
+.screen-container {
+    width: 60%;
+    margin: auto;
+}
+
+.signage-screens {
+    width: 47%;
+    display: inline-flex;
+    /* display: inline-block; */
+    border: 25px solid;
+    border-width: 10px;
+    border-image: url(../images/tv-border.png);
+    border-image-slice: 28 fill;
+    border-image-outset: 0;
+    border-image-width: 18px;
+    flex-wrap: wrap;
+    position: relative;
+    /* background-color: yellow; */
+    margin-top: 10%;
+}
+
+.signage-screens img{
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+/* .screen1 img, 
+.screen2 img,
+.screen3 img {
+    width: 300px;
+} */
+
+.screen2 {
+    float: right;
+    margin-top: 30px;
+    /* -webkit-filter: drop-shadow(3px 5px 3px #ADADAD);
+    filter: drop-shadow(3px 5px 3px #ADADAD); */
+}
+
+.screen-position {
+    position: relative;
+    display: block;
+    width: 100%;
+    /* background-color: yellow; */
+    margin: auto;
+    z-index: 0;
+}
+
+.screen3 {
+    width: 47%;
+    /* display: block; */
+    display: inline-flex;
+    border: 25px solid;
+    border-width: 10px;
+    border-image: url(../images/tv-border.png);
+    border-image-slice: 28 fill;
+    border-image-outset: 0;
+    border-image-width: 18px;
+    flex-wrap: wrap;
+    position: relative;
+    /* margin-top: -170px; */
+    margin-top: -19%;
+    margin-right: 5%;
+}
+
+.screen3 img {
+    width: 100%;
+    z-index: -1;
+    position: relative;
+}
+
 .signage {
     padding-bottom: 20px;
 }
 
-.signage img {
+/* .signage img {
     margin-top: 30px;
     margin-bottom: 20px;
     width: 40%;
     -webkit-filter: drop-shadow(3px 5px 3px #ADADAD);
     filter: drop-shadow(3px 5px 3px #ADADAD);
-}
+} */
 
 /*Boxes Interactive*/
 
@@ -3708,14 +3785,45 @@ footer {
     }
 } */
 
-@media(max-width: 1515px) {
+/* showcase hero repopnsive change to single screen */
+
+@media(max-width: 1500px) {
     /* #showcase_vid h1 {
         margin-top: 310px;
         margin-bottom: 0px;
     } */
+
+    .hero-grid {
+        display: none;
+    }
+
+    .hero-responsive {
+        display: inline-flex;
+        float: right;
+        margin-top: 28vh;
+        width: 50%;
+        border: 25px solid;
+        border-width: 10px;
+        border-image: url(../images/tv-border.png);
+        border-image-slice: 25 fill;
+        border-image-outset: 0;
+        border-image-width: 18px;
+        flex-wrap: wrap;
+        position: relative;
+    }
+    
+    .hero-responsive img {
+        width: 100%;
+        z-index: -1;
+    }
 }
 
-@media(max-width: 1455px) {
+@media(max-width: 1450px) {
+
+    /* expand digital signage container on home page */
+    .screen-container {
+        width: 80%;
+    }
     /* #showcase_sign h1 {
         margin-top: 300px;
     } */
@@ -4036,6 +4144,9 @@ footer {
     /* #showcase_software {
         background: url('../images/laptop2-1600px.jpg') no-repeat -220px -260px;
     } */
+    .screen-container {
+        width: 100%;
+    }
 
     .article-container {
         width: 60%;
@@ -4232,6 +4343,7 @@ footer {
 
     .topbar {
         position: static;
+        z-index: 3;
     }
 
     .topbar p {
