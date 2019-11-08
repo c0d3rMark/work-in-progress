@@ -29,7 +29,7 @@ Content additions
 
 - change digital signage to digital signs on signage page
 - check all img alt tags
-- optimize all images
+- optimize all images (minimize sizes where possible)
 - change content software url to digital signage software & all links
 - home page write up similar to Innovateq (why choose us?)
 - change hero buttons to contact from hardware
