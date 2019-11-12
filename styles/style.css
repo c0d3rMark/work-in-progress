@@ -477,7 +477,7 @@ nav ul li:hover ul {
 
 #showcase {
     display: flex;
-    z-index: -2;
+    z-index: -1;
     flex-direction: row;
     /* flex-wrap: wrap; */
     /* position: relative; */
@@ -529,6 +529,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     margin-top: 15vh;
     width: 50%;
     float: right;
+    z-index: 0;
 }
 
 .hero-block img {
