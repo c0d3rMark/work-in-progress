@@ -543,6 +543,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     width: 100%;
     z-index: -1;
     position: relative;
+    -webkit-filter: drop-shadow(3px 5px 3px #ADADAD);
+    filter: drop-shadow(3px 5px 3px #ADADAD);
 }
 
 .hero-block {
@@ -1423,6 +1425,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     width: 100%;
     position: relative;
     z-index: -1;
+    -webkit-filter: drop-shadow(3px 5px 3px #ADADAD);
+    filter: drop-shadow(3px 5px 3px #ADADAD);
 }
 
 /* .screen1 img, 
@@ -1468,6 +1472,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     width: 100%;
     z-index: -1;
     position: relative;
+    -webkit-filter: drop-shadow(3px 5px 3px #ADADAD);
+    filter: drop-shadow(3px 5px 3px #ADADAD);
 }
 
 .signage {
