@@ -1649,6 +1649,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     z-index: -1;
     padding: 0;
     width: 100%;
+    -webkit-filter: drop-shadow(3px 5px 5px #ADADAD);
+    filter: drop-shadow(3px 5px 5px #ADADAD);
 }
 
 /* .section-border {
@@ -1745,7 +1747,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     /* padding: 0; */
     /* width: 50%;
     height: 100%; */
-
+    -webkit-filter: drop-shadow(3px 5px 5px #ADADAD);
+    filter: drop-shadow(3px 5px 5px #ADADAD);
 }
 
 /* .sign_pic img {
