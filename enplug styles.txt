@@ -35,3 +35,4 @@ Content additions
 - change hero buttons to contact from hardware
 - New font and consistent fonr weighting
 - fix home page arrow link, images behind frames
+- browse hardware links to take to specific spots on page
