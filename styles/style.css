@@ -313,21 +313,21 @@ header a {
 }
 
 header .current a {
-    border-bottom: 2px solid #262626;
+    border-bottom: 1px solid #262626;
     padding-bottom: 0px;
-    color: black;
+    /* color: black; */
 }
 
 .underline {
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid #262626;
     padding-bottom: 0px;
     margin-bottom: 17px;
-    color: black;
+    /* color: black; */
 }
 
 header a:hover {
     color: #4C6971;
-    /* text-shadow: 0px 1px 0px black; */
+    text-shadow: 0px 1px 0px #4C6971;
 }
 
 header #branding {
@@ -2284,19 +2284,24 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     border-bottom: 1px solid #d6d6d6; */
     /* margin-bottom: 20px; */
     text-align: center;
-    background-color: #d6d6d6;
-    background-image: url(../images/mirrored-squares.png);
+    background-color: #ffffff;
+    background-image: url(../images/subtle-white-feathers.png);
+    /* box-shadow: inset 0 0 2px #aeaeae; */
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
 }
 
 .arc-app {
-    background-color: #fafafa;
+    background-color: #ffffff;
     /* border-top: 1px solid #d6d6d6;
     border-bottom: 1px solid #d6d6d6; */
-    box-shadow: inset 0 0 2px #aeaeae;
+    /* box-shadow: inset 0 0 2px #aeaeae; */
     color: #262626;
     /* display: flex; */
     flex: 0 0 25em;
     padding-bottom: 30px;
+    /* border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6; */
 }
 
 .app-img img {
@@ -2860,19 +2865,19 @@ aside#sidebar .quote input,
     justify-content: center;
     background-color: #DBDBDB;
     margin: 1%;
-    border: 0.5px solid black;
+    border: 0.5px solid #262626;
 }
 
 .selected {
-    background-color: #262626;
-    border: 0.5px solid black;
+    background-color: #4C6971;
+    border: 0.5px solid #262626;
     /* border: 1px solid #ccc; */
 }
 
 .select a {
     text-decoration: none;
     font-weight: bold;
-    color: black;
+    color: #262626;
     width: 100%;
 }
 
