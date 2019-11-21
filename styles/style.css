@@ -1439,6 +1439,10 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     width: 300px;
 } */
 
+/* .screen1 {
+    float: left;
+} */
+
 .screen2 {
     float: right;
     margin-top: 30px;
@@ -2249,7 +2253,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     display: inline;
 }
 
-#main .tv1 {
+/* #main .tv1 {
     width: 35%;
     min-width: 300px;
     height: auto;
@@ -2257,9 +2261,9 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     margin-right: 20px;
     -webkit-filter: drop-shadow(8px 8px 10px black);
     filter: drop-shadow(8px 8px 10px black);
-}
+} */
 
-#main .tv2 {
+/* #main .tv2 {
     width: 35%;
     height: auto;
     min-width: 300px;
@@ -2267,7 +2271,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     margin-left: 20px;
     -webkit-filter: drop-shadow(8px 8px 10px black);
     filter: drop-shadow(8px 8px 10px black);
-}
+} */
 
 #main .products-2 {
     text-align: right;
@@ -4228,6 +4232,14 @@ footer {
         width: 100%;
     }
 
+    .signage-screens {
+        width: 45%;
+    }
+
+    /* .screen1 {
+        float: left;
+    } */
+
     .article-container {
         width: 60%;
         margin: auto;
@@ -4343,8 +4355,8 @@ footer {
     aside#sidebar,
     .wrapper,
     .column,
-    #main .tv1,
-    #main .tv2,
+    /* #main .tv1,
+    #main .tv2, */
     #main .products,
     #main .products-2,
     .products li,
@@ -5366,6 +5378,12 @@ footer {
 
     .front-face-img {
         width: 65%;
+    }
+}
+
+@media(max-width: 460px) {
+    .signage-screens {
+        width: 43%;
     }
 }
 
