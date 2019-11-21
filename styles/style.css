@@ -3846,7 +3846,7 @@ footer {
         border-image: url(../images/tv-border.png);
         border-image-slice: 25 fill;
         border-image-outset: 0;
-        border-image-width: 18px;
+        border-image-width: 16px;
         flex-wrap: wrap;
         position: relative;
     }
