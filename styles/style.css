@@ -5145,7 +5145,7 @@ footer {
         padding-right: 1%;
     } */
 
-    nav {
+    /* nav {
         margin-top: 0px;
         height: 70px;
     }
@@ -5153,10 +5153,10 @@ footer {
     nav a {
         padding-top: 0px;
         padding-bottom: 0px;
-    }
+    } */
 
     #mobile-menu ul li ul {
-        margin-top: 17px;
+        margin-top: 0px;
     }
 
     /* #showcase img {
