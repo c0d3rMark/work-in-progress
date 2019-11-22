@@ -39,7 +39,7 @@ ul {
 
 .dark h3 {
     margin-top: 25px;
-    font-weight: 100;
+    /*font-weight: 100;*/
     font-size: 30px;
 }
 
@@ -588,7 +588,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     /* margin-top: 290px; */
     /* margin-left: 20px; */
     font-size: 45px;
-    font-weight: 100;
+    /*font-weight: 100;*/
     color: #262626;
     /* -webkit-filter: contrast(105%);
     filter: contrast(105%); */
@@ -766,7 +766,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     font-size: 35px;
     text-align: center;
     margin-top: 0px;
-    font-weight: 100;
+    /*font-weight: 100;*/
 }
 
 .vid-border h3:after {
@@ -809,13 +809,13 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 }
 
 .vid-contact-text p {
-    font-weight: 100;
+    /*font-weight: 100;*/
 }
 
 .vid-h3 {
     background-color: #ffffff;
     padding: 10px 0 10px 0;
-    font-weight: 100;
+    /*font-weight: 100;*/
     letter-spacing: 2px;
 }
 
@@ -842,7 +842,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     margin-top: 110px;
     /* margin-left: 20px; */
     font-size: 45px;
-    font-weight: 100;
+    /*font-weight: 100;*/
     color: #262626;
     /* -webkit-filter: contrast(105%);
     filter: contrast(105%); */
@@ -901,7 +901,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     margin-top: 120px; */
     /* margin-left: 20px; */
     /* font-size: 45px;
-    font-weight: 100;
+    /*font-weight: 100;*/
     color: #262626;
     -webkit-filter: contrast(105%);
     filter: contrast(105%); */
@@ -1507,7 +1507,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
 .interact-p h3 {
     letter-spacing: 2px;
-    font-weight: 100;
+    /*font-weight: 100;*/
 }
 
 .interact-p h3:after {
@@ -2336,7 +2336,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
 .app-text p {
     margin-top: 30px;
-    font-weight: 100;
+    /*font-weight: 100;*/
 }
 
 /* .app-download {
@@ -2561,7 +2561,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 }
 
 #software-features h3 {
-    font-weight: 100;
+    /*font-weight: 100;*/
     letter-spacing: 2px;
 }
 
@@ -2729,7 +2729,7 @@ aside#sidebar .quote input,
 
 .block h2 {
     font-size: 18px;
-    font-weight: 100;
+    /*font-weight: 100;*/
 }
 
 .block h2::after {
@@ -3099,7 +3099,7 @@ aside#sidebar .quote input,
 
 .tabcontent h3 {
     font-size: 20px;
-    font-weight: 100;
+    /*font-weight: 100;*/
 }
 
 .tabcontent h3,
@@ -3262,7 +3262,7 @@ aside#sidebar .quote input,
 }
 
 #specialize h3 {
-    font-weight: 100;
+    /*font-weight: 100;*/
     letter-spacing: 2px;
 }
 
