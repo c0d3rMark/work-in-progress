@@ -2273,16 +2273,16 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     filter: drop-shadow(8px 8px 10px black);
 } */
 
-#main .products-2 {
+/* #main .products-2 {
     text-align: right;
     padding-top: 30px;
-}
+} */
 
-.products-2 li {
+/* .products-2 li {
     text-align: right;
     margin-top: 15px;
     list-style: none;
-}
+} */
 
 /* ARc app info */
 
@@ -4358,9 +4358,9 @@ footer {
     /* #main .tv1,
     #main .tv2, */
     #main .products,
-    #main .products-2,
+    /* #main .products-2, */
     .products li,
-    .products-2 li,
+    /* .products-2 li, */
     #warranty,
     #main .vid1,
     #main .vid2,
@@ -4424,9 +4424,9 @@ footer {
     }
 
     #main .products {
-        padding-top: 20px;
+        /* padding-top: 20px;
         padding-bottom: 20px;
-        text-align: center;
+        text-align: center; */
         font-size: 17px;
     }
 
@@ -4771,11 +4771,11 @@ footer {
         font-size: 17px;
     }
 
-    .products,
+    /* .products,
     .products-2 {
         margin-top: 20px;
         margin-bottom: 20px;
-    }
+    } */
 
     #telechamp h2 {
         font-size: 25px;
