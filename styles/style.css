@@ -2249,7 +2249,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
 #main h2 {
     font-size: 35px;
-    font-weight: bold;
+    /* font-weight: bold; */
     display: inline;
 }
 
@@ -4423,6 +4423,10 @@ footer {
         margin: auto;
     }
 
+    #main h2 {
+        font-size: 30px;
+    }
+
     #main .products {
         /* padding-top: 20px;
         padding-bottom: 20px;
@@ -4438,18 +4442,22 @@ footer {
         padding: 0;
     }
 
-    .bg_img1,
-    .bg_img2,
-    .bg_img3,
-    .bg_img5,
-    /* .bg_img6, */
-    /* .bg_img8, */
-    .bg_imgInteract {
-        height: 220px;
-        background-attachment: scroll;
+    .app-text-container {
+        width: 90%;
     }
 
-    .ptext {
+    /* .bg_img1,
+    .bg_img2,
+    .bg_img3,
+    .bg_img5, */
+    /* .bg_img6, */
+    /* .bg_img8, */
+    /* .bg_imgInteract {
+        height: 220px;
+        background-attachment: scroll;
+    } */
+
+    /* .ptext {
         margin-top: 70px;
         font-size: 0px;
     }
@@ -4457,12 +4465,12 @@ footer {
     #main .ptext h2 {
         font-size: 25px;
         letter-spacing: 2px;
-    }
+    } */
 
-    #main .border {
+    /* #main .border {
         padding-top: 18px;
         padding-bottom: 18px;
-    }
+    } */
 
     .empty {
         height: 30px;
@@ -5104,7 +5112,10 @@ footer {
         padding-bottom: 40px;
         height: 60%;
     }
-}
+
+    .app-img img {
+        width: 90%;
+    }
 
 @media(max-width: 660px) {
 
@@ -5567,6 +5578,11 @@ footer {
 
     .link a:hover {
         letter-spacing: 2px;
+    }
+
+    .app-download img {
+        height: 35px;
+        padding: 20px;
     }
 }
 
