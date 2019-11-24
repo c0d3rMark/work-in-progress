@@ -1202,6 +1202,10 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     user-select: none;
   }
 
+  .response-slide-tabs {
+    display: none;
+}
+
   /* Position the "next button" to the right */
 .next {
     right: 0;
@@ -2148,7 +2152,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     /* position: relative; */
     padding-top: 20px;
     background-color: #ffffff;
-    min-height: 80vh;
+    /* min-height: 80vh; */
     /* border-top: #DBDBDB 1px solid;
     border-bottom: #DBDBDB 1px solid; */
     text-align: center;
@@ -4222,6 +4226,14 @@ footer {
     #boxes hr {
         margin-bottom: 40px;
     }
+
+    .next {
+        margin-right: 20px;
+      }
+    
+    .prev {
+        margin-left: 20px;
+    }
 }
 
 @media(max-width: 1065px) {
@@ -4471,6 +4483,37 @@ footer {
         padding-top: 18px;
         padding-bottom: 18px;
     } */
+
+    .prev,
+    .next {
+        display: none;
+    }
+
+    .response-slide-tabs {
+        display: block;
+        width: 100%;
+    }
+
+    .response-prev, .response-next {
+        /* cursor: pointer; */
+        /* position: absolute;
+        top: 50%; */
+        width: auto;
+        margin: 0 auto;
+        font-size: 25px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        padding: 20px;
+        /* margin-top: -22px;
+        padding: 16px;
+        color: #262626;
+        font-weight: bold;
+        font-size: 50px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none; */
+    }
 
     .empty {
         height: 30px;
