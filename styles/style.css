@@ -1129,6 +1129,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     padding: 10px;
     padding-bottom: 40px;
     margin-top: 30px;
+    align-items: center;
 }
 
 .interact-displays {
@@ -1139,6 +1140,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     padding: 10px;
     padding-bottom: 40px;
     margin-top: 70px;
+    align-items: center;
 }
 
 .led-video-img img {
@@ -4234,6 +4236,25 @@ footer {
     .prev {
         margin-left: 20px;
     }
+
+    .led-container,
+    .interact-container {
+        min-height: initial;
+    }
+
+    .led-video-img img,
+    .interact-displays img {
+        width: 90%;
+    }
+
+    .interact-displays {
+        margin-top: 0px;
+    }
+
+    .interact-text {
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
 }
 
 @media(max-width: 1065px) {
@@ -4513,6 +4534,24 @@ footer {
         transition: 0.6s ease;
         border-radius: 0 3px 3px 0;
         user-select: none; */
+    }
+
+    .led-video {
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+
+    .interact-displays {
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+
+    .led-video-img img {
+        width: 60%;
+    }
+
+    .interact-displays img {
+        width: 70%;
     }
 
     .empty {
@@ -5096,6 +5135,19 @@ footer {
 }
 
 @media(max-width: 700px) {
+    #telechamp .fusion-showcase img {
+        width: 90%;
+    }
+
+    .client-logos {
+        width: 100%;
+    }
+
+    .software-clients img {
+        max-width: 80px;
+        max-height: 35px;
+    }
+
     .sign_pic {
         height: auto;
     }
@@ -5377,6 +5429,14 @@ footer {
 }
 
 @media(max-width: 500px) {
+    .led-video-img img {
+        width: 80%;
+    }
+
+    .interact-displays img {
+        width: 85%;
+    }
+
     /*Hardware*/
 
     .block {
