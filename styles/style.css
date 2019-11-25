@@ -829,6 +829,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     text-align: left;
     /* border-bottom: 1px solid #d6d6d6; */
     /* position: relative; */
+    z-index: -1;
 }
 
 .hero-banner hr {
@@ -863,6 +864,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 #showcase_sign {
     /* min-height: 520px; */
     background: url('../images/signage-banner.jpg') no-repeat bottom left;
+    position: relative;
     /* background-attachment: fixed; */
     /* background-position: bottom right;
     padding-top: 90px;
@@ -919,6 +921,13 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     color: #262626;
     -webkit-filter: contrast(105%);
     filter: contrast(105%); */
+}
+
+.banner-img-layer {
+    z-index: 1;
+    min-height: 100%;
+    /* margin:auto; */
+    width: 100%;
 }
 
 .mobile-banner-container {
@@ -4268,6 +4277,7 @@ footer {
         height: max-content;
         width: 100%;
         display: block;
+        z-index: 0;
     }
 
     .mobile-banner {
