@@ -862,7 +862,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
 #showcase_sign {
     /* min-height: 520px; */
-    background: url('../images/signage-banner.jpg') no-repeat bottom right;
+    background: url('../images/signage-banner.jpg') no-repeat bottom left;
     /* background-attachment: fixed; */
     /* background-position: bottom right;
     padding-top: 90px;
@@ -919,6 +919,10 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     color: #262626;
     -webkit-filter: contrast(105%);
     filter: contrast(105%); */
+}
+
+.mobile-banner-container {
+    display: none;
 }
 
 /* #showcase_sign hr {
@@ -4149,10 +4153,10 @@ footer {
 }
 
 @media(max-width: 1160px) {
-    #showcase_sign {
+    /* #showcase_sign {
         position: relative;
         text-align: center;
-    }
+    } */
 
     /* #showcase_sign img,
     #showcase_sign h1,
@@ -4254,6 +4258,37 @@ footer {
     .interact-text {
         padding-top: 0px;
         padding-bottom: 10px;
+    }
+
+    .hero-banner {
+        padding-top: 0;
+    }
+
+    .mobile-banner-container {
+        height: max-content;
+        width: 100%;
+        display: block;
+    }
+
+    .mobile-banner {
+        display: inline-flex;
+        /* float: right; */
+        /* margin-top: 20px; */
+        /* height: 100%; */
+        width: 80%;
+        border: 25px solid;
+        border-width: 10px;
+        border-image: url(../images/tv-border.png);
+        border-image-slice: 25 fill;
+        border-image-outset: 0;
+        border-image-width: 16px;
+    }
+    
+    .mobile-banner img {
+        width: 100%;
+        z-index: -1;
+        -webkit-filter: drop-shadow(3px 5px 5px #ADADAD);
+        filter: drop-shadow(3px 5px 5px #ADADAD);
     }
 }
 
@@ -4686,11 +4721,11 @@ footer {
 
     /*Signage page top and bottom images*/
 
-    #showcase_sign {
+    /* #showcase_sign { */
         /* background: url('../images/tri-color-ipad.jpg') no-repeat;
         background-attachment: scroll; */
-        min-height: 400px;
-    }
+        /* min-height: 400px;
+    } */
 
     /* .showSign_screen {
         float: none;
@@ -5532,7 +5567,7 @@ footer {
     } */
 
     #showcase h1,
-    /* #showcase_sign h1, */
+    #showcase_sign h1,
     /* #showcase_vid h1, */
     #showcase_interact h1,
     #showcase_software h1,
@@ -5541,7 +5576,7 @@ footer {
     }
 
     #showcase p,
-    /* #showcase_sign p, */
+    #showcase_sign p,
     /* #showcase_vid p, */
     #showcase_interact p,
     #showcase_software p {
