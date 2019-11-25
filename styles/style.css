@@ -1685,6 +1685,10 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     filter: drop-shadow(3px 5px 5px #ADADAD);
 }
 
+.img2 {
+    display: none;
+}
+
 /* .section-border {
     padding-bottom: 40px;
 } */
@@ -4330,6 +4334,14 @@ footer {
     .hero-banner hr {
         width: 60%;
     }
+
+    .img1 {
+        display: none;
+    }
+
+    .img2 {
+        display: block;
+    }
 }
 
 @media(max-width: 1065px) {
@@ -4379,6 +4391,26 @@ footer {
 }
 
 @media(max-width: 900px) {
+    .topSection {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .signage-explainer {
+        display: block;
+        text-align: center;
+    }
+
+    .hero-content {
+        display: none;
+    }
+
+    .what_is h2:after,
+    .what_is h2::after {
+        margin: auto;
+        margin-top: 20px;
+    }
+
     /* #showcase h1 {
         margin-top: 0px;
         width: 65%;
@@ -5766,6 +5798,10 @@ footer {
 
     .lineBreak {
         display: none;
+    }
+
+    .hero-banner {
+        min-height: initial;
     }
 }
 
