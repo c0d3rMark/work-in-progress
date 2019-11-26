@@ -952,7 +952,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
 #showcase_interact {
     /* min-height: 665px; */
-    background: url('../images/interact-banner.jpg') no-repeat bottom right;
+    background: url('../images/interact-banner.jpg') no-repeat bottom left;
+    position: relative;
     /* background-attachment: fixed;
     text-align: right;
     border-bottom: black 1.3px solid;
@@ -4106,14 +4107,14 @@ footer {
         margin-top: 170px;
     } */
 
-    #showcase_interact img {
+    /* #showcase_interact img {
         display: block;
         margin-left: auto;
         margin-right: auto;
         padding-right: 0px;
         width: 450px;
         margin-top: 180px;
-    }
+    } */
 
     .box_interact {
         float: none;
@@ -4292,7 +4293,8 @@ footer {
     }
 
     #showcase_sign,
-    #showcase_vid {
+    #showcase_vid,
+    #showcase_interact {
         background-position: left center;
         border-bottom: 1px solid #d6d6d6;
     }
@@ -4339,12 +4341,14 @@ footer {
     }
 
     #showcase_sign h1,
-    #showcase_vid h1 {
+    #showcase_vid h1,
+    #showcase_interact h1 {
         font-size: 35px;
     }
     
     #showcase_sign p,
-    #showcase_vid p {
+    #showcase_vid p,
+    #showcase_interact p {
         font-size: 20px;
     }
 
@@ -4994,13 +4998,13 @@ footer {
 
     /*Interactive page top and bottom images*/
 
-    #showcase_interact {
+    /* #showcase_interact {
         background: url('../images/confetti-ipad.jpg') no-repeat;
         background-attachment: scroll;
         min-height: 400px;
-    }
+    } */
 
-    #showcase_interact h1 {
+    /* #showcase_interact h1 {
         margin-top: 0px;
     }
 
@@ -5011,7 +5015,7 @@ footer {
     #showcase_interact img {
         width: 290px;
         margin-top: 70px;
-    }
+    } */
 
     /* .bg_imgInteract {
         background: url('../images/confetti-ipad.jpg') no-repeat -40px -18px;
@@ -5771,10 +5775,10 @@ footer {
         width: 220px;
     } */
 
-    #showcase_interact img {
+    /* #showcase_interact img {
         width: 200px;
         margin-top: 90px;
-    }
+    } */
 
     /* #showcase_vid h1, */
     /* #showcase_interact h1 {
@@ -5857,14 +5861,16 @@ footer {
 @media(max-width: 400px) {
     #showcase h1,
     #showcase_sign h1,
-    #showcase_vid h1 {
+    #showcase_vid h1,
+    #showcase_interact h1 {
         margin-top: 10px;
         margin-bottom: 10px;
     }
 
     #showcase p,
     #showcase_sign p,
-    #showcase_vid p {
+    #showcase_vid p,
+    #showcase_interact p {
         margin-top: 10px;
         margin-bottom: 10px;
         font-size: 18px;
