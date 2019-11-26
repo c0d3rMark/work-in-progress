@@ -756,6 +756,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 .vid-border img {
     display: flex;
     width: 550px;
+    /* width: 30%; */
     margin: auto;
     /* padding-top: 10px; */
     padding-bottom: 60px;
@@ -4021,9 +4022,9 @@ footer {
 @media(max-width: 1250px) {
 
     /* #showcase_vid h1, */
-    #showcase_interact h1 {
+    /* #showcase_interact h1 {
         margin-top: 260px;
-    }
+    } */
 }
 
 @media(max-width: 1216px) {
@@ -4087,13 +4088,13 @@ footer {
     /* #showcase_vid img,
     #showcase_vid h1,
     #showcase_vid p, */
-    #showcase_interact img,
+    /* #showcase_interact img,
     #showcase_interact h1,
     #showcase_interact p {
         float: none;
         text-align: center;
         margin-left: 0px;
-        margin-right: 0px;
+        margin-right: 0px; */
     }
 
     /* #showcase_vid img {
@@ -4155,7 +4156,7 @@ footer {
 
     /* #showcase_vid h1,
     #showcase_vid p, */
-    #showcase_interact h1,
+    /* #showcase_interact h1,
     #showcase_interact p {
         width: 100%;
         position: absolute;
@@ -4163,19 +4164,19 @@ footer {
         left: 50%;
         transform: translate(-50%, -50%);
         color: white;
-        text-shadow: 1px 1px 3px black;
-    }
+        text-shadow: 1px 1px 3px black; */
+    /* } */
 
     /* #showcase_vid h1, */
-    #showcase_interact h1 {
-        margin-top: 75px;
-    }
+    /* #showcase_interact h1 {
+        margin-top: 75px; */
+    /* } */
 
     /* #showcase_vid p, */
-    #showcase_interact p {
+    /* #showcase_interact p {
         margin-top: 560px;
-    }
-}
+    /* } */
+/* } */
 
 @media(max-width: 1160px) {
     /* #showcase_sign {
@@ -4365,6 +4366,10 @@ footer {
 
     .sign_background {
         padding-bottom: 20px;
+    }
+
+    .vid-border img {
+        width: 50%;
     }
 }
 
@@ -4786,14 +4791,14 @@ footer {
     }
 
     /* #showcase_vid h1, */
-    #showcase_interact h1 {
+    /* #showcase_interact h1 {
         margin-top: 50px;
         font-size: 35px;
-    }
+    } */
 
-    #showcase_software h1 {
+    /* #showcase_software h1 {
         margin-top: 130px;
-    }
+    } */
 
     /* #showcase h1 {
         margin-top: -60px;
@@ -4803,16 +4808,16 @@ footer {
         margin-top: 40px;
     } */
 
-    #showcase_about h1 {
+    /* #showcase_about h1 {
         margin-top: 150px;
         font-size: 35px;
-    }
+    } */
 
     /* #showcase_vid p, */
-    #showcase_interact p,
+    /* #showcase_interact p,
     #showcase_software p {
         font-size: 25px;
-    }
+    } */
 
     /*Home page top and bottom images*/
 
@@ -5397,22 +5402,22 @@ footer {
 @media(max-width: 660px) {
 
     /* #showcase_vid h1, */
-    #showcase_interact h1 {
+    /* #showcase_interact h1 {
         margin-top: 5px;
-    }
+    } */
 
     /* #showcase_vid p, */
-    #showcase_interact p {
+    /* #showcase_interact p {
         margin-top: 320px;
-    }
+    } */
 
     /* #showcase_vid img, */
-    #showcase_interact img {
+    /* #showcase_interact img {
         width: 260px;
         margin-top: 80px;
         -webkit-filter: none;
         filter: drop-shadow(none);
-    }
+    } */
 
     .list_sizes {
         margin-right: 1px;
@@ -5712,11 +5717,11 @@ footer {
     /* #showcase, */
     /* #showcase_sign, */
     /* #showcase_vid, */
-    #showcase_interact,
+    /* #showcase_interact,
     #showcase_software,
     #showcase_about {
         min-height: 340px;
-    }
+    } */
 
     /* #showcase img {
         margin-top: 15%;
@@ -5772,14 +5777,14 @@ footer {
     }
 
     /* #showcase_vid h1, */
-    #showcase_interact h1 {
+    /* #showcase_interact h1 {
         margin-top: 10px;
-    }
+    } */
 
     /* #showcase_vid p, */
-    #showcase_interact p {
+    /* #showcase_interact p {
         margin-top: 275px;
-    }
+    } */
 
     /* #showcase {
         background: url('../images/modern-pattern-color-flipped-mobile.jpg') no-repeat 0 -11px;
