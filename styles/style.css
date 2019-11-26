@@ -4039,7 +4039,7 @@ footer {
         filter: drop-shadow(5px 8px 10px black);
     } */
 
-    .mid_sign_text {
+    /* .mid_sign_text {
         text-align: center;
         width: 100%;
         height: auto;
@@ -4048,20 +4048,20 @@ footer {
 
     .mid_sign_text h2 {
         margin-top: 0px;
-    }
+    } */
 
-    .mid_sign_text h2::after {
+    /* .mid_sign_text h2::after {
         content: "";
         display: block;
         margin: 0 auto;
         width: 200px;
         padding-top: 20px;
         border-bottom: 3px solid #3FC1C1;
-    }
-
+    } */
+/* 
     .mid_sign_text i {
         display: none;
-    }
+    } */
 }
 
 @media(max-width: 1200px) {
@@ -4342,6 +4342,10 @@ footer {
     .img2 {
         display: block;
     }
+
+    .sign-benefit {
+        width: 100%;
+    }
 }
 
 @media(max-width: 1065px) {
@@ -4367,11 +4371,34 @@ footer {
 }
 
 
-/* @media(max-width: 1000px) {
-    #showcase img {
-        width: 90%;
+@media(max-width: 1000px) {
+    .sign-benefit {
+        display: grid;
+        width: 80%;
+        grid-template-columns: 1fr;
     }
-} */
+
+    .mid_sign_text {
+        text-align: center;
+    }
+
+    .mid_sign_text i {
+        display: none;
+    }
+
+    .sign_pic img {
+        margin: auto;
+    }
+
+    .mid_sign_text hr {
+        width: 200px;
+        margin: auto;
+    }
+
+    /* #showcase img {
+        width: 90%;
+    } */
+}
 
 @media(max-width: 990px) {
     /* #showcase_software {
@@ -4792,6 +4819,11 @@ footer {
     } */
 
     /*Signage page top and bottom images*/
+
+    .box_contact {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
 
     /* #showcase_sign { */
         /* background: url('../images/tri-color-ipad.jpg') no-repeat;
@@ -5249,7 +5281,7 @@ footer {
         max-height: 35px;
     }
 
-    .sign_pic {
+    /* .sign_pic {
         height: auto;
     }
 
@@ -5263,7 +5295,7 @@ footer {
 
     .mid_sign_text {
         display: none;
-    }
+    } */
 
     .what_is hr {
         display: none;
@@ -5583,8 +5615,20 @@ footer {
         font-size: 18px;
     }
 
+    .sign-benefit {
+        padding: 10px 0;
+    }
+
+    .mid_sign {
+         padding: 0;
+    }
+
     .mid_sign_text {
         display: none;
+    }
+
+    .sign_pic img {
+        max-width: 300px;
     }
 
     .product-img img {
@@ -5863,6 +5907,10 @@ footer {
 
     .container {
         width: 95%;
+    }
+
+    .sign_pic img {
+        max-width: 250px;
     }
 }
 
