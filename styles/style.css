@@ -4290,7 +4290,8 @@ footer {
         padding-top: 0;
     }
 
-    #showcase_sign {
+    #showcase_sign,
+    #showcase_vid {
         background-position: left center;
         border-bottom: 1px solid #d6d6d6;
     }
@@ -4318,7 +4319,7 @@ footer {
     }
 
     .vid-banner {
-        width: 80%;
+        width: 70%;
     }
     
     .mobile-banner img,
@@ -5736,7 +5737,7 @@ footer {
 
     #showcase h1,
     #showcase_sign h1,
-    /* #showcase_vid h1, */
+    #showcase_vid h1,
     #showcase_interact h1,
     #showcase_software h1,
     #showcase_about h1 {
@@ -5745,7 +5746,7 @@ footer {
 
     #showcase p,
     #showcase_sign p,
-    /* #showcase_vid p, */
+    #showcase_vid p,
     #showcase_interact p,
     #showcase_software p {
         font-size: 20px;
@@ -5850,13 +5851,15 @@ footer {
 
 @media(max-width: 400px) {
     #showcase h1,
-    #showcase_sign h1 {
+    #showcase_sign h1,
+    #showcase_vid h1 {
         margin-top: 10px;
         margin-bottom: 10px;
     }
 
     #showcase p,
-    #showcase_sign p {
+    #showcase_sign p,
+    #showcase_vid p {
         margin-top: 10px;
         margin-bottom: 10px;
         font-size: 18px;
