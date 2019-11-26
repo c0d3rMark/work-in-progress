@@ -685,7 +685,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
 #showcase_vid {
     /* min-height: 665px; */
-    background: url('../images/vid-banner.jpg') no-repeat bottom right;
+    background: url('../images/vid-banner.jpg') no-repeat bottom left;
+    position: relative;
     /* background-attachment: fixed;
     background-position: center center;
     text-align: left;
@@ -832,7 +833,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     z-index: 0;
 }
 
-#showcase_sign .head_style2 {
+.head_style2 {
     z-index: 2;
     margin-top: 110px;
 }
@@ -909,7 +910,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     /* margin-left: 20px; */
     /* font-size: 45px;
     /*font-weight: 100;*/
-    color: #262626;
+    /*color: #262626;
     -webkit-filter: contrast(105%);
     filter: contrast(105%); */
 }
@@ -935,7 +936,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     width: 100%;
 }
 
-.mobile-banner-container {
+.mobile-banner-container,
+.vid-banner-container {
     display: none;
 }
 
@@ -4224,7 +4226,7 @@ footer {
     }
 
     #showcase .show-text,
-    #showcase_sign .head_style2 {
+    .head_style2 {
         margin-top: 2vh;
     }
 
@@ -4293,7 +4295,8 @@ footer {
         border-bottom: 1px solid #d6d6d6;
     }
 
-    .mobile-banner-container {
+    .mobile-banner-container,
+    .vid-banner-container {
         height: max-content;
         width: 100%;
         display: block;
@@ -4313,26 +4316,33 @@ footer {
         border-image-outset: 0;
         border-image-width: 16px;
     }
+
+    .vid-banner {
+        width: 80%;
+    }
     
-    .mobile-banner img {
+    .mobile-banner img,
+    .vid-banner img {
         width: 100%;
         z-index: -1;
         -webkit-filter: drop-shadow(3px 5px 5px #ADADAD);
         filter: drop-shadow(3px 5px 5px #ADADAD);
     }
 
-    #showcase_sign .head_style2 {
+    .head_style2 {
         width: 90%;
         float: none;
         margin: auto;
         /* margin-top: 140px; */
     }
 
-    #showcase_sign h1 {
+    #showcase_sign h1,
+    #showcase_vid h1 {
         font-size: 35px;
     }
     
-    #showcase_sign p {
+    #showcase_sign p,
+    #showcase_vid p {
         font-size: 20px;
     }
 
@@ -5974,4 +5984,5 @@ footer {
         width: 90%;
         margin-top: 42px;
     } */
+}
 }
