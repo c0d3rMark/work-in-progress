@@ -4409,7 +4409,8 @@ footer {
     #vid_img, 
     .what_is,
     .interact_intro,
-    .software_intro {
+    .software_intro,
+    .about_us {
         font-size: 18px;
         padding: 20px;
         text-align: center;
@@ -5189,7 +5190,8 @@ footer {
     #vid_img,
     .what_is,
     .interact_intro,
-    .software_intro {
+    .software_intro,
+    .about_us {
         display: inline;
         font-size: 17px;
     }
