@@ -786,7 +786,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 }
 
 .vid-contact {
-    height: 320px;
+    /* height: 320px; */
     background-color: #fafafa;
     border-top: 1px solid #d6d6d6;
     background-image: url("../images/transparent-square-tiles.png"); 
@@ -806,7 +806,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 }
 
 .vid-contact-text hr {
-    width: 350px;
+    width: 280px;
     margin-bottom: 30px;
 }
 
@@ -4382,6 +4382,28 @@ footer {
     .vid-border img {
         width: 50%;
     }
+
+    .signage-explainer {
+        display: block;
+    }
+
+    .vid-top img {
+        display: none;
+    }
+
+    #vid_img {
+        text-align: center;
+    }
+
+    .vid_benefits h2:after {
+    margin: auto;
+    margin-top: 10px;
+    }
+
+    .topSection {
+        padding-top: 0;
+        padding-bottom: 10px;
+    }
 }
 
 @media(max-width: 1065px) {
@@ -4454,15 +4476,15 @@ footer {
 }
 
 @media(max-width: 900px) {
-    .topSection {
+    /* .topSection {
         padding-top: 20px;
         padding-bottom: 30px;
-    }
+    } */
 
-    .signage-explainer {
+    /* .signage-explainer {
         display: block;
         text-align: center;
-    }
+    } */
 
     .hero-content {
         display: none;
@@ -5777,6 +5799,10 @@ footer {
         margin-top: 20px;
         margin-bottom: 20px;
         height: auto;
+    }
+
+    .vid-contact-text hr {
+        width: 150px;
     }
 
     /* #showcase_vid img {
