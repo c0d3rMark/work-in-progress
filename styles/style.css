@@ -1656,7 +1656,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
 /*Signage content*/
 
-.topSection {
+#topSection {
     padding-top: 40px;
     padding-bottom: 50px;
 }
@@ -1686,10 +1686,6 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     width: 100%;
     -webkit-filter: drop-shadow(3px 5px 5px #ADADAD);
     filter: drop-shadow(3px 5px 5px #ADADAD);
-}
-
-.img2 {
-    display: none;
 }
 
 /* .section-border {
@@ -1804,8 +1800,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     margin-bottom: 0px;
 } */
 
-.box_list h2:after,
-.box_list h2::after {
+/* .box_list h2:after {
     content: "";
     display: block;
     margin: 0 auto;
@@ -1829,7 +1824,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
 .box_sign p {
     font-size: 18px;
-}
+} */
 
 #boxes_sign i {
     margin-right: 10px;
@@ -1862,7 +1857,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 } */
 
 .what_is h2:after,
-.what_is h2::after,
+/* .what_is h2::after, */
 .interact_intro h2:after,
 .vid_benefits h2:after,
 .software_intro h2:after {
@@ -1878,10 +1873,10 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     margin-bottom: 10px;
 }
 
-.what_is hr {
+/* .what_is hr {
     margin-top: 50px;
     margin-bottom: 0px;
-}
+} */
 
 #main h3 {
     margin-top: 25px;
@@ -4276,7 +4271,7 @@ footer {
         min-height: initial;
     }
 
-    .led-video-img img,
+    /* .led-video-img img, */
     .interact-displays img {
         width: 90%;
     }
@@ -4364,13 +4359,15 @@ footer {
         width: 60%;
     }
 
-    .img1 {
+    .img1,
+    .vid-top img,
+    .hero-content {
         display: none;
     }
 
-    .img2 {
-        display: block;
-    }
+    /* #topSection img {
+        display: none;
+    } */
 
     .sign-benefit {
         width: 100%;
@@ -4388,22 +4385,30 @@ footer {
         display: block;
     }
 
-    .vid-top img {
+    /* .vid-top img {
         display: none;
-    }
+    } */
 
-    #vid_img {
+    /* #vid_img {
         text-align: center;
-    }
+    } */
 
-    .vid_benefits h2:after {
+    .vid_benefits h2:after,
+    .what_is h2:after {
     margin: auto;
     margin-top: 10px;
     }
 
-    .topSection {
+    #topSection {
         padding-top: 0;
         padding-bottom: 10px;
+    }
+
+    #vid_img, 
+    .what_is {
+        font-size: 18px;
+        padding: 20px;
+        text-align: center;
     }
 
     .icon1,
@@ -4482,7 +4487,7 @@ footer {
 }
 
 @media(max-width: 900px) {
-    /* .topSection {
+    /* #topSection {
         padding-top: 20px;
         padding-bottom: 30px;
     } */
@@ -4496,11 +4501,11 @@ footer {
         display: none;
     }
 
-    .what_is h2:after,
+    /* .what_is h2:after,
     .what_is h2::after {
         margin: auto;
         margin-top: 20px;
-    }
+    } */
 
     /* #showcase h1 {
         margin-top: 0px;
@@ -4597,9 +4602,9 @@ footer {
     #main .vid2,
     .topbar,
     #vid_img .vid_benefits,
-    #vid_img p,
+    /* #vid_img p, */
     #vid_img .features,
-    .what_is,
+    /* .what_is, */
     .box_list
     /* .sign_industry img, */
     /* .sign_industry h4,
@@ -5104,18 +5109,18 @@ footer {
         margin-left: 0px;
     }
 
-    .box_sign {
+    /* .box_sign {
         width: auto;
         margin: 5px;
-    }
+    } */
 
     .what_is h2 {
         font-size: 25px;
     }
 
-    .box_sign p {
+    /* .box_sign p {
         font-size: 17px;
-    }
+    } */
 
     .box_list {
         padding-bottom: 10px;
@@ -5176,7 +5181,8 @@ footer {
         padding-bottom: 5px;
     }
 
-    #vid_img {
+    #vid_img,
+    .what_is {
         display: inline;
         font-size: 17px;
     }
@@ -5398,9 +5404,9 @@ footer {
         display: none;
     } */
 
-    .what_is hr {
+    /* .what_is hr {
         display: none;
-    }
+    } */
 
     .sign_industry {
         border: none;
