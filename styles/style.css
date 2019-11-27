@@ -4394,7 +4394,9 @@ footer {
     } */
 
     .vid_benefits h2:after,
-    .what_is h2:after {
+    .what_is h2:after,
+    .interact_intro h2:after,
+    .software_intro h2:after {
     margin: auto;
     margin-top: 10px;
     }
@@ -4405,7 +4407,9 @@ footer {
     }
 
     #vid_img, 
-    .what_is {
+    .what_is,
+    .interact_intro,
+    .software_intro {
         font-size: 18px;
         padding: 20px;
         text-align: center;
@@ -4497,9 +4501,9 @@ footer {
         text-align: center;
     } */
 
-    .hero-content {
+    /* .hero-content {
         display: none;
-    }
+    } */
 
     /* .what_is h2:after,
     .what_is h2::after {
@@ -5114,7 +5118,8 @@ footer {
         margin: 5px;
     } */
 
-    .what_is h2 {
+    .what_is h2,
+    .interact_intro h2 {
         font-size: 25px;
     }
 
@@ -5171,9 +5176,9 @@ footer {
 
     /*interactive*/
 
-    .interact_intro {
+    /* .interact_intro {
         font-size: 17px;
-    }
+    } */
 
     /*video walls*/
 
@@ -5182,7 +5187,9 @@ footer {
     }
 
     #vid_img,
-    .what_is {
+    .what_is,
+    .interact_intro,
+    .software_intro {
         display: inline;
         font-size: 17px;
     }
