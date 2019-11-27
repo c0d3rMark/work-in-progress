@@ -781,8 +781,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     height: 5px;
     /* background-color: #4C6971;
     box-shadow: inset 1px 1px 3px #19363E; */
-    background-color: #4C6971;
-    box-shadow: inset 1px 1px 3px #19363E;
+    background-color: #d6d6d6;
+    box-shadow: inset 1px 1px 3px #8A8A8A;
 }
 
 .vid-contact {
@@ -2468,7 +2468,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 .videowall hr {
     width: 250px;
     margin: 0;
-    margin-top: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .icon1 {
@@ -4404,6 +4405,11 @@ footer {
         padding-top: 0;
         padding-bottom: 10px;
     }
+
+    .icon1,
+    .icon2 {
+        grid-template-columns: 2fr 8fr;
+    }
 }
 
 @media(max-width: 1065px) {
@@ -4594,14 +4600,15 @@ footer {
     #vid_img p,
     #vid_img .features,
     .what_is,
-    .box_list,
+    .box_list
     /* .sign_industry img, */
     /* .sign_industry h4,
     .sign_industry p, */
-    .icon1 i,
+    /* .icon1 i,
     .icon2 i,
     .icon1 p,
-    .icon2 p {
+    .icon2 p */
+     {
         float: none;
         text-align: center;
         width: 100%;
@@ -5178,33 +5185,41 @@ footer {
         font-size: 17px;
     }
 
-    .videowall h4 {
-        text-align: center;
-        font-size: 20px;
+    .videowall hr {
+        width: 200px;
     }
 
-    .icon1 i {
+    .hidden-icon {
+        display: none;
+    }
+
+    /* .videowall h4 {
+        text-align: center;
+        font-size: 20px;
+    } */
+
+    /* .icon1 i {
         margin-right: 0px;
         margin-left: 0px;
         padding: 0px;
         padding-top: 20px;
         font-size: 70px;
-    }
+    } */
 
-    .icon1 p {
+    /* .icon1 p {
         text-align: center;
-    }
+    } */
 
-    .icon2 {
+    /* .icon2 {
         padding: 0px;
         padding-top: 20px;
-    }
+    } */
 
-    .icon2 i {
+    /* .icon2 i {
         margin-left: 0px;
         padding: 0px;
         font-size: 70px;
-    }
+    } */
 
     /*software*/
 
@@ -5399,6 +5414,34 @@ footer {
         width: 200px;
         /* padding-top: 20px;
         border-bottom: 3px solid #3FC1C1; */
+    }
+
+    /* .icon-box i {
+        display: block;
+        margin: 0 auto;
+    } */
+
+    .icon1 i,
+    .icon2 i {
+        margin: 0;
+    }
+
+    .icon1,
+    .icon2 {
+        grid-template-columns: 1fr;
+        padding-top: 25px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .videowall {
+        text-align: center;
+    }
+
+    .videowall hr {
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .article-container {
@@ -5803,6 +5846,15 @@ footer {
 
     .vid-contact-text hr {
         width: 150px;
+    }
+
+    .vid-border img {
+        width: 70%;
+        padding-bottom: 40px;
+    }
+
+    .vid-border h3 {
+        margin-bottom: 20px;
     }
 
     /* #showcase_vid img {
