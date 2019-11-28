@@ -4462,6 +4462,11 @@ footer {
     .software-explainer hr {
         margin-bottom: 25px;
     }
+
+    .brand-showcase img {
+        margin-top: 60px;
+        max-width: 90%;
+    }
 }
 
 @media(max-width: 1065px) {
@@ -5929,6 +5934,15 @@ footer {
 
     .box-software {
         padding: 15px;
+    }
+
+    .software-brands {
+        padding-bottom: 40px;
+    }
+
+    .brand-showcase img {
+        margin-top: 30px;
+        max-width: 100%;
     }
 
     /* #showcase_vid img {
