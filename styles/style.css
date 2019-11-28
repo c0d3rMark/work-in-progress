@@ -2691,9 +2691,9 @@ aside#sidebar .quote input,
 
 .hardware h1 {
     margin-top: 150px;
-    text-align: center;
+    text-align: left;
     color: #13282D;
-    font-size: 30px;
+    font-size: 35px;
     margin-top: 150px;
     margin-bottom: 40px;
 }
@@ -2932,12 +2932,13 @@ aside#sidebar .quote input,
     margin-top: 150px;
     text-align: left;
     color: #13282D;
-    font-size: 30px;
+    font-size: 35px;
     margin-top: 150px;
     margin-bottom: 40px;
 }
 
-.product-desc h1::after {
+.product-desc h1::after,
+.hardware h1:after {
     /* content: "";
     display: block;
     margin: 0;
@@ -2950,8 +2951,10 @@ aside#sidebar .quote input,
     margin-top: 10px;
     width: 100px;
     height: 3px;
-    background-color: #4C6971;
-    box-shadow: inset 1px 1px 3px #19363E;
+    /* background-color: #4C6971;
+    box-shadow: inset 1px 1px 3px #19363E; */
+    background-color: #d6d6d6;
+    box-shadow: inset 1px 1px 3px #8A8A8A;
 }
 
 .pic-text {
@@ -3030,8 +3033,10 @@ aside#sidebar .quote input,
     margin-top: 10px;
     width: 60px;
     height: 3px;
-    background-color: #4C6971;
-    box-shadow: inset 1px 1px 3px #19363E;
+    /* background-color: #4C6971;
+    box-shadow: inset 1px 1px 3px #19363E; */
+    background-color: #d6d6d6;
+    box-shadow: inset 1px 1px 3px #8A8A8A;
 }
 
 .intro-p {
@@ -3227,8 +3232,10 @@ aside#sidebar .quote input,
     margin-bottom: 20px;
     margin-top: 15px;
     height: 3px;
-    background-color: #4C6971;
-    box-shadow: inset 1px 1px 3px #19363E;
+    /* background-color: #4C6971;
+    box-shadow: inset 1px 1px 3px #19363E; */
+    background-color: #d6d6d6;
+    box-shadow: inset 1px 1px 3px #8A8A8A;
 }
 
 /* Go from zero to full opacity */
@@ -4489,6 +4496,13 @@ footer {
     .about-bottom {
         padding: 0px 5px 0px 5px;
     }
+
+    .product-desc h1,
+    .hardware h1 {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-size: 25px;
+    }
 }
 
 @media(max-width: 1065px) {
@@ -5317,18 +5331,12 @@ footer {
 
     /*Hardware*/
 
-    .hardware h1 {
+    /* .hardware h1 {
         font-size: 25px;
         margin-top: 20px;
         margin-bottom: 0px;
         padding-bottom: 20px;
-    }
-
-    .product-desc h1 {
-        margin-top: 20px;
-        margin-bottom: 15px;
-        font-size: 25px;
-    }
+    } */
 
     /*about us*/
 
