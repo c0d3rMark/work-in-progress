@@ -1571,12 +1571,10 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     color: #262626;
 } */
 
-.box_interact_text h3 {
+/* .box_interact_text h3 {
     margin-top: 0px;
     text-align: left;
-    /* padding-right: 30px; */
-    /* padding-left: 30px; */
-}
+} */
 
 /* .box_interact_text h3::after {
     content: "";
@@ -1613,7 +1611,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
 .interact_features li {
     list-style-type: none;
-    text-align: left;
+    /* text-align: left; */
 }
 
 .texture {
@@ -3772,9 +3770,6 @@ footer {
 /*Ipad pro height settings*/
 
 @media(min-height: 1350px) {
-    .bg_contact {
-        height: 100vh;
-    }
 
     /* #showcase {
         background: url('../images/modern-pattern-color-ipro.jpg') no-repeat;
@@ -3957,10 +3952,36 @@ footer {
 
 }
 
-@media(max-width: 1323px) {
+@media(max-width: 1350px) {
     /* #showcase h1 {
         margin-top: 230px;
     } */
+
+    .bg_contact {
+        height: 100vh;
+    }
+
+    .box_interact img {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .interact-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 40px 0;
+        grid-gap: 10px;
+    }
+
+    .box_interact_text {
+        text-align: center;
+    }
+
+    .box_interact_text hr {
+        width: 15%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
 }
 
 @media(max-width: 1300px) {
@@ -4125,14 +4146,13 @@ footer {
         padding-top: 20px;
     } */
 
-    .box_interact_text h3,
+    /* .box_interact_text h3,
     .box_interact_text p {
         margin-top: 0px;
         margin-bottom: 10px;
-        /* text-align: center; */
         padding-right: 0px;
         padding-left: 0px;
-    }
+    } */
 
     /* .box_interact_text h3::after {
         content: "";
@@ -5869,6 +5889,11 @@ footer {
     }
 
     .vid-border h3 {
+        margin-bottom: 20px;
+    }
+
+    .box_interact img {
+        width: 70%;
         margin-bottom: 20px;
     }
 
