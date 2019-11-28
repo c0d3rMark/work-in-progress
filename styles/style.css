@@ -2235,8 +2235,6 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 .fusion-color-logo img {
     width: 200px;
     margin-bottom: 20px;
-    /* -webkit-filter: drop-shadow(0px 1px 0px #ADADAD);
-    filter: drop-shadow(0px 1px 0px #ADADAD); */
 }
 
 /* #telechamp p {
@@ -2557,6 +2555,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     -webkit-filter: drop-shadow(3px 5px 3px #AEAEAE);
     filter: drop-shadow(3px 5px 3px #AEAEAE);
     margin-bottom: 20px;
+    width: 80%;
 }
 
 .software-bottom {
@@ -4440,6 +4439,19 @@ footer {
     .icon2 {
         grid-template-columns: 2fr 8fr;
     }
+
+    .software-text img {
+        margin-top: 10px;
+        width: 90%;
+    }
+
+    .fusion-color-logo img {
+        width: 150px;
+    }
+
+    .software-explainer hr {
+        margin-bottom: 25px;
+    }
 }
 
 @media(max-width: 1065px) {
@@ -5895,6 +5907,10 @@ footer {
     .box_interact img {
         width: 70%;
         margin-bottom: 20px;
+    }
+
+    .software-text img {
+        width: 100%;
     }
 
     /* #showcase_vid img {
