@@ -1550,14 +1550,15 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     height: 5px;
     /* background-color: #4C6971;
     box-shadow: inset 1px 1px 3px #19363E; */
-    background-color: #4C6971;
-    box-shadow: inset 1px 1px 3px #19363E;
+    background-color: #d6d6d6;
+    box-shadow: inset 1px 1px 3px #8A8A8A;
 }
 
 .interact-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 40px 0;
+    grid-gap: 10px;
 }
 
 /* .box_interact {
@@ -1574,7 +1575,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     margin-top: 0px;
     text-align: left;
     /* padding-right: 30px; */
-    padding-left: 30px;
+    /* padding-left: 30px; */
 }
 
 /* .box_interact_text h3::after {
@@ -1589,14 +1590,14 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 .box_interact_text hr {
     width: 40%;
     margin: 0;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
-.box_interact_text p {
+/* .box_interact_text p {
     text-align: left;
     padding-right: 30px;
     padding-left: 30px;
-}
+} */
 
 .box_interact {
     display: flex;
@@ -1604,16 +1605,15 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 }
 
 .box_interact img {
-    width: 80%;
+    margin: auto;
+    width: 70%;
     -webkit-filter: drop-shadow(3px 5px 3px #AEAEAE);
     filter: drop-shadow(3px 5px 3px #AEAEAE);
 }
 
-.interact_features ul {
-    list-style-type: square;
+.interact_features li {
+    list-style-type: none;
     text-align: left;
-    padding-left: 30px;
-    margin-top: 18px;
 }
 
 .texture {
@@ -4091,7 +4091,7 @@ footer {
         text-align: center;
         margin-left: 0px;
         margin-right: 0px; */
-    }
+    /* } */
 
     /* #showcase_vid img {
         display: block;
@@ -4111,7 +4111,7 @@ footer {
         margin-top: 180px;
     } */
 
-    .box_interact {
+    /* .box_interact {
         float: none;
         width: 100%;
         text-align: center;
@@ -4123,7 +4123,7 @@ footer {
     .box_interact img {
         width: 50%;
         padding-top: 20px;
-    }
+    } */
 
     .box_interact_text h3,
     .box_interact_text p {
@@ -4172,7 +4172,7 @@ footer {
     /* #showcase_interact p {
         margin-top: 560px;
     /* } */
-/* } */
+}
 
 @media(max-width: 1160px) {
     /* #showcase_sign {
