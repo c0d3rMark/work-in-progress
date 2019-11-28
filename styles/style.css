@@ -2652,6 +2652,10 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
 /*Sidebar*/
 
+.bg_contact {
+    min-height: 100vh;
+}
+
 #sidebar {
     margin: auto;
     width: 530px;
@@ -3547,10 +3551,13 @@ textarea[name="message"] {
 
 /*404 error*/
 
-#main .error,
 #main .form {
-    height: 90vh;
+    min-height: 90vh;
     margin: auto;
+}
+
+#main .error {
+    min-height: 100vh;
 }
 
 .errorFormat,
@@ -3988,9 +3995,9 @@ footer {
         margin-top: 230px;
     } */
 
-    .bg_contact {
+    /* .bg_contact {
         min-height: 100vh;
-    }
+    } */
 
     .box_interact img {
         width: 50%;
@@ -5420,10 +5427,10 @@ footer {
 
     /*Error*/
 
-    #main .error {
+    /* #main .error {
         height: 78vh;
         margin: auto;
-    }
+    } */
 
     .errorFormat {
         margin-top: 15vh;
