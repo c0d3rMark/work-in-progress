@@ -3768,7 +3768,7 @@ footer {
 
 /*Ipad pro height settings*/
 
-@media(min-height: 1350px) {
+/* @media(min-height: 1350px) { */
 
     /* #showcase {
         background: url('../images/modern-pattern-color-ipro.jpg') no-repeat;
@@ -3826,7 +3826,7 @@ footer {
         background: url('../images/city-bokeh-ipro.jpg') no-repeat;
         background-attachment: scroll;
     }*/
-} 
+/* }  */
 
 /*Various showcase settings*/
 
@@ -3980,6 +3980,16 @@ footer {
         width: 15%;
         margin: auto;
         margin-bottom: 20px;
+    }
+
+    #software-features {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .box-software {
+        padding: 10px;
     }
 }
 
@@ -5911,6 +5921,14 @@ footer {
 
     .software-text img {
         width: 100%;
+    }
+
+    #software-features {
+        grid-template-columns: 1fr;
+    }
+
+    .box-software {
+        padding: 15px;
     }
 
     /* #showcase_vid img {
