@@ -3258,7 +3258,7 @@ aside#sidebar .quote input,
 
 .about-bottom {
     text-align: center;
-    padding-top: 30px;
+    /* padding-top: 30px; */
     padding: 30px 5px 0px 5px;
 }
 
@@ -3282,13 +3282,11 @@ aside#sidebar .quote input,
     margin-bottom: 40px;
 }
 
-#specialize i {
+/* #specialize i {
     -webkit-text-stroke: 1px #262626;
     color: rgba(76, 105, 113, 0.8);
-    /* color: rgba(255, 172, 38, 0.8); */
     text-shadow: 1px 4px 3px #fafafa, 0 0 0px #000, 1px 4px 3px transparent;
-    /* font-size: 60px; */
-}
+} */
 
 #specialize h3 {
     /*font-weight: 100;*/
@@ -3299,8 +3297,7 @@ aside#sidebar .quote input,
     margin-bottom: 0;
 }
 
-.about-logos,
-.specialize-h4 {
+.about-logos {
     grid-column-start: 1; 
     grid-column-end: 5; 
 }
@@ -3887,6 +3884,27 @@ footer {
         -webkit-filter: drop-shadow(3px 5px 5px #ADADAD);
         filter: drop-shadow(3px 5px 5px #ADADAD);
     }
+
+    #specialize {
+        /* width: 100%;
+        margin: auto;
+        display: grid; */
+        grid-template-columns: 1fr 1fr;
+        /* text-align: center;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        background-color: #fafafa;
+        box-shadow: inset 0px 0px 5px #AEAEAE;
+        border: 1px solid #d6d6d6;
+        margin-top: 40px;
+        border-radius: 5px;
+        margin-bottom: 40px; */
+    }
+
+    .about-logos {
+        grid-column-start: 1; 
+        grid-column-end: 3; 
+    }
 }
 
 @media(max-width: 1450px) {
@@ -4466,6 +4484,10 @@ footer {
     .brand-showcase img {
         margin-top: 60px;
         max-width: 90%;
+    }
+
+    .about-bottom {
+        padding: 0px 5px 0px 5px;
     }
 }
 
@@ -5504,6 +5526,26 @@ footer {
         margin: auto;
         margin-top: 10px;
         margin-bottom: 10px;
+    }
+
+    #specialize {
+        /* width: 100%;
+        margin: auto;
+        display: grid; */
+        grid-template-columns: 1fr;
+        /* text-align: center;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        background-color: #fafafa;
+        box-shadow: inset 0px 0px 5px #AEAEAE;
+        border: 1px solid #d6d6d6;
+        margin-top: 40px;
+        border-radius: 5px;
+        margin-bottom: 40px; */
+    }
+
+    .about-logos {
+        display: none;
     }
 
     .article-container {
