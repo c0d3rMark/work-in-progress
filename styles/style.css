@@ -3552,7 +3552,7 @@ textarea[name="message"] {
 /*404 error*/
 
 #main .form {
-    min-height: 90vh;
+    min-height: 100vh;
     margin: auto;
 }
 
@@ -5439,7 +5439,7 @@ footer {
     /*Form submission*/
 
     #main .form {
-        height: 100vh;
+        /* height: 100vh; */
         padding-bottom: 20px;
     }
 
