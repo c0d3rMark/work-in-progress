@@ -63,12 +63,10 @@ ul {
     padding: 10px 50px;
     border-radius: 3px;
     border: black 1px solid;
-    box-shadow: 0px 0px 4px #ADADAD inset;
+    -webkit-box-shadow: 0px 0px 4px #ADADAD inset;
+            box-shadow: 0px 0px 4px #ADADAD inset;
     /* -webkit-animation: glowing 3100ms infinite;
     animation: glowing 3100ms infinite; */
-    -o-transition:.2s;
-    -ms-transition:.2s;
-    -moz-transition:.2s;
     -webkit-transition:.2s;
     /* ...and now for the proper property */
     transition:.2s;
@@ -107,10 +105,8 @@ ul {
     border-radius: 3px;
     /* border: #fafafa 1px solid; */
     margin: 0;
-    box-shadow: 0px 0px 4px #750000 inset;
-    -o-transition:.2s;
-    -ms-transition:.2s;
-    -moz-transition:.2s;
+    -webkit-box-shadow: 0px 0px 4px #750000 inset;
+            box-shadow: 0px 0px 4px #750000 inset;
     -webkit-transition:.2s;
     /* ...and now for the proper property */
     transition:.2s;
@@ -127,12 +123,10 @@ ul {
     padding: 10px 50px;
     border-radius: 3px;
     border: black 1px solid;
-    box-shadow: 0px 0px 4px #ADADAD inset;
+    -webkit-box-shadow: 0px 0px 4px #ADADAD inset;
+            box-shadow: 0px 0px 4px #ADADAD inset;
     /* -webkit-animation: glowing 3100ms infinite;
     animation: glowing 3100ms infinite; */
-    -o-transition:.2s;
-    -ms-transition:.2s;
-    -moz-transition:.2s;
     -webkit-transition:.2s;
     /* ...and now for the proper property */
     transition:.2s;
@@ -140,7 +134,8 @@ ul {
 
 .hero-button a:hover {
     background-color: #CE4C4C;
-    box-shadow: 0px 0px 3px #ADADAD;
+    -webkit-box-shadow: 0px 0px 3px #ADADAD;
+            box-shadow: 0px 0px 3px #ADADAD;
     text-shadow: 0px 0px 7px whitesmoke;
 }
 
@@ -148,14 +143,16 @@ ul {
 .mid_sign_button a:hover {
     background-color: #335058;
     color: #fafafa;
-    box-shadow: 0px 0px 6px #ADADAD;
+    -webkit-box-shadow: 0px 0px 6px #ADADAD;
+            box-shadow: 0px 0px 6px #ADADAD;
     text-shadow: 0px 0px 7px whitesmoke;
 }
 
 .btn a:hover {
     background-color: #335058;
     color: #fafafa;
-    box-shadow: 0px 0px 6px #ADADAD;
+    -webkit-box-shadow: 0px 0px 6px #ADADAD;
+            box-shadow: 0px 0px 6px #ADADAD;
     text-shadow: 0px 0px 7px whitesmoke;
 }
 
@@ -175,12 +172,10 @@ ul {
     padding: 10px 50px;
     border-radius: 3px;
     border: #262626 1px solid;
-    box-shadow: 0px 0px 4px #19363E inset;
+    -webkit-box-shadow: 0px 0px 4px #19363E inset;
+            box-shadow: 0px 0px 4px #19363E inset;
     /* -webkit-animation: glowing 3100ms infinite;
     animation: glowing 3100ms infinite; */
-    -o-transition:.2s;
-    -ms-transition:.2s;
-    -moz-transition:.2s;
     -webkit-transition:.2s;
     transition:.2s;
 }
@@ -189,7 +184,8 @@ ul {
 .product-btn a:hover {
     background-color: #59767E;
     color: #ffffff;
-    box-shadow: 0px 0px 6px #AEAEAE;
+    -webkit-box-shadow: 0px 0px 6px #AEAEAE;
+            box-shadow: 0px 0px 6px #AEAEAE;
     text-shadow: 0px 0px 7px whitesmoke;
     border: #19363E 1px solid;
     /* box-shadow: none; */
@@ -231,22 +227,19 @@ ul {
     padding: 10px 50px;
     border-radius: 5px;
     /* border: black 1px solid; */
-    -o-transition:.2s;
-    -ms-transition:.2s;
-    -moz-transition:.2s;
     -webkit-transition:.2s;
     /* ...and now for the proper property */
     transition:.2s;
 }
 
-@-webkit-keyframes glowing {
+/* @-webkit-keyframes glowing {
     0% {
         background-color: #262626;
         -webkit-box-shadow: 0 0 3px #262626;
-    }
+    } */
 
     /*controls the alternate color for glowing effect*/
-    50% {
+    /* 50% {
         background-color: #262626;
         -webkit-box-shadow: 0 0 30px #262626;
         border: white 1px solid;
@@ -257,17 +250,17 @@ ul {
         background-color: #262626;
         -webkit-box-shadow: 0 0 3px #262626;
     }
-}
+} */
 
-@keyframes glowing {
+/* @keyframes glowing {
     0% {
         background-color: #262626;
         -webkit-box-shadow: 0 0 3px #262626;
         box-shadow: 0 0 3px #262626;
-    }
+    } */
 
     /*controls the alternate color for glowing effect*/
-    50% {
+    /* 50% {
         background-color: #262626;
         -webkit-box-shadow: 0 0 30px #262626;
         box-shadow: 0 0 30px #262626;
@@ -280,7 +273,7 @@ ul {
         -webkit-box-shadow: 0 0 3px #262626;
         box-shadow: 0 0 3px #262626;
     }
-}
+} */
 
 /*Header*/
 
@@ -476,9 +469,14 @@ nav ul li:hover ul {
 /*Showcase-index*/
 
 #showcase {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     /* z-index: -1; */
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     /* flex-wrap: wrap; */
     /* position: relative; */
     /* min-height: 700px; */
@@ -550,14 +548,18 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 }
 
 .hero-block {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     border: 25px solid;
     border-width: 10px;
-    border-image: url(../images/tv-border.png);
+    -o-border-image: url(../images/tv-border.png);
+       border-image: url(../images/tv-border.png);
     border-image-slice: 28 fill;
     border-image-outset: 0;
     border-image-width: 18px;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     position: relative;
 }
 
@@ -624,31 +626,23 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 }
 
 /* start BOUNCE EFFECT ----------------------------------------*/
-
-@-moz-keyframes bounce {
-	0%, 20%, 50%, 80%, 100% { -moz-transform: translateY(0); transform: translateY(0); }
-	40% { -moz-transform: translateY(-7px); transform: translateY(-7px); }
-	60% { -moz-transform: translateY(-4px); transform: translateY(-4px); }
-}
 @-webkit-keyframes bounce {
 	0%, 20%, 50%, 80%, 100% { -webkit-transform: translateY(0); transform: translateY(0); }
 	40% { -webkit-transform: translateY(-7px); transform: translateY(-7px); }
 	60% { -webkit-transform: translateY(-4px); transform: translateY(-4px); }
 }
 @keyframes bounce {
-	0%, 20%, 50%, 80%, 100% { -moz-transform: translateY(0); -ms-transform: translateY(0); -webkit-transform: translateY(0); transform: translateY(0); }
-	40% { -moz-transform: translateY(-7px); -ms-transform: translateY(-7px); -webkit-transform: translateY(-7px); transform: translateY(-7px); }
-	60% { -moz-transform: translateY(-4px); -ms-transform: translateY(-4px); -webkit-transform: translateY(-4px); transform: translateY(-4px); }
+	0%, 20%, 50%, 80%, 100% { -webkit-transform: translateY(0); transform: translateY(0); }
+	40% { -webkit-transform: translateY(-7px); transform: translateY(-7px); }
+	60% { -webkit-transform: translateY(-4px); transform: translateY(-4px); }
 }
 
 .bounce {
-	-moz-animation: bounce 3s infinite;
 	-webkit-animation: bounce 3s infinite;
 	animation: bounce 3s infinite;
 }
 
 .bounce:hover {
-    -moz-animation: none;
 	-webkit-animation: none;
     animation: none;
     /* -webkit-filter: drop-shadow(3px 5px 5px #ADADAD);
@@ -733,6 +727,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 } */
 
 .vid-top img {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 90%;
     margin: auto;
@@ -754,6 +750,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 }
 
 .vid-border img {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 550px;
     /* width: 30%; */
@@ -782,7 +780,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     /* background-color: #4C6971;
     box-shadow: inset 1px 1px 3px #19363E; */
     background-color: #d6d6d6;
-    box-shadow: inset 1px 1px 3px #8A8A8A;
+    -webkit-box-shadow: inset 1px 1px 3px #8A8A8A;
+            box-shadow: inset 1px 1px 3px #8A8A8A;
 }
 
 .vid-contact {
@@ -1122,7 +1121,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     /* padding-top: 20px; */
     height: 5px;
     background-color: #4C6971;
-    box-shadow: inset 1px 1px 3px #19363E;
+    -webkit-box-shadow: inset 1px 1px 3px #19363E;
+            box-shadow: inset 1px 1px 3px #19363E;
     margin-top: 20px;
 }
 
@@ -1142,29 +1142,36 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     width: 220px;
     height: 5px;
     background-color: #4C6971;
-    box-shadow: inset 1px 1px 3px #19363E;
+    -webkit-box-shadow: inset 1px 1px 3px #19363E;
+            box-shadow: inset 1px 1px 3px #19363E;
 }
 
 .led-video {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-auto-rows: -webkit-max-content;
     grid-auto-rows: max-content;
     grid-gap: 20px;
     padding: 10px;
     padding-bottom: 40px;
     margin-top: 30px;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .interact-displays {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-auto-rows: -webkit-max-content;
     grid-auto-rows: max-content;
     grid-gap: 20px;
     padding: 10px;
     padding-bottom: 40px;
     margin-top: 70px;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .led-video-img img {
@@ -1183,7 +1190,9 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     display: grid;
     grid-template-columns: 1fr;
     /* align-content: center; */
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     /* justify-content: center; */
     padding: 10px;
 }
@@ -1192,7 +1201,9 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     display: grid;
     grid-template-columns: 1fr;
     /* align-content: center; */
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     /* justify-content: center; */
     padding: 30px;
 }
@@ -1223,9 +1234,13 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     color: #262626;
     font-weight: bold;
     font-size: 50px;
+    -webkit-transition: 0.6s ease;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
-    user-select: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
   }
 
   .response-slide-tabs {
@@ -1260,6 +1275,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
+    -webkit-transition: background-color 0.6s ease;
     transition: background-color 0.6s ease;
   }
 
@@ -1287,27 +1303,15 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
   }
 
   /* start animate arrows ------------------------------------------ */
-
-  @-moz-keyframes animate {
-	0%, 20%, 50%, 80%, 100% { -moz-transform: translateX(0); transform: translateX(0); }
-	40% { -moz-transform: translateX(-7px); transform: translateX(-7px); }
-	60% { -moz-transform: translateX(-4px); transform: translateX(-4px); }
-}
 @-webkit-keyframes animate {
 	0%, 20%, 50%, 80%, 100% { -webkit-transform: translateX(0); transform: translateX(0); }
 	40% { -webkit-transform: translateX(-7px); transform: translateX(-7px); }
 	60% { -webkit-transform: translateX(-4px); transform: translateX(-4px); }
 }
 @keyframes animate {
-	0%, 20%, 50%, 80%, 100% { -moz-transform: translateX(0); -ms-transform: translateX(0); -webkit-transform: translateX(0); transform: translateX(0); }
-	40% { -moz-transform: translateX(-7px); -ms-transform: translateX(-7px); -webkit-transform: translateX(-7px); transform: translateX(-7px); }
-	60% { -moz-transform: translateX(-4px); -ms-transform: translateX(-4px); -webkit-transform: translateX(-4px); transform: translateX(-4px); }
-}
-
-@-moz-keyframes animate2 {
-	0%, 20%, 50%, 80%, 100% { -moz-transform: translateX(0); transform: translateX(0); }
-	40% { -moz-transform: translateX(7px); transform: translateX(7px); }
-	60% { -moz-transform: translateX(4px); transform: translateX(4px); }
+	0%, 20%, 50%, 80%, 100% { -webkit-transform: translateX(0); transform: translateX(0); }
+	40% { -webkit-transform: translateX(-7px); transform: translateX(-7px); }
+	60% { -webkit-transform: translateX(-4px); transform: translateX(-4px); }
 }
 @-webkit-keyframes animate2 {
 	0%, 20%, 50%, 80%, 100% { -webkit-transform: translateX(0); transform: translateX(0); }
@@ -1315,26 +1319,23 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 	60% { -webkit-transform: translateX(4px); transform: translateX(4px); }
 }
 @keyframes animate2 {
-	0%, 20%, 50%, 80%, 100% { -moz-transform: translateX(0); -ms-transform: translateX(0); -webkit-transform: translateX(0); transform: translateX(0); }
-	40% { -moz-transform: translateX(7px); -ms-transform: translateX(7px); -webkit-transform: translateX(7px); transform: translateX(7px); }
-	60% { -moz-transform: translateX(4px); -ms-transform: translateX(4px); -webkit-transform: translateX(4px); transform: translateX(4px); }
+	0%, 20%, 50%, 80%, 100% { -webkit-transform: translateX(0); transform: translateX(0); }
+	40% { -webkit-transform: translateX(7px); transform: translateX(7px); }
+	60% { -webkit-transform: translateX(4px); transform: translateX(4px); }
 }
 
 .animate {
-	-moz-animation: animate 3s infinite;
 	-webkit-animation: animate 3s infinite;
 	animation: animate 3s infinite;
 }
 
 .animate2 {
-	-moz-animation: animate2 3s infinite;
 	-webkit-animation: animate2 3s infinite;
 	animation: animate2 3s infinite;
 }
 
 .animate2:hover,
 .animate:hover {
-    -moz-animation: none;
 	-webkit-animation: none;
 	animation: none;
 }
@@ -1353,7 +1354,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     padding-bottom: 60px;
     border-top: #d6d6d6 1px solid;
     border-bottom: #d6d6d6 1px solid;
-    box-shadow: 0px 0px 5px #AEAEAE inset;
+    -webkit-box-shadow: 0px 0px 5px #AEAEAE inset;
+            box-shadow: 0px 0px 5px #AEAEAE inset;
 }
 
 #boxes .box {
@@ -1379,9 +1381,6 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     color: rgba(76, 105, 113, 0.8);
     text-shadow: 1px 4px 3px #d6d6d6, 0 0 0px #000, 1px 4px 3px transparent;
     /* filter: drop-shadow(inset 0px 0px 5px black); */
-    -o-transition:.2s;
-    -ms-transition:.2s;
-    -moz-transition:.2s;
     -webkit-transition:.2s;
     /* ...and now for the proper property */
     transition:.2s;
@@ -1404,7 +1403,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     margin-bottom: 50px;
     height: 5px;
     background-color: #d6d6d6;
-    box-shadow: inset 1px 1px 3px #8A8A8A;
+    -webkit-box-shadow: inset 1px 1px 3px #8A8A8A;
+            box-shadow: inset 1px 1px 3px #8A8A8A;
 }
 
 #boxes h3 {
@@ -1441,15 +1441,19 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
 .signage-screens {
     width: 47%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     /* display: inline-block; */
     border: 25px solid;
     border-width: 10px;
-    border-image: url(../images/tv-border.png);
+    -o-border-image: url(../images/tv-border.png);
+       border-image: url(../images/tv-border.png);
     border-image-slice: 28 fill;
     border-image-outset: 0;
     border-image-width: 18px;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     position: relative;
     /* background-color: yellow; */
     margin-top: 10%;
@@ -1492,14 +1496,18 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 .screen3 {
     width: 47%;
     /* display: block; */
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     border: 25px solid;
     border-width: 10px;
-    border-image: url(../images/tv-border.png);
+    -o-border-image: url(../images/tv-border.png);
+       border-image: url(../images/tv-border.png);
     border-image-slice: 28 fill;
     border-image-outset: 0;
     border-image-width: 18px;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     position: relative;
     /* margin-top: -170px; */
     margin-top: -19%;
@@ -1551,7 +1559,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     /* background-color: #4C6971;
     box-shadow: inset 1px 1px 3px #19363E; */
     background-color: #d6d6d6;
-    box-shadow: inset 1px 1px 3px #8A8A8A;
+    -webkit-box-shadow: inset 1px 1px 3px #8A8A8A;
+            box-shadow: inset 1px 1px 3px #8A8A8A;
 }
 
 .interact-grid {
@@ -1598,6 +1607,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 } */
 
 .box_interact {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin: auto;
 }
@@ -1663,18 +1674,24 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-gap: 40px;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .hero-content {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     border: 25px solid;
     border-width: 10px;
-    border-image: url(../images/tv-border.png);
+    -o-border-image: url(../images/tv-border.png);
+       border-image: url(../images/tv-border.png);
     border-image-slice: 25 fill;
     border-image-outset: 0;
     border-image-width: 18px;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     position: relative;
 }
 
@@ -1760,15 +1777,21 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 }
 
 .sign_pic {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     border: 25px solid;
     border-width: 10px;
-    border-image: url(../images/tv-border.png);
+    -o-border-image: url(../images/tv-border.png);
+       border-image: url(../images/tv-border.png);
     border-image-slice: 25 fill;
     border-image-outset: 0;
     border-image-width: 18px;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     position: relative;
+    width: -webkit-min-content;
+    width: -moz-min-content;
     width: min-content;
     /* height: max-content; */
     margin: 0 auto;
@@ -1866,7 +1889,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     /* padding-top: 20px; */
     height: 5px;
     background-color: #d6d6d6;
-    box-shadow: inset 1px 1px 3px #8A8A8A;
+    -webkit-box-shadow: inset 1px 1px 3px #8A8A8A;
+            box-shadow: inset 1px 1px 3px #8A8A8A;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -1905,7 +1929,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     width: 450px;
     height: 5px;
     background-color: #d6d6d6;
-    box-shadow: inset 1px 1px 3px #8A8A8A;
+    -webkit-box-shadow: inset 1px 1px 3px #8A8A8A;
+            box-shadow: inset 1px 1px 3px #8A8A8A;
 }
 
 .sign_button {
@@ -1967,7 +1992,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     /* border-radius: 5px; */
     background-color: #fafafa;
     text-align: center;
-    box-shadow: inset 0px 0px 5px #aeaeae;
+    -webkit-box-shadow: inset 0px 0px 5px #aeaeae;
+            box-shadow: inset 0px 0px 5px #aeaeae;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -2211,16 +2237,22 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     margin-bottom: 20px;
     height: 8px;
     background-color: #FFAC26;
-    box-shadow: inset 1px 1px 3px #B36000;
+    -webkit-box-shadow: inset 1px 1px 3px #B36000;
+            box-shadow: inset 1px 1px 3px #B36000;
 }
 
 .client-logos {
     width: 80%;
     margin:auto;
     line-height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content:space-around;
-    align-items: center;
+    -ms-flex-pack:distribute;
+        justify-content:space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-bottom: 50px;
 }
 
@@ -2273,7 +2305,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     /* background-color: #4C6971;
     box-shadow: inset 1px 1px 3px #19363E; */
     background-color: #d6d6d6;
-    box-shadow: inset 1px 1px 3px #8A8A8A;
+    -webkit-box-shadow: inset 1px 1px 3px #8A8A8A;
+            box-shadow: inset 1px 1px 3px #8A8A8A;
 }
 
 #main h2 {
@@ -2335,7 +2368,9 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     /* box-shadow: inset 0 0 2px #aeaeae; */
     color: #262626;
     /* display: flex; */
-    flex: 0 0 25em;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 25em;
+            flex: 0 0 25em;
     padding-bottom: 30px;
     /* border-top: 1px solid #d6d6d6;
     border-bottom: 1px solid #d6d6d6; */
@@ -2384,9 +2419,6 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 .app-download img {
     height: 40px;
     padding:20px;
-    -o-transition:.2s;
-    -ms-transition:.2s;
-    -moz-transition:.2s;
     -webkit-transition:.2s;
     /* ...and now for the proper property */
     transition:.2s;
@@ -2454,6 +2486,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 }
 
 .icon-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin: auto;
 }
@@ -2646,7 +2680,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     /* background-color: #4C6971;
     box-shadow: inset 1px 1px 3px #19363E; */
     background-color: #d6d6d6;
-    box-shadow: inset 1px 1px 3px #8A8A8A;
+    -webkit-box-shadow: inset 1px 1px 3px #8A8A8A;
+            box-shadow: inset 1px 1px 3px #8A8A8A;
 
 }
 
@@ -2712,7 +2747,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #d6d6d6;
     /* border: 2px #d6d6d6 solid; */
-    box-shadow: inset 0px 0px 7px #8A8A8A;
+    -webkit-box-shadow: inset 0px 0px 7px #8A8A8A;
+            box-shadow: inset 0px 0px 7px #8A8A8A;
 }
 
 .block {
@@ -2720,7 +2756,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     background-color: white;
     min-height: 430px;
     /* position: relative; */
-    box-shadow: 0px 0px 7px #8A8A8A;
+    -webkit-box-shadow: 0px 0px 7px #8A8A8A;
+            box-shadow: 0px 0px 7px #8A8A8A;
     border: 1px solid #d6d6d6;
 }
 
@@ -2797,7 +2834,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     background-color: #fafafa;
     padding: 7px;
     color: #262626;
-    box-shadow: inset 0 0 5px #aeaeae;
+    -webkit-box-shadow: inset 0 0 5px #aeaeae;
+            box-shadow: inset 0 0 5px #aeaeae;
     /* font-weight: bold; */
     /* -webkit-filter: drop-shadow(0px 0px 2px #adadad);
     filter: drop-shadow(0px 0px 2px #adadad); */
@@ -2815,7 +2853,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     width: 100%;
     text-align: center;
     background-color: #fafafa;
-    box-shadow: inset 0px 0px 5px #AEAEAE;
+    -webkit-box-shadow: inset 0px 0px 5px #AEAEAE;
+            box-shadow: inset 0px 0px 5px #AEAEAE;
 }
 
 .get-in-touch {
@@ -2872,9 +2911,6 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     color: #3FC1C1; */
     /* text-decoration: underline;
     text-underline-position: under; */
-    -o-transition:.2s;
-    -ms-transition:.2s;
-    -moz-transition:.2s;
     -webkit-transition:.2s;
     transition:.2s;
 }
@@ -2963,7 +2999,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     /* background-color: #4C6971;
     box-shadow: inset 1px 1px 3px #19363E; */
     background-color: #d6d6d6;
-    box-shadow: inset 1px 1px 3px #8A8A8A;
+    -webkit-box-shadow: inset 1px 1px 3px #8A8A8A;
+            box-shadow: inset 1px 1px 3px #8A8A8A;
 }
 
 .pic-text {
@@ -2978,8 +3015,11 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     padding-top: 20px;
     padding-bottom: 20px;
     min-height: 500px;
-    align-items: center;
-    box-shadow: inset 0px 0px 5px #adadad;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-shadow: inset 0px 0px 5px #adadad;
+            box-shadow: inset 0px 0px 5px #adadad;
 }
 
 .product-img {
@@ -2989,6 +3029,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     /* background-color: white; */
     min-height: 500px;
     height: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -2999,6 +3041,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     /* background-color: white; */
     min-height: 500px;
     height: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -3045,7 +3089,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     /* background-color: #4C6971;
     box-shadow: inset 1px 1px 3px #19363E; */
     background-color: #d6d6d6;
-    box-shadow: inset 1px 1px 3px #8A8A8A;
+    -webkit-box-shadow: inset 1px 1px 3px #8A8A8A;
+            box-shadow: inset 1px 1px 3px #8A8A8A;
 }
 
 .intro-p {
@@ -3059,7 +3104,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     background-color: #fafafa;
     padding: 7px;
     color: #262626;
-    box-shadow: inset 0 0 5px #aeaeae;
+    -webkit-box-shadow: inset 0 0 5px #aeaeae;
+            box-shadow: inset 0 0 5px #aeaeae;
     /* -webkit-filter: drop-shadow(0px 0px 2px black);
     filter: drop-shadow(0px 0px 2px black); */
 }
@@ -3112,6 +3158,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     outline: none;
     cursor: pointer;
     padding: 14px 16px;
+    -webkit-transition: 0.3s;
     transition: 0.3s;
     font-family: helvetica, 'work sans', sans-serif;
 }
@@ -3135,9 +3182,11 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     /* min-height: 400px; */
     /* background-color: white; */
     margin-bottom: 40px;
-    animation: fadeEffect 1s;
+    -webkit-animation: fadeEffect 1s;
+            animation: fadeEffect 1s;
     /* Fading effect takes 1 second */
-    box-shadow: inset 0px 0px 5px #adadad;
+    -webkit-box-shadow: inset 0px 0px 5px #adadad;
+            box-shadow: inset 0px 0px 5px #adadad;
 }
 
 .tabcontent h3 {
@@ -3206,7 +3255,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 .tab-color {
     background-color: #fafafa;
     color: black;
-    box-shadow: inset 0px 0px 5px #aeaeae;
+    -webkit-box-shadow: inset 0px 0px 5px #aeaeae;
+            box-shadow: inset 0px 0px 5px #aeaeae;
 }
 
 .tab-color h3::after {
@@ -3244,10 +3294,20 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     /* background-color: #4C6971;
     box-shadow: inset 1px 1px 3px #19363E; */
     background-color: #d6d6d6;
-    box-shadow: inset 1px 1px 3px #8A8A8A;
+    -webkit-box-shadow: inset 1px 1px 3px #8A8A8A;
+            box-shadow: inset 1px 1px 3px #8A8A8A;
 }
 
 /* Go from zero to full opacity */
+@-webkit-keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
 @keyframes fadeEffect {
     from {
         opacity: 0;
@@ -3291,7 +3351,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     padding-top: 10px;
     padding-bottom: 20px;
     background-color: #fafafa;
-    box-shadow: inset 0px 0px 5px #AEAEAE;
+    -webkit-box-shadow: inset 0px 0px 5px #AEAEAE;
+            box-shadow: inset 0px 0px 5px #AEAEAE;
     border: 1px solid #d6d6d6;
     margin-top: 40px;
     border-radius: 5px;
@@ -3352,7 +3413,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     background-color: #4C6971;
     /* padding-top: 20px; */
     /* border-bottom: 3px solid #3FC1C1; */
-    box-shadow: inset 1px 1px 3px #19363E;
+    -webkit-box-shadow: inset 1px 1px 3px #19363E;
+            box-shadow: inset 1px 1px 3px #19363E;
 }
 
 .contact_head i {
@@ -3437,9 +3499,6 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     padding: 10px 50px;
     border-radius: 5px;
     /* border: black 1px solid; */
-    -o-transition:.2s;
-    -ms-transition:.2s;
-    -moz-transition:.2s;
     -webkit-transition:.2s;
     /* ...and now for the proper property */
     transition:.2s;
@@ -3448,7 +3507,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 .on_page_submit_btn:hover {
     background-color: #335058;
     color: #fafafa;
-    box-shadow: 1px 2px 5px #8A8A8A;
+    -webkit-box-shadow: 1px 2px 5px #8A8A8A;
+            box-shadow: 1px 2px 5px #8A8A8A;
     text-shadow: 0px 0px 7px whitesmoke;
 }
 
@@ -3456,7 +3516,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 .submit:hover {
     background-color: #335058;
     color: #fafafa;
-    box-shadow: 1px 2px 5px #8A8A8A;
+    -webkit-box-shadow: 1px 2px 5px #8A8A8A;
+            box-shadow: 1px 2px 5px #8A8A8A;
     text-shadow: 0px 0px 7px whitesmoke;
     /* -webkit-box-shadow: 0px 5px 40px -10px white;
     box-shadow: 0px 5px 40px -10px white; */
@@ -3595,7 +3656,8 @@ textarea[name="message"] {
     /* background-color: #4C6971;
     box-shadow: inset 1px 1px 3px #19363E; */
     background-color: #d6d6d6;
-    box-shadow: inset 1px 1px 3px #8A8A8A;
+    -webkit-box-shadow: inset 1px 1px 3px #8A8A8A;
+            box-shadow: inset 1px 1px 3px #8A8A8A;
 }
 
 .insights a {
@@ -3605,6 +3667,7 @@ textarea[name="message"] {
 .post-page-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: -webkit-max-content;
     grid-auto-rows: max-content;
     grid-gap: 20px;
     padding: 10px;
@@ -3682,7 +3745,8 @@ textarea[name="message"] {
     /* background-color: #4C6971;
     box-shadow: inset 1px 1px 3px #19363E; */
     background-color: #4C6971;
-    box-shadow: inset 1px 1px 3px #19363E;
+    -webkit-box-shadow: inset 1px 1px 3px #19363E;
+            box-shadow: inset 1px 1px 3px #19363E;
 }
 
 .articles iframe {
@@ -3885,17 +3949,21 @@ footer {
     }
 
     .hero-responsive {
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
         display: inline-flex;
         float: right;
         margin-top: 28vh;
         width: 50%;
         border: 25px solid;
         border-width: 10px;
-        border-image: url(../images/tv-border.png);
+        -o-border-image: url(../images/tv-border.png);
+           border-image: url(../images/tv-border.png);
         border-image-slice: 25 fill;
         border-image-outset: 0;
         border-image-width: 16px;
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
         position: relative;
     }
     
@@ -3949,7 +4017,10 @@ footer {
     } */
 
     .pic-text {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         padding-top: 20px;
         padding-bottom: 30px;
         min-height: initial;
@@ -4368,6 +4439,8 @@ footer {
 
     .mobile-banner-container,
     .vid-banner-container {
+        height: -webkit-max-content;
+        height: -moz-max-content;
         height: max-content;
         width: 100%;
         display: block;
@@ -4375,6 +4448,8 @@ footer {
     }
 
     .mobile-banner {
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
         display: inline-flex;
         /* float: right; */
         /* margin-top: 20px; */
@@ -4382,7 +4457,8 @@ footer {
         width: 80%;
         border: 25px solid;
         border-width: 10px;
-        border-image: url(../images/tv-border.png);
+        -o-border-image: url(../images/tv-border.png);
+           border-image: url(../images/tv-border.png);
         border-image-slice: 25 fill;
         border-image-outset: 0;
         border-image-width: 16px;
@@ -4642,12 +4718,16 @@ footer {
     }
 
     .mobile-hero-container {
+        height: -webkit-max-content;
+        height: -moz-max-content;
         height: max-content;
         width: 100%;
         display: block;
     }
 
     .mobile-hero {
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
         display: inline-flex;
         /* float: right; */
         /* margin-top: 20px; */
@@ -4655,7 +4735,8 @@ footer {
         width: 80%;
         border: 25px solid;
         border-width: 10px;
-        border-image: url(../images/tv-border.png);
+        -o-border-image: url(../images/tv-border.png);
+           border-image: url(../images/tv-border.png);
         border-image-slice: 25 fill;
         border-image-outset: 0;
         border-image-width: 16px;
@@ -4836,9 +4917,13 @@ footer {
         width: auto;
         margin: 0 auto;
         font-size: 20px;
+        -webkit-transition: 0.6s ease;
         transition: 0.6s ease;
         border-radius: 0 3px 3px 0;
-        user-select: none;
+        -webkit-user-select: none;
+           -moz-user-select: none;
+            -ms-user-select: none;
+                user-select: none;
         padding: 20px;
     }
 
@@ -5091,7 +5176,8 @@ footer {
     }
 
     .sign_div {
-        box-shadow: none;
+        -webkit-box-shadow: none;
+                box-shadow: none;
     }
 
     .mid_sign_text,
