@@ -407,7 +407,9 @@ nav ul li ul li a:hover {
     /* border: #4C6971 1px solid; */
     -webkit-box-shadow: inset 0px 0px 4px #AEAEAE;
     box-shadow: inset 0px 0px 4px #AEAEAE;
-    color: #262626;
+    /* color: #262626; */
+    color: #4C6971;
+    text-shadow: 0px 1px 0px #4C6971;
 }
 
 /* .drop li a:hover {
