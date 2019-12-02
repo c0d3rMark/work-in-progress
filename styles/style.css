@@ -1,7 +1,7 @@
 /*start global ------------------------------------*/
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Tahoma, Helvetica, Arial, sans-serif;
     font-size: 18px;
     line-height: 1.5;
     padding: 0;
@@ -19,6 +19,13 @@ html {
     width: 80%;
     margin: auto;
     overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 200;
 }
 
 /* -------------------------------------- end global */
@@ -1232,7 +1239,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     margin-top: -22px;
     padding: 16px;
     color: #4C6971;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 50px;
     -webkit-transition: 0.6s ease;
     transition: 0.6s ease;
@@ -1413,7 +1420,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     font-size: 25px;
     /* color: #ffffff; */
     color: #262626;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 #boxes p {
@@ -1764,7 +1771,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
 .mid_sign_text h2 {
     margin-top: 40px;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .mid_sign_text hr {
@@ -1903,7 +1910,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
 #main h3 {
     margin-top: 25px;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 30px;
 }
 
@@ -1915,7 +1922,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
 .sign_industry h3 {
     margin-top: 20px;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 30px;
     padding-top: 40px;
     padding-bottom: 15px;
@@ -1948,7 +1955,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 }
 
 .sign_industry h4 {
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 20px;
     padding-top: 15px;
     margin-top: 0px;
@@ -2039,7 +2046,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     display: inline-block;
     margin-top: 5px;
     margin-bottom: -0px;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 30px;
 }
 
@@ -2139,7 +2146,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 .ptext {
     display: inline-block;
     text-align: center;
-    font-weight: bold;
+    /* font-weight: bold; */
     margin-top: 118px;
     font-size: 35px;
     letter-spacing: 3px;
@@ -2564,7 +2571,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
 #main .software_intro h2 {
     font-size: 30px;
-    font-weight: bold;
+    /* font-weight: bold; */
     display: inline;
 }
 
@@ -2779,7 +2786,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 }
 
 .hardware_text p {
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .hardware_text ul {
@@ -2804,7 +2811,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
 .block h2 {
     font-size: 18px;
-    /*font-weight: 100;*/
+    /* font-weight: bold; */
 }
 
 .block h2::after {
@@ -3072,6 +3079,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
 .enquire-box h2 {
     font-size: 20px;
+    font-weight: bold;
 }
 
 .enquire-box h2::after {
@@ -3745,9 +3753,9 @@ textarea[name="message"] {
     height: 5px;
     /* background-color: #4C6971;
     box-shadow: inset 1px 1px 3px #19363E; */
-    background-color: #4C6971;
-    -webkit-box-shadow: inset 1px 1px 3px #19363E;
-            box-shadow: inset 1px 1px 3px #19363E;
+    background-color: #d6d6d6;
+    -webkit-box-shadow: inset 1px 1px 3px #8A8A8A;
+            box-shadow: inset 1px 1px 3px #8A8A8A;
 }
 
 .articles iframe {
@@ -4588,7 +4596,8 @@ footer {
         padding: 0px 5px 0px 5px;
     }
 
-    .insights {
+    .insights,
+    .articles {
         padding-top: 0;
     }
 
@@ -4600,10 +4609,28 @@ footer {
         font-size: 25px;
     }
 
+    .articles h1 {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
     .page-title {
         margin-top: 30px;
         margin-bottom: 25px;
     }
+
+    .articles h1::after {
+        width: 100px;
+    } 
+
+    /* .articles h1 {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+    .articles {
+        padding-top: 0px;
+    }*/
 }
 
 @media(max-width: 1065px) {
@@ -5484,22 +5511,9 @@ footer {
         padding-top: 0px;
     } */
 
-    .insights h1 {
+    /* .insights h1 {
         font-size: 25px;
-    }
-
-    .articles h1 {
-        font-size: 25px;
-        margin-top: 20px;
-    }
-
-    .articles {
-        padding-top: 0px;
-    }
-
-    .articles h1::after {
-        width: 100px;
-    }
+    } */
 
     /*footer*/
 
