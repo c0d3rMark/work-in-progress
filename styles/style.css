@@ -393,7 +393,7 @@ nav ul li ul li a {
 
 .drop li a {
     padding: 10px 10px;
-    color: black;
+    color: #262626;
     text-shadow: none;
     /* font-size: 16px; */
     -webkit-text-stroke: unset;
@@ -3397,10 +3397,10 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 /*Contact*/
 
 .on_page_contact {
-    /* background-color: #262626; */
-    background-color: #d6d6d6;
+    background-color: #f4f4f4;
+    /* background-color: #d6d6d6; */
     /* background-color: #DBDBDB; */
-    /* border-top: 1px solid black; */
+    border-top: 1px solid #d6d6d6;
     padding-top: 20px;
     margin-top: 40px;
     text-align: center;
@@ -3431,7 +3431,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 .contact_head i {
     /* color: #262626; */
     color: rgba(76, 105, 113, 0.8);
-    text-shadow: 1px 4px 3px #d6d6d6, 0 0 0px #000, 1px 4px 3px transparent;
+    text-shadow: 1px 4px 3px #f4f4f4, 0 0 0px #000, 1px 4px 3px transparent;
     padding-right: 10px;
     font-size: 22px;
 }
