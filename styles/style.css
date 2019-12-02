@@ -5494,12 +5494,17 @@ footer {
     }
 
     .dark {
-        padding-left: 0px;
-        padding-right: 0px;
+        /* padding-left: 0px;
+        padding-right: 0px; */
+        padding: 1%;
     }
 
     .dark h3 {
         font-size: 25px;
+    }
+
+    .dark hr {
+        width: 200px;
     }
 
     .submit {
