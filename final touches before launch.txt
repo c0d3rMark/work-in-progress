@@ -1,17 +1,20 @@
 Final touches before launch
 
+Completed
+
 - Check code on W3 **
 - Add all img alt tags **
-- Finalise font & weighting (Tahoma, Century Gothic, Arial, Helvetica)
-- OPtimize all images (Gimp & online compression)
+- Finalise font & weighting (Tahoma, Century Gothic, Arial, Helvetica)**
+- change content software to digital signage software (update page text) **
+- JS in head section and defer **
+
+To Do
+
+- Optimize all images (Gimp & online compression)
+- beautify code
 - clean and minify code (enable text compression)
-- change digital signage page to disgital signs and update all links (update page text)
-- change content software to digital signage software (update page text)
+- change digital signage page to digital signs and update all links (update page text)
 - Browse hardware to take to specific section on hardware pages
 - Spell Check
-- JS in head section and defer **
 - Check through different broswers
 - Audits and testing
-- Add concrete background to shocwase banner when in mobile
-
-content-managment-software to digital-signage-software
