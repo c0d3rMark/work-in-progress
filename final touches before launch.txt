@@ -12,5 +12,4 @@ Final touches before launch
 - JS in head section and defer **
 - Check through different broswers
 - Audits and testing
-- text contact pages
 - Add concrete background to shocwase banner when in mobile
