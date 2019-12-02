@@ -13,3 +13,5 @@ Final touches before launch
 - Check through different broswers
 - Audits and testing
 - Add concrete background to shocwase banner when in mobile
+
+content-managment-software to digital-signage-software
