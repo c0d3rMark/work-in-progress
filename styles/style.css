@@ -566,7 +566,6 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     -o-border-image: url(../images/tv-border.png);
        border-image: url(../images/tv-border.png);
     border-image-slice: 28 fill;
-    -webkit-border-image-slice: 28 fill;
     border-image-outset: 0;
     border-image-width: 18px;
     -ms-flex-wrap: wrap;
@@ -1462,7 +1461,6 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     -o-border-image: url(../images/tv-border.png);
        border-image: url(../images/tv-border.png);
     border-image-slice: 28 fill;
-    -webkit-border-image-slice: 28 fill;
     border-image-outset: 0;
     border-image-width: 18px;
     -ms-flex-wrap: wrap;
@@ -1516,8 +1514,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     border-width: 10px;
     -o-border-image: url(../images/tv-border.png);
        border-image: url(../images/tv-border.png);
-    border-image-slice: 28 fill;
-    -webkit-border-image-slice: 28 fill;
+    border-image-slice: 25 fill;
     border-image-outset: 0;
     border-image-width: 18px;
     -ms-flex-wrap: wrap;
@@ -1702,7 +1699,6 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     -o-border-image: url(../images/tv-border.png);
        border-image: url(../images/tv-border.png);
     border-image-slice: 25 fill;
-    -webkit-border-image-slice: 28 fill;
     border-image-outset: 0;
     border-image-width: 18px;
     -ms-flex-wrap: wrap;
@@ -1800,7 +1796,6 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     -o-border-image: url(../images/tv-border.png);
        border-image: url(../images/tv-border.png);
     border-image-slice: 25 fill;
-    -webkit-border-image-slice: 28 fill;
     border-image-outset: 0;
     border-image-width: 18px;
     -ms-flex-wrap: wrap;
@@ -3977,7 +3972,6 @@ footer {
         -o-border-image: url(../images/tv-border.png);
            border-image: url(../images/tv-border.png);
         border-image-slice: 25 fill;
-        -webkit-border-image-slice: 28 fill;
         border-image-outset: 0;
         border-image-width: 16px;
         -ms-flex-wrap: wrap;
@@ -4478,7 +4472,6 @@ footer {
         -o-border-image: url(../images/tv-border.png);
            border-image: url(../images/tv-border.png);
         border-image-slice: 25 fill;
-        -webkit-border-image-slice: 28 fill;
         border-image-outset: 0;
         border-image-width: 16px;
     }
@@ -4776,7 +4769,6 @@ footer {
         -o-border-image: url(../images/tv-border.png);
            border-image: url(../images/tv-border.png);
         border-image-slice: 25 fill;
-        -webkit-border-image-slice: 28 fill;
         border-image-outset: 0;
         border-image-width: 16px;
     }
