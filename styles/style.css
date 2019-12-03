@@ -563,8 +563,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     display: inline-flex;
     border: 25px solid;
     border-width: 10px;
-    -o-border-image: url(../images/tv-border.png);
-       border-image: url(../images/tv-border.png);
+    -o-border-image: url(../images/tv-border-optimized.png);
+       border-image: url(../images/tv-border-optimized.png);
     border-image-slice: 28 fill;
     border-image-outset: 0;
     border-image-width: 18px;
@@ -1461,8 +1461,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     /* display: inline-block; */
     border: 25px solid;
     border-width: 10px;
-    -o-border-image: url(../images/tv-border.png);
-       border-image: url(../images/tv-border.png);
+    -o-border-image: url(../images/tv-border-optimized.png);
+       border-image: url(../images/tv-border-optimized.png);
     border-image-slice: 28 fill;
     border-image-outset: 0;
     border-image-width: 18px;
@@ -1515,8 +1515,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     display: inline-flex;
     border: 25px solid;
     border-width: 10px;
-    -o-border-image: url(../images/tv-border.png);
-       border-image: url(../images/tv-border.png);
+    -o-border-image: url(../images/tv-border-optimized.png);
+       border-image: url(../images/tv-border-optimized.png);
     border-image-slice: 25 fill;
     border-image-outset: 0;
     border-image-width: 18px;
@@ -1699,8 +1699,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     display: inline-flex;
     border: 25px solid;
     border-width: 10px;
-    -o-border-image: url(../images/tv-border.png);
-       border-image: url(../images/tv-border.png);
+    -o-border-image: url(../images/tv-border-optimized.png);
+       border-image: url(../images/tv-border-optimized.png);
     border-image-slice: 25 fill;
     border-image-outset: 0;
     border-image-width: 18px;
@@ -1796,8 +1796,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     display: inline-flex;
     border: 25px solid;
     border-width: 10px;
-    -o-border-image: url(../images/tv-border.png);
-       border-image: url(../images/tv-border.png);
+    -o-border-image: url(../images/tv-border-optimized.png);
+       border-image: url(../images/tv-border-optimized.png);
     border-image-slice: 25 fill;
     border-image-outset: 0;
     border-image-width: 18px;
@@ -3975,8 +3975,8 @@ footer {
         width: 50%;
         border: 25px solid;
         border-width: 10px;
-        -o-border-image: url(../images/tv-border.png);
-           border-image: url(../images/tv-border.png);
+        -o-border-image: url(../images/tv-border-optimized.png);
+           border-image: url(../images/tv-border-optimized.png);
         border-image-slice: 25 fill;
         border-image-outset: 0;
         border-image-width: 16px;
@@ -4475,8 +4475,8 @@ footer {
         width: 80%;
         border: 25px solid;
         border-width: 10px;
-        -o-border-image: url(../images/tv-border.png);
-           border-image: url(../images/tv-border.png);
+        -o-border-image: url(../images/tv-border-optimized.png);
+           border-image: url(../images/tv-border-optimized.png);
         border-image-slice: 25 fill;
         border-image-outset: 0;
         border-image-width: 16px;
@@ -4772,8 +4772,8 @@ footer {
         width: 80%;
         border: 25px solid;
         border-width: 10px;
-        -o-border-image: url(../images/tv-border.png);
-           border-image: url(../images/tv-border.png);
+        -o-border-image: url(../images/tv-border-optimized.png);
+           border-image: url(../images/tv-border-optimized.png);
         border-image-slice: 25 fill;
         border-image-outset: 0;
         border-image-width: 16px;
