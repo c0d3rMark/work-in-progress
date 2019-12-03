@@ -1159,8 +1159,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 .led-video {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-auto-rows: -webkit-max-content;
-    grid-auto-rows: max-content;
+    grid-auto-rows: -webkit-min-content;
+    grid-auto-rows: min-content;
     grid-gap: 20px;
     padding: 10px;
     padding-bottom: 40px;
@@ -1173,8 +1173,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 .interact-displays {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-auto-rows: -webkit-max-content;
-    grid-auto-rows: max-content;
+    grid-auto-rows: -webkit-min-content;
+    grid-auto-rows: min-content;
     grid-gap: 20px;
     padding: 10px;
     padding-bottom: 40px;
@@ -1448,6 +1448,9 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 .screen-container {
     width: 60%;
     margin: auto;
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
 }
 
 .signage-screens {
@@ -1804,6 +1807,9 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     width: -webkit-min-content;
     width: -moz-min-content;
     width: min-content;
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
     /* height: max-content; */
     margin: 0 auto;
 }
@@ -3679,8 +3685,8 @@ textarea[name="message"] {
 .post-page-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: -webkit-max-content;
-    grid-auto-rows: max-content;
+    grid-auto-rows: -webkit-min-content;
+    grid-auto-rows: min-content;
     grid-gap: 20px;
     padding: 10px;
     padding-bottom: 40px;
@@ -4451,9 +4457,9 @@ footer {
 
     .mobile-banner-container,
     .vid-banner-container {
-        height: -webkit-max-content;
-        height: -moz-max-content;
-        height: max-content;
+        height: -webkit-min-content;
+        height: -moz-min-content;
+        height: min-content;
         width: 100%;
         display: block;
         z-index: 0;
@@ -4749,9 +4755,9 @@ footer {
     }
 
     .mobile-hero-container {
-        height: -webkit-max-content;
-        height: -moz-max-content;
-        height: max-content;
+        height: -webkit-min-content;
+        height: -moz-min-content;
+        height: min-content;
         width: 100%;
         display: block;
     }

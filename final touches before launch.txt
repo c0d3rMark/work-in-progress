@@ -7,6 +7,7 @@ Completed
 - Finalise font & weighting (Tahoma, Century Gothic, Arial, Helvetica)**
 - change content software to digital signage software (update page text) **
 - JS in head section and defer **
+- changed .led-video to min-content
 
 To Do
 
