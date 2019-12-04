@@ -1448,9 +1448,9 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 .screen-container {
     width: 60%;
     margin: auto;
-    height: -webkit-min-content;
+    /* height: -webkit-min-content;
     height: -moz-min-content;
-    height: min-content;
+    height: min-content; */
 }
 
 .signage-screens {
@@ -1804,12 +1804,12 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     position: relative;
-    width: -webkit-min-content;
+    /* width: -webkit-min-content;
     width: -moz-min-content;
     width: min-content;
     height: -webkit-min-content;
     height: -moz-min-content;
-    height: min-content;
+    height: min-content; */
     /* height: max-content; */
     margin: 0 auto;
 }
@@ -4462,9 +4462,9 @@ footer {
 
     .mobile-banner-container,
     .vid-banner-container {
-        height: -webkit-min-content;
+        /* height: -webkit-min-content;
         height: -moz-min-content;
-        height: min-content;
+        height: min-content; */
         width: 100%;
         display: block;
         z-index: 0;
@@ -4760,9 +4760,9 @@ footer {
     }
 
     .mobile-hero-container {
-        height: -webkit-min-content;
+        /* height: -webkit-min-content;
         height: -moz-min-content;
-        height: min-content;
+        height: min-content; */
         width: 100%;
         display: block;
     }
