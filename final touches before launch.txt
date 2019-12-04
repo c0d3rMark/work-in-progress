@@ -10,6 +10,7 @@ Completed
 
 To Do
 
+- add "noopener" to all (target="_blank" rel="noopener")
 - Optimize all images (Gimp & online compression)
 - beautify code
 - clean and minify code (enable text compression)
