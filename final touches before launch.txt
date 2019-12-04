@@ -7,13 +7,14 @@ Completed
 - Finalise font & weighting (Tahoma, Century Gothic, Arial, Helvetica)**
 - change content software to digital signage software (update page text) **
 - JS in head section and defer **
+- Optimize all images (Gimp & online compression) **
 
 To Do
 
+- rel="preconnect" to all Analytics tags
 - add "noopener" to all (target="_blank" rel="noopener")
-- Optimize all images (Gimp & online compression)
 - beautify code
-- clean and minify code (enable text compression)
+- clean and minify code (enable text compression GZIP in CPanel)
 - change digital signage page to digital signs and update all links (update page text)
 - Browse hardware to take to specific section on hardware pages
 - Spell Check
