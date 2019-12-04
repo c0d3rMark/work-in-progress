@@ -4760,6 +4760,7 @@ footer {
     }
 
     .mobile-hero-container {
+        /* min-content on height on comtiner fixed issue on Rob's phone */
         /* height: -webkit-min-content;
         height: -moz-min-content;
         height: min-content; */
