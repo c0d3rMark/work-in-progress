@@ -4089,8 +4089,12 @@ footer {
         min-height: 100vh;
     } */
 
+    .box_interact {
+        width: 100%;
+    }
+
     .box_interact img {
-        width: 50%;
+        width: 45%;
         margin-bottom: 30px;
     }
 
