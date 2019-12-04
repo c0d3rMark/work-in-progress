@@ -3077,8 +3077,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     height: 70%;
     /* width: 70%; */
     margin: auto;
-    -webkit-filter: drop-shadow(5px 8px 10px black);
-    filter: drop-shadow(5px 8px 10px black);
+    -webkit-filter: drop-shadow(3px 5px 3px #adadad);
+    filter: drop-shadow(3px 5px 3px #adadad);
 }
 
 .enquire-box {
