@@ -3466,8 +3466,9 @@ footer {
 
     #showcase,
     .img-layer {
-       min-height: 100%;
-        /* max-height: 550px; */
+        min-height: initial;
+        background-color: blue;
+       /* min-height: 100%; */
     }
 
     #showcase .scroll {
@@ -3824,15 +3825,6 @@ footer {
 }
 
 @media(max-width: 890px) {
-    #showcase,
-    .img-layer {
-        max-height: 100%;
-        background-color: yellow;
-        /* height: -webkit-min-content;
-        height: -moz-min-content;
-        height: min-content; */
-    }
-
     .hero-responsive {
         display: none;
     }
