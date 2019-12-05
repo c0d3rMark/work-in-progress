@@ -4761,9 +4761,9 @@ footer {
 
     .mobile-hero-container {
         /* min-content on height on comtiner fixed issue on Rob's phone */
-        height: -webkit-min-content;
+        /* height: -webkit-min-content;
         height: -moz-min-content;
-        height: min-content;
+        height: min-content; */
         width: 100%;
         display: block;
     }
@@ -4783,6 +4783,9 @@ footer {
         border-image-slice: 25 fill;
         border-image-outset: 0;
         border-image-width: 16px;
+        height: -webkit-min-content;
+        height: -moz-min-content;
+        height: min-content;
     }
     
     .mobile-hero img {

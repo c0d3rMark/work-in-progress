@@ -8,11 +8,11 @@ Completed
 - change content software to digital signage software (update page text) **
 - JS in head section and defer **
 - Optimize all images (Gimp & online compression) **
+- add "noopener" to all (target="_blank" rel="noopener") **
 
 To Do
 
 - rel="preconnect" to all Analytics tags
-- add "noopener" to all (target="_blank" rel="noopener")
 - beautify code
 - clean and minify code (enable text compression GZIP in CPanel)
 - change digital signage page to digital signs and update all links (update page text)
