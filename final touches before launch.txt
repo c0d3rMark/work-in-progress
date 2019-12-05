@@ -9,12 +9,13 @@ Completed
 - JS in head section and defer **
 - Optimize all images (Gimp & online compression) **
 - add "noopener" to all (target="_blank" rel="noopener") **
+- (enable text compression GZIP in CPanel) **
 
 To Do
 
 - rel="preconnect" to all Analytics tags
 - beautify code
-- clean and minify code (enable text compression GZIP in CPanel)
+- clean and minify code 
 - change digital signage page to digital signs and update all links (update page text)
 - Browse hardware to take to specific section on hardware pages
 - Spell Check
