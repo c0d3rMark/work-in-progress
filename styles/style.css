@@ -3467,7 +3467,6 @@ footer {
     #showcase,
     .img-layer {
         min-height: initial;
-        background-color: blue;
        /* min-height: 100%; */
     }
 
