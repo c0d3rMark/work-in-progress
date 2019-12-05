@@ -79,7 +79,7 @@ ul {
     margin-bottom: 30px;
 }
 
-.show_btn a {
+/* .show_btn a {
     text-decoration: none;
     letter-spacing: normal;
     color: white;
@@ -92,7 +92,7 @@ ul {
     border: white 1px solid;
     -webkit-animation: glowing 3100ms infinite;
     animation: glowing 3100ms infinite;
-}
+} */
 
 .hero-button a {
     text-decoration: none;
@@ -147,9 +147,9 @@ ul {
     text-shadow: 0px 0px 7px whitesmoke;
 }
 
-.show_btn {
+/* .show_btn {
     margin-top: 225px;
-}
+} */
 
 .vid-contact-btn a,
 .product-btn a {
@@ -3457,9 +3457,9 @@ footer {
         padding-bottom: 10px;
     }
 
-    .show_btn {
+    /* .show_btn {
         margin-top: 140px;
-    }
+    } */
 
     /*Logo band and Philips and Samsung logos*/
 

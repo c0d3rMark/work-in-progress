@@ -1,0 +1,13 @@
+Unused CSS rules
+
+.dark -used
+.dark h3 -used
+.dark hr -used
+#alt_btn -used
+.show_btn a -commented out (3 rules)
+.mid_sign_button -used
+.btn a:hover
+
+
+
+
