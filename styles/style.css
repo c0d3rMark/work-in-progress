@@ -2947,59 +2947,6 @@ footer {
     }
 }
 
-@media(max-width: 1180px) {
-
-    .interact_features ul {
-        list-style-type: none;
-        text-align: center;
-        padding-left: 0px;
-        padding-bottom: 10px;
-    }
-}
-
-@media(max-width: 1160px) {
-    /* #showcase_sign {
-        position: relative;
-        text-align: center;
-    } */
-
-    /* #showcase_sign img,
-    #showcase_sign h1,
-    #showcas_sign p,
-    .showSign_screen {
-        float: none;
-        text-align: center;
-        margin-left: 0px;
-        margin-right: 0px;
-    } */
-
-    /* #showcase_sign img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 500px;
-        margin-top: 0px;
-    } */
-/* 
-    #showcase_sign h1,
-    #showcase_sign p {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: white;
-        text-shadow: 1px 1px 3px black;
-    } */
-
-    /* #showcase_sign h1 {
-        margin-top: 0px;
-    } */
-
-    /* #showcase_sign p {
-        margin-top: 100px;
-    } */
-}
-
 @media(max-width: 1100px) {
     .hero-responsive {
         margin-top: 7vh;
@@ -3055,6 +3002,7 @@ footer {
     }
 
     /* .led-video-img img, */
+
     .interact-displays img {
         width: 90%;
     }
@@ -3083,9 +3031,6 @@ footer {
 
     .mobile-banner-container,
     .vid-banner-container {
-        /* height: -webkit-min-content;
-        height: -moz-min-content;
-        height: min-content; */
         width: 100%;
         display: block;
         z-index: 0;
@@ -3095,9 +3040,6 @@ footer {
         display: -webkit-inline-box;
         display: -ms-inline-flexbox;
         display: inline-flex;
-        /* float: right; */
-        /* margin-top: 20px; */
-        /* height: 100%; */
         width: 80%;
         border: 25px solid;
         border-width: 10px;
@@ -3124,7 +3066,6 @@ footer {
         width: 90%;
         float: none;
         margin: auto;
-        /* margin-top: 140px; */
     }
 
     #showcase_sign h1,
@@ -3153,10 +3094,6 @@ footer {
         display: none;
     }
 
-    /* #topSection img {
-        display: none;
-    } */
-
     .sign-benefit {
         width: 100%;
     }
@@ -3172,14 +3109,6 @@ footer {
     .signage-explainer {
         display: block;
     }
-
-    /* .vid-top img {
-        display: none;
-    } */
-
-    /* #vid_img {
-        text-align: center;
-    } */
 
     .vid_benefits h2:after,
     .what_is h2:after,
@@ -3257,21 +3186,10 @@ footer {
     .articles h1::after {
         width: 100px;
     } 
-
-    /* .articles h1 {
-        font-size: 25px;
-        margin-top: 20px;
-    }
-
-    .articles {
-        padding-top: 0px;
-    }*/
 }
 
 @media(max-width: 1065px) {
-    /* #showcase_software {
-        background: url('../images/laptop2-1600px.jpg') no-repeat -220px -260px;
-    } */
+
     .screen-container {
         width: 100%;
     }
@@ -3279,10 +3197,6 @@ footer {
     .signage-screens {
         width: 45%;
     }
-
-    /* .screen1 {
-        float: left;
-    } */
 
     .article-container {
         width: 60%;
@@ -3314,59 +3228,6 @@ footer {
         width: 200px;
         margin: auto;
     }
-
-    /* #showcase img {
-        width: 90%;
-    } */
-}
-
-@media(max-width: 990px) {
-    /* #showcase_software {
-        background: url('../images/laptop2-1600px.jpg') no-repeat -280px -260px;
-    } */
-}
-
-@media(max-width: 950px) {
-    /* #showcase {
-        min-height: 550px;
-    } */
-
-    /* #showcase img {
-        margin-top: 150px;
-        width: 90%;
-    } */
-}
-
-@media(max-width: 900px) {
-    /* #topSection {
-        padding-top: 20px;
-        padding-bottom: 30px;
-    } */
-
-    /* .signage-explainer {
-        display: block;
-        text-align: center;
-    } */
-
-    /* .hero-content {
-        display: none;
-    } */
-
-    /* .what_is h2:after,
-    .what_is h2::after {
-        margin: auto;
-        margin-top: 20px;
-    } */
-
-    /* #showcase h1 {
-        margin-top: 0px;
-        width: 65%;
-    }
-
-    #showcase p {
-        margin-top: 90px;
-        width: 60%;
-    } */
 }
 
 @media(max-width: 890px) {
@@ -3377,7 +3238,6 @@ footer {
     .mobile-hero-container {
         width: 100%;
         height: 100%;
-        /* display: block; */
     }
 
     .mobile-hero {
@@ -3420,10 +3280,6 @@ footer {
         text-align: center;
         width: 100%;
     }
-
-    /* .partner_style {
-        height: 100%;
-    } */
 }
 
 @media(max-width: 800px) {
@@ -3435,28 +3291,15 @@ footer {
     #sidebar,
     .wrapper,
     .column,
-    /* #main .tv1,
-    #main .tv2, */
     #main .products,
-    /* #main .products-2, */
     .products li,
-    /* .products-2 li, */
     #warranty,
     #main .vid1,
     #main .vid2,
     .topbar,
     #vid_img .vid_benefits,
-    /* #vid_img p, */
     #vid_img .features,
-    /* .what_is, */
     .box_list
-    /* .sign_industry img, */
-    /* .sign_industry h4,
-    .sign_industry p, */
-    /* .icon1 i,
-    .icon2 i,
-    .icon1 p,
-    .icon2 p */
      {
         float: none;
         text-align: center;
@@ -3478,15 +3321,8 @@ footer {
     }
 
     .container {
-        /* width: 94%; */
         width: 92%;
     }
-
-    /* header {
-        padding-bottom: 0px;
-        position: static;
-        margin-top: 0px;
-    } */
 
     header a {
         padding: 10px 0px;
@@ -3509,9 +3345,6 @@ footer {
     }
 
     #main .products {
-        /* padding-top: 20px;
-        padding-bottom: 20px;
-        text-align: center; */
         font-size: 17px;
     }
 
@@ -3526,32 +3359,6 @@ footer {
     .app-text-container {
         width: 90%;
     }
-
-    /* .bg_img1,
-    .bg_img2,
-    .bg_img3,
-    .bg_img5, */
-    /* .bg_img6, */
-    /* .bg_img8, */
-    /* .bg_imgInteract {
-        height: 220px;
-        background-attachment: scroll;
-    } */
-
-    /* .ptext {
-        margin-top: 70px;
-        font-size: 0px;
-    }
-
-    #main .ptext h2 {
-        font-size: 25px;
-        letter-spacing: 2px;
-    } */
-
-    /* #main .border {
-        padding-top: 18px;
-        padding-bottom: 18px;
-    } */
 
     .prev,
     .next {
@@ -3633,11 +3440,6 @@ footer {
 
     /*top bar*/
 
-    /* .topbar {
-        position: static;
-        z-index: 3;
-    } */
-
     .topbar p {
         padding-right: 0px;
         font-size: 17px;
@@ -3683,147 +3485,24 @@ footer {
         margin-top: 0;
     }
 
-    /* #showcase_vid h1, */
-    /* #showcase_interact h1 {
-        margin-top: 50px;
-        font-size: 35px;
-    } */
-
-    /* #showcase_software h1 {
-        margin-top: 130px;
-    } */
-
-    /* #showcase h1 {
-        margin-top: -60px;
-    }
-
-    #showcase p {
-        margin-top: 40px;
-    } */
-
-    /* #showcase_about h1 {
-        margin-top: 150px;
-        font-size: 35px;
-    } */
-
-    /* #showcase_vid p, */
-    /* #showcase_interact p,
-    #showcase_software p {
-        font-size: 25px;
-    } */
-
-    /*Home page top and bottom images*/
-
-    /* #showcase {
-        background: url('../images/modern-pattern-color-flipped-ipad.jpg') no-repeat;
-        min-height: 400px;
-        background-attachment: scroll;
-    } */
-
-    /* #showcase img {
-        width: 80%;
-        margin-top: 40px;
-        padding-top: 0px;
-    } */
-
-    /* .bg_img1,
-    .bg_img2,
-    .bg_img3 {
-        background: url('../images/modern-pattern-color-ipad.jpg') no-repeat 0 -10px;
-    } */
-
-    /* .bg_img4 {
-        background: url('../images/pixel-city-mobile.jpg') no-repeat -69px -105px;
-    } */
-
     /*Signage page top and bottom images*/
 
     .mid_sign {
         padding: 10px 0;
     }
 
-    /* .sign-benefit {
-        padding: 0;
-    } */
-
     .mid_sign_text h2,
     .mid_sign_text p {
         margin-top: 20px;
     }
-
-    /* .sign_industry h3 {
-        margin-top: 0px;
-    } */
 
     .box_contact {
         padding-top: 40px;
         padding-bottom: 40px;
     }
 
-    /* #showcase_sign { */
-        /* background: url('../images/tri-color-ipad.jpg') no-repeat;
-        background-attachment: scroll; */
-        /* min-height: 400px;
-    } */
-
-    /* .showSign_screen {
-        float: none;
-        min-height: 0px;
-        width: 100%;
-        text-align: center;
-        margin-left: 0px;
-        margin-right: 0px;
-    } */
-
-    /* #showcase_sign {
-        position: relative;
-        text-align: center;
-    }
-
-    #showcase_sign img,
-    #showcase_sign h1,
-    #showcas_sign p {
-        float: none;
-        text-align: center;
-        margin-left: 0px;
-        margin-right: 0px;
-    } */
-
-    /* #showcase_sign img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 55%;
-        padding: 0;
-        padding-bottom: 20px;
-        padding-top: 20px;
-    } */
-
-    /* #showcase_sign h1,
-    #showcase_sign p {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: white;
-        text-shadow: 1px 1px 3px black;
-    } */
-/* 
-    #showcase_sign h1 {
-        margin-top: -50px;
-    }
-
-    #showcase_sign p {
-        margin-top: 60px;
-    } */
-
     .sign_industry p {
         font-size: 17px;
-        /* padding-left: 0px;
-        padding-right: 0px;
-        width: 95%;
-        margin: auto;
-        margin-top: 10px; */
     }
 
     .sign_div {
@@ -3836,21 +3515,6 @@ footer {
         font-size: 17px;
     }
 
-    /* .bg_img6 {
-        background: url('../images/tri-color-ipad.jpg') no-repeat;
-        background-attachment: scroll;
-    } */
-
-    /* .box_contact {
-        background: url('../images/tri-color-ipad.jpg') no-repeat 0 -64px;
-        background-attachment: scroll;
-    } */
-
-    /* #boxes_sign .features {
-        width: 100%;
-        margin: auto;
-    } */
-
     #boxes_sign .features h3 {
         display: inline;
         font-size: 25px;
@@ -3859,74 +3523,6 @@ footer {
     #boxes_sign .span_logo {
         max-width: 110px;
     }
-
-    /*Video Wall top and bottom images*/
-
-    /* #showcase_vid {
-        background: url('../images/abstract-light-flipped-ipad.png') no-repeat;
-        background-attachment: scroll;
-        min-height: 400px;
-    } */
-
-    /* .bg_img8 {
-        background: url('../images/abstract-light-ipad.png') no-repeat 0 -100px;
-        background-attachment: scroll;
-    } */
-
-    /* #showcase_vid h1 {
-        margin-top: 0px;
-    } */
-
-    /* #showcase_vid p {
-        margin-top: 320px;
-    } */
-
-    /* #showcase_vid img {
-        width: 300px;
-        margin-top: 70px;
-    } */
-
-    /*Interactive page top and bottom images*/
-
-    /* #showcase_interact {
-        background: url('../images/confetti-ipad.jpg') no-repeat;
-        background-attachment: scroll;
-        min-height: 400px;
-    } */
-
-    /* #showcase_interact h1 {
-        margin-top: 0px;
-    }
-
-    #showcase_interact p {
-        margin-top: 320px;
-    }
-
-    #showcase_interact img {
-        width: 290px;
-        margin-top: 70px;
-    } */
-
-    /* .bg_imgInteract {
-        background: url('../images/confetti-ipad.jpg') no-repeat -40px -18px;
-        background-attachment: scroll;
-    } */
-
-    /*Software page top and bottom images*/
-
-    /* #showcase_software {
-        min-height: 400px;
-        background: url('../images/laptop2-ipad.jpg') no-repeat 0 -110px;
-        background-attachment: scroll;
-    } */
-
-    /*About Us page top and bottom images*/
-
-    /* #showcase_about {
-        min-height: 400px;
-        background: url('../images/city-bokeh-ipad.jpg') no-repeat 0 -80px;
-        background-attachment: scroll
-    } */
 
     /*Misc. individual page changes*/
 
@@ -3937,12 +3533,6 @@ footer {
         margin-right: 0px;
         font-size: 17px;
     }
-
-    /* .products,
-    .products-2 {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    } */
 
     #telechamp h2 {
         font-size: 25px;
@@ -3958,19 +3548,10 @@ footer {
         margin-left: 0px;
     }
 
-    /* .box_sign {
-        width: auto;
-        margin: 5px;
-    } */
-
     .what_is h2,
     .interact_intro h2 {
         font-size: 25px;
     }
-
-    /* .box_sign p {
-        font-size: 17px;
-    } */
 
     .box_list {
         padding-bottom: 10px;
@@ -3988,17 +3569,7 @@ footer {
 
     .sign_industry {
         padding: 5px;
-        /* padding-bottom: 20px;
-        box-shadow: none;
-        border: none; */
     }
-
-    /* .sign_industry h4 {
-        padding: 0px;
-        padding-top: 5px;
-        margin: 0px;
-        margin-top: 10px;
-    } */
 
     .sign_industry h3 {
         width: 95%;
@@ -4007,10 +3578,6 @@ footer {
         font-size: 25px;
     }
 
-    /* .sign_industry p {
-        font-size: 17px;
-    } */
-
     .sign_industry img {
         display: table;
         padding: 0px;
@@ -4018,12 +3585,6 @@ footer {
         margin: 0 auto;
         padding-bottom: 20px;
     }
-
-    /*interactive*/
-
-    /* .interact_intro {
-        font-size: 17px;
-    } */
 
     /*video walls*/
 
@@ -4052,34 +3613,6 @@ footer {
         display: none;
     }
 
-    /* .videowall h4 {
-        text-align: center;
-        font-size: 20px;
-    } */
-
-    /* .icon1 i {
-        margin-right: 0px;
-        margin-left: 0px;
-        padding: 0px;
-        padding-top: 20px;
-        font-size: 70px;
-    } */
-
-    /* .icon1 p {
-        text-align: center;
-    } */
-
-    /* .icon2 {
-        padding: 0px;
-        padding-top: 20px;
-    } */
-
-    /* .icon2 i {
-        margin-left: 0px;
-        padding: 0px;
-        font-size: 70px;
-    } */
-
     /*software*/
 
     #main .software_intro h2 {
@@ -4089,15 +3622,6 @@ footer {
     .software_intro {
         font-size: 17px;
     }
-
-    /*Hardware*/
-
-    /* .hardware h1 {
-        font-size: 25px;
-        margin-top: 20px;
-        margin-bottom: 0px;
-        padding-bottom: 20px;
-    } */
 
     /*about us*/
 
@@ -4115,8 +3639,6 @@ footer {
     }
 
     .dark {
-        /* padding-left: 0px;
-        padding-right: 0px; */
         padding: 1%;
     }
 
@@ -4133,16 +3655,6 @@ footer {
         padding: 0px;
     }
 
-    /*Articles*/
-
-    /* .insights {
-        padding-top: 0px;
-    } */
-
-    /* .insights h1 {
-        font-size: 25px;
-    } */
-
     /*footer*/
 
     .footer-links,
@@ -4156,11 +3668,6 @@ footer {
 
     /*Error*/
 
-    /* #main .error {
-        height: 78vh;
-        margin: auto;
-    } */
-
     .errorFormat {
         margin-top: 15vh;
     }
@@ -4168,7 +3675,6 @@ footer {
     /*Form submission*/
 
     #main .form {
-        /* height: 100vh; */
         padding-bottom: 20px;
     }
 
@@ -4199,13 +3705,6 @@ footer {
 }
 
 @media(max-width: 726px) {
-    /* #showcase_sign h1 {
-        margin-top: -50px;
-    } */
-
-    /* #showcase_sign p {
-        margin-top: 80px;
-    } */
 
     .post-page-container {
         grid-template-columns: 1fr 1fr;
@@ -4226,44 +3725,13 @@ footer {
         max-height: 35px;
     }
 
-    /* .sign_pic {
-        height: auto;
-    }
-
-    .sign_pic img {
-        margin: auto;
-        margin-top: 20px;
-        width: 80%;
-        -webkit-filter: drop-shadow(5px 8px 10px black);
-        filter: drop-shadow(5px 8px 10px black);
-    }
-
-    .mid_sign_text {
-        display: none;
-    } */
-
-    /* .what_is hr {
-        display: none;
-    } */
-
     .sign_industry {
         border: none;
     }
 
     .sign_industry h3::after {
-        /* content: "";
-        display: block; */
-        /* margin: auto;
-        margin-top: 20px; */
         width: 200px;
-        /* padding-top: 20px;
-        border-bottom: 3px solid #3FC1C1; */
     }
-
-    /* .icon-box i {
-        display: block;
-        margin: 0 auto;
-    } */
 
     .icon1 i,
     .icon2 i {
@@ -4289,19 +3757,7 @@ footer {
     }
 
     #specialize {
-        /* width: 100%;
-        margin: auto;
-        display: grid; */
         grid-template-columns: 1fr;
-        /* text-align: center;
-        padding-top: 10px;
-        padding-bottom: 20px;
-        background-color: #fafafa;
-        box-shadow: inset 0px 0px 5px #AEAEAE;
-        border: 1px solid #d6d6d6;
-        margin-top: 40px;
-        border-radius: 5px;
-        margin-bottom: 40px; */
     }
 
     .about-logos {
@@ -4341,24 +3797,6 @@ footer {
 
 @media(max-width: 660px) {
 
-    /* #showcase_vid h1, */
-    /* #showcase_interact h1 {
-        margin-top: 5px;
-    } */
-
-    /* #showcase_vid p, */
-    /* #showcase_interact p {
-        margin-top: 320px;
-    } */
-
-    /* #showcase_vid img, */
-    /* #showcase_interact img {
-        width: 260px;
-        margin-top: 80px;
-        -webkit-filter: none;
-        filter: drop-shadow(none);
-    } */
-
     .list_sizes {
         margin-right: 1px;
         padding: 3px;
@@ -4372,65 +3810,14 @@ footer {
 }
 
 @media (max-width: 650px) {
-    /* .container {
-        width: 98%;
-        padding-left: 1%;
-        padding-right: 1%;
-    } */
-
-    /* nav {
-        margin-top: 0px;
-        height: 70px;
-    }
-
-    nav a {
-        padding-top: 0px;
-        padding-bottom: 0px;
-    } */
 
     #mobile-menu ul li ul {
         margin-top: 0px;
     }
 
-    /* #showcase img {
-        width: 90%;
-        margin-top: 10%;
-    } */
-
-    /* #showcase_sign h1 {
-        margin-top: -50px;
-    } */
-
-    /* #showcase_sign p {
-        margin-top: 90px;
-    } */
-
-    /* #showcase_sign img {
-        width: 60%;
-        padding-top: 10px;
-    } */
-
     .models {
         border: none;
     }
-
-    /* .dark {
-        border: 1px solid #3FC1C1;
-        -webkit-box-shadow: none;
-        box-shadow: none;
-    } */
-
-    /* video {
-        width: 95%;
-    }
-
-    #telechamp p {
-        padding-bottom: 20px;
-    } */
-
-    /* #showcase_software {
-        background: url('../images/laptop2-ipad.jpg') no-repeat -90px -110px;
-    } */
 }
 
 @media(max-width: 610px) {
@@ -4444,20 +3831,6 @@ footer {
 }
 
 @media(max-width: 600px) {
-
-    /* #showcase_sign img {
-        width: 67%;
-        padding-top: 10px;
-    } */
-
-    /* #showcase_sign h1,
-    #showcase_sign p {
-        width: 100%;
-    } */
-
-    /* #showcase_sign p {
-        margin-top: 50px;
-    } */
 
     #logos,
     .partner-h2  {
@@ -4477,16 +3850,6 @@ footer {
     }
 }
 
-@media(max-width: 610px) {
-    /* #showcase img {
-        margin-top: 10%;
-    } */
-
-    /* #showcase p {
-        margin-top: 45px;
-    } */
-}
-
 @media(max-width: 590px) {
     .forward-facing2 img {
         height: 50%;
@@ -4500,14 +3863,6 @@ footer {
 }
 
 @media(max-width: 550px) {
-    /* #showcase_sign img {
-        padding-top: 30px;
-    } */
-
-    /* #showcase_sign h1,
-    #showcase_sign p {
-        width: 80%;
-    } */
 
     .on_page_contact input,
     .on_page_contact textarea {
@@ -4530,25 +3885,6 @@ footer {
     }
 }
 
-@media(max-width: 520px) {
-    /* #showcase img {
-        margin-top: 15%;
-    } */
-
-    /* #showcase h1,
-    #showcase p {
-        width: 85%;
-    }
-
-    #showcase h1 {
-        margin-top: -45px;
-    }
-
-    #showcase p {
-        margin-top: 40px;
-    } */
-}
-
 @media(max-width: 506px) {
     .product_heading {
         min-height: 120px;
@@ -4556,9 +3892,6 @@ footer {
 }
 
 @media(max-width: 500px) {
-    /* #showcase_sign {
-        background-position: left center;
-    } */
 
     .led-video-img img {
         width: 80%;
@@ -4573,10 +3906,6 @@ footer {
     .block {
         min-height: 360px;
     }
-
-    /* .block img {
-        width: 130px;
-    } */
 
     .forward-facing img,
     .forward-facing2 img {
@@ -4594,18 +3923,11 @@ footer {
         margin-bottom: 10px;
     }
 
-    /* .block p {
-        display: none;
-    } */
-
     .link {
         width: 100%;
     }
 
     .link a {
-        /* padding: 10px;
-        padding-left: 20px;
-        padding-right: 20px; */
         font-size: 18px;
     }
 
@@ -4654,32 +3976,6 @@ footer {
         padding-bottom: 30px;
     }
 
-    /* #showcase, */
-    /* #showcase_sign, */
-    /* #showcase_vid, */
-    /* #showcase_interact,
-    #showcase_software,
-    #showcase_about {
-        min-height: 340px;
-    } */
-
-    /* #showcase img {
-        margin-top: 15%;
-    } */
-
-    /* #showcase_sign img {
-        margin-top: 2%;
-        width: 85%;
-    } */
-
-    /* #showcase_sign h1 {
-        margin-top: -35px;
-    }
-
-    #showcase_sign p {
-        margin-top: 70px;
-    } */
-
     #showcase h1,
     #showcase_sign h1,
     #showcase_vid h1,
@@ -4697,10 +3993,6 @@ footer {
     #showcase_about p {
         font-size: 20px;
     }
-
-    /* #showcase_software h1 {
-        margin-top: 80px;
-    } */
 
     .sign_pic {
         margin-top: 20px;
@@ -4746,82 +4038,6 @@ footer {
         margin-top: 30px;
         max-width: 100%;
     }
-
-    /* #showcase_vid img {
-        width: 220px;
-    } */
-
-    /* #showcase_interact img {
-        width: 200px;
-        margin-top: 90px;
-    } */
-
-    /* #showcase_vid h1, */
-    /* #showcase_interact h1 {
-        margin-top: 10px;
-    } */
-
-    /* #showcase_vid p, */
-    /* #showcase_interact p {
-        margin-top: 275px;
-    } */
-
-    /* #showcase {
-        background: url('../images/modern-pattern-color-flipped-mobile.jpg') no-repeat 0 -11px;
-        background-attachment: scroll;
-    } */
-
-    /* .bg_img1,
-    .bg_img2,
-    .bg_img3 {
-        background: url('../images/modern-pattern-color-flipped-mobile.jpg') no-repeat 0 -25px;
-        background-attachment: scroll;
-    } */
-
-    /* #showcase_sign {
-        background: url('../images/tri-color-mobile.jpg') no-repeat;
-        background-attachment: scroll;
-    } */
-
-    /* .bg_img6 {
-        background: url('../images/tri-color-mobile.jpg') no-repeat;
-        background-attachment: scroll;
-    } */
-
-    /* .box_contact {
-        background: url('../images/tri-color-mobile.jpg') no-repeat 0 -41px;
-        background-attachment: scroll;
-    } */
-
-    /* #showcase_vid {
-        background: url('../images/abstract-light-flipped-mobile.png') no-repeat;
-        background-attachment: scroll;
-    } */
-
-    /* .bg_img8 {
-        background: url('../images/abstract-light-mobile.png') no-repeat 0 -50px;
-        background-attachment: scroll;
-    } */
-
-    /* #showcase_interact {
-        background: url('../images/confetti-mobile.jpg') no-repeat;
-        background-attachment: scroll;
-    }
-
-    .bg_imgInteract {
-        background: url('../images/confetti-mobile.jpg') no-repeat 0 -140px;
-        background-attachment: scroll;
-    } */
-
-    /* #showcase_software {
-        background: url('../images/laptop2-mobile.jpg') no-repeat -120px -45px;
-        background-attachment: scroll;
-    } */
-
-    /* #showcase_about {
-        background: url('../images/city-bokeh-mobile.jpg') no-repeat 0 -5px;
-        background-attachment: scroll;
-    } */
 
     .hardware_text {
         min-height: 410px;

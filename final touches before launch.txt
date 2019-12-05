@@ -25,7 +25,7 @@ To Do
 - test contact pages
 - upload new sitemap
 
-Temp changes
+Temp changes -3240
 
 - Added height 100% to img-layer @ 1100px;
 - Added height 100% to mobile-hero-container @ 890px;
