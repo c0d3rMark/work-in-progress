@@ -39,4 +39,4 @@ Rules to try
 
 Alternatives
 
-- create specific layout for Rob's phone or safari beginning at iPhone 6 width
+- create specific layout for Rob's phone or safari media rule beginning at iPhone 6 width
