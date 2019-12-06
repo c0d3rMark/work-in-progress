@@ -14,11 +14,11 @@ Completed
 - change digital signage page to digital signs and update all links (update page text) **
 - rel="preconnect" to all Analytics tags & Font Awesome **
 - clean & beautify code **
+- minify code (HTML, JS and CSS) **
 
 To Do
 
 - put all necessary images in separate folder
-- minify code (HTML, JS and CSS)
 - Browse hardware to take to specific section on hardware pages
 - Spell Check
 - Audits and testing
