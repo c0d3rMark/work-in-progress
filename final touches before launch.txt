@@ -25,8 +25,18 @@ To Do
 - test contact pages
 - upload new sitemap
 
-Temp changes -3240
+Rules tried for Rob's phone img issue
 
-- Added height 100% to img-layer @ 1100px;
-- Added height 100% to mobile-hero-container @ 890px;
-- Added height 100% to screen-container @ full size (1023);
+- Added height 100% to img-layer @ 1100px; (removed - no change)
+- Added height 100% to mobile-hero-container @ 890px; (removed - no change)
+- Added height 100% to screen-container @ full size; (removed - no change)
+
+- commented out all min-heights and replaced with height
+
+Rules to try
+
+- try height: auto on img-layer @ 1100px;
+
+Alternatives
+
+- create specific layout for Rob's phone or safari beginning at iPhone 6 width
