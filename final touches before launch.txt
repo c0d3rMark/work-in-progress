@@ -11,13 +11,13 @@ Completed
 - add "noopener" to all (target="_blank" rel="noopener") **
 - (enable text compression GZIP in CPanel) **
 - Check through different broswers **
+- change digital signage page to digital signs and update all links (update page text) **
 
 To Do
 
 - rel="preconnect" to all Analytics tags
 - beautify code
 - clean and minify code (HTML, JS and CSS)
-- change digital signage page to digital signs and update all links (update page text)
 - Browse hardware to take to specific section on hardware pages
 - Spell Check
 - Audits and testing
