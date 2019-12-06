@@ -4,9 +4,9 @@
 
 <head>
 
-        <link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
-        <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
-        <link rel="preconnect" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" as="font" crossorigin>
+    <link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
+    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+    <link rel="preconnect" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" as="font" crossorigin>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
@@ -47,7 +47,8 @@
     <header>
         <div id="drop">
             <div id="branding'">
-                <a href="index.html" class="anchor"><img src="images/transparent-logo-cropped-showcase.png" alt="avido-logo"></a>
+                <a href="index.html" class="anchor"><img src="images/transparent-logo-cropped-showcase.png"
+                        alt="avido-logo"></a>
                 <nav>
                     <div id="desktop-menu">
                         <ul>
@@ -100,23 +101,22 @@
                     <h1 class="page-title">Contact Form</h1>
                     <div id="sidebar">
                         <div class="dark">
-                            <h3>Let us bring your vision to life</h3><hr>
+                            <h3>Let us bring your vision to life</h3>
+                            <hr>
                             <form class="quote" method="POST" action="scripts/contactform.php">
                                 <p>* All fields required *</p>
-                                <div> <!--Honeypot, change to display none css-->
-                                    <input aria-label="firstname" type="text" name="firstname" class="hide-robot">
-                               </div>
                                 <div>
-                                    <!-- <label>Name (required)</label><br> -->
+                                    <!--Honeypot, change to display none css-->
+                                    <input aria-label="firstname" type="text" name="firstname" class="hide-robot">
+                                </div>
+                                <div>
                                     <input aria-label="name-entry" type="text" name="name" placeholder="Name" required>
                                 </div>
                                 <div>
-                                    <!-- <label class="label">E-mail (required)</label><br> -->
                                     <input aria-label="email-entry" type="email" name="email"
                                         placeholder="E-mail Address" required>
                                 </div>
                                 <div>
-                                    <!-- <label>Message (required)</label><br> -->
                                     <textarea aria-label="message-entry" placeholder="Message" name="message"
                                         id="contact-message" required></textarea>
                                     <input type="hidden" name="_gotcha">
