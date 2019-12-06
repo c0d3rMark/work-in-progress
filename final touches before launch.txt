@@ -16,7 +16,7 @@ To Do
 
 - rel="preconnect" to all Analytics tags
 - beautify code
-- clean and minify code 
+- clean and minify code (HTML, JS and CSS)
 - change digital signage page to digital signs and update all links (update page text)
 - Browse hardware to take to specific section on hardware pages
 - Spell Check
@@ -31,11 +31,11 @@ Rules tried for Rob's phone img issue
 - Added height 100% to mobile-hero-container @ 890px; (removed - no change)
 - Added height 100% to screen-container @ full size; (removed - no change)
 
-- commented out all min-heights and replaced with height
 
 Rules to try
 
 - try height: auto on img-layer @ 1100px;
+- try height property on border container (min-content etc)
 
 Alternatives
 
