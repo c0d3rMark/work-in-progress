@@ -6,7 +6,10 @@ Unused CSS rules
 #alt_btn -used
 .show_btn a -commented out (3 rules)
 .mid_sign_button -used
-.btn a:hover
+.btn -used
+.vid-contact-btn -used
+.product-btn -used
+.underline -used
 
 
 
