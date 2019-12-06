@@ -12,10 +12,10 @@ Completed
 - (enable text compression GZIP in CPanel) **
 - Check through different broswers **
 - change digital signage page to digital signs and update all links (update page text) **
+- rel="preconnect" to all Analytics tags & Font Awesome **
 
 To Do
 
-- rel="preconnect" to all Analytics tags
 - beautify code
 - clean and minify code (HTML, JS and CSS)
 - Browse hardware to take to specific section on hardware pages
