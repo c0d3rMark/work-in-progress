@@ -10,6 +10,7 @@ Completed
 - Optimize all images (Gimp & online compression) **
 - add "noopener" to all (target="_blank" rel="noopener") **
 - (enable text compression GZIP in CPanel) **
+- Check through different broswers **
 
 To Do
 
@@ -19,7 +20,6 @@ To Do
 - change digital signage page to digital signs and update all links (update page text)
 - Browse hardware to take to specific section on hardware pages
 - Spell Check
-- Check through different broswers
 - Audits and testing
 - upload files to server
 - test contact pages
