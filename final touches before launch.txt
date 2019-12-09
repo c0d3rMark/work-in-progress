@@ -15,13 +15,13 @@ Completed
 - rel="preconnect" to all Analytics tags & Font Awesome **
 - clean & beautify code **
 - minify code (HTML, JS and CSS) **
+- put all necessary images in separate folder **
 
 To Do
 
-- put all necessary images in separate folder
 - Browse hardware to take to specific section on hardware pages
 - Spell Check
-- Audits and testing
+- Audits and testing (try different browsers)
 - upload files to server
 - test contact pages
 - upload new sitemap
