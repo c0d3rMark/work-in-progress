@@ -1030,6 +1030,12 @@ position: relative;
     margin-top: 10%;
 }
 
+@supports (-ms-ime-align:auto) {
+    .signage-screens {
+        display: inline-flex;
+    }
+}
+
 .signage-screens img{
     width: 100%;
     position: relative;
@@ -1069,6 +1075,12 @@ position: relative;
     position: relative;
     margin-top: -19%;
     margin-right: 5%;
+}
+
+@supports (-ms-ime-align:auto) {
+    .screen3 {
+        display: inline-flex;
+    }
 }
 
 .screen3 img {
@@ -1196,6 +1208,12 @@ position: relative;
     position: relative;
 }
 
+@supports (-ms-ime-align:auto) {
+    .hero-content {
+        display: inline-flex;
+    }
+}
+
 .hero-content img {
     z-index: -1;
     padding: 0;
@@ -1269,6 +1287,12 @@ position: relative;
         flex-wrap: wrap;
     position: relative;
     margin: 0 auto;
+}
+
+@supports (-ms-ime-align:auto) {
+    .sign_pic {
+        display: inline-flex;
+    }
 }
 
 .sign_pic img {
@@ -2809,6 +2833,12 @@ footer {
             flex-wrap: wrap;
         position: relative;
     }
+
+    @supports (-ms-ime-align:auto) {
+        .hero-responsive {
+            display: inline-flex;
+        }
+    }
     
     .hero-responsive img {
         width: 100%;
@@ -3042,6 +3072,12 @@ footer {
         border-image-width: 16px;
     }
 
+    @supports (-ms-ime-align:auto) {
+        .mobile-banner {
+            display: inline-flex;
+        }
+    }
+
     .vid-banner {
         width: 70%;
     }
@@ -3244,6 +3280,12 @@ footer {
         border-image-slice: 25 fill;
         border-image-outset: 0;
         border-image-width: 16px;
+    }
+
+    @supports (-ms-ime-align:auto) {
+        .mobile-hero {
+            display: inline-flex;
+        }
     }
     
     .mobile-hero img {
