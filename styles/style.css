@@ -400,6 +400,12 @@ position: relative;
     position: relative;
 }
 
+@supports (-ms-ime-align:auto) {
+    .hero-block {
+        display: inline-flex;
+    }
+}
+
 .hero-block-bottom {
     grid-column-start: span 2;
     width: 50%;
