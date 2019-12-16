@@ -410,6 +410,7 @@ position: relative;
     grid-column-start: span 2;
     width: 50%;
     margin: auto;
+    margin-bottom: 10px
 }
 
 .hero-responsive,
