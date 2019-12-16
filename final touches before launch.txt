@@ -20,7 +20,8 @@ Completed
 
 To Do
 
-- fix extra spcae on samsun browser
+- fix extra spcae on samsung browser
+- remove commented out scroll rules
 - Browse hardware to take to specific section on hardware pages
 - Spell Check
 - upload files to server
