@@ -2800,6 +2800,12 @@ footer {
     justify-content: space-evenly;
 }
 
+@supports (-ms-ime-align:auto) {
+    .footer-links {
+        justify-content: space-around;
+    }
+}
+
 .footer-links a {
     color: #ffffff;
     text-decoration: none;
