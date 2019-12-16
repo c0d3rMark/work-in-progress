@@ -369,7 +369,7 @@ position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 5px;
-    margin-top: 16vh;
+    margin-top: 17vh;
     width: 51%;
     float: right;
     z-index: 0;
