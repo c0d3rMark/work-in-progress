@@ -1158,6 +1158,7 @@ position: relative;
     display: -ms-flexbox;
     display: flex;
     margin: auto;
+    width: 100%;
 }
 
 .box_interact img {
@@ -2952,7 +2953,8 @@ footer {
 @media(max-width: 1350px) {
 
     .box_interact {
-        width: 100%;
+        display: inline;
+        text-align: center;
     }
 
     .box_interact img {
