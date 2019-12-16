@@ -26,18 +26,5 @@ To Do
 - test contact pages
 - upload new sitemap
 
-Rules tried for Rob's phone img issue
-
-- Added height 100% to img-layer @ 1100px; (removed - no change)
-- Added height 100% to mobile-hero-container @ 890px; (removed - no change)
-- Added height 100% to screen-container @ full size; (removed - no change)
-
-
-Rules to try
-
-- try height: auto on img-layer @ 1100px;
-- try height property on border container (min-content etc)
-
-Alternatives
-
-- create specific layout for Rob's phone or safari media rule beginning at iPhone 6 width
+Fix for safari and samsung browser
+- changed tv-broder display from inline-flex to inline-grid
