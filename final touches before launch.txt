@@ -16,15 +16,17 @@ Completed
 - clean & beautify code **
 - minify code (HTML, JS and CSS) **
 - put all necessary images in separate folder **
+- Audits and testing (try different browsers) **
 
 To Do
 
+- fix extra spcae on samsun browser
 - Browse hardware to take to specific section on hardware pages
 - Spell Check
-- Audits and testing (try different browsers)
 - upload files to server
 - test contact pages
 - upload new sitemap
 
 Fix for safari and samsung browser
-- changed tv-broder display from inline-flex to inline-grid
+- changed tv-border display from inline-flex to inline-grid
+- added @supports for edge issues
