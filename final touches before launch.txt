@@ -17,11 +17,11 @@ Completed
 - minify code (HTML, JS and CSS) **
 - put all necessary images in separate folder **
 - Audits and testing (try different browsers) **
+- fix extra spcae on samsung browser **
+- remove commented out scroll rules **
 
 To Do
 
-- fix extra spcae on samsung browser
-- remove commented out scroll rules
 - minimise css
 - Browse hardware to take to specific section on hardware pages
 - Spell Check
@@ -32,3 +32,4 @@ To Do
 Fix for safari and samsung browser
 - changed tv-border display from inline-flex to inline-grid
 - added @supports for edge issues
+- removed all padding from contact sections
