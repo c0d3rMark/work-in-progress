@@ -2441,7 +2441,8 @@ position: relative;
 /*Contact*/
 
 .on_page_contact {
-    background-color: #fafafa;
+    /* background-color: #fafafa; */
+    background-color: blue;
     border-top: 1px solid #d6d6d6;
     padding-top: 20px;
     margin-top: 40px;
