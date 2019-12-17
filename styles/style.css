@@ -2496,19 +2496,19 @@ position: relative;
 }
 
 ::-webkit-input-placeholder {
-    font-family: helvetica, 'work sans', sans-serif;
+    /* font-family: helvetica, 'work sans', sans-serif; */
     font-size: 18px;
     padding: 5px;
 }
 
 :-ms-input-placeholder {
-    font-family: helvetica, 'work sans', sans-serif;
+    /* font-family: helvetica, 'work sans', sans-serif; */
     font-size: 18px;
     padding: 5px;
 }
 
 ::-ms-input-placeholder {
-    font-family: helvetica, 'work sans', sans-serif;
+    /* font-family: helvetica, 'work sans', sans-serif; */
     font-size: 18px;
     padding: 5px;
 }
