@@ -33,3 +33,4 @@ Fix for safari and samsung browser
 - changed tv-border display from inline-flex to inline-grid
 - added @supports for edge issues
 - removed all padding from contact sections
+- closing curly bracket missing after media @ 690 px after app-img img. Looks like bracket is at very end of css document.
