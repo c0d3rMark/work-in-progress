@@ -19,10 +19,10 @@ Completed
 - Audits and testing (try different browsers) **
 - fix extra spcae on samsung browser **
 - remove commented out scroll rules **
+- minimise css **
 
 To Do
 
-- minimise css
 - Browse hardware to take to specific section on hardware pages
 - Spell Check
 - upload files to server
