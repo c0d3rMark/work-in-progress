@@ -20,14 +20,14 @@ Completed
 - fix extra spcae on samsung browser **
 - remove commented out scroll rules **
 - minimise css **
+- upload files to server **
+- test contact pages **
+- upload new sitemap **
 
 To Do
 
 - Browse hardware to take to specific section on hardware pages
 - Spell Check
-- upload files to server
-- test contact pages
-- upload new sitemap
 
 Fix for safari and samsung browser
 - changed tv-border display from inline-flex to inline-grid
