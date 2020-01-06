@@ -2693,7 +2693,8 @@ position: relative;
     width: 100%;
     height: auto;
     margin: auto;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .infographic img {
